@@ -1,0 +1,540 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+/*hbaeader------------------------------------------------------------------------------------*/
+header>div:first-child{
+	background: rgb(241,241,241);
+	/*display: block;*/
+	margin: 0px auto;
+	height: 25px;
+}
+.header_tool{
+	width: 1200px;	
+	margin: 0px auto;
+}
+
+.header_tool div:first-child{
+	float: left;
+	position: relative;
+	padding-top:2px ;
+	list-style: none;
+	margin: 0px;
+	font-size: smaller;
+}
+.header_tool div a{
+	text-decoration: none;
+	color: #000000;
+}
+.header_tool div a:hover{
+	text-decoration:underline;
+}
+.header_tool div:first-child #login{
+	color: red;
+}
+.header_tool div:last-child{
+	float: right;
+	position: relative;
+	padding-top:2px ;
+	margin: 0px;
+	font-size: smaller;
+}
+.header_tool div:last-child ul{
+	float: left;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+.header_tool div:last-child ul li{
+	list-style: none;
+	float: left;
+	margin-left: 14px;
+}
+.header_main{
+	width: 1200px;	
+	height: 120px;
+	margin: 0px auto;
+}
+.header_main div:first-child img{
+	float: left;
+	margin-top: 30px;
+}
+.header_main div:first-child p{
+	float: left;
+	padding-left: 10px;
+	margin-top: 45px;
+	color: orangered;
+}
+.header_main div:first-child p span{
+	display: block;
+}
+.header_main div:nth-child(2){
+	float: left;
+	margin-top: 45px;
+	width: 775px;
+	text-align: center;
+	color: gainsboro;
+}
+.header_main div:nth-child(2) input:first-child{
+	width: 450px;
+	height: 40px;
+	padding-left:10px ;
+	border: solid 1px darkgray;
+	/*color: gainsboro;*/
+}
+.header_main div:nth-child(2) input:nth-child(2){
+	width: 80px;
+	height: 40px;
+	border: 0px;
+	background: orangered;
+	position: relative;
+	top: 3px;
+	color: whitesmoke;
+	font-size: large;
+	cursor: pointer;
+}
+.header_main div:nth-child(2) input:nth-child(2):hover{
+	text-decoration: underline;
+}
+.header_main div:nth-child(2) ul{
+	list-style: none;
+	text-align: center;
+	margin: 4px 74px ;
+	font-size: small;
+}
+.header_main div:nth-child(2) ul li{
+	float: left;
+	color: gainsboro;
+	margin-left: 6px;
+}
+.header_main div:nth-child(2) ul li a{
+	text-decoration: none;
+	color: gainsboro;
+}
+.header_main div:nth-child(2) ul li a:hover{
+	text-decoration: underline;
+	color: orange;
+}
+.header_main>div:last-child img{
+	float: right;
+	margin-top: 25px;
+}
+.dht{
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	height: 41px;
+	background: orangered;
+}
+nav{
+	/*width: 1200px;*/
+	height: 41px;
+	background: orangered;
+}
+nav ul{
+	width: 1200px;
+	margin: 0px auto;
+	list-style: none;
+	padding: 0px;
+	
+}
+nav ul li{
+	float: left;
+	padding: 10px 30px;
+	background: orangered;
+}
+nav ul li:first-child{
+	padding: 10px 80px 10px 20px;
+	background: rgb(221,83,0);
+	color: white;
+	text-decoration: none;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+nav ul li:nth-child(3){
+	background: rgb(221,83,0);
+	color: white !important;
+}
+.address{
+	background: #F5F5F5;
+	font-size: small;
+	padding: 5px;
+}
+.address div{
+	clear: both;
+	width: 1200px;
+	margin: 0px auto;
+}
+.address div a{
+	color: black;	
+	text-decoration: none;
+}
+.address div a:hover{
+	text-decoration: underline;
+}
+/*footer------------------------------------------------------------------------------*/
+footer{
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	font-size: small;
+	color: darkgrey;
+	clear: both;
+}
+.footer_tool{
+	text-align: center;
+}
+footer .footer_tool div{
+	background: orangered;
+	height: 40px;
+	/*text-align: center;*/
+}
+footer .footer_tool ul{
+	/*width: 1200px;*/
+	text-align: center;
+	display: inline-block;
+	margin: 0px auto;
+	list-style: none;
+	font-size: small;
+	color: whitesmoke;
+}
+footer .footer_tool ul li{
+	float: left;
+	margin-top:10px ;
+}
+footer .footer_tool ul li span{
+	margin:auto 8px ;
+}
+footer .footer_tool ul li a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+footer .footer_tool ul li a:hover{
+	text-decoration: underline;
+}
+footer .footer_tool{
+	margin: 0px auto;
+}
+footer .footer_info div:nth-child(1){
+	margin:20px auto;
+	width: 1200px;
+}
+footer .footer_info div:first-child a{
+	text-decoration: none;
+	color: darkgrey;
+}
+footer .footer_info div:first-child a:hover{
+	text-decoration: underline;
+}
+footer .footer_info div:first-child p span{
+	margin-left: 15px;
+}
+footer .footer_info div:nth-child(2){
+	position: relative;
+	width: 1200px;
+	margin: 0px auto;
+}
+footer .footer_info div:nth-child(2) p:first-child{
+	margin: 0px;
+	position: absolute;
+	left: -50px;
+	color: gray;
+	font-weight: bold;
+}
+footer .footer_info div:nth-child(2) p:last-child{
+	width: 1119px;
+	margin: 0px auto;
+}
+footer .footer_info div:nth-child(2) p:last-child a{
+	float: left;
+	margin:0px 10px 10px 0px;
+	text-decoration: none;
+	color: darkgrey;
+}
+footer .footer_info div:nth-child(2) p:last-child a:hover{
+	text-decoration: underline;
+}
+/*工具栏样式------------------------------------------------------------------------------------*/
+.tool_border{
+	float: right;
+	position: fixed;
+	bottom: 40px;
+	right: 16px;
+	overflow: hidden;
+	width: 300px;
+	height: 220px;
+	
+}
+.tool_bar{
+	width: 80px;
+	float: right;
+	bottom: 40px;
+	right: 16px;
+}
+.tool_bar img{
+	margin-top:-1.5px ;-
+}
+.tool_bar .phone img{
+	background: rgb(251,176,31);
+}
+.tool_bar .phone img:hover{
+	background: rgb(251,140,31);
+}
+.tool_bar .QQ img{
+	background: rgb(109,169,222);
+}
+.tool_bar .QQ img:hover{
+	background: rgb(109,140,222);
+}
+.tool_bar .wx img{
+	background: rgb(120,195,64);
+}
+.tool_bar .wx img:hover{
+	background: rgb(99,170,64);
+}
+.tool_bar ._top img{
+	background:rgb(102,102,102);
+}
+.tool_bar ._top img:hover{
+	background:rgb(90,90,90);
+}
+.tool_bar .wx{
+	position: relative;
+}
+.tool_bar .wx .ewn{
+	position: absolute;
+	left: -147px;
+	float: left;
+	width: 150px;
+	display: none;
+	top: 0px;
+}
+.tool_bar .phone{
+	position: relative;
+}
+.tool_bar .phone .PH_tel{
+	position: absolute;
+	left: -146px;
+	float: left;
+	width: 150px;
+	line-height: 73px;
+	font-size: larger;
+	color: white;
+	display: none;
+	top: -1px;
+	background: rgb(251,140,31);
+}
+
+
+/*--------------------------------------------------------------------------about框架---------------------------------------*/
+.AU_left{
+	float: left;
+	width: 195px;
+	margin-top: 10px;
+	border: solid 1px gainsboro;
+	text-align: center;
+	background: rgb(250,250,250);
+}
+.AU_right{
+	float: left;
+	width: 1001px;
+	border: solid 1px gainsboro;
+	margin-top: 10px;
+	background: white;
+	margin-bottom: 40px;
+}
+.AU_left p{
+	width: 100%;
+	font-size: larger;
+	color: white;
+	border: solid 1px;
+	margin: -2px 0px 0px  0px;
+	padding: 6px 0px;
+	background: orangered;
+}
+.AU_left ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.AU_left ul li{
+	padding: 8px 0px;
+	border-bottom: solid 1px gainsboro;
+}
+.AU_left ul a{
+	color: darkgray;
+	font-size: smaller;
+}
+._left_hot{
+	border-right: solid 3px orangered ;
+	margin:-1px -1px -1px 0px;
+	background: white;
+}
+._left_hot .a{
+	color: orangered;
+}
+ .AU_right_text p{
+ 	margin: 40px 30px;
+ 	text-indent: 25px;
+ 	line-height: 30px;
+ 	font-size: smaller;
+ }
+
+/*--------------------------------------------------------------------------------------------------------member-----------------------------*/
+.MB_left{
+	float: left;
+	width: 194px;
+	/*height: 1150px;*/
+	margin-top: 10px;
+	border: solid 1px rgb(252,214,114);
+	text-align: center;
+	background: white;
+}
+.MB_right{
+	float: left;
+	width: 1000px;
+	margin-top: 10px;
+	background: white;
+	margin-bottom: 40px;
+}
+.MB_left p{
+	width: 100%;
+	font-size: larger;
+	color: white;
+	margin: -2px 0px 0px  0px;
+	padding: 6px 0px;
+	background: orangered;
+}
+.MB_left ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.MB_left ul li:first-child{
+	border-top: solid 1px rgb(252,214,114);
+	border-bottom: solid 1px rgb(252,214,114);
+}
+.MB_left ul li{
+	padding: 8px 0px;
+}
+.MB_left ul li:not(:first-child){
+	background: url(../img/hyzx_13.jpg) no-repeat 32px 36px;
+}
+.MB_left ul p{
+	width: 100px;
+	margin-left: 70px;
+	background: white;
+	padding:0px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.MB_left ul a{
+	color: black;
+	font-size: smaller;
+	padding: 0px 20px;
+	margin-left:70px ;
+	background: url(../img/hyzx_09.jpg) no-repeat 85px 4px;
+}
+/*hot-report热门报告*/
+.hot-report{
+	color: #ff6900;
+	font-size: 14px;
+	font-weight: bold;
+	width: 1000px;
+	margin-left:10px ;
+	line-height: 45px;
+}
+.hot-report span{
+	text-align: left;
+}
+/*informationR-2右边第二部分*/
+.informationR-2{
+	clear: both;
+	border:1px solid #dfdfdf; 
+	float: right;
+	width: 980px;
+	margin:0px 10px;
+}
+
+.hot-link-1 ul li{
+	float: left;
+	list-style: none;
+	width:90px; 
+	line-height:22px;
+	display: block;
+	padding-right: 48px;
+	font-size: 14px;
+}
+.hot-link-1 ul li span a:link,.hot-link-1 ul li span a:visited{
+	text-decoration: none;
+    color: #646464;
+}
+.hot-link-1 ul li span a:hover{
+	text-decoration: underline;
+    color: #646464;
+}
+.hot-link-1 .a{
+	font-size: 18px;
+	color:#ff6900;
+	padding-top: 10px;
+}
+.hot-link-2{
+	border-top: 1px dotted #cacaca;
+	margin-top: 230px;
+	padding: 10px 10px 10px 0px;
+}
+
+.hot-link-2 ul li{
+	list-style: none;
+	float: left;
+	font-size: 14px;
+	border-bottom: 1px dotted #cacaca;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+.hot-link-2 ul li span{
+	margin-left: 20px;
+}
+.hot-link-2 .a{
+	width: 372px;
+	padding-left: 12px;
+	background: url(../img/zdgj_38.jpg) no-repeat 5px 8px;
+}
+.hot-link-2 .b{
+	width:100px; 
+	text-align:right;
+	color:#888888;
+}
+.hot-link-2 .c{
+	margin-left: 49px;
+	padding-left: 12px;
+	background: url(../img/zdgj_38.jpg) no-repeat 5px ;
+}
+.hot-link-2 ul li a:link,.hot-link-2 ul li a:visited{
+	text-decoration: none;
+    color: #646464;
+}
+.hot-link-2 ul li a:hover{
+	text-decoration: underline;
+}
+.position-hot{position: relative;margin: 0px;padding: 0px;}
+
+.reixao{
+	background: url(../img/zdgj_27.png) no-repeat 8px 0px;
+	width: 47px;
+	height: 46px;
+	padding-left: 20px;
+	padding-top: 8px;
+	font-size: 16px;
+	color: white;
+	position: absolute;
+	right: -7px;
+	top:-16px
+}
+
