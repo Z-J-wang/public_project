@@ -1,0 +1,143 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+body{
+	position: relative;
+}
+.background{
+	position: relative;
+	z-index: -1;
+	margin: 20px auto;
+	width: 1000px;
+	height: 600px;
+	/*line-height: 600px;*/
+	border: solid 2px ;
+	background-color: #8cc63e;
+}
+.snake{
+	display: inline-block;
+	border: solid 1px;
+	width: 20px;
+	height: 20px;
+	background-color: gray;
+	position: absolute;
+	z-index: 10px;
+}
+.start{
+	top:300px;
+	left: 100px;
+}
+.snake_boby{
+	display: inline-block;
+	border: solid 1px;
+	width: 20px;
+	height: 20px;
+	background-color: #7dbb32;
+	position: absolute;
+	border-radius: 40%;
+	z-index: 10px;
+}
+.foot{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/food.png) no-repeat ;
+	background-size:20px ;	
+	position: absolute;
+	border-radius: 40%;
+	z-index: 10px;
+}
+.begin,.GameOver{
+	position: absolute;
+	border: solid 1px;
+	background: url(../img/贪吃蛇.jpg) no-repeat;
+	background-size: 600px ;
+	width: 600px;
+	height: 450px;
+	top: 100px;
+	left: 450px;
+}
+.begin ul{
+	position: absolute;
+	top: 200px;
+	left:420px;
+}
+.begin ul li{
+	margin-bottom: 20px;
+	/*background: red;*/
+	
+}
+.begin ul li input{
+	width: 150px;
+	height: 50px;
+	line-height: 30px;
+	border: none;
+	background-color: #7dbb32;
+	cursor: pointer;
+	border-radius: .3em;
+    box-shadow: 0 1px white inset;
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+    color:white;
+    font-weight: bold;
+    outline: none;
+}
+.begin ul li input:hover,.begin ul li select:hover,.GameOver input:hover{
+	background: #a3d35b;
+}
+.begin ul li input:active,.begin ul li select:active,.GameOver input:active{
+	box-shadow: .05em .1em .2em rgba(0,0,0,.6) inset;
+}
+.begin ul li select{
+	width: 150px;
+	height: 50px;
+	line-height: 30px;
+	/*padding-left: 55px;*/
+	text-indent: 55px;;
+	background-color: #7dbb32;
+	border-radius: .3em;
+    box-shadow: 0 1px white inset;
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+    color:white;
+    font-weight: bold;
+	 outline: none;
+}
+
+.GameOver{
+	display: none;
+}
+.GameOver input{
+	width: 180px;
+	height: 60px;
+	line-height: 60px;
+	border: none;
+	/*background-color: #7dbb32;*/
+	background: transparent;
+	cursor: pointer;
+	border-radius: .3em;
+    box-shadow: 0 1px white inset;
+    text-align: center;
+    text-shadow: 0 1px 1px black;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    top: 220px;
+	left:400px;
+}
+.score{
+	position: absolute;
+	font-size: 20px;
+	top: -30px;
+	left: 0px;
+}
+.grade{
+	position: absolute;
+	font-size: 20px;
+	top: -30px;
+	left: 800px;
+}

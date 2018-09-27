@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/snake.css" />
+	</head>
+	<body>
+		<!--<input type="button" id="btn" value="测试"/>-->
+		
+		<div class="background">
+			<p class="score">您的成绩：<span>0</span></p>
+			<p class="grade">当前难度：<span></span></p>
+			<div class="snake start"></div>
+		</div>
+		<div class="begin">
+			<ul>
+				<li><input type="button" id="btn_begin" value="开始"/></li>
+				<li>
+					<select>
+						<option value="1" selected="selected">简单</option>
+						<option value="2">困难</option>
+						<option value="3">地狱</option>
+					</select>
+				</li>
+				<li><input type="button" id="btn_exit" value="退出"/></li>
+			</ul>
+		</div>
+		<div class="GameOver">
+			<input type="button" value="重新开始" id="btn_restart"/>
+		</div>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/snake.js"></script>
+	</body>
+</html>
