@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JQ放大镜</title>
+<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/jquery.jqzoom-core.js" type="text/javascript" charset="utf-8"></script>
+<style type="text/css">
+/*jQzoom*/
+.jqzoom{
+  border:1px solid #BBB;
+  float:left;
+  position:relative;
+  padding:0px;
+  cursor:move;
+}
+.zoomdiv {
+  z-index:  999;
+  position        : absolute;
+  top:0px;
+  left:0px;
+  width          : 300px;
+  height         : 300px;
+  background: #ffffff;
+  border:1px solid #CCCCCC;
+  border-radius: 10px;
+  display:none;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*如果只用一张图,可用该css样式放大显示的图片*/
+.zoomdiv img{
+	width: 1200px;
+}
+.jqZoomPup {
+  z-index         : 999;
+  visibility       : hidden;
+  position        : absolute;
+  top:0px;
+  left:0px;
+  width          : 1px;
+  height         : 1px;
+  border: 1px solid #aaa;
+  /*background: #ffffff url(/images/shopping/zoomlens.gif) 50% top no-repeat;*/
+  background: #ffffff 10%;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  filter: alpha(Opacity=50);
+}
+</style>
+</head>
+<body>
+<!--首先用插件需要注意的是:
+1.起名:小的叫1.jpg的时候,大的就叫1big.jpg.
+2.导入两个插件:jq/jquery-2.2.4.min.js和jq/jzoom.min.js.
+-->
+<div class="jqzoom">
+  <img src="../img/small.jpg"  alt="" jqimg="../img/small.jpg" id="bigImg"/>
+</div>
+<script type="text/javascript">
+
+/*使用jqzoom*/
+$(function() {
+  $(".jqzoom").jqueryzoom({
+    xzoom: 500, //放大图的宽度(默认是 200)
+    yzoom: 500, //放大图的高度(默认是 200)
+    offset: 10, //离原图的距离(默认是 10)
+    position: "right", //放大图的定位(默认是 "right")
+    preload: 1
+  });
+});
+
+</script>
+</body>
+</html>

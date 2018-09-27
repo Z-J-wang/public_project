@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>project_</name>
+	<name>我的案例</name>
 	<comment>Create By HBuilder</comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1534077885758</id>
+			<id>1536579763370</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -31,24 +31,6 @@
 						<arguments>1.0-projectRelativePath-matches-false-false-setting</arguments>
 					</matcher>
 				</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1538034572170</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1538034572177</id>
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
 			</matcher>
 		</filter>
 	</filteredResources>

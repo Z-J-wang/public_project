@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.downTim {
+				font-size: 16px;
+				color: #000;
+			}
+		</style>
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/Downtime.js"></script>
+	</head>
+
+	<body>
+		<!--一般的活动需要倒计时，也有活动持续时间-->
+		<!--data-difftime是倒计时时间-->
+		<!--data-goingtime是倒计是结束后活动进行持续时间-->
+		<div class="downTim" data-difftime="3600" data-goingtime='6000'>
+			
+		</div>
+	</body>
+	<script>
+		$(function() {
+			downTimeFun();
+		});
+	</script>
+
+</html>
