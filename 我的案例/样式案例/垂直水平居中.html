@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*单行水平垂直居中*/
+			.F1 {
+				width: 200px;
+				height: 100px;
+				line-height: 100px;
+				text-align: center;
+				background: blanchedalmond;
+			}
+			/*table*/
+		#wrapper {
+			display: table;
+			width: 200px;
+			height: 100px;
+			background-color: red;
+		}
+		#cell {
+			display: table-cell;
+			vertical-align: middle;
+		}
+		.content {
+			width: 100px;
+			height: 50px;
+			margin: 0 auto;
+			background-color: #008B8B;
+		}
+		/*inline-block*/
+		#wrapper2 {
+			width: 200px;
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+			background-color: darkcyan;
+		}
+		#cell2 {
+			display: inline-block;
+			width: 100px;
+			height: 50px;
+			vertical-align: middle;
+			background-color: #FFEBCD;
+		}
+		/*绝对定位，top:50%,left:50%*/
+		#wrapper3 {
+			position: relative;
+			width: 200px;
+			height: 100px;
+			background-color: saddlebrown;
+		}
+		#cell3 {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 100px;
+			height: 50px;
+			margin-top: -25px;
+			margin-left: -50px;
+			background-color: #FFEBCD;
+		}
+		/*绝对定位，top:0;left:0;right:0;bottom:0;*/
+		#wrapper4 {
+			position: relative;
+			width: 200px;
+			height: 100px;
+			background-color: aliceblue;
+		}
+		#cell4 {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 100px;
+			height: 50px;
+			margin: auto;
+			background-color: #FFEBCD;
+		}
+	</style>
+	</head>
+	
+
+	<body>
+		单行水平垂直居中
+		<div class="F1">
+			撒大大大的
+		</div>
+		块级水平垂直居中<br />
+			table
+		<div id="wrapper">
+			<div id="cell">
+				<div class="content">Content goes here</div>
+			</div>
+		</div>
+		inline-block
+		<div id="wrapper2">
+			<div id="cell2">
+				
+			</div>
+		</div>
+		绝对定位，top:50%,left:50%
+		<div id="wrapper3">
+			<div id="cell3">
+				
+			</div>
+		</div>
+		绝对定位，top:0;left:0;right:0;bottom:0
+		<div id="wrapper4">
+			<div id="cell4">
+				
+			</div>
+		</div>
+	</body>
+
+</html>
