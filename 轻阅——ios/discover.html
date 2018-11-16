@@ -1,0 +1,1653 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/111.css" />
+		<link rel="stylesheet" type="text/css" href="css/myStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<style>
+			.nav a:link{
+	
+				}				
+				.nav a:visited{
+					
+				}
+				.nav a:hover{
+					color:dodgerblue;
+				}
+				.aaa.bbb
+				{
+				    font-size: 0;
+				
+				    display: block;
+				
+				    width: 100%;
+				    padding: 0 10px 10px 0;
+				
+				}
+				.qqqq  img {width: 300px; height: 170px;}
+		</style>
+		
+		
+	    <!--<script type="text/javascript">
+	    	mui.plusReady(function() {
+			//获得slider插件对象
+			var gallery = mui('.mui-slider');
+					gallery.slider({
+						interval: 3000 //自动轮播周期，若为0则不自动播放，默认为0；
+					});
+				});
+	    </script>-->
+	</head>
+	<body>
+	<style>
+			.mui-control-content {
+				background-color: white;
+				min-height: 215px;
+			}
+			.mui-control-content .mui-loading {
+				margin-top: 50px;
+			}
+		</style>
+		<nav class="mui-bar mui-bar-tab mui-foot-mystyle" style="background: white;">
+			    <a class="mui-tab-item mui-active" id="bookmall" style="color:rgb(24,216,156) ;">
+			        <span class="mui-icon iconfont icon-shucheng-"></span>
+			        <span class="mui-tab-label">书城</span>
+			    </a>
+			    <a class="mui-tab-item" style="color:rgb(24,216,156);">
+			        <span class="mui-icon iconfont icon-shujia" id="bookrack" style="color:rgb(24,216,156) ;"></span>
+			        <span class="mui-tab-label">书架</span>
+			    </a>
+			    <a class="mui-tab-item" id="discover" style="color:rgb(24,216,156) ;">
+			        <span class="mui-icon iconfont icon-iconfontfaxian" id="discover"></span>
+			        <span class="mui-tab-label">发现</span>
+			    </a>
+			    <a class="mui-tab-item" id="my" style="color:rgb(24,216,156) ;">
+			        <span class="mui-icon  mui-icon-contact" id="my"></span>
+			        <span class="mui-tab-label">我的</span>
+			    </a>
+			</nav>
+		<div class="mui-content">
+			
+			<div id="slider" class="mui-slider nav">
+			
+			
+			<div style="background: white; position: fixed;z-index: 1000;">
+				<div style="float: left; margin-left: 10px; margin-top:7px;width: 37px;height: 29px;">
+					<a href="#"><img src="img/1.PNG" style="width: 25px; padding-top:8px ;"/></a>
+				</div>
+				
+				<div style="width: 60%;margin: 0 auto;">
+					
+					<div id="sliderSegm0entedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+						
+						<a class="mui-control-item" href="#item1mobile">
+					     	关注
+						</a>
+						<a class="mui-control-item" href="#item2mobile">
+						热门
+						</a>
+						<a class="mui-control-item" href="#item3mobile">
+						广场
+						</a>
+					</div>
+					<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>		
+				</div>		
+			</div>	
+				
+				
+				
+				
+				
+				<div class="mui-slider-group">
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active" style="height: 1000px;">
+						
+
+						<!--下拉刷新容器-->
+		<div id="pullrefresh" class="mui-content mui-scroll-wrapper" style="margin-top: 35px;">
+			<img src="img/2.gif" />
+			<div class="mui-scroll">
+				<!--数据列表-->
+				<ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="img/a15.gif">
+						            <div class="mui-media-body">
+						                         <div style="float: left; margin-right: 20px;">
+						                         	叶曜<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p>
+						                         </div>
+						                <div id="button" style="width: 45px;height: 23px; padding-top:15px ;"><img id="picts" src="img/4.gif" /></div>
+						                
+						                
+						            </div>
+						        </a>
+					</li>
+					
+					<li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="img/3.gif">
+						            <div class="mui-media-body">
+						                         <div style="float: left; margin-right: 20px;">
+						                         	幸福<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p>
+						                         </div>
+						                <div id="button" style="width: 45px;height: 23px; padding-top:15px ;"><img id="picts" src="img/4.gif" /></div>
+						                
+						                
+						            </div>
+						        </a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="img/a7.gif">
+						            <div class="mui-media-body">
+						                         <div style="float: left; margin-right: 20px;">
+						                         	小白<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p>
+						                         </div>
+						                <div id="button" style="width: 45px;height: 23px; padding-top:15px ;"><img id="picts " src="img/4.gif" /></div>
+						                
+						                
+						            </div>
+						        </a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="img/a8.gif">
+						            <div class="mui-media-body">
+						                         <div style="float: left; margin-right: 20px;">
+						                         	墨玉<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p>
+						                         </div>
+						                <div id="button" style="width: 45px;height: 23px;padding-top:15px ;"><img id="picts" src="img/4.gif" /></div>
+						                
+						                
+						            </div>
+						        </a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="img/a9.gif">
+						            <div class="mui-media-body">
+						                         <div style="float: left; margin-right: 20px;">
+						                         	苏玲琨<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p>
+						                         </div>
+						                <div id="button" style="width: 45px;height: 23px;padding-top:15px ;"><img id="picts" src="img/4.gif" /></div>
+						                
+						                
+						            </div>
+						        </a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="img/a15.gif">
+						            <div class="mui-media-body">
+						                         <div style="float: left; margin-right: 20px;">
+						                         	叶曜<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p>
+						                         </div>
+						                <div id="button" style="width: 45px;height: 23px; padding-top:15px ;"><img id="picts" src="img/4.gif" /></div>
+						                
+						                
+						            </div>
+						        </a>
+					</li>
+					
+					<li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="img/3.gif">
+						            <div class="mui-media-body">
+						                         <div style="float: left; margin-right: 20px;">
+						                         	幸福<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p>
+						                         </div>
+						                <div id="button" style="width: 45px;height: 23px; padding-top:15px ;"><img id="picts" src="img/4.gif" /></div>
+						                
+						                
+						            </div>
+						        </a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="img/a7.gif">
+						            <div class="mui-media-body">
+						                         <div style="float: left; margin-right: 20px;">
+						                         	小白<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p>
+						                         </div>
+						                <div id="button" style="width: 45px;height: 23px; padding-top:15px ;"><img id="picts " src="img/4.gif" /></div>
+						                
+						                
+						            </div>
+						        </a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="img/a8.gif">
+						            <div class="mui-media-body">
+						                         <div style="float: left; margin-right: 20px;">
+						                         	墨玉<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p>
+						                         </div>
+						                <div id="button" style="width: 45px;height: 23px;padding-top:15px ;"><img id="picts" src="img/4.gif" /></div>
+						                
+						                
+						            </div>
+						        </a>
+					</li>
+					<li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="img/a9.gif">
+						            <div class="mui-media-body">
+						                         <div style="float: left; margin-right: 20px;">
+						                         	苏玲琨<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p>
+						                         </div>
+						                <div id="button" style="width: 45px;height: 23px;padding-top:15px ;"><img id="picts" src="img/4.gif" /></div>
+						                
+						                
+						            </div>
+						        </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+					</div>
+					
+					<!--第二个页面。。。。。。  -->
+					
+					<div id="item2mobile" class="mui-slider-item mui-control-content" style="margin-top: 35px;">
+						<div id="scroll2"">
+							<div class="mui-scroll">
+								<div class="mui-slider qqqq">
+									<div class="mui-slider-group mui-slider-loop">
+										<!--支持循环，需要重复图片节点-->
+										<!-- 第3张 -->
+										<div class="mui-slider-item mui-slider-item-duplicate">
+											<a href="discover_5.html"><img src="img/c6.gif" /></a>
+										</div>
+										<!-- 第1张 -->
+										<div class="mui-slider-item">
+											<a href="discover_6.html"><img src="img/6.gif" /></a>
+										</div>
+										<!-- 第2张 -->
+										<div class="mui-slider-item">
+											<a href="discover_5.html"><img src="img/c4.gif" /></a>
+										</div>
+										<!-- 第3张 -->
+										<div class="mui-slider-item">
+											<a href="discover_5.html"><img src="img/c5.gif" /></a>
+										</div>
+										
+										<div class="mui-slider-item">
+											<a href="discover_5.html"><img src="img/c7.gif" /></a>
+										</div>
+										<!--支持循环，需要重复图片节点-->
+										<!-- 第1张 -->
+										<div class="mui-slider-item mui-slider-item-duplicate">
+											<a href="discover_6.html"><img src="img/c6.gif" /></a>
+										</div>
+									</div>
+									<!-- 生成点 -->
+									<div class="mui-slider-indicator">
+									    <div class="mui-indicator mui-active"></div>
+									    <div class="mui-indicator"></div>
+									    <div class="mui-indicator"></div>
+									     <div class="mui-indicator"></div>
+							    	</div>
+							</div>
+							</div>
+							
+							
+							<div style="position: relative;top: 180px;">
+								<ul class="mui-table-view">
+							    <li class="mui-table-view-cell mui-media">
+							        <a href="discover_4.html">
+							        	
+							        	<div>
+								        	<div style="float: left;">
+								        		<img class="mui-media-object mui-pull-left" style="width: 30px; height: 30px;" src="img/8.gif">
+								            	<div style="margin-top: 3px;"><span style="color: grey;font-size: 14px;">
+								            	Tigersims
+								            	</span></div>
+								        	</div>           
+								            <div id="button1" style="width: 45px;height: 23px; margin-left: 285px; ">
+								                <img id="picts1" src="img/10.gif" />
+								            </div>
+							          </div>    						               						          
+							            <div class="mui-media-body" style=" width:70%; position: relative; left:-50px;float: left;">
+							                         <div style="margin-top: 15px; margin-left: 0px; width:80%;">
+							                         	说谎
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉
+							                         	</p>
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+							                         	</p>
+							                         </div>							                         						                         
+							            </div>
+							            <div style=" width:70%; position: relative; left:-50px; margin-top: 10px;">
+							            	<img style="width: 80px; height: 80px;" src="img/9.gif" />
+							            </div>
+							            
+							            	<div style="margin-left: 10px;">
+							                    <span style="border: 1px solid #cad7df; color: #cad7df; font-size: 11px;">
+							                        	小说
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	阅读：1234
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	点赞：1234
+							                    </span>
+							                </div>
+							        </a>
+							    </li>
+							    
+							    <li class="mui-table-view-cell mui-media">
+							        <a href="discover_6.html">
+							        	
+							        	<div>
+								        	<div style="float: left;">
+								        		<img class="mui-media-object mui-pull-left" style="width: 30px; height: 30px;" src="img/a14.gif">
+								            	<div style="margin-top: 3px;"><span style="color: grey;font-size: 14px;">
+								            	小说阅读a
+								            	</span></div>
+								        	</div>           
+								            <div id="button1" style="width: 45px;height: 23px; margin-left: 285px; ">
+								                <img id="picts1" src="img/10.gif" />
+								            </div>
+							          </div>    						               						          
+							            <div class="mui-media-body" style=" width:70%; position: relative; left:-50px;float: left;">
+							                         <div style="margin-top: 15px; margin-left: 0px; width:80%;">
+							                         	说谎
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉
+							                         	</p>
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+							                         	</p>
+							                         </div>							                         						                         
+							            </div>
+							            <div style=" width:70%; position: relative; left:-55px; margin-top: 10px;">
+							            	<img style="width: 80px; height: 80px;" src="img/b5.gif" />
+							            </div>
+							            <div style="margin-left: 10px;">
+							                    <span style="border: 1px solid #cad7df; color: #cad7df; font-size: 11px;">
+							                        	小说
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	阅读：1234
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	点赞：1234
+							                    </span>
+							             </div>
+							        </a>
+							    </li>						   						    
+							</ul>
+						</div>	
+							
+							
+							
+							
+						<div class="mui-slider qqqq" style="height: 130px; margin-top: 190px;">
+					        <div class="mui-slider-group mui-slider-loop">
+					        	<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一个图文表格) -->
+					            <div class="mui-slider-item mui-slider-item-duplicate">
+					                <ul class="aaa bbb">
+					                    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+					                    	<a href="introduction.html">
+					                    		<img class="mui-media-object" src="img/c2.gif">
+					                        </a>
+					                    </li>
+					                    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+					                    	<a href="introduction.html">
+					                    		<img class="mui-media-object" src="img/c3.gif">
+					                        </a></li>
+					                </ul>
+					            </div>
+					            <div class="mui-slider-item">
+					                <ul class="mui-table-view mui-grid-view">
+					                    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+					                    	<a href="discover_8.html">
+					                    		<img class="mui-media-object" src="img/7.gif">
+					                        </a></li>
+					                    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+					                    	<a href="discover_9.html">
+					                    		<img class="mui-media-object" src="img/c1.gif">
+					                        </a></li>
+					                </ul>
+					            </div>
+					            <div class="mui-slider-item">
+					                <ul class="mui-table-view mui-grid-view">
+					                    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+					                    	<a href="introduction.html">
+					                    		<img class="mui-media-object" src="img/c2.gif">
+					                        </a></li>
+					                    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+					                    	<a href="introduction.html">
+					                    		<img class="mui-media-object" src="img/c3.gif">
+					                        </a></li>
+					                </ul>
+					            </div>
+					            <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一个图文表格) -->
+					            <div class="mui-slider-item mui-slider-item-duplicate">
+					                <ul class="mui-table-view mui-grid-view">
+					                    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+					                    	<a href="discover_8.html">
+					                    		<img class="mui-media-object" src="img/7.gif">
+					                        </a></li>
+					                    <li class="mui-table-view-cell mui-media mui-col-xs-6">
+					                    	<a href="discover_9.html">
+					                    		<img class="mui-media-object" src="img/c1.gif">
+					                        </a></li>
+					                </ul> 
+					            </div>
+					        </div>		       
+					    </div>
+									
+						
+						
+						<div>
+								<ul class="mui-table-view">
+							    <li class="mui-table-view-cell mui-media">
+							        <a href="discover_4.html">
+							        	
+							        	<div>
+								        	<div style="float: left;">
+								        		<img class="mui-media-object mui-pull-left" style="width: 30px; height: 30px;" src="img/a15.gif">
+								            	<div style="margin-top: 3px;"><span style="color: grey;font-size: 14px;">
+								            	高处不胜
+								            	</span></div>
+								        	</div>           
+								            <div id="button1" style="width: 45px;height: 23px; margin-left: 285px; ">
+								                <img id="picts1" src="img/10.gif" />
+								            </div>
+							          </div>    						               						          
+							            <div class="mui-media-body" style=" width:70%; position: relative; left:-50px;float: left;">
+							                         <div style="margin-top: 15px; margin-left: 0px; width:80%;">
+							                         	说谎
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉
+							                         	</p>
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+							                         	</p>
+							                         </div>							                         						                         
+							            </div>
+							            <div style=" width:70%; position: relative; left:-50px; margin-top: 10px;">
+							            	<img style="width: 80px; height: 80px;" src="img/b3.gif" />
+							            </div>
+							            
+							            	<div style="margin-left: 10px;">
+							                    <span style="border: 1px solid #cad7df; color: #cad7df; font-size: 11px;">
+							                        	小说
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	阅读：1234
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	点赞：1234
+							                    </span>
+							                </div>
+							        </a>
+							    </li>
+							    
+							    <li class="mui-table-view-cell mui-media">
+							        <a href="discover_4.html">
+							        	
+							        	<div>
+								        	<div style="float: left;">
+								        		<img class="mui-media-object mui-pull-left" style="width: 30px; height: 30px;" src="img/8.gif">
+								            	<div style="margin-top: 3px;"><span style="color: grey;font-size: 14px;">
+								            	Tigersims
+								            	</span></div>
+								        	</div>           
+								            <div id="button1" style="width: 45px;height: 23px; margin-left: 285px; ">
+								                <img id="picts1" src="img/10.gif" />
+								            </div>
+							          </div>    						               						          
+							            <div class="mui-media-body" style=" width:70%; position: relative; left:-50px;float: left;">
+							                         <div style="margin-top: 15px; margin-left: 0px; width:80%;">
+							                         	说谎
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉
+							                         	</p>
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+							                         	</p>
+							                         </div>							                         						                         
+							            </div>
+							            <div style=" width:70%; position: relative; left:-50px; margin-top: 10px;">
+							            	<img style="width: 80px; height: 80px;" src="img/b1.gif" />
+							            </div>
+							            <div style="margin-left: 10px;">
+							                    <span style="border: 1px solid #cad7df; color: #cad7df; font-size: 11px;">
+							                        	小说
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	阅读：1234
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	点赞：1234
+							                    </span>
+							             </div>
+							        </a>
+							    </li>						   						    
+							</ul>
+						</div>	
+							
+							
+							
+							
+						
+						<div class="mui-slider" style=" margin-top: 3px; height: 202px;">
+						        <div class="mui-slider-group mui-slider-loop">
+						        	<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一个图文表格) -->
+						            <div class="mui-slider-item mui-slider-item-duplicate">
+						                <ul class="aaa bbb">
+						                    <li class="mui-table-view-cell mui-media mui-col-xs-6" style="margin-left: 15px; width: 160px;">
+						                    	<div style="border: 1px solid #cad7df; width: 140px; ">
+							                    	<a href="hot-link.html">
+							                    		<img class="mui-media-object" style="width: 75px; height: 73px;" src="img/a14.gif">
+							                    		<div>
+							                    			<div style="font-weight: 700;">
+							                    				蓝桥科技
+							                    			</div>
+							                    			<p class="mui-ellipsis" style="font-size: 12px;">
+											                         		能和心爱的人一起睡觉
+											                </p>
+											                <p class="mui-ellipsis" style="font-size: 12px; margin-left: 8px;">
+											                      	能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+											                </p>
+							                    			<div style="margin-top: 5px;">
+							                    				<img style="width: 45px; height: 23px;" src="img/4.gif"/>
+							                    			</div>				                    			
+							                    		</div>
+							                        </a>
+						                       </div>
+						                    </li>
+						                    <li class="mui-table-view-cell mui-media mui-col-xs-6" style="margin-left: 15px; width: 160px;">
+						                    	<div style="border: 1px solid #cad7df; width: 140px; ">
+							                    	<a href="hot-link.html">
+							                    		<img class="mui-media-object" style="width: 75px; height: 73px;" src="img/8.gif">
+							                    		<div>
+							                    			<div style="font-weight: 700;">
+							                    				蓝桥科技
+							                    			</div>
+							                    			<p class="mui-ellipsis" style="font-size: 12px;">
+											                         		能和心爱的人一起睡觉
+											                </p>
+											                <p class="mui-ellipsis" style="font-size: 12px; margin-left: 8px;">
+											                      	能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+											                </p>
+							                    			<div style="margin-top: 5px;">
+							                    				<img style="width: 45px; height: 23px;" src="img/4.gif"/>
+							                    			</div>				                    			
+							                    		</div>
+							                        </a>
+						                       </div>
+						                    </li>
+						                </ul>
+						            </div>
+						            <div class="mui-slider-item">
+						                <ul class="mui-table-view mui-grid-view">
+						                    <li class="mui-table-view-cell mui-media mui-col-xs-6" style="margin-left: 15px; width: 160px;">
+						                    	<div style="border: 1px solid #cad7df; width: 140px; ">
+							                    	<a href="hot-link.html">
+							                    		<img class="mui-media-object" style="width: 75px; height: 73px;" src="img/a7.gif">
+							                    		<div>
+							                    			<div style="font-weight: 700;">
+							                    				蓝桥科技
+							                    			</div>
+							                    			<p class="mui-ellipsis" style="font-size: 12px;">
+											                         		能和心爱的人一起睡觉
+											                </p>
+											                <p class="mui-ellipsis" style="font-size: 12px; margin-left: 8px;">
+											                      	能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+											                </p>
+							                    			<div style="margin-top: 5px;">
+							                    				<img style="width: 45px; height: 23px;" src="img/4.gif"/>
+							                    			</div>				                    			
+							                    		</div>
+							                        </a>
+						                       </div>
+						                    </li>
+						                    <li class="mui-table-view-cell mui-media mui-col-xs-6" style="margin-left: 10px; width: 160px;">
+						                    	<div style="border: 1px solid #cad7df; width: 140px; ">
+							                    	<a href="hot-link.html">
+							                    		<img class="mui-media-object" style="width: 75px; height: 73px;" src="img/a15.gif">
+							                    		<div>
+							                    			<div style="font-weight: 700;">
+							                    				蓝桥科技
+							                    			</div>
+							                    			<p class="mui-ellipsis" style="font-size: 12px;">
+											                         		能和心爱的人一起睡觉
+											                </p>
+											                <p class="mui-ellipsis" style="font-size: 12px; margin-left: 8px;">
+											                      	能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+											                </p>
+							                    			<div style="margin-top: 5px;">
+							                    				<img style="width: 45px; height: 23px;" src="img/4.gif"/>
+							                    			</div>				                    			
+							                    		</div>
+							                        </a>
+						                       </div>
+						                    </li>
+						                </ul>
+						            </div>
+						            <div class="mui-slider-item">
+						                <ul class="mui-table-view mui-grid-view">
+						                    <li class="mui-table-view-cell mui-media mui-col-xs-6" style="margin-left: 15px; width: 160px;">
+						                    	<div style="border: 1px solid #cad7df; width: 140px; ">
+							                    	<a href="hot-link.html">
+							                    		<img class="mui-media-object" style="width: 75px; height: 73px;" src="img/a14.gif">
+							                    		<div>
+							                    			<div style="font-weight: 700;">
+							                    				蓝桥科技
+							                    			</div>
+							                    			<p class="mui-ellipsis" style="font-size: 12px;">
+											                         		能和心爱的人一起睡觉
+											                </p>
+											                <p class="mui-ellipsis" style="font-size: 12px; margin-left: 8px;">
+											                      	能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+											                </p>
+							                    			<div style="margin-top: 5px;">
+							                    				<img style="width: 45px; height: 23px;" src="img/4.gif"/>
+							                    			</div>				                    			
+							                    		</div>
+							                        </a>
+						                       </div>
+						                    </li>
+						                    <li class="mui-table-view-cell mui-media mui-col-xs-6" style="margin-left: 15px; width: 160px;">
+						                    	<div style="border: 1px solid #cad7df; width: 140px; ">
+							                    	<a href="hot-link.html">
+							                    		<img class="mui-media-object" style="width: 75px; height: 73px;" src="img/8.gif">
+							                    		<div>
+							                    			<div style="font-weight: 700;">
+							                    				蓝桥科技
+							                    			</div>
+							                    			<p class="mui-ellipsis" style="font-size: 12px;">
+											                         		能和心爱的人一起睡觉
+											                </p>
+											                <p class="mui-ellipsis" style="font-size: 12px; margin-left: 8px;">
+											                      	能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+											                </p>
+							                    			<div style="margin-top: 5px;">
+							                    				<img style="width: 45px; height: 23px;" src="img/4.gif"/>
+							                    			</div>				                    			
+							                    		</div>
+							                        </a>
+						                       </div>
+						                    </li>
+						                </ul>
+						            </div>
+						            <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一个图文表格) -->
+						            <div class="mui-slider-item mui-slider-item-duplicate">
+						                <ul class="mui-table-view mui-grid-view">
+						                    <li class="mui-table-view-cell mui-media mui-col-xs-6" style="margin-left: 15px; width: 160px;">
+						                    	<div style="border: 1px solid #cad7df; width: 140px; ">
+							                    	<a href="hot-link.html">
+							                    		<img class="mui-media-object" style="width: 75px; height: 73px;" src="img/a7.gif">
+							                    		<div>
+							                    			<div style="font-weight: 700;">
+							                    				蓝桥科技
+							                    			</div>
+							                    			<p class="mui-ellipsis" style="font-size: 12px;">
+											                         		能和心爱的人一起睡觉
+											                </p>
+											                <p class="mui-ellipsis" style="font-size: 12px; margin-left: 8px;">
+											                      	能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+											                </p>
+							                    			<div style="margin-top: 5px;">
+							                    				<img style="width: 45px; height: 23px;" src="img/4.gif"/>
+							                    			</div>				                    			
+							                    		</div>
+							                        </a>
+						                       </div>
+						                    </li>
+						                    <li class="mui-table-view-cell mui-media mui-col-xs-6" style="margin-left: 15px; width: 160px;">
+						                    	<div style="border: 1px solid #cad7df; width: 140px; ">
+							                    	<a href="hot-link.html">
+							                    		<img class="mui-media-object" style="width: 75px; height: 73px;" src="img/a15.gif">
+							                    		<div>
+							                    			<div style="font-weight: 700;">
+							                    				蓝桥科技
+							                    			</div>
+							                    			<p class="mui-ellipsis" style="font-size: 12px;">
+											                         		能和心爱的人一起睡觉
+											                </p>
+											                <p class="mui-ellipsis" style="font-size: 12px; margin-left: 8px;">
+											                      	能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+											                </p>
+							                    			<div style="margin-top: 5px;">
+							                    				<img style="width: 45px; height: 23px;" src="img/4.gif"/>
+							                    			</div>				                    			
+							                    		</div>
+							                        </a>
+						                       </div>
+						                    </li>
+						                </ul>
+						            </div>
+						        </div>		       
+						    </div>
+						
+						
+						
+						
+						
+						<div style="margin-bottom: 50px;">
+								<ul class="mui-table-view">
+							    <li class="mui-table-view-cell mui-media">
+							        <a href="discover_7.html">
+							        	
+							        	<div>
+								        	<div style="float: left;">
+								        		<img class="mui-media-object mui-pull-left" style="width: 30px; height: 30px;" src="img/a8.gif">
+								            	<div style="margin-top: 3px;"><span style="color: grey;font-size: 14px;">
+								            	  Duscvzbcu
+								            	</span></div>
+								        	</div>           
+								            <div id="button1" style="width: 45px;height: 23px; margin-left: 285px; ">
+								                <img id="picts1" src="img/10.gif" />
+								            </div>
+							          </div>    						               						          
+							            <div class="mui-media-body" style=" width:70%; position: relative; left:-50px;float: left;">
+							                         <div style="margin-top: 15px; margin-left: 0px; width:80%;">
+							                         	说谎
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉
+							                         	</p>
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+							                         	</p>
+							                         </div>							                         						                         
+							            </div>
+							            <div style=" width:70%; position: relative; left:-50px; margin-top: 10px;">
+							            	<img style="width: 80px; height: 80px;" src="img/b3.gif" />
+							            </div>
+							            
+							            	<div style="margin-left: 10px;">
+							                    <span style="border: 1px solid #cad7df; color: #cad7df; font-size: 11px;">
+							                        	小说
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	阅读：1234
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	点赞：1234
+							                    </span>
+							                </div>
+							        </a>
+							    </li>
+							    
+							    <li class="mui-table-view-cell mui-media">
+							        <a href="discover_4.html">
+							        	
+							        	<div>
+								        	<div style="float: left;">
+								        		<img class="mui-media-object mui-pull-left" style="width: 30px; height: 30px;" src="img/a9.gif">
+								            	<div style="margin-top: 3px;"><span style="color: grey;font-size: 14px;">
+								            	Wigerasds
+								            	</span></div>
+								        	</div>           
+								            <div id="button1" style="width: 45px;height: 23px; margin-left: 285px; ">
+								                <img id="picts1" src="img/10.gif" />
+								            </div>
+							          </div>    						               						          
+							            <div class="mui-media-body" style=" width:70%; position: relative; left:-50px;float: left;">
+							                         <div style="margin-top: 15px; margin-left: 0px; width:80%;">
+							                         	说谎
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉
+							                         	</p>
+							                         	<p class="mui-ellipsis" style="font-size: 12px;">
+							                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+							                         	</p>
+							                         </div>							                         						                         
+							            </div>
+							            <div style=" width:70%; position: relative; left:-50px; margin-top: 10px;">
+							            	<img style="width: 80px; height: 80px;" src="img/b10.gif" />
+							            </div>
+							            <div style="margin-left: 10px;">
+							                    <span style="border: 1px solid #cad7df; color: #cad7df; font-size: 11px;">
+							                        	小说
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	阅读：1234
+							                    </span>
+							                    <span style="color: #cad7df; font-size: 11px; padding-left: 8px;">
+							                        	点赞：1234
+							                    </span>
+							             </div>
+							        </a>
+							    </li>						   						    
+							</ul>
+						</div>	
+						
+	
+						</div>
+					</div>
+					
+					
+					<!--第三个页面。。。。。。  -->
+					
+					<div id="item3mobile" class="mui-slider-item mui-control-content" style="margin-top: 35px;">
+						<div id="scroll3"">
+							<div class="mui-scroll">
+								<div class="mui-slider qqqq" style="position: relative;top: -15px;">
+									<div class="mui-slider-group mui-slider-loop">
+										<!--支持循环，需要重复图片节点-->
+										<!-- 第3张 -->
+										<div class="mui-slider-item mui-slider-item-duplicate">
+											<a href="discover_9.html"><img src="img/c6.gif" /></a>
+										</div>
+										<!-- 第1张 -->
+										<div class="mui-slider-item">
+											<a href="discover_8.html"><img src="img/c8.gif" /></a>
+										</div>
+										<!-- 第2张 -->
+										<div class="mui-slider-item">
+											<a href="discover_8.html"><img src="img/c5.gif" /></a>
+										</div>
+										<!-- 第3张 -->
+										<div class="mui-slider-item">
+											<a href="classify-label.html"><img src="img/c4.gif" /></a>
+										</div>
+										
+										<div class="mui-slider-item">
+											<a href="discover_9.html"><img src="img/c6.gif" /></a>
+										</div>
+										<!--支持循环，需要重复图片节点-->
+										<!-- 第1张 -->
+										<div class="mui-slider-item mui-slider-item-duplicate">
+											<a href="discover_8.html"><img src="img/c8.gif" /></a>
+										</div>
+									</div>
+									<!-- 生成点 -->
+									<div class="mui-slider-indicator">
+									    <div class="mui-indicator mui-active"></div>
+									    <div class="mui-indicator"></div>
+									    <div class="mui-indicator"></div>
+									     <div class="mui-indicator"></div>
+							    	</div>
+							</div>
+							</div>
+							
+							
+							<div style="position: relative;top: 180px; background-color: white;">
+								<div style="width: 320px; height:50px; margin: 0 auto; margin-top: 15px;">
+									<div style="float: left;"><a href="discover_2.html"><img style="width: 60px; height: 60px;" src="img/34.gif"/></a></div>
+									<div style="float: left; padding-left: 5px;"><a href="discover_8.html"><img style="width: 60px; height: 60px;" src="img/31.gif"/></a></div>
+									<div style="float: left; padding-left: 5px;"><a href="discover_9.html"><img style="width: 60px; height: 60px;" src="img/12.gif"/></a></div>
+									<div style="float: left; padding-left: 5px;"><a href="discover_8.html"><img style="width: 60px; height: 60px;" src="img/30.gif"/></a></div>
+									<div style="float: left; padding-left: 5px;"><a href="discover_9.html"><img style="width: 60px; height: 60px;" src="img/32.gif"/></a></div>
+								</div>
+								
+								
+								<div style="width: 320px;height:75px; margin: 0 auto; margin-top: 15px;">
+									<div style="float: left;"><a href="discover_8.html"><img style="width: 60px; height: 60px;" src="img/33.gif"/></a></div>
+									<div style="float: left; padding-left: 5px;"><a href="discover_9.html"><img style="width: 60px; height: 60px;" src="img/34.gif"/></a></div>
+									<div style="float: left; padding-left: 5px;"><a href="discover_2.html"><img style="width: 60px; height: 60px;" src="img/35.gif"/></a></div>
+									<div style="float: left; padding-left: 5px;"><a href="discover_8.html"><img style="width: 60px; height: 60px;" src="img/36.gif"/></a></div>
+									<div style="float: left; padding-left: 5px;"><a href="discover_3.html"><img style="width: 60px; height: 60px;" src="img/13.gif"/></a></div>
+								</div>
+							</div>
+							
+							
+							
+							
+							
+							<div style="position: relative; top: 190px;">
+								<hr style="margin: 0; color:#f5f5f5;" />
+								<ul class="mui-table-view">
+										    <li class="mui-table-view-cell mui-media">
+										        <a href="discover_4.html">
+										        	
+										        	<div>
+											        	<div>
+											        		<img class="mui-media-object mui-pull-left" style="width: 40px; height: 40px;" src="img/8.gif">
+											            	<div>
+											            		<div style="float: left;"><span style="color: grey;font-size: 12px;">
+												            	半夏微凉夏琉璃
+												            	</span ></div>
+												            	
+												            	<div style="position: relative;top:3px;"><img style="width: 30px; height: 16px;" src="img/18.gif"/></div>
+												            	
+												            	<div><span style="color: grey;font-size: 12px;">08月06日</span></div>
+											            	</div>
+											        	</div>           
+											            
+										            </div>    						               						          
+										            <div class="mui-media-body">
+										                         <div style="margin-top: 15px;">
+										                         	<p style="font-size: 15px; color: #000000;">最好的感情，
+																	不是朝夕相处，不是寸步不离，</p>
+										                         	<p style="font-size: 15px; color: #000000;">而是人远心不远，
+																	天涯遥远，挡不住彼此思念，</p>
+										                         	<p style="font-size: 15px; color: #000000;">时空虚幻，隔不断心灵挂牵，
+																	人远一点无所谓，
+																	</p>
+										                         	<p style="font-size: 15px; color: #000000;">只要有感情，纵然人在天涯心亦咫尺。</p>						                         
+										                         	<p class="mui-ellipsis" style="font-size: 15px; color: #000000;">
+										                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+										                         	</p>
+										                         </div>							                         						                         
+										            </div>
+										            
+										            <div class="mui-media-body" style="background-color:#f6f6f6; width: 98%; margin-top: 5px;">
+										                         <div style="margin-top: 3px;">						                         	
+										                         	<p style="font-size: 15px; color:#6c6c6c;">
+										                         		<span style="color:#63bddc;">学无止境：</span>
+										                         		时空虚幻，隔不断心灵挂牵，人远一												
+																	</p>
+										                         	<p style="font-size: 15px; color: #6c6c6c;">点无所谓，只要有感情，纵然人在天涯心亦咫尺。</p>						                         
+										                         	<p class="mui-ellipsis" style="font-size: 15px; color: #6c6c6c;">
+										                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+										                         	</p>
+										                         </div>							                         						                         
+										            </div>
+										           		<div style="margin-top: 5px;">
+										           			<div style="float: left;">
+										           				<img style="width: 80px; height: 20px;" src="img/14.gif"/>
+										           			</div>
+										                    <div style="color:gray; font-size: 12px; float: left; margin-left: 10px;">已支持</div>
+										                    <div style="float: left; margin-left: 85px;">
+										           				<img style="width: 26px; height: 20px;" src="img/15.gif"/>
+										           			</div>
+										           			<div style="color:gray; font-size: 12px; float: left;">129</div>
+										           			<div style="float: left;">
+										           				<img style="width: 26px; height: 20px;" src="img/16.gif"/>
+										           			</div>
+										           			<div style="color:gray; font-size: 12px; float: left;">29</div>
+										           			<div style="float: left;">
+										           				<img style="width: 26px; height: 20px;" src="img/17.gif"/>
+										           			</div>
+										           			<div style="color:gray; font-size: 12px;">11</div>
+										              </div>						               
+										        </a>
+										        <div style="border: 1px solid #f2faff; border-radius: 15px; width: 130px; text-align: center; background-color: #f2faff;">
+										               	<span style="color:#65bfdf; font-size: 14px;">
+										               		唯美古风
+										               	</span>
+										               	<span style="color:#999999; font-size: 12px;">
+										               		一起讨论吧
+										               	</span>
+										              </div>					        
+										    </li>
+										    
+										    <li class="mui-table-view-cell mui-media">
+										        <a href="discover_6.html">
+										        	
+										        	<div>
+											        	<div>
+											        		<img class="mui-media-object mui-pull-left" style="width: 40px; height: 40px;" src="img/a14.gif">
+											            	<div>
+											            		<div style="float: left;"><span style="color: grey;font-size: 12px;">
+												            	时光记录者
+												            	</span ></div>
+												            	
+												            	<div style="position: relative;top:3px;"><img style="width: 30px; height: 16px;" src="img/18.gif"/></div>
+												            	
+												            	<div><span style="color: grey;font-size: 12px;">09月26日</span></div>
+											            	</div>
+											        	</div>           
+											            
+										            </div>  						               						          
+										            <div class="mui-media-body">
+										                         <div style="margin-top: 15px;">
+										                         	<p style="font-size: 15px; color: #000000;">最好的感情，
+																	不是朝夕相处，不是寸步不离，</p>
+										                         	<p style="font-size: 15px; color: #000000;">而是人远心不远，
+																	天涯遥远，挡不住彼此思念，</p>
+										                         	<p style="font-size: 15px; color: #000000;">时空虚幻，隔不断心灵挂牵，
+																	人远一点无所谓，
+																	</p>
+										                         	<p style="font-size: 15px; color: #000000;">只要有感情，纵然人在天涯心亦咫尺。</p>						                         
+										                         	<p class="mui-ellipsis" style="font-size: 15px; color: #000000;">
+										                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+										                         	</p>
+										                         </div>							                         						                         
+										            </div>
+										            
+										            <div class="mui-media-body" style="background-color:#f6f6f6; width: 98%; margin-top: 5px;">
+										                         <div style="margin-top: 3px;">						                         	
+										                         	<p style="font-size: 15px; color:#6c6c6c;">
+										                         		<span style="color:#63bddc;">学无止境：</span>
+										                         		时空虚幻，隔不断心灵挂牵，人远一												
+																	</p>
+										                         	<p style="font-size: 15px; color: #6c6c6c;">点无所谓，只要有感情，纵然人在天涯心亦咫尺。</p>						                         
+										                         	<p class="mui-ellipsis" style="font-size: 15px; color: #6c6c6c;">
+										                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+										                         	</p>
+										                         </div>							                         						                         
+										            </div>
+										           		<div style="margin-top: 5px;">
+										           			<div style="float: left;">
+										           				<img style="width: 80px; height: 20px;" src="img/14.gif"/>
+										           			</div>
+										                    <div style="color:gray; font-size: 12px; float: left; margin-left: 10px;">已支持</div>
+										                    <div style="float: left; margin-left: 85px;">
+										           				<img style="width: 26px; height: 20px;" src="img/15.gif"/>
+										           			</div>
+										           			<div style="color:gray; font-size: 12px; float: left;">129</div>
+										           			<div style="float: left;">
+										           				<img style="width: 26px; height: 20px;" src="img/16.gif"/>
+										           			</div>
+										           			<div style="color:gray; font-size: 12px; float: left;">29</div>
+										           			<div style="float: left;">
+										           				<img style="width: 26px; height: 20px;" src="img/17.gif"/>
+										           			</div>
+										           			<div style="color:gray; font-size: 12px;">11</div>
+										              </div>						               
+										        </a>
+										        <div style="border: 1px solid #f2faff; border-radius: 15px; width: 130px; text-align: center; background-color: #f2faff;">
+										               	<span style="color:#65bfdf; font-size: 14px;">
+										               		唯美古风
+										               	</span>
+										               	<span style="color:#999999; font-size: 12px;">
+										               		一起讨论吧
+										               	</span>
+										              </div>					        
+										    </li>						   						    
+										</ul>
+								
+							</div>
+							
+							
+							
+							
+							
+							
+							
+							<div class="mui-slider" style="margin-top: 200px;">
+			      <div class="mui-slider-group mui-slider-loop">
+			      	<!--支持循环，需要重复图片节点-->
+	    			<div class="mui-slider-item mui-slider-item-duplicate" style="width: 237px;">
+	    				<a href="discover_5.html" style="margin-left: 85px; margin-top: 10px;">
+			          	<div style=" background-color:white; width: 200px; height: 260px;">
+	    						<div style="background-color:#d47975; width: 200px;height: 50px;">
+	    							<span style="color: white; position: relative;top:25px;left: 45px; font-size: 20px; font-weight: 800;">女神都在聊</span>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/19.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">医妃独步天下</span>
+		    						</div>
+		    						<div style="border: 1px solid #d47975; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #d47975; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		2.6万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/19.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">医妃独步天下</span>
+		    						</div>
+		    						<div style="border: 1px solid #d47975; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #d47975; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		2.6万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/19.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">医妃独步天下</span>
+		    						</div>
+		    						<div style="border: 1px solid #d47975; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #d47975; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		2.6万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    				</div>
+			          </a>
+	    			</div>
+			        <!--第一个内容区容器-->
+			        <div class="mui-slider-item" style="width: 237px;">
+			          <!-- 具体内容 -->
+			          <a href="discover_5.html" style="margin-left: 85px; margin-top: 10px;">
+			          	<div style=" background-color:white; width: 200px; height: 260px;">
+	    						<div style="background-color:#00BFFF; width: 200px;height: 50px;">
+	    							<span style="color: white; position: relative;top:25px;left: 45px; font-size: 20px; font-weight: 800;">新圈PICK</span>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b1.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">为了你我愿意</span>
+		    						</div>
+		    						<div style="border: 1px solid #00BFFF; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #00BFFF; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		4.7万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b10.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">师傅快退后</span>
+		    						</div>
+		    						<div style="border: 1px solid #00BFFF; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #00BFFF; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		1.2万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b9.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">男神经病安安</span>
+		    						</div>
+		    						<div style="border: 1px solid #00BFFF; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #00BFFF; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		2.8万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    				</div>
+			          </a>
+			        </div>
+			        <!--第二个内容区-->
+			        <div class="mui-slider-item" style="width: 237px;">
+			          <!-- 具体内容 -->
+			          <a href="discover_5.html" style="margin-left: 85px; margin-top: 10px;">
+			          	<div style=" background-color:white; width: 200px; height: 260px;">
+	    						<div style="background-color:orange; width: 200px;height: 50px;">
+	    							<span style="color: white; position: relative;top:25px;left: 45px; font-size: 20px; font-weight: 800;">热圈速递</span>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b4.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">楚医生也要恋爱</span>
+		    						</div>
+		    						<div style="border: 1px solid orange; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: orange; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F2F2F2; font-size: 12px; position: relative;top: 6px;">
+							               		4.5万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b5.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">狼行天下</span>
+		    						</div>
+		    						<div style="border: 1px solid orange; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: orange; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F2F2F2; font-size: 12px; position: relative;top: 6px;">
+							               		1.8万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b8.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">穿越之美满人生</span>
+		    						</div>
+		    						<div style="border: 1px solid orange; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: orange; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F2F2F2; font-size: 12px; position: relative;top: 6px;">
+							               		3.7万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    				</div>
+			          </a>
+			        </div>
+			        <div class="mui-slider-item" style="width: 237px;">
+			          <!-- 具体内容 -->
+			          <a href="discover_5.html" style="margin-left: 85px; margin-top: 10px;">
+			          	<div style=" background-color:white; width: 200px; height: 260px;">
+	    						<div style="background-color:limegreen; width: 200px;height: 50px;">
+	    							<span style="color: white; position: relative;top:25px;left: 45px; font-size: 20px; font-weight: 800;">男神都在聊</span>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b1.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">最强亡灵系统</span>
+		    						</div>
+		    						<div style="border: 1px solid limegreen; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: limegreen; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		1.9万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b10.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">天工</span>
+		    						</div>
+		    						<div style="border: 1px solid limegreen; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: limegreen; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		4.5万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b2.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">荣耀王者</span>
+		    						</div>
+		    						<div style="border: 1px solid limegreen; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: limegreen; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		5.8万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    				</div>
+			          </a>
+			        </div>
+			        <div class="mui-slider-item" style="width: 237px;">
+			          <!-- 具体内容 -->
+			          <a href="discover_5.html" style="margin-left: 85px; margin-top: 10px;">
+			          	<div style=" background-color:white; width: 200px; height: 260px;">
+	    						<div style="background-color:#d47975; width: 200px;height: 50px;">
+	    							<span style="color: white; position: relative;top:25px;left: 45px; font-size: 20px; font-weight: 800;">女神都在聊</span>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/19.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">医妃独步天下</span>
+		    						</div>
+		    						<div style="border: 1px solid #d47975; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #d47975; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		2.6万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/19.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">医妃独步天下</span>
+		    						</div>
+		    						<div style="border: 1px solid #d47975; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #d47975; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		2.6万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/19.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">医妃独步天下</span>
+		    						</div>
+		    						<div style="border: 1px solid #d47975; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #d47975; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		2.6万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    				</div>
+			          </a>
+			        </div>			        
+			        <!--支持循环，需要重复图片节点-->
+	    			<div class="mui-slider-item" style="width: 237px;">
+			          <!-- 具体内容 -->
+			          <a href="discover_5.html" style="margin-left: 85px; margin-top: 10px;">
+			          	<div style=" background-color:white; width: 200px; height: 260px;">
+	    						<div style="background-color:#00BFFF; width: 200px;height: 50px;">
+	    							<span style="color: white; position: relative;top:25px;left: 45px; font-size: 20px; font-weight: 800;">新圈PICK</span>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b1.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">为了你我愿意</span>
+		    						</div>
+		    						<div style="border: 1px solid #00BFFF; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #00BFFF; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		4.7万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b10.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">师傅快退后</span>
+		    						</div>
+		    						<div style="border: 1px solid #00BFFF; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #00BFFF; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		1.2万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    						<div style="margin-top: 20px; margin-left: 10px;">
+		    						<div style="float: left;">
+		    							<img style="width: 40px; height: 51px;" src="img/b9.gif"/>
+		    						</div>
+		    						<div style="position: relative; left: 10px;">
+		    							<img style="width: 20px; height: 16px; padding-top: 3px;" src="img/20.gif" />
+		    							<span style="color: #000000; font-weight: 600; padding-left: 1px; font-size: 13px;">男神经病安安</span>
+		    						</div>
+		    						<div style="border: 1px solid #00BFFF; border-radius: 3px; width: 95px; height: 15px; text-align: center; background-color: #00BFFF; margin-top: 10px; margin-left: 50px;">						               	
+							               	<span style="color:#F3F3F3; font-size: 12px; position: relative;top: 6px;">
+							               		2.8万书友在聊
+							               	</span>
+							        </div>
+	    						</div>
+	    				</div>
+			          </a>
+			        </div>
+	    			
+			      </div>
+		      </div>
+							
+							
+							
+							
+					
+					
+					
+					
+					<div style="position: relative; top: 20px;">
+								
+								<ul class="mui-table-view">
+										    <li class="mui-table-view-cell mui-media">
+										        <a href="discover_7.html">
+										        	
+										        	<div>
+											        	<div>
+											        		<img class="mui-media-object mui-pull-left" style="width: 40px; height: 40px;" src="img/a7.gif">
+											            	<div>
+											            		<div style="float: left;"><span style="color: grey;font-size: 12px;">
+												            	橙小皮
+												            	</span ></div>
+												            	
+												            	<div style="position: relative;top:3px;"><img style="width: 30px; height: 16px;" src="img/18.gif"/></div>
+												            	
+												            	<div><span style="color: grey;font-size: 12px;">02月26日</span></div>
+											            	</div>
+											        	</div>           
+											            
+										            </div>    						               						          
+										            <div class="mui-media-body">
+										                         <div style="margin-top: 5px;">
+										                         	<p style="font-size: 15px; color: #000000;">最好的感情，
+																	不是朝夕相处，不是寸步不离，</p>
+										                         	<p style="font-size: 15px; color: #000000;">而是人远心不远，
+																	天涯遥远，挡不住彼此思念，</p>								                         	
+										                         </div>							                         						                         
+										            </div>									            
+										            <div class="mui-media-body" style="background-color:#f6f6f6; width: 98%; margin-top: 5px;">
+										                         <div style="margin-top: 3px;">						                         	
+										                         	<p style="font-size: 15px; color:#6c6c6c;">
+										                         		<span style="color:#63bddc;">学无止境：</span>
+										                         		时空虚幻，隔不断心灵挂牵，人远一												
+																	</p>
+										                         	<p style="font-size: 15px; color: #6c6c6c;">点无所谓，只要有感情，纵然人在天涯心亦咫尺。</p>						                         
+										                         	<p class="mui-ellipsis" style="font-size: 15px; color: #6c6c6c;">
+										                         		能和心爱的人一起睡觉，是件幸福的事情能和心爱的人一起睡觉，是件幸福的事情
+										                         	</p>
+										                         </div>							                         						                         
+										            </div>
+										           		<div style="margin-top: 5px;">
+										           			<div style="float: left;">
+										           				<img style="width: 80px; height: 20px;" src="img/14.gif"/>
+										           			</div>
+										                    <div style="color:gray; font-size: 12px; float: left; margin-left: 10px;">已支持</div>
+										                    <div style="float: left; margin-left: 85px;">
+										           				<img style="width: 26px; height: 20px;" src="img/15.gif"/>
+										           			</div>
+										           			<div style="color:gray; font-size: 12px; float: left;">129</div>
+										           			<div style="float: left;">
+										           				<img style="width: 26px; height: 20px;" src="img/16.gif"/>
+										           			</div>
+										           			<div style="color:gray; font-size: 12px; float: left;">29</div>
+										           			<div style="float: left;">
+										           				<img style="width: 26px; height: 20px;" src="img/17.gif"/>
+										           			</div>
+										           			<div style="color:gray; font-size: 12px;">11</div>
+										              </div>						               
+										        </a>
+										        <div style="border: 1px solid #f2faff; border-radius: 15px; width: 130px; text-align: center; background-color: #f2faff;">
+										               	<span style="color:#65bfdf; font-size: 14px;">
+										               		唯美古风
+										               	</span>
+										               	<span style="color:#999999; font-size: 12px;">
+										               		一起讨论吧
+										               	</span>
+										              </div>					        
+										    </li>										    										    						   						    
+										</ul>								
+							</div>
+					
+					
+							
+							
+							
+							
+
+						</div>
+					</div>
+					
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	<script src="js/mui.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/myjs.js"></script>
+	<script type="text/javascript">
+			mui.init();
+			mui.plusReady(function(){
+      		document.getElementById("bookmall").addEventListener('tap',function(){     			
+      			mui.openWindow({
+      				url:'default.html',
+      				id:'bookmall'
+      			})   	}) 	})			
+			mui.plusReady(function(){
+      		document.getElementById("bookrack").addEventListener('tap',function(){     			
+      			mui.openWindow({
+      				url:'bookrack.html',
+      				id:'bookrack'
+      			})   	}) 	})
+			mui.plusReady(function(){
+      		document.getElementById("discover").addEventListener('tap',function(){     			
+      			mui.openWindow({
+      				url:'discover.html',
+      				id:'discover'
+      			})   	}) 	})
+			mui.plusReady(function(){
+      		document.getElementById("my").addEventListener('tap',function(){     			
+      			mui.openWindow({
+      				url:'my.html',
+      				id:'my'
+      			})   	}) 	})
+	</script>
+	<script>
+			mui.init({
+				pullRefresh: {
+					container: '#pullrefresh',
+					down: {
+						callback: pulldownRefresh
+					},
+					up: {
+						contentrefresh: '正在加载...',
+						callback: pullupRefresh
+					}
+				}
+			});
+			/**
+			 * 下拉刷新具体业务实现
+			 */
+			function pulldownRefresh() {
+				setTimeout(function() {
+					var table = document.body.querySelector('.mui-table-view');
+					var cells = document.body.querySelectorAll('.mui-table-view-cell');
+					for (var i = cells.length, len = i + 3; i < len; i++) {
+						var li = document.createElement('li');
+						li.className = 'mui-table-view-cell';
+						li.innerHTML = '<a href="javascript:;"><img class="mui-media-object mui-pull-left" src="img/3.gif"><div class="mui-media-body"><div style="float: left; margin-right: 20px;">幸福<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p></div><div id="button" style="width: 45px;height: 23px;padding-top:15px ;"><img id="picts" src="img/4.gif" /></div></div></a>';
+						//下拉刷新，新纪录插到最前面；
+						table.insertBefore(li, table.firstChild);
+					}
+					mui('#pullrefresh').pullRefresh().endPulldownToRefresh(); //refresh completed
+				}, 1500);
+			}
+			var count = 0;
+			/**
+			 * 上拉加载具体业务实现
+			 */
+			function pullupRefresh() {
+				setTimeout(function() {
+					mui('#pullrefresh').pullRefresh().endPullupToRefresh((++count > 2)); //参数为true代表没有更多数据了。
+					var table = document.body.querySelector('.mui-table-view');
+					var cells = document.body.querySelectorAll('.mui-table-view-cell');
+					for (var i = cells.length, len = i + 5; i < len; i++) {
+						var li = document.createElement('li');
+						li.className = 'mui-table-view-cell';
+						li.innerHTML = '<a href="javascript:;"><img class="mui-media-object mui-pull-left" src="img/3.gif"><div class="mui-media-body"><div style="float: left; margin-right: 20px;">幸福<p class="mui-ellipsis" style="font-size: 12px;">能和心爱的人一起睡觉，是件幸福的事情</p></div><div id="button" style="width: 45px;height: 23px;padding-top:15px;"><img id="picts" src="img/4.gif" /></div></div></a>';
+						table.appendChild(li);
+					}
+				}, 1500);
+			}
+//			if (mui.os.plus) {
+//				mui.plusReady(function() {
+//					setTimeout(function() {
+//						mui('#pullrefresh').pullRefresh().pullupLoading();
+//					}, 10);
+//
+//				});
+//			} else {
+//				mui.ready(function() {
+//					mui('#pullrefresh').pullRefresh().pullupLoading();
+//				});
+//			}
+		</script>
+	<script>
+			mui.init({
+				swipeBack: false
+			});
+			(function($) {
+				$('.mui-scroll-wrapper').scroll({
+					indicators: true //是否显示滚动条
+				});
+				var html2 = '';
+				
+      			
+      			
+				var html3 = '';
+				 
+				var item2 = document.getElementById('item2mobile');
+				var item3 = document.getElementById('item3mobile');
+				document.getElementById('slider').addEventListener('slide', function(e) {
+					if (e.detail.slideNumber === 1) {
+						if (item2.querySelector('.mui-loading')) {
+							setTimeout(function() {
+				item2.querySelector('.mui-scroll').innerHTML = html2;
+				
+							}, 500);
+						}
+					} else if (e.detail.slideNumber === 2) {
+						if (item3.querySelector('.mui-loading')) {
+							setTimeout(function() {
+								item3.querySelector('.mui-scroll').innerHTML = html3;
+							}, 500);
+						}
+					}
+				});
+				var sliderSegmentedControl = document.getElementById('sliderSegmentedControl');
+				$('.mui-input-group').on('change', 'input', function() {
+					if (this.checked) {
+						sliderSegmentedControl.className = 'mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-' + this.value;
+						//force repaint
+						sliderProgressBar.setAttribute('style', sliderProgressBar.getAttribute('style'));
+					}
+				});
+			})(mui);
+		
+	</script>
+	
+	<script>
+        function change_pic(){
+            var button = document.getElementById("button");
+            var picts = document.getElementById("picts");
+            button.onclick = function(){
+                if(picts.getAttribute("src",2) == "img/4.gif"){
+                    picts.setAttribute("src","img/5.gif");
+        }else{
+                    picts.setAttribute("src","img/4.gif");
+       }; }   }
+        change_pic();
+    </script>
+	
+	<script>
+        function change_pic(){
+            var button = document.getElementById("button1");
+            var picts = document.getElementById("picts1");
+            button.onclick = function(){
+                if(picts.getAttribute("src",2) == "img/4.gif"){
+                    picts.setAttribute("src","img/5.gif");
+        }else{
+                    picts.setAttribute("src","img/4.gif");
+       }; }   }
+        change_pic();
+    </script>
+	
+	<!--<script>
+        function change_pic(){
+            var button = document.getElementById("button2");
+            var picts = document.getElementById("picts2");
+            button.onclick = function(){
+                if(picts.getAttribute("src",2) == "img/4.gif"){
+                    picts.setAttribute("src","img/5.gif");
+        }else{
+                    picts.setAttribute("src","img/4.gif");
+       }; }   }
+        change_pic();
+    </script>-->
+    
+		
+		
+	</body>
+
+</html>

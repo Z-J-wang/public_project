@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>亚马逊--购物车</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="css/mystyle.css">
+		<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/MyJs_model.js"></script>
+		<script type="text/javascript" src="js/myJS.js"></script>
+		<script type="text/javascript" src="js/Downtime.js"></script>	
+	</head>
+
+	<body>
+		<div class="bg_color"></div>
+		<div class="big_mian">
+			<header>
+				<!--				顶部图片-->
+				<div>
+					<img src="img/head_img.jpg" class="head_img" />
+				</div>
+				<div class="container-fluid head_main">
+					<div class="row head_main_one">
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 head_main_one_left">
+							<div class="a_p">
+								<a href="#" data-toggle="popover" data-placement="right">尝试prine</a>
+
+								<div class="prime_info">
+									<h4>使用Amazon Prime快速免费送货</h4>
+									<p>prime会员享受两日的免费送货服务，并可独家使用音乐、电影、电视节目，原创音乐系列和kindle电子书。
+										<a href="#">>开始吧</a>
+									</p>
+									<div class="triangle"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 head_main_one_mid">
+							<form action="" method="get">
+								<div class="input-group">
+									<span class="btn btn-default input-group-addon dropdown" data-toggle="dropdown"> <span class="change_text">所有</span>
+									<font class="caret"></font>
+									</span>
+									<ul class="dropdown-menu dropdown-menu1" role="menu" aria-labelledby="dropdownMenu1">
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">所有部门</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">亚马逊设备</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">亚马逊仓库</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">应用和游戏</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">艺术、工艺品和缝纫</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">汽车零配件</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">宝宝</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">美容与个人护理</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">图书</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">CD和乙烯基</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">手机及配件</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">服装、鞋类既宝珠</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#"> 妇女</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#"> 男人</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#"> 女孩</a>
+										</li>
+									</ul>
+									<input type="search" class="form-control Search" />
+									<span class="btn btn-primary input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+								</div>
+
+							</form>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 head_main_one_right">
+							<img src="img/head_right.jpg" />
+						</div>
+					</div>
+
+					<div class="head_main_two">
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 head_main_one_left">
+							<div class="location_img"></div>
+							<div class="location_text">
+								<p>送到</p>
+								<span>中国</span>
+							</div>
+						</div>
+
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 head_main_one_mid">
+							<div class="dropdown">
+								<div class="A_branch" data-toggle="dropdown">部门<span class="caret"></span></div>
+								<div class="dropdown-menu dropdown_menu_2">
+									<ul>
+										<li>Prime Video <span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>亚马逊音乐<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>Appstore for Android<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>Echo和Alexa<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>fire TV<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>Kindle电子阅读器和书籍<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li class="divider"></li>
+										<li>书籍和声音<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>电影、音乐和游戏<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>电子产品、电脑和办公室<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>家居、花园、宠物及工具<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>食品杂货<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>美容与健康<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>玩具、童装和婴儿<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>服装、鞋类与珠宝<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>手工制作<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>运动与户外<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>汽车与工业<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li class="divider"></li>
+										<li>家庭服务<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>信用与支付产品<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>完成商店目录<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+									</ul>
+									<div class="dropdown_meun_list">
+										事实上
+									</div>
+								</div>
+							</div>
+
+							<ul class="nav nav-pills nav_am">
+								<li>
+									<a href="#">浏览记录</a>
+								</li>
+								<li>
+									<a href="#">你的Amazon.com</a>
+								</li>
+								<li>
+									<a href="#">今日优惠</a>
+								</li>
+								<li>
+									<a href="#">礼品卡</a>
+								</li>
+								<li>
+									<a href="#">登记处</a>
+								</li>
+								<li>
+									<a href="#">出售</a>
+								</li>
+								<li>
+									<a href="#">宝藏卡</a>
+								</li>
+								<li>
+									<a href="#">帮助</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 head_main_one_right">
+							<ul class="user_nav">
+								<li class="lan_bar">
+									<a href="#">
+										<div class="dropdown dropdown_language">
+											<p id="language"><span>EN </span><span class="caret"></span></p>
+										</div>
+									</a>
+									<div class="change_lan">
+										<div><input type="radio" value="en" checked="checked"><span>英语--en</span></div>
+										<div><input type="radio" value="ch"><span>中文--ch</span></div>
+										<a href="#">了解更多</a>
+									</div>
+								</li>
+								<li class="user_bar">
+									<a href="#">
+										<p>你好。登陆</p>
+										<p>账户和列表<span class="caret"></span></p>
+									</a>
+									<div class="user_interface">
+										<button type="button" class="btn">签到</button>
+										<p>新客户？
+											<a href="#">从这里开始。</a>
+										</p>
+										<div>
+											<ul>
+												<h2>你的名单</h2>
+												<li>
+													<a href="#">创建列表</a>
+												</li>
+												<li>
+													<a href="#">查找列表或注册表</a>
+												</li>
+												<li>
+													<a href="#">查找礼品</a>
+												</li>
+												<li>
+													<a href="#">从Web</a>
+												</li>
+												<li>
+													<a href="#">婚礼注册表中</a>
+												</li>
+												<li>
+													<a href="#">婴儿注册表</a>
+												</li>
+												<li>
+													<a href="#">朋友和家庭</a>
+												</li>
+												<li>
+													<a href="#">礼品</a>
+												</li>
+												<li>
+													<a href="#">餐具列表</a>
+												</li>
+												<li>
+													<a href="#">您的心灵</a>
+												</li>
+												<li>
+													<a href="#">探索创意列表</a>
+												</li>
+												<li>
+													<a href="#">探索展厅</a>
+												</li>
+												<li>
+													<a href="#">童军| Style Explorer</a>
+												</li>
+											</ul>
+
+											<ul>
+												<h2>你的帐户</h2>
+												<li>
+													<a href="#">您的</a>
+												</li>
+												<li>
+													<a href="#">您的建议</a>
+												</li>
+												<li>
+													<a href="#">您的订阅和储存物品</a>
+												</li>
+												<li>
+													<a href="#">会员资格和订阅</a>
+												</li>
+												<li>
+													<a href="#">您的服务请求</a>
+												</li>
+												<li>
+													<a href="#">您的Prime会员</a>
+												</li>
+												<li>
+													<a href="#">注册商业帐户</a>
+												</li>
+												<li>
+													<a href="#">您的亚马逊信用卡</a>
+												</li>
+												<li>
+													<a href="#">您的亚马逊照片</a>
+												</li>
+												<li>
+													<a href="#">您的亚马逊驱动器</a>
+												</li>
+												<li>
+													<a href="#">您的Prime视频</a>
+												</li>
+												<li>
+													<a href="#">您的Kindle Unlimited</a>
+												</li>
+												<li>
+													<a href="#">您的监视列表</a>
+												</li>
+												<li>
+													<a href="#">您的视频库</a>
+												</li>
+												<li>
+													<a href="#">您的Android应用程序和设备 </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#">命令</a>
+								</li>
+								<li class="try_prime">
+									<a href="#">试试Prime<span class="caret"></span></a>
+									<div class="prime_way">
+										<img src="img/Prime_Logo._CB508339849_.png" />
+										<p>当您开始30天免费试用时，享受超过1亿件物品的快速免费送货服务</p>
+										<button type="button" class="btn">试试Prime</button>
+										<img src="img/30.1_Acquistion_2x_420x300._CB530825804_.png" />
+									</div>
+								</li>
+							</ul>
+							<div class="shop_car">
+								<span class="pro_num">0</span>
+								<span>大车</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!--<div class="bg_color"></div>-->
+			<div class="container-fluid sc_container a_col">
+				<div class=" col-lg-9 col-md-9 sc_container_main">
+					<a href="#">
+						<div class="A_birthday_card">
+							<div class="col-lg-2 col-md-2 col-sm-2">
+								<img src="img/Bday-Balloons_GC-thumb._CB273438476_.gif" />
+							</div>
+
+							<div class="col-lg-8 col-md-8 col-sm-8">
+								<h4>用亚马逊礼品卡说“生日快乐”</h4>
+								<p>通过邮件、电子邮件、短信、信息或打印自己的方式发送</p>
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-2">
+								<button>Shop Now</button>
+							</div>
+						</div>
+					</a>
+
+					<div class="shop_car_list">
+						<h4>购物车</h4>
+						<div class="shop_car_nav">
+							<div class="col-lg-8 col-md-8 col-sm-8"></div>
+							<div class="col-lg-1 col-md-1 col-sm-1"><span>价格</span></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 text-right"><span>数量</span></div>
+							<div style="clear: both;"></div>
+						</div>
+						<div class="product_info clearfix">
+							<div class="col-lg-8 col-md-8 col-sm-8">
+								<div class="col-lg-3 col-md-3  product_img"><img src="img/910aENIlVlL._AA100_.jpg" /> </div>
+								<div class="col-lg-9 col-md-9 product_detail">
+									<h5><a href="detail.html">Mini Explorer Light-up玻璃容器套件适用于带盖LED灯的儿童| 在一个晚上发光的罐子里创建你自己定制的迷你花园 伟大的科学套装儿童礼物| 儿童玩具| 通过</a></h5>
+									<p id="pro_inventory">有现货</p>
+									<p id="buy_tip">符合条件的免费送货</p>
+									<p><input type="checkbox" />这是礼物
+										<a href="#">了解更多</a>
+									</p>
+									<p><button  type="button" class="btn btn-link del_product">删除</button><span>|</span><button type="button" class="btn btn-link">留着以后用</button></p>
+								</div>
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"><span class="product_price">$24.99</span></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 text-right">
+								<div class="dropdown mydropdownStyle">
+									<button class="btn btn-default dropdown-toggle btn_count" data-toggle="dropdown"><span class="pro_count">1</span><span class="caret"></span></button>
+									<ul class=" dropdown-menu choose_num">
+										<li>1</li>
+										<li>2</li>
+										<li>3</li>
+										<li>4</li>
+										<li>5</li>
+										<li>6</li>
+										<li>7</li>
+										<li>8</li>
+										<li>9</li>
+										<li class="divider"></li>
+										<li>10+</li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+						
+						<div class="product_info clearfix">
+							<div class="col-lg-8 col-md-8 col-sm-8">
+								<div class="col-lg-3 col-md-3  product_img"><img src="img/910aENIlVlL._AA100_.jpg" /> </div>
+								<div class="col-lg-9 col-md-9 product_detail">
+									<h5><a href="#">Mini Explorer Light-up玻璃容器套件适用于带盖LED灯的儿童| 在一个晚上发光的罐子里创建你自己定制的迷你花园 伟大的科学套装儿童礼物| 儿童玩具| 通过</a></h5>
+									<p id="pro_inventory">有现货</p>
+									<p id="buy_tip">符合条件的免费送货</p>
+									<p><input type="checkbox" />这是礼物
+										<a href="#">了解更多</a>
+									</p>
+									<p><button  type="button" class="btn btn-link del_product">删除</button><span>|</span><button type="button" class="btn btn-link">留着以后用</button></p>
+								</div>
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"><span class="product_price">$24.99</span></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 text-right">
+								<div class="dropdown mydropdownStyle">
+									<button class="btn btn-default dropdown-toggle btn_count" data-toggle="dropdown"><span class="pro_count">1</span><span class="caret"></span></button>
+									<ul class=" dropdown-menu choose_num">
+										<li>1</li>
+										<li>2</li>
+										<li>3</li>
+										<li>4</li>
+										<li>5</li>
+										<li>6</li>
+										<li>7</li>
+										<li>8</li>
+										<li>9</li>
+										<li class="divider"></li>
+										<li>10+</li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+						
+						<div class="product_info clearfix">
+							<div class="col-lg-8 col-md-8 col-sm-8">
+								<div class="col-lg-3 col-md-3  product_img"><img src="img/910aENIlVlL._AA100_.jpg" /> </div>
+								<div class="col-lg-9 col-md-9 product_detail">
+									<h5><a href="#">Mini Explorer Light-up玻璃容器套件适用于带盖LED灯的儿童| 在一个晚上发光的罐子里创建你自己定制的迷你花园 伟大的科学套装儿童礼物| 儿童玩具| 通过</a></h5>
+									<p id="pro_inventory">有现货</p>
+									<p id="buy_tip">符合条件的免费送货</p>
+									<p><input type="checkbox" />这是礼物
+										<a href="#">了解更多</a>
+									</p>
+									<p><button  type="button" class="btn btn-link del_product">删除</button><span>|</span><button type="button" class="btn btn-link">留着以后用</button></p>
+								</div>
+							</div>
+							<div class="col-lg-1 col-md-1 col-sm-1"><span class="product_price">$24.99</span></div>
+							<div class="col-lg-3 col-md-3 col-sm-3 text-right">
+								<div class="dropdown mydropdownStyle">
+									<button class="btn btn-default dropdown-toggle btn_count" data-toggle="dropdown"><span class="pro_count">1</span><span class="caret"></span></button>
+									<ul class=" dropdown-menu choose_num">
+										<li>1</li>
+										<li>2</li>
+										<li>3</li>
+										<li>4</li>
+										<li>5</li>
+										<li>6</li>
+										<li>7</li>
+										<li>8</li>
+										<li>9</li>
+										<li class="divider"></li>
+										<li>10+</li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+						
+					</div>
+					<div class="pull-right price_total">
+						<p>小计(<span class="pro_count_all">1</span>项) ：<span class="all_price" >$00.00</span></p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3  sc_container_right">
+					<div class="settle_accounts">
+						<div class="settle_accounts_title clearfix"><span></span><p><font>您的订单有资格免费送货</font> 在结账时选择此选项。<a href="#">查看具体信息</a></p></div>
+						<div>
+							<p>小计(<span class="pro_count_all">1</span>项) ：<span class="all_price" >$00.00</span></p>
+							<p><input type="checkbox" checked="checked"/> 这个定单包括了一份礼物</p>
+							<button type="button" class="btn btn-block btn_style">继续结账</button>
+							<p class="parting_line2"> <span>要么</span> </p>
+							<p class="text-center"><a href="#">登录</a>  以启用1-Click订购。</p>
+						</div>
+					</div>
+					
+					<div class="browsing_history clearfix">
+						<h4>您最近浏览过的商品</h4>
+						<div>
+							<div class="BH_pro_img"><img src="img/917Inen5nL._AC_UL100_SR100,100_.jpg"/></div>
+							<div class="BR_pro_detail">
+								<h5><a href="#">一个需要的案例</a></h5>
+								<p class="NH_author"><a href="#"><span></span>Michael Crichton</a></p>
+								<p><span class="BH_user_evaluation"></span></p>
+								<p class="pro_label">精装</p>
+								<p><span class="product_price">$11.99</span></p>
+								<p><button type="button" class="btn btn-default btn-sm btn_style">加入购物车</button></p>
+							</div>
+						</div>
+						<div>
+							<div class="BH_pro_img"><img src="img/81Ch_MAja3L._AC_UL100_SR100,100_.jpg"/></div>
+							<div class="BR_pro_detail">
+								<h5><a href="#">一个需要的案例：一部新颖的 有声有声读物 - 完整无缺</a></h5>
+								<p class="NH_author"><a href="#"><span></span>Michael Crichton</a></p>
+								<p><span class="BH_user_evaluation"></span></p>
+								<p class="pro_label">有声有声读物</p>
+								<p>通过Audible试用免费获得<span class="product_price">$0.00</span></p>
+								<p><button type="button" class="btn btn-default btn-sm">查看所有的型号</button></p>
+							</div>
+						</div>
+						<div>
+							<div class="BH_pro_img"><img src="img/81lswdFrodL.jpg"/></div>
+							<div class="BR_pro_detail">
+								<h5><a href="#">一个需要的案例</a></h5>
+								<p class="NH_author"><a href="#"><span></span>Michael Crichton</a></p>
+								<p><span class="BH_user_evaluation"></span></p>
+								<p class="pro_label">Kindle版</p>
+								<p><span class="product_price">$11.99</span></p>
+								<p><button type="button" class="btn btn-default btn-sm">查看所有的型号</button></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="carousel_long_model">
+					<div class="container-fluid carousel slide">
+						
+						<div class="carousel_long_content">
+							<div>
+								<ul>
+									<li>
+										<div class="pro_img">
+											<img src="img/51ZIdvZqg5L.__AC_SY200_.jpg" />
+										</div>
+										<p class="now_price">$ 11.92 - $ 13.00</p>
+									</li>
+									<li>
+										<div class="pro_img">
+											<img src="img/31NsSOWrR8L.__AC_SY200_.jpg" />
+										</div>
+										<p class="now_price">$22.90</p>
+										<p class="old_price">$39.99</p>
+									</li>
+									<li>
+										<div class="pro_img">
+											<img src="img/41TTdJ7tOQL.__AC_SY200_.jpg" />
+										</div>
+										<p class="now_price">$6.30</p>
+										<p class="old_price">$7.01</p>
+									</li>
+									<li>
+										<div class="pro_img">
+											<img src="img/31Kr.jpg" width="260px" />
+										</div>
+										<p class="now_price">$29.99</p>
+										<p class="old_price">$34.99</p>
+										<p class="rush_to_purchase"><span class="downTim" data-difftime="3600" data-goingtime='6000'></span></p>
+									</li>
+									<li>
+										<div class="pro_img">
+											<img src="img/419b.jpg" width="260px" />
+										</div>
+										<p class="now_price">$14.99</p>
+										<p class="now_price">$19.99</p>
+									</li>
+									<li>
+										<div class="pro_img">
+											<img src="img/51YHTHvHapL.__AC_SY200_.jpg" height="200px" />
+										</div>
+										<p class="now_price">$129.99</p>
+										<p class="old_price">$229.99</p>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<div class="pro_img">
+											<img src="img/31APuD7zT-L.__AC_SY200_.jpg" />
+										</div>
+										<p class="now_price">$19.99</p>
+										<p class="old_price">$29.99</p>
+
+									</li>
+									<li>
+										<div class="pro_img">
+											<img src="img/412v_AA4thL.__AC_SY200_.jpg" />
+										</div>
+										<p class="now_price">$19.98</p>
+										<p class="old_price">$29.98</p>
+										<p class="rush_to_purchase"><span class="downTim" data-difftime="3600" data-goingtime='6000'></span></p>
+									</li>
+									<li>
+										<div class="pro_img">
+											<img src="img/51keOPz6oLL.__AC_SY200_.jpg" />
+										</div>
+										<p class="now_price">$9.79</p>
+										<p class="old_price">$13.99</p>
+
+									</li>
+									<li>
+										<div class="pro_img">
+											<img src="img/61AdwJQkR2L.__AC_SY200_.jpg" />
+										</div>
+										<p class="now_price">$15.00</p>
+										<p class="old_price">$39.50</p>
+									</li>
+									<li>
+										<div class="pro_img">
+											<img src="img/419b.jpg" width="260px" />
+										</div>
+										<p class="now_price">$14.99</p>
+										<p class="now_price">$19.99</p>
+									</li>
+									<li>
+										<div class="pro_img">
+											<img src="img/51YHTHvHapL.__AC_SY200_.jpg" height="200px" />
+										</div>
+										<p class="now_price">$129.99</p>
+										<p class="old_price">$229.99</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- 轮播（Carousel）导航 -->
+						<a id="left" class="left carousel-control mycarousel-control">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a id="right" class="right carousel-control mycarousel-control">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+
+			<div class="return_top">
+				<button id="return_top" type="button">回到顶部</button>
+			</div>
+
+			<footer>
+				<div class="container help_list">
+					<ul>
+						<h4>了解我们</h4>
+						<li>
+							<a href="#">招聘</a>
+						</li>
+						<li>
+							<a href="#">博客</a>
+						</li>
+						<li>
+							<a href="#">关于亚马逊</a>
+						</li>
+						<li>
+							<a href="#">投资者关系</a>
+						</li>
+						<li>
+							<a href="#">亚马逊设备</a>
+						</li>
+					</ul>
+					<ul>
+						<h4>跟我们赚钱</h4>
+						<li>
+							<a href="#">在亚马逊上出售</a>
+						</li>
+						<li>
+							<a href="#">在亚马逊手工制作</a>
+						</li>
+						<li>
+							<a href="#">在亚马逊上销售您的服务</a>
+						</li>
+						<li>
+							<a href="#">出售亚马逊商业</a>
+						</li>
+						<li>
+							<a href="#">在亚马逊上销售您的应用</a>
+						</li>
+						<li>
+							<a href="#">成为会员</a>
+						</li>
+						<li>
+							<a href="#">宣传你的产品</a>
+						</li>
+						<li>
+							<a href="#">与我们一起自我发布</a>
+						</li>
+						<li>
+							<a href="#">> 查看全部</a>
+						</li>
+					</ul>
+					<ul>
+						<h4>亚马逊支付产品</h4>
+						<li>
+							<a href="#">亚马逊奖励Visa签名卡</a>
+						</li>
+						<li>
+							<a href="#">Amazon.com商店卡</a>
+						</li>
+						<li>
+							<a href="#">Amazon.com企业信用额度</a>
+						</li>
+						<li>
+							<a href="#">购物积分</a>
+						</li>
+						<li>
+							<a href="#">信用卡市场</a>
+						</li>
+						<li>
+							<a href="#">重新加载你的平衡</a>
+						</li>
+						<li>
+							<a href="#">亚马逊货币转换器</a>
+						</li>
+					</ul>
+					<ul>
+						<h4>让我们帮助你</h4>
+						<li>
+							<a href="#">你的帐户</a>
+						</li>
+						<li>
+							<a href="#">你的命令</a>
+						</li>
+						<li>
+							<a href="#">运费和政策</a>
+						</li>
+						<li>
+							<a href="#">亚马逊Prime</a>
+						</li>
+						<li>
+							<a href="#">退货和替换</a>
+						</li>
+						<li>
+							<a href="#">管理您的内容和设备</a>
+						</li>
+						<li>
+							<a href="#">亚马逊助理</a>
+						</li>
+						<li>
+							<a href="#">帮帮我</a>
+						</li>
+					</ul>
+				</div>
+				<!--<div style="clear: both;"></div>-->
+				<div class="foot_tool">
+					<div class="foot_logo"></div>
+					<div>
+						<span><font></font>English</span>
+						<span>United States</span>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+	</body>
+
+</html>

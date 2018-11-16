@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>亚马逊--产品详情页</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="css/mystyle.css">
+
+		<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/MyJs_model.js"></script>
+		<script type="text/javascript" src="js/jquery.jqzoom-core.js"></script>
+		<script type="text/javascript" src="js/myJS.js"></script>
+		<script type="text/javascript" src="js/Downtime.js"></script>
+
+		<style type="text/css">
+			/*jQzoom*/
+			
+			.jqzoom {
+				/*border: 1px solid #BBB;*/
+				float: left;
+				margin-left: 20px;
+				position: relative;
+				padding: 0px;
+				cursor: move;
+			}
+			
+			.zoomdiv {
+				z-index: 999;
+				position: absolute;
+				top: 0px !important;
+				left: 0px;
+				width: 300px;
+				height: 300px;
+				background: #ffffff;
+				border: 1px solid #CCCCCC;
+				display: none;
+				text-align: center;
+				overflow: hidden;
+			}
+			
+			.jqZoomPup {
+				z-index: 999;
+				visibility: hidden;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: 1px;
+				height: 1px;
+				border: 1px solid #aaa;
+				/*background: #ffffff url(/images/shopping/zoomlens.gif) 50% top no-repeat;*/
+				background: #ffffff 10%;
+				opacity: 0.5;
+				-moz-opacity: 0.5;
+				-khtml-opacity: 0.5;
+				filter: alpha(Opacity=50);
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="bg_color"></div>
+
+		<!-----------------------------------------------------------------------------------------------头部-->
+		<div class="big_mian">
+			<header>
+				<!--				顶部图片-->
+				<div>
+					<img src="img/head_img.jpg" class="head_img" />
+				</div>
+				<div class="container-fluid head_main">
+					<div class="row head_main_one">
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 head_main_one_left">
+							<div class="a_p">
+								<a href="#" data-toggle="popover" data-placement="right">尝试prine</a>
+
+								<div class="prime_info">
+									<h4>使用Amazon Prime快速免费送货</h4>
+									<p>prime会员享受两日的免费送货服务，并可独家使用音乐、电影、电视节目，原创音乐系列和kindle电子书。
+										<a href="#">>开始吧</a>
+									</p>
+									<div class="triangle"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 head_main_one_mid">
+							<form action="" method="get">
+								<div class="input-group">
+									<span class="btn btn-default input-group-addon dropdown" data-toggle="dropdown"> <span class="change_text">所有</span>
+									<font class="caret"></font>
+									</span>
+									<ul class="dropdown-menu dropdown-menu1" role="menu" aria-labelledby="dropdownMenu1">
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">所有部门</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">亚马逊设备</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">亚马逊仓库</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">应用和游戏</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">艺术、工艺品和缝纫</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">汽车零配件</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">宝宝</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">美容与个人护理</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">图书</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">CD和乙烯基</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">手机及配件</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#">服装、鞋类既宝珠</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#"> 妇女</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#"> 男人</a>
+										</li>
+										<li role="presentation">
+											<a role="menuitem" tabindex="-1" href="#"> 女孩</a>
+										</li>
+									</ul>
+									<input type="search" class="form-control Search" />
+									<span class="btn btn-primary input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+								</div>
+
+							</form>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 head_main_one_right">
+							<img src="img/head_right.jpg" />
+						</div>
+					</div>
+
+					<div class="head_main_two">
+						<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 head_main_one_left">
+							<div class="location_img"></div>
+							<div class="location_text">
+								<p>送到</p>
+								<span>中国</span>
+							</div>
+						</div>
+
+						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 head_main_one_mid">
+							<div class="dropdown">
+								<div class="A_branch" data-toggle="dropdown">部门<span class="caret"></span></div>
+								<div class="dropdown-menu dropdown_menu_2">
+									<ul>
+										<li>Prime Video <span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>亚马逊音乐<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>Appstore for Android<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>Echo和Alexa<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>fire TV<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>Kindle电子阅读器和书籍<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li class="divider"></li>
+										<li>书籍和声音<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>电影、音乐和游戏<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>电子产品、电脑和办公室<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>家居、花园、宠物及工具<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>食品杂货<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>美容与健康<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>玩具、童装和婴儿<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>服装、鞋类与珠宝<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>手工制作<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>运动与户外<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>汽车与工业<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li> <span class="glyphicon glyphicon-ok pull-right"></span></li>
+										<li class="divider"></li>
+										<li>家庭服务<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>信用与支付产品<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+										<li>完成商店目录<span class="glyphicon glyphicon-chevron-right pull-right"></span></li>
+									</ul>
+									<img class="dropdown_meun_list_img" src="img/GNO_Flyout_US_AVD12411_JackRyanS1Launch_519x535_en_US._CB470358021_.png" />
+									<div class="dropdown_meun_list">
+										<ul>
+											<h2>Prime视频</h2>
+											<li>
+												<a>所有视频</a>
+												<p>所有电视节目，电影等更多</p>
+											</li>
+											<li>
+												<a>包括Prime</a>
+												<p>Prime原创、独家和更多</p>
+											</li>
+											<li>
+												<a>Prime视频频道</a>
+												<p>HBC、SHOWTIME、STARZ等</p>
+											</li>
+											<li>
+												<a>租借或购买</a>
+												<p>新版本、最新季节等</p>
+											</li>
+										</ul>
+										<ul>
+											<h2>Prime视频</h2>
+											<li>
+												<a>所有视频</a>
+												<p>所有电视节目，电影等更多</p>
+											</li>
+											<li>
+												<a>包括Prime</a>
+												<p>Prime原创、独家和更多</p>
+											</li>
+											<li>
+												<a>Prime视频频道</a>
+												<p>HBC、SHOWTIME、STARZ等</p>
+											</li>
+											<li>
+												<a>租借或购买</a>
+												<p>新版本、最新季节等</p>
+											</li>
+										</ul>
+										<ul class="dropdown_meun_list_last">
+											<li>
+												<a href="#">您的监视列表</a>
+											</li>
+											<li>
+												<a href="#">您的视频库</a>
+											</li>
+											<li>
+												<a href="#">随处看看</a>
+											</li>
+											<li>
+												<a href="#">入门</a>
+											</li>
+										</ul>
+
+									</div>
+								</div>
+							</div>
+
+							<ul class="nav nav-pills nav_am">
+								<li>
+									<a href="#">浏览记录</a>
+								</li>
+								<li>
+									<a href="#">你的Amazon.com</a>
+								</li>
+								<li>
+									<a href="#">今日优惠</a>
+								</li>
+								<li>
+									<a href="#">礼品卡</a>
+								</li>
+								<li>
+									<a href="#">登记处</a>
+								</li>
+								<li>
+									<a href="#">出售</a>
+								</li>
+								<li>
+									<a href="#">宝藏卡</a>
+								</li>
+								<li>
+									<a href="#">帮助</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 head_main_one_right">
+							<ul class="user_nav">
+								<li class="lan_bar">
+									<a href="#">
+										<div class="dropdown dropdown_language">
+											<p id="language"><span>EN </span><span class="caret"></span></p>
+										</div>
+									</a>
+									<div class="change_lan">
+										<div><input type="radio" value="en" checked="checked"><span>英语--en</span></div>
+										<div><input type="radio" value="ch"><span>中文--ch</span></div>
+										<a href="#">了解更多</a>
+									</div>
+								</li>
+								<li class="user_bar">
+									<a href="#">
+										<p>你好。登陆</p>
+										<p>账户和列表<span class="caret"></span></p>
+									</a>
+									<div class="user_interface">
+										<button type="button" class="btn">签到</button>
+										<p>新客户？
+											<a href="#">从这里开始。</a>
+										</p>
+										<div>
+											<ul>
+												<h2>你的名单</h2>
+												<li>
+													<a href="#">创建列表</a>
+												</li>
+												<li>
+													<a href="#">查找列表或注册表</a>
+												</li>
+												<li>
+													<a href="#">查找礼品</a>
+												</li>
+												<li>
+													<a href="#">从Web</a>
+												</li>
+												<li>
+													<a href="#">婚礼注册表中</a>
+												</li>
+												<li>
+													<a href="#">婴儿注册表</a>
+												</li>
+												<li>
+													<a href="#">朋友和家庭</a>
+												</li>
+												<li>
+													<a href="#">礼品</a>
+												</li>
+												<li>
+													<a href="#">餐具列表</a>
+												</li>
+												<li>
+													<a href="#">您的心灵</a>
+												</li>
+												<li>
+													<a href="#">探索创意列表</a>
+												</li>
+												<li>
+													<a href="#">探索展厅</a>
+												</li>
+												<li>
+													<a href="#">童军| Style Explorer</a>
+												</li>
+											</ul>
+
+											<ul>
+												<h2>你的帐户</h2>
+												<li>
+													<a href="#">您的</a>
+												</li>
+												<li>
+													<a href="#">您的建议</a>
+												</li>
+												<li>
+													<a href="#">您的订阅和储存物品</a>
+												</li>
+												<li>
+													<a href="#">会员资格和订阅</a>
+												</li>
+												<li>
+													<a href="#">您的服务请求</a>
+												</li>
+												<li>
+													<a href="#">您的Prime会员</a>
+												</li>
+												<li>
+													<a href="#">注册商业帐户</a>
+												</li>
+												<li>
+													<a href="#">您的亚马逊信用卡</a>
+												</li>
+												<li>
+													<a href="#">您的亚马逊照片</a>
+												</li>
+												<li>
+													<a href="#">您的亚马逊驱动器</a>
+												</li>
+												<li>
+													<a href="#">您的Prime视频</a>
+												</li>
+												<li>
+													<a href="#">您的Kindle Unlimited</a>
+												</li>
+												<li>
+													<a href="#">您的监视列表</a>
+												</li>
+												<li>
+													<a href="#">您的视频库</a>
+												</li>
+												<li>
+													<a href="#">您的Android应用程序和设备 </a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#">命令</a>
+								</li>
+								<li class="try_prime">
+									<a href="#">试试Prime<span class="caret"></span></a>
+									<div class="prime_way">
+										<img src="img/Prime_Logo._CB508339849_.png" />
+										<p>当您开始30天免费试用时，享受超过1亿件物品的快速免费送货服务</p>
+										<button type="button" class="btn">试试Prime</button>
+										<img src="img/30.1_Acquistion_2x_420x300._CB530825804_.png" />
+									</div>
+								</li>
+							</ul>
+							<div class="shop_car">
+								<span class="pro_num">0</span>
+								<span>大车</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-----------------------------------------------------------------------------------------------主体-->
+			<!--导航条-->
+			<nav class="mynav">
+				<div>
+					<ul>
+						<li class="myactive">
+							<a href="#">玩具和游戏</a>
+						</li>
+						<li>
+							<a href="#">特卖</a>
+						</li>
+						<li>
+							<a href="#">STEM玩具</a>
+						</li>
+						<li>
+							<a href="#">幼儿玩具</a>
+						</li>
+						<li>
+							<a href="#">男孩玩具</a>
+						</li>
+						<li>
+							<a href="#">女孩玩具</a>
+						</li>
+						<li>
+							<a href="#">畅销书</a>
+						</li>
+						<li>
+							<a href="#">新品发布</a>
+						</li>
+						<li>
+							<a href="#">儿童生日</a>
+						</li>
+						<li>
+							<a href="#">电影和电视玩具</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<!--顶部推荐栏-->
+			<div class="container-fluid text-center">
+				<a href="#"><img src="img/XCM_1100164_Manual_650x45_1100164_us_toys.jpg" /></a>
+			</div>
+			<!--页面导航-->
+			<div class="locate_nav a_col clearfix">
+				<ul>
+					<li>
+						<a href="#">玩具和游戏</a><span>></span></li>
+					<li>
+						<a href="#">学习与教育</a><span>></span></li>
+					<li>
+						<a href="#">科学</a><span>></span></li>
+					<li>
+						<a href="#">解剖学</a>
+					</li>
+				</ul>
+			</div>
+			<!--主要内容-->
+			<div class="container-fluid detail_container a_col">
+				<div class=" col-lg-9 col-md-9 detail_container_main pull-left">
+					<div class="D_pro_detail clearfix">
+						<div class="col-lg-7 col-md-7 pull-left D_left clearfix">
+							<a href="#">
+								<div class="jqzoom">
+									<img class="img-responsive pro_big_img" src="img/910aENIlVlL._SX679_.jpg" alt="" jqimg="img/910aENIlVlL._SX679_.jpg" id="bigImg" />
+								</div>
+								<!--<img class="img-responsive pro_big_img" src="img/910aENIlVlL._SX679_.jpg" />-->
+							</a>
+							<p class="text-center">单击图像可以展开视图</p>
+							<div class="img_list">
+								<ul>
+									<li><img src="img/910aENIlVlL._SX679_.jpg" /></li>
+									<li><img src="img/71GRsy8PGL._SX679_.jpg" /></li>
+									<li><img src="img/81KwoUogn9L._SX679_.jpg" /></li>
+									<li><img src="img/917Vb7Ick2L._SX679_.jpg" /></li>
+									<li><img src="img/91GEnL86EgL._SX679_.jpg" /></li>
+									<li><img src="img/91nmOHnoKSL._SX679_.jpg" /></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-5 col-md-5 pull-left D_body">
+							<h4>Mini Explorer Light-up玻璃容器套件适用于带盖LED灯的儿童| 在一个晚上发光的罐子里创建你自己定制的迷你花园 伟大的科学套装儿童礼物| 儿童玩具| 通过</h4>
+							<p><span>通过</span>
+								<a href="#">Mini Explorer</a>
+							</p>
+							<div class="D_user_evaluation">
+								<span class="BH_user_evaluation"></span>
+								<span class="caret"></span>
+								<a href="#"> 383位客户评论</a><span>|</span>
+								<a href="#">20个回答问题</a>
+								<div class="eval_detail">
+									<div class="clearfix">
+										<span>5星</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-warning" >
+												<span class="sr-only">84%</span>
+											</div>
+										</div>
+										<span>84%</span>
+									</div>
+									<div class="clearfix">
+										<span>4星</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-warning" >
+												<span class="sr-only">4%</span>
+											</div>
+										</div>
+										<span>4%</span>
+									</div>
+									<div class="clearfix">
+										<span>3星</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-warning" >
+												<span class="sr-only">8%</span>
+											</div>
+										</div>
+										<span>8%</span>
+									</div>
+									<div class="clearfix">
+										<span>2星</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-warning" >
+												<span class="sr-only">0%</span>
+											</div>
+										</div>
+										<span>0%</span>
+									</div>
+									<div class="clearfix">
+										<span>1星</span>
+										<div class="progress">
+											<div class="progress-bar progress-bar-warning" >
+												<span class="sr-only">4%</span>
+											</div>
+										</div>
+										<span>4%</span>
+									</div>
+								</div>
+							</div>
+							<p class="detail_tag">
+								<font class="hotSale">#1畅销书</font>在
+								<a href="#">解剖科学教材</a>
+							</p>
+							<div style="border-top: solid 1px gainsboro;padding-top: 10px;">
+								<p>价钱：<span class="product_price">$ 24.99 </span></p>
+								<ul>
+									<li>🌱什么是TERRARIUM？它是一个模拟自然环境的容器内的微型花园。因此，让您的孩子通过这个全包套件创建自己的美丽玻璃容器，发现大自然的美丽。白天长大，晚上发光，盖子下面有创新的LED灯。</li>
+									<li>💡每天增长，晚上发光：在盖子下方，有一个内置的创新LED灯，将体验转化为神奇的东西。晚上，只需按下小开关打开灯，看看你的玻璃容器如何变成一个华丽的照明桌面花园。你必须看到它相信它！使用随附的Micro-USB线可轻松充电。</li>
+									<li>🔧套装包括：一个可爱的小盒子，包括：玻璃容器罐（4“x6”），点亮罐盖，Micro-USB充电线，清晰简单的逐步说明书适合所有年龄段，土壤，蓝色沙滩，河石，小麦草和奇亚籽，小兔子和蘑菇微缩模型，可移动的装饰贴纸，喷雾瓶和木棍，以帮助种植种子。</li>
+									<li>🎁适合所有人的有趣和教育礼物：科学项目通常不是很有趣和吸引人，但是这个平台套件可以实现这两个目标！孩子们一旦将其拉出盒子，就会让孩子着迷。随着石头，沙子，土壤和贴纸的自由分层，每个孩子都可以保证爆炸。</li>
+									<li>🎯MINIEXPLORER MISSION声明：在Mini Explorer，我们知道，仅仅因为你的冒险家很小并不意味着冒险应该是。我们的整条生产线的模仿旨在激发对知识和自我教育的终生热情。</li>
+								</ul>
+							</div>
+
+							<p>
+								<a href="#"><span style="font-weight: bold;">全新</span>（2）起$ 24.99起 </a>，订单满$ 25.00
+								<a href="#">免运费</a>。
+								<a href="#">细节</a>
+							</p>
+							<p class="E_report"><span></span>
+								<a href="#"> 报告错误的产品信息。</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 pull-left detail_container_right">
+					<p class="share_pro">
+						<a href="#">分享</a>
+						<a href="#"><img src="img/T_logo.png" /></a>
+						<a href="#"><img src="img/E_logo.png" /></a>
+						<a href="#"><img src="img/F_logo.png" /></a>
+						<a href="#"><img src="img/w_logo.png" /></a>
+						1K +股票
+					</p>
+					<div class="pay_fram">
+						<p><span class="product_price">$24.99</span></p>
+						<p>此产品不发货到中国。请检查可能在国际上发货的其他卖家。
+							<a href="#">学到更多</a>
+						</p>
+						<p class=" inventory_status">有现货</p>
+						<div>
+							<span>数量：</span>
+							<select class="D_choose_num">
+								<option value="1" selected="">1 </option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+							</select>
+						</div>
+						<div><button type="button" class="btn_style add_to_sc"><span class="pull-left"></span>加入购物车</button> </div>
+						<p class="open_Brow">
+							<a href="#">打开此浏览器的1-Click订购</a>
+						</p>
+						<p class="D_address"><span></span>
+							<a href="#">送到 <span id="address">中国</span> </a>
+						</p>
+						<button type="button" class="btn btn-default btn-block" style="margin: 15px 0;">添加到列表</button>
+					</div>
+					<div class="others_sellers">
+						<h5>亚马逊上的其他卖家</h5>
+						<p>
+							<a href="#"><span style="font-weight: bold;">全新</span>（2）起$ 24.99起 </a>，订单满$ 25.00
+							<a href="#">免运费</a>。
+							<a href="#">细节</a>
+						</p>
+					</div>
+					<div class="oneself_sell">
+						<span>有没有可以卖的？</span>
+						<button type="button">在亚马逊上出售</button>
+					</div>
+					<div class="media D_left_ad">
+						<a class="media-left" href="#">
+							<img class="media-object" src="img/51K5wDPFF2L._AC_SX220_.jpg" width="120px">
+						</a>
+						<div class="media-body">
+							<img src="img/cf2174499917f0177eef2f1.jpg" width="140px" />
+							<p class="textContainer__text"><span>Gift Boldly with Hallmark Wrapping Paper</span></p>
+						</div>
+						<h6><a href="#">Hallmark Reversible Wrapping Paper, Kraft Birthday </a></h6>
+						<p><span class="BH_user_evaluation"></span>
+							<a href="#">1,128</a>
+						</p>
+						<p><span class="product_price">$11.99</span><span class="pri_prime_logo"></span></p>
+					</div>
+					<p class="E_report text-right" style="border: none;">
+						<a href="#"> 广告反馈</a>
+						<span></span>
+					</p>
+				</div>
+
+				<div style="clear: both;"></div>
+			</div>
+			<!--经常一起购买-->
+			<div class="container-fluid fre_buy">
+				<h4>经常一起购买</h4>
+				<div class="clearfix">
+					<div class="pro_show pull-left clearfix">
+						<div>
+							<img src="img/910aENIlVlL._AC_UL115_.jpg" />
+							<span>+</span>
+						</div>
+						<div>
+							<img src="img/9174EVjhONL._AC_UL115_.jpg" />
+							<span>+</span>
+						</div>
+						<div>
+							<img src="img/81nsIUnv8JL._AC_UL115_.jpg" />
+						</div>
+					</div>
+					<div class="pull-left">
+						<p>总价格：<span class="product_price all_price">$59.98</span></p>
+						<button type="button" class="btn_style">将所有三个添加购物车</button>
+						<button type="button">将所有三个添加列表</button>
+					</div>
+				</div>
+				<p class="pwd_tip buy_tip"><span></span>这些物品由不同的卖家运输和销售。
+					<a href="#">显示详细资料</a>
+				</p>
+				<div class="fre_buy_list a_col">
+					<p>
+						<input type="checkbox" checked="checked" />
+						<a href="#"><strong>此项目</strong>：Mini Explorer点亮式玻璃容器套件，适用于带盖LED灯的儿童| 创建自己定制的... <span class="product_price">$24.99</span></a>
+					</p>
+					<p>
+						<input type="checkbox" checked="checked" />
+						<a href="#">Mini Explorer点亮水晶种植套件 - 种植自己的水晶，让它们焕发光彩！太棒了......<span class="product_price">$22.99</span></a>
+					</p>
+					<p>
+						<input type="checkbox" checked="checked" />
+						<a href="#">4M晶体生长实验 ...... <span class="product_price">$12.00</span></a>
+					</p>
+				</div>
+			</div>
+			<!--产品详情-->
+			<div class="container-fluid pro_detail_text text-center clearfix">
+				<h4 class="pro_tit text-left">产品描述</h4>
+				<div class="pro_main_describe text-left">
+					<div class="text-center">
+						<img src="img/rXc0so7RzCn._UX539_TTW__.png" />
+					</div>
+					<p class="text-left" style="font-size: 13px;">无论您是想鼓励学生的好奇心，激发您孩子对科学的真正热情，还是仅仅寻找一种新的方式来消磨时间和相互联系，Light-Up Terrarium Kit可能就是您的特殊产品。一直在寻找。</p>
+					<h5 class="text-left">使用这一个神话般的罐子创建，构建和关注您自己的生态系统！</h5>
+					<div class="text-center">
+						<img src="img/Hus7P8OhRmq._UX970_TTW__.jpg" />
+					</div>
+					<p><strong>使用Mini Explorer的这款极具创新性的LED Light-Up Terrarium Kit，让您在舒适的家中体验大自然的辉煌奇迹。</strong>如果您正在寻找一种快速简便的方法来教育您的孩子了解科学，自然和生活之美的奇迹，那么这里就是您的最佳选择。
+					</p>
+					<p>这个玻璃容器不仅重现了生态系统的魔力，而且还配备了<strong>充满活力的LED灯</strong>，可以增强显示效果并优化体验。</p>
+					<p>一旦您收到Light-Up Terrarium套件，您的孩子就可以<strong>根据自己的喜好自定义整个物品</strong>。只需几分钟，您就可以立即将其转化为令人大开眼界，个性化和广泛教育的东西。</p>
+					<p>设置土壤，铺设岩石，放置沙子，给种子浇水，找到一些阳光，观察一切都延伸并长成华丽的植物。此外，当太阳下山时，强大的LED灯将立即照亮内部，创造一个太美观，无法用语言表达的<strong>神奇显示屏</strong>。</p>
+					<p>这是正确的，一旦夜晚点击，只需按下开关，明亮和辐射的LED灯将你已经漂亮的玻璃容器变成一个非常迷人的东西你必须亲自看到它。这是让您的孩子远离电视屏幕并与他们一起工作的绝佳方式 - 同时了解责任，勤奋，最重要的是，科学！</p>
+					<p>建立自己的生态系统，种植种子，浇灌土壤，观察土壤生长这一令人难以置信的新奇事物可能令人惊讶地具有教育意义。您还将收到一本超级简单且写得精美的小册子，这将使装配非常容易。</p>
+					<p><strong>无论您是想鼓励学生的好奇心，激发您孩子对科学的真正热情，还是仅仅寻找一种新的方式来消磨时间和相互联系，Light-Up Terrarium Kit可能就是您的特殊产品。一直在寻找。</strong></p>
+					<p><i>现在就抓住你的，开始体验当今科学界的神话般的奇迹。</i></p>
+					<h4>奇妙的LED灯将体验转化为神奇的东西！</h4>
+					<div class="media">
+						<a class="media-left" href="#">
+							<img class="media-object" src="img/o1zL1JPvRhyB._UX300_TTW__.jpg" alt="媒体对象">
+						</a>
+						<div class="media-body">
+							<p>隐藏在玻璃容器盖子下方的是LED灯。这款灯专门设计用于瞬间照亮室内空间，将您的玻璃容器变成一个令人惊叹的华丽桌面花园，释放出您必须要相信的明亮和美丽的光芒。</p>
+							<p>现在，您应该知道在其他任何地方都找不到这种LED灯功能。我们的玻璃容器发光很好，会<strong>让人惊喜，令人着迷！</strong></p>
+							<p>您可以通过盖子侧面的简单开/关开关轻松控制这种奇妙的光线。打开包装后，您还会注意到 可用于为您的玻璃容器<strong>充电的micro-USB充电线</strong>。一次充满电为您带来约。5小时的微光令人满意的光。</p>
+						</div>
+					</div>
+					<h4>你的工具包里有什么？</h4>
+					<div class="media">
+						<a class="media-left" href="#">
+							<img class="media-object" src="img/Zn9o5fZoQNCV._UX300_TTW__.jpg" alt="媒体对象">
+						</a>
+						<div class="media-body">
+							<p>隐藏在玻璃容器盖子下方的是LED灯。这款灯专门设计用于瞬间照亮室内空间，将您的玻璃容器变成一个令人惊叹的华丽桌面花园，释放出您必须要相信的明亮和美丽的光芒。</p>
+							<h5>这是套件中包含的内容：</h5>
+							<ul>
+								<li>一个容纳你的迷你生态系统的<strong>罐子</strong>。它宽4英寸，高6英寸，宽度足以让成人和儿童双手轻松穿过。</li>
+								<li>充满活力的点亮<strong>罐盖</strong>，带有星形切口，用于空气流通。盖子下面是一个隐藏的LED灯，照亮内部并创造一种神奇的体验。</li>
+								<li><strong>Micro-USB线缆</strong>可在必要时为盖子充电。光线需要2-3小时才能完全充电，一次充电可持续约5小时。</li>
+								<li>精美的书面<strong>说明书</strong>，使装配简单明了。</li>
+								<li>精细营养丰富的蛭石<strong>土壤</strong>，使您的植物生长旺盛，高大健康。</li>
+								<li>明亮的<strong>蓝色沙滩</strong>装饰和美化您的玻璃容器。</li>
+								<li>小<strong>白河岩石</strong>也可以帮助您装饰和定制内部。</li>
+								<li><strong>小麦草</strong>和
+									<stronf>正大种子</stronf>。</li>
+								<li>2个可爱的<strong>小雕像</strong>。一个可爱的小兔子和一个蘑菇屋，将玻璃容器变成仙境般的东西！</li>
+								<li>15个神话般的<strong>可移动贴纸</strong>，美化您的玻璃容器。</li>
+								<li><strong>喷雾瓶</strong>有效地浇灌玻璃容器。</li>
+								<li><strong>小木棍</strong>帮助播下种子。通过这种方式，您可以轻松地将种子推入土壤而不会造成任何混乱。</li>
+							</ul>
+						</div>
+					</div>
+
+					<h4>向您的孩子介绍神奇的科学奇迹</h4>
+					<div class="intro_scin">
+						<div>
+							<img src="img/7YUkZ29DSJqZ._UX300_TTW__.jpg" />
+							<p>无论您是父母还是学校教师，您都会很快意识到这可以提供的丰富知识。</p>
+							<p>虽然这种产品非常有趣和吸引人，但它为年轻学生提供了真正吸收这些无价的知识和信息所需的必要<strong>实践经验</strong>。</p>
+							<p>在组装他们的玻璃容器，根据自己的喜好定制它，并继续照顾和培养它时，您将让您的学生接触到一个全新的教育，纪律和责任世界。</p>
+							<p>Light-Up Terrarium Kit是一种非常有效的方式，可以创建一个引人入胜的教育项目，邀请学生进入迷人的STEM领域。</p>
+							<p><strong>使用这个奇妙的工具包，让他们在科学和数学方面领先一步。</strong></p>
+						</div>
+						<div>
+							<img src="img/jLi2hNW4TB2Q._UX300_TTW__.jpg" />
+							<p>虽然这是非常有教育意义的，但<strong>对于所有年龄段的孩子来说</strong>，它也<strong>非常有趣</strong>，这使它成为所有年龄段孩子的<strong>绝佳礼物</strong>！</p>
+							<p>一个科学项目通常不是那么有趣和吸引人，但是这个玻璃容器可以打到头上，一旦将它们拉出盒子，就会让孩子着迷。</p>
+							<p>随着他们的岩石，沙子和土壤的自由分层，并随心所欲地定制，每个孩子都会爆炸。</p>
+							<p>他们可以自由地弄脏他们的手。无论他们是团队成员，团队合作还是自己决定工作，无论如何，事实证明这<strong>很有趣</strong>。</p>
+						</div>
+						<div>
+							<img src="img/3uUwyTCRTbmc._UX300_TTW__.jpg" />
+							<p>在Mini Explorer，我们知道只是因为你的冒险家很小并不意味着冒险应该是。</p>
+							<p>我们也为您和您的家人提供优质的玩具而自豪，这些玩具被证明是有益的和有教育意义的。
+							</p>
+							<p><strong>我们的整条生产线的模仿旨在激发对知识和自我教育的终生热情。</strong></p>
+							<p><strong>所以今天抓住你的！</strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--产品信息-->
+			<div class="container-fluid pro_info">
+				<h4 class="pro_tit text-left">产品描述</h4>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pro_parameter">
+					<table class="table">
+						<tr>
+							<td>产品尺寸</td>
+							<td>7 x 4.5 x 7英寸</td>
+						</tr>
+						<tr>
+							<td>产品重量</td>
+							<td>1.43磅</td>
+						</tr>
+						<tr>
+							<td>装运重量</td>
+							<td>B0763TLL6V</td>
+						</tr>
+						<tr>
+							<td>制造商推荐的年龄</td>
+							<td>6年以上</td>
+						</tr>
+						<tr>
+							<td>电池</td>
+							<td>需要锂金属电池。</td>
+						</tr>
+						<tr>
+							<td>畅销书排名</td>
+							<td>
+								<p>在玩具＃304（
+									<a href="#">见在玩具前100</a> ），</p>
+								<p>在＃1
+									<a href="">玩具与游戏</a><span> > </span>
+									<a href="">学习与教育</a><span> > </span>
+									<a href="">科学</a><span> > </span>
+									<a href="">植物学</a>
+								</p>
+								<p>在＃1
+									<a href="">玩具与游戏</a><span> > </span>
+									<a href="">学习与教育</a><span> > </span>
+									<a href="">科学</a><span> > </span>
+									<a href="">剖析</a>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>顾客评论</td>
+							<td>
+								<p class="D_user_evaluation">
+									<span class="BH_user_evaluation"></span>
+									<span class="caret"></span>
+									<a href="#"> 383位客户评论</a>
+								</p>
+								<p>4.6颗星，最高为5星</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pro_guarantee">
+					<h4>保修和支持</h4>
+					<p><strong>产品保修</strong>：有关此产品的保修信息，请,
+						<a href="#">单击此处</a>
+					</p>
+					<h4>反馈</h4>
+					<p>如果您是此产品的销售商，是否要
+						<a href="#">通过卖家支持建议更新</a> ？ 您想
+						<a href="#">告诉我们更低的价格</a> 吗？</p>
+				</div>
+			</div>
+
+			<!--大图片广告-->
+			<div class="container-fluid text-center big_pic_ad">
+				<div>
+					<img src="img/FallCampaign18-HOSS-JTapV._V486151729_.jpg" width="1000px" />
+					<p class="E_report text-right" style="border: none;">
+						<a href="#"> 广告反馈</a>
+						<span></span>
+					</p>
+				</div>
+			</div>
+
+			<div class="cus_question">
+				<h3>客户的问题和答案</h3>
+				<form class="bs-example bs-example-form" role="form">
+					<div class="input-group">
+						<span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+						<input type="text" class="form-control" placeholder="Have a question? Search for answers">
+					</div>
+				</form>
+				<div class="que_container">
+					<div class="que_container_tit">
+						<div>
+							<p><button type="button"> <img src="img/vote_up_1.png"/></button></p>
+							<p><span id="cus_vote">2</span>票</p>
+							<p><button type="button"> <img src="img/vote_down_1.png"/></button></p>
+						</div>
+						<div>
+							<p>题：</p>
+							<p>回答：</p>
+						</div>
+					</div>
+					<div class="que_container_ans">
+						<p>
+							<a href="#">植物会长出容器吗？</a>
+						</p>
+						<p>我把我买的那个给了我的孙女，所以我不再看到了，但是我的女儿说它已经长大了。 你得到小麦草和奇亚籽，所以你将拥有一种以上的植物。这将是一个郁郁葱葱的花园，很可能比容器长得更高。您可以随时种植新的种子并重新开始...
+							<a href="#">查看更多</a>
+						</p>
+						<p class="ans_info">来自<span id="username">xanazoo22</span>于<span id="ans_time">2018年3月26日</span></p>
+						<div class="more_ans">
+							<p>
+								<a>查看更多的答案（ <span id="ans_num">2</span> ）</a>
+							</p>
+							<div style="display: none;">
+								<div>
+									<p>买了这个为我的自闭症14岁的兄弟圣诞节:) </p>
+									<p class="ans_info">来自<span id="username">xanazoo22</span>于<span id="ans_time">2018年3月26日</span></p>
+								</div>
+
+								<div>
+									<p>好吧，我把它给了我年老的孙女，简单的指示，她只是喜欢这样做。</p>
+									<p class="ans_info">来自<span id="username">xanazoo22</span>于<span id="ans_time">2018年3月26日</span></p>
+								</div>
+								<input type="button" value="收起所有的答案" class="btn btn-default" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="que_container">
+					<div class="que_container_tit">
+						<div>
+							<p><button type="button"> <img src="img/vote_up_1.png"/></button></p>
+							<p><span id="cus_vote">2</span>票</p>
+							<p><button type="button"> <img src="img/vote_down_1.png"/></button></p>
+						</div>
+						<div>
+							<p>题：</p>
+							<p>回答：</p>
+						</div>
+					</div>
+					<div class="que_container_ans">
+						<p>
+							<a href="#">植物会长出容器吗？</a>
+						</p>
+						<p>我把我买的那个给了我的孙女，所以我不再看到了，但是我的女儿说它已经长大了。 你得到小麦草和奇亚籽，所以你将拥有一种以上的植物。这将是一个郁郁葱葱的花园，很可能比容器长得更高。您可以随时种植新的种子并重新开始...
+							<a href="#">查看更多</a>
+						</p>
+						<p class="ans_info">来自<span id="username">xanazoo22</span>于<span id="ans_time">2018年3月26日</span></p>
+						<div class="more_ans">
+							<p>
+								<a>查看更多的答案（ <span id="ans_num">2</span> ）</a>
+							</p>
+							<div style="display: none;">
+								<div>
+									<p>买了这个为我的自闭症14岁的兄弟圣诞节:) </p>
+									<p class="ans_info">来自<span id="username">xanazoo22</span>于<span id="ans_time">2018年3月26日</span></p>
+								</div>
+
+								<div>
+									<p>好吧，我把它给了我年老的孙女，简单的指示，她只是喜欢这样做。</p>
+									<p class="ans_info">来自<span id="username">xanazoo22</span>于<span id="ans_time">2018年3月26日</span></p>
+								</div>
+								<input type="button" value="收起所有的答案" class="btn btn-default" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!----------------------------------------------------------------------------------------底部-->
+			<div class="return_top">
+				<button id="return_top" type="button">回到顶部</button>
+			</div>
+
+			<footer>
+				<div class="container help_list">
+					<ul>
+						<h4>了解我们</h4>
+						<li>
+							<a href="#">招聘</a>
+						</li>
+						<li>
+							<a href="#">博客</a>
+						</li>
+						<li>
+							<a href="#">关于亚马逊</a>
+						</li>
+						<li>
+							<a href="#">投资者关系</a>
+						</li>
+						<li>
+							<a href="#">亚马逊设备</a>
+						</li>
+					</ul>
+					<ul>
+						<h4>跟我们赚钱</h4>
+						<li>
+							<a href="#">在亚马逊上出售</a>
+						</li>
+						<li>
+							<a href="#">在亚马逊手工制作</a>
+						</li>
+						<li>
+							<a href="#">在亚马逊上销售您的服务</a>
+						</li>
+						<li>
+							<a href="#">出售亚马逊商业</a>
+						</li>
+						<li>
+							<a href="#">在亚马逊上销售您的应用</a>
+						</li>
+						<li>
+							<a href="#">成为会员</a>
+						</li>
+						<li>
+							<a href="#">宣传你的产品</a>
+						</li>
+						<li>
+							<a href="#">与我们一起自我发布</a>
+						</li>
+						<li>
+							<a href="#">> 查看全部</a>
+						</li>
+					</ul>
+					<ul>
+						<h4>亚马逊支付产品</h4>
+						<li>
+							<a href="#">亚马逊奖励Visa签名卡</a>
+						</li>
+						<li>
+							<a href="#">Amazon.com商店卡</a>
+						</li>
+						<li>
+							<a href="#">Amazon.com企业信用额度</a>
+						</li>
+						<li>
+							<a href="#">购物积分</a>
+						</li>
+						<li>
+							<a href="#">信用卡市场</a>
+						</li>
+						<li>
+							<a href="#">重新加载你的平衡</a>
+						</li>
+						<li>
+							<a href="#">亚马逊货币转换器</a>
+						</li>
+					</ul>
+					<ul>
+						<h4>让我们帮助你</h4>
+						<li>
+							<a href="#">你的帐户</a>
+						</li>
+						<li>
+							<a href="#">你的命令</a>
+						</li>
+						<li>
+							<a href="#">运费和政策</a>
+						</li>
+						<li>
+							<a href="#">亚马逊Prime</a>
+						</li>
+						<li>
+							<a href="#">退货和替换</a>
+						</li>
+						<li>
+							<a href="#">管理您的内容和设备</a>
+						</li>
+						<li>
+							<a href="#">亚马逊助理</a>
+						</li>
+						<li>
+							<a href="#">帮帮我</a>
+						</li>
+					</ul>
+				</div>
+				<!--<div style="clear: both;"></div>-->
+				<div class="foot_tool">
+					<div class="foot_logo"></div>
+					<div>
+						<span><font></font>English</span>
+						<span>United States</span>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script>
+			$(function() {
+				$(".jqzoom").jqueryzoom({
+					xzoom: 500, //放大图的宽度(默认是 200)
+					yzoom: 500, //放大图的高度(默认是 200)
+					offset: 10, //离原图的距离(默认是 10)
+					position: "right", //放大图的定位(默认是 "right")
+					preload: 1
+				});
+			});
+		</script>
+	</body>
+
+</html>

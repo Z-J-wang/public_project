@@ -1,0 +1,549 @@
+/*通用样式*/
+a {
+	text-decoration: none;
+	color: black;
+}
+.div_hidden {
+	display: none !important;
+}
+.class_h {
+	color: #4CAE4C;
+}
+.class_m {
+	color: #EE7500;
+}
+.class_s {
+	color: #FF0000;
+}
+/*div框的hover边框*/
+.divBuleBorder:hover {
+	border-color: #2cabc4 !important;
+}
+.hiddenBtn {
+	display: none;
+	font-size: 14px;
+	font-weight: 400;
+	color: #0087c6;
+}
+
+
+/*独立样式*/
+.User_main {
+	width: 1200px;
+}
+.User_main nav {
+	margin-top: 15px;
+}
+.User_nav {
+	font-size: 16px;
+	font-weight: 400;
+}
+.User_nav li a{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+/*我的账户导航*/
+.myAccount_nav,
+.User_help_nav {
+	width: 100px;
+	margin-top: 30px;
+}
+.myAccount_nav li,
+.User_help_nav li {
+	font-size: 14px;
+}
+.myAccount_nav li.active a,
+.User_help_nav li.active a{
+	background-color: #2cabc4 !important;
+}
+
+/*我的账户主内容*/
+.myAccount_main {
+	width: 1020px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+	.myAccount_main h5,
+	.Account_safe h5,
+	.Account_histroy h5 {
+			font-weight: bold;
+			font-size: 15px;
+		}
+		.myAccount_main h5 span,
+		.Account_safe h5 span,
+		.Account_histroy h5 span {
+			display: inline-block;
+			width: 2px;
+			height: 15px;
+			margin-right: 5px;
+			vertical-align: bottom;
+			background-color: #2cabc4;
+		}
+		
+/*我的账户首页*/
+.myAccount_SY_mian {
+	width: 740px;
+	box-sizing: border-box;
+}
+.myAccount_SY_right {
+	width: 280px;
+	box-sizing: border-box;
+}
+.myAccount_SY_mian .ASM_L{
+	width: 60%;
+}
+/*账户余额*/
+.A_balance,
+.A_hongbao{
+	width: 100%;
+	height: 120px;
+	border: solid .5px gainsboro;
+}
+	.A_balanceMoney{
+		display: inline;
+		font-size: 20px;
+	}
+		.A_balanceMoney span {
+			color: #f60;
+		}
+		.A_balanceMoney span strong {
+			font-size: 30px;
+			font-weight: 400;
+		}
+		.A_balanceMoney+a {
+			margin-left: 40px;
+			font-size: 14px; 
+			color: #0087c6;
+		}
+/*红包*/
+	.A_hongbao:hover .hiddenBtn {
+		display: block;
+	}
+/*账户资产*/
+.myAccount_SY_mian .ASM_R{
+	width: 40%;
+	height: 240px;
+	border: solid .5px gainsboro;
+}
+	.ASM_R_table {
+		color: gray;
+	}
+		.ASM_R_table tr:hover .hiddenBtn {
+			display: block;
+		}
+		.ASM_R_table tr td:first-child {
+			width: 50%;
+		}
+		.ASM_R_table tr td:first-child img{
+			margin-right: 10px;
+			vertical-align: top;
+		}
+	 	.ASM_R_table td{
+	 		border-top: solid;
+	 		border-bottom: solid;
+	 		border-color: transparent !important;
+	 	}
+		.ASM_R_table td a {
+			font-size: 12px;
+		}
+/*最近充值记录*/
+.myAccount_SY_mian .ASM_ZJCZJL {
+	width: 100%;
+	margin-top: 25px;
+	box-sizing: border-box;
+	border: solid 1px gainsboro;
+}
+	.ASM_ZJCZJL h4 {
+		margin: 0;
+		height: 35px;
+		line-height: 35px;
+		font-size: 14px;
+		font-weight: bold;
+		border-bottom: solid .5px gainsboro;
+		background-color: #f7f7f7;
+	}
+	.ASM_ZJCZJL_data {
+		height: 198px;
+		line-height: 198px;
+	}
+
+/*右边框*/
+/*账户信息*/
+.A_info,
+.A_tip {
+	width: 100%;
+	margin-left: 15px;
+	padding: 1px;
+	border: solid .5px gainsboro;
+	box-sizing: border-box;
+}
+.A_tip {
+	margin-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.A_tip:hover .hiddenBtn{
+	display: block;
+}
+.A_info h5 {
+	margin-left: 10px;
+}
+.A_info h5 span {
+	width: 3px;
+}
+	.A_user_info {
+		margin-bottom: 20px;
+	}
+	.A_user_info p {
+		font-size: 12px;
+		font-weight: 100;
+	}
+	.A_user_info p span {
+		margin-left: 10px;
+	}
+	.A_user_info_foot {
+		height: 40px;
+		line-height: 40px;
+		margin-top: 36px;
+		background-color: #fbfcfd;
+		border-top: 1px solid #f3f5f7;
+	}
+	.A_user_info_foot img{
+		/*vertical-align: text-top;px*/
+		margin-right: 10px;
+		margin-bottom: 2px;
+	}
+	.A_tip_list{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.A_tip_list ul {
+		list-style: none;
+		padding: 0;
+	}
+	.A_tip_list li {
+		margin: 5px 0;
+	}
+	.A_tip_list a {
+		color: #0084bb;
+	}
+/*我的账户余额*/
+.myAccount_YE div {
+	width: 100%;
+}
+	.myAccount_YE h3 {
+		font-weight: bold;
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	/*我的账户余额详情*/
+	.MA_YE_detail>div>ul {
+		box-sizing: border-box;
+		border-top: 2px solid #d2ebfa;
+		padding-left: 0px;
+		background-color: #f6fbfe;
+	}
+	.MA_YE_detail>div>ul>li {
+		float: left;
+		width: 25%;
+		padding-left: 20px;
+		margin: 15px 0;
+		border-left: solid 1px #D3D3D3;
+	}
+	.MA_YE_detail>div>ul>li>h6 {
+		color: #9a9a9c;
+	}
+	.MA_YE_detail>div>ul>li span {
+		font-size: 30px;
+		color: #6c6c6c;
+	}
+	.MA_YE_detail>div>ul>li a {
+		margin-left: 10px;
+		color: #337AB7;
+	}
+	.MA_YE_detail>div>ul>li i{
+		font-style: normal;
+		padding-left: 10px;
+		color: #ADADAD;
+	}
+	.MA_YE_detail>div>ul>li i img{
+		padding-left: 5px;
+		vertical-align: middle;
+		cursor: pointer;
+	}
+		#YE {
+			color: #f60;
+		}
+	/*我的账户收支情况*/
+	.MA_YE_SZMX>div {
+		width: 100%;
+	}
+	.MA_YE_SZMX>div>div:first-child {
+		padding: 0 15px;
+	}
+	.MA_YE_SZMX>div>div:last-child {
+		border-bottom: solid 1px gainsboro;
+	}
+	.MA_YE_SZMX>div label {
+		margin-right: 20px;
+		padding: 10px 0;
+	}
+	.MA_YE_SZMX>div label input {
+		margin-right: 5px;
+		vertical-align: text-bottom;
+	}
+	.MA_YE_SZMX>div thead {
+		background-color: #f4f8f9;
+	}
+	.MA_YE_SZMX_not {
+		text-align: center;
+		height: 60px;
+		line-height: 60px;
+		vertical-align: bottom;
+	}
+/*交易记录*/
+.myAccount_JYJL h3{
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.myAccount_JYJL>div>span,
+.myAccount_JYJL>div>div>span {
+	color: #AFADAD;
+	padding-right: 5px;
+}
+	.choose_date {
+		padding-left: 20px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		border-top: solid 2px #2AABD2;
+		background-color: #f4f5f7;
+	}
+	input[type=date]::-webkit-inner-spin-button { 
+		visibility: hidden; 
+	}
+	input[type=date]::-webkit-calendar-picker-indicator {
+	    border: 1px solid #ccc;
+	    border-radius: 2px;
+	    box-shadow: inset 0 1px #fff, 0 1px #eee;
+	    background-color: #eee;
+	    background-image: -webkit-linear-gradient(top, #f0f0f0, #e6e6e6);
+	    color: #666;
+	}
+	.choose_transaction {
+		border-top: solid 1px gainsboro;
+		background-color: #f8f9fb;
+	}
+	.choose_transaction>div {
+		padding-left: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.choose_transaction label {
+		margin-left: 15px;
+	}
+	.choose_transaction input {
+		vertical-align: text-bottom;
+		margin-right: 5px;
+	}
+	/*交易详情*/
+	.MAJYJL_detail {
+		margin-top: 20px;
+		border-bottom: solid 1px gainsboro;
+	}
+	.MAJYJL_detail thead {
+		background-color: #f4f5f7;
+	}
+	.MAJYJL_detail th {
+		text-align: center;
+		border: none !important;
+	}
+
+
+/*我的订单*/
+.myIndent {
+	width: 100%;
+	margin-top: 20px;
+}
+	.myIndent_nav {
+		box-sizing: border-box;
+		background-color: #f7f9fa;
+		border: solid 1px gainsboro;
+		border-bottom: none;
+	}
+	.myIndent_nav ul {
+		padding: 0;
+		margin: 0;
+	}
+	.myIndent_nav li {
+		float: left;
+		padding: 10px 25px;
+		font-size: 16px;
+		color: gray;
+		cursor: pointer;
+	}
+		.MY_nav_active {
+			border-bottom: 2px solid #009bb3;
+		}
+	.myIndent_nav a {
+		color: gray;
+		margin-top: 12px;
+		margin-right: 25px;
+		padding-left: 15px;
+		background: url(../../img/jie/iconpic.png) no-repeat 0px -17px;
+		font-size: 14px;
+	}
+	.QB_indent>div:first-child {
+		padding-left: 15px;
+		font-size: 15px;
+		border: solid 1px gainsboro;
+	}
+	.QB_indent>div:first-child label {
+		padding: 15px 0;
+		margin-right: 15px;
+		font-weight: 200;
+	}
+	.QB_indent>div:first-child label select {
+		width: 100px;
+		height: 30px;
+	}
+	.QB_indent>div:first-child label input[type='date'] {
+		height: 30px;
+	}
+	.QB_indent>div:first-child ul {
+		display: inline-block;
+		padding: 0;
+	}
+	.QB_indent>div:first-child ul li {
+		display: inline-block;
+		padding: 2px 6px;
+		margin-right: 20px;
+		cursor: pointer;
+	}
+	.I_active {
+		background-color: #2cabc4;
+		color: white;
+	}
+	.search_result {
+		height: 80px;
+		line-height: 160px;
+		text-align: center;
+	}
+/*账户设置*/
+.myAccount_set {
+	margin-top: 20px;
+}
+	.peronal_info {
+		position: relative;
+		border: solid 1px #eff2f4;
+		border-top: solid 1.5px #b0d9ff;
+		padding: 10px;
+	}
+	.PI_info {
+		position: absolute;
+		top: 10px;
+		right: 20px;
+		font-size: 14px;
+		color: #0069ca;
+	}
+		.personal_TX {
+			position: relative;
+			padding: 10px 5px;
+			background-color: #DBDBDB;	
+		}
+		.change_tx {
+			position: absolute;
+			bottom: 5px;
+			width: 120px;
+			text-align: center;
+			color: white;
+			cursor: pointer;
+			background-color: rgba(0,0,0,.3);
+		}
+		.personal_TX+div {
+			padding-left: 20px;
+		}
+		.personal_TX+div>div {
+			display: block;
+			margin-bottom: 10px;
+		}
+		.personal_TX+div>div>span:first-child {
+			display: inline-block;
+			width: 80px;
+			padding-left: 25px;
+			color: grey;
+		}
+		.personal_TX+div>div>span:nth-child(2) {
+			padding-left: 15px;
+		}
+		.mA_AQDJ {
+			display: inline-block;
+			width: 100px;
+			height: 10px;
+			margin: 0;
+			margin-left: 15px;
+		}
+		.mA_AQDJ div {
+			display: inline-block;
+			background-color: sandybrown;
+		}
+		.mA_AQDJ+a {
+			padding-left: 15px;
+			color: #0069ca;
+		}
+/*安全设置*/
+.Account_safe,
+.Account_histroy {
+	margin-top: 20px;
+	border: solid 1px gainsboro;
+	padding: 5px 10px;
+}
+.Account_safe table,
+.Account_histroy table {
+	font-size: 12px;
+}
+.Account_safe table tr td,
+.Account_histroy table tr td {
+	border: none !important;
+}
+.Account_histroy font {
+	padding-left: 15px;
+	color: #C0C0C0;
+	font-size: 12px;
+	font-weight: 400;
+}
+.Account_histroy font a {
+	color: #0069ca;
+}
+.Account_histroy table thead {
+	color: #C0C0C0;
+}
+/*帮助*/
+.User_help_content {
+	width: 1060px;
+	margin-top: 30px;
+}
+.User_help_content li {
+	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-radius: 4px;
+}
+.User_help_content h6 {
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 20px;
+	background: url(../../img/jie/help-icon.png) no-repeat 10px 4px;
+}
+.User_help_content p {
+	padding-left: 60px;
+	margin: 15px 0;
+	font-size: 12px;
+	color: gray;
+}
+.User_help_content li:hover {
+	background: #f5fbfe;
+}
+.User_help_content li:hover p {
+	color: black;
+}

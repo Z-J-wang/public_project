@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+	/*图片轮番开始*/
+.banner_page_center {
+    /*width: 100%;*/
+    /*height: 389px;*/
+    position: relative;
+    overflow: hidden; 
+    float: left;  
+    margin-top: 1px;
+}
+ .lunbo{
+ 	width: 1200px !important;
+ 	/*margin: 0 ;*/
+ 	position: relative;
+ 	/*margin: 0 auto;*/
+ }
+
+ 
+.page_img li {
+    /*display: none;*/
+    cursor: pointer;
+}
+.page_img li a img {
+     width: 1366px;
+    /*height: 389px;*/
+   margin: 0 auto;
+}
+
+.banner_page_center {
+    /*position: absolute;*/
+    /*left: 295px;*/
+    top: 0px !important;
+    left: 0px !important;
+    /*width: 100%;*/
+    z-index: 1;
+}
+ 
+.banner_page_center .page_con li {
+    width: 13px;
+    height: 13px;
+    /*padding-top: 3px;*/
+    text-align: center;
+    display: inline-block;
+    background-color: #CCCCCC;
+    border-radius: 10px;
+    margin-left: 13px;
+    cursor: pointer;
+
+}
+.page{
+	position: absolute;
+	width: 400px !important;
+	height: 25px;
+	background:black;
+	left: 500px;
+	bottom: 10px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    border-radius: 12px;
+    opacity: 0.5;
+    color: white;
+}
+.page ul{
+	margin-bottom: 0;
+	/*width: 1200px;*/
+	height: 25px;
+	line-height: 25px;
+	
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.look{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.xinxilan_con{
+	/*color: white;*/
+	/*background: black;*/
+}
+.xinxilan{
+	height: 390px;
+	position: relative;
+	margin-bottom: 10px;
+	overflow: hidden;
+	
+}
+.xinxilan_intro{
+	position: absolute;
+	bottom:300px;
+   width: 380px;
+   text-align: center;
+   height: auto;
+
+	
+}
+.xinxilan_intro h2{
+	font-weight: bold;
+	color: white;
+	margin: 0;
+}
+.xinxilan_intro P{
+	color: white;
+	margin-bottom: 0;
+}
+.xinxilan_intro1{
+	/*position: absolute;*/
+	/*bottom: 0;*/
+	color: white;
+	display: none;
+	position: absolute;
+	bottom: 250px;
+}
+/*图片轮番结束*/

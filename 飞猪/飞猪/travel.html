@@ -1,0 +1,3135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Travel</title>		
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tyw/travel.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fzm/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tyw/jingdian.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tyw/tyle.css"/>
+		<script type="text/javascript" src="js/tyw/jquery-3.3.1.js" ></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/tyw/travel.js" ></script>
+		<script src="js/fzm/index.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script type="text/javascript" src="js/tyw/jquery-1.9.1.min.js" ></script>-->
+		<script type="text/javascript" src="js/tyw/cityTemplate.js" ></script>
+				
+	</head>
+	<body style="background: white !important;">
+     <!--头部开始-->
+     <div class="" style="">
+     	<!--顶部导航条-->
+		<div class="top_nava" style="background-color: #f2f2f2 !important;">
+			<div class="clearfix top_nav" style="background-color: #f2f2f2 !important;">
+				<!--左边导航-->
+				<div class="pull-left top_nav_left">
+					<ul class="clearfix">
+						<li class="home pull-left">
+							<div style="padding-left: 0px;">
+								<a href="#" target="_top">
+									<span>飞猪</span>
+								</a>
+							</div>
+						</li>
+						<li class="pull-left logrist">
+							<div>
+								<span>Hi，最近想去哪里玩？</span>
+								<a href="#">请登录</a>
+								<a href="#">免费注册</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--左边导航-->
+				<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+				<!--右边导航-->
+				<div class="pull-right top_nav_right">
+					<ul class="clearfix">
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">手机客户端</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">
+									<img src="img/fzm/top_a.png"/>
+								</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">我的淘宝</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">已买到的宝贝</a>
+								<a href="#">我的足迹</a>
+								<a href="#">飞猪旅行达人</a>
+							</div>
+						</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">购物车</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">收藏夹</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">收藏的宝贝</a>
+								<a href="#">收藏的店铺</a>
+							</div>
+						</li>
+						<li class="top_nav_right_b">|</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">服务中心</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">商家中心</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove" style="padding-right: 13px !important;">
+								<a href="#">招商入驻</a>
+								<a href="#">商家规则</a>
+								<a href="#">培训中心</a>
+								<a href="#">商家品控</a>
+								<a href="#">活动中心</a>
+								<a href="#">商家服务</a>
+								<a href="#">里程发票</a>
+							</div>
+						</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">淘宝</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#" class="wang_icon">网站导航</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<!--隐藏部分-->
+							<div class="top_nav_right_a_hoveb clearfix row">
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>机票</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">国内机票
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">机票预约</a></li>
+											<li><a href="#">票价历史</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">国际机票</a></li>
+											<li><a href="#">自助值机</a></li>
+										</ul>
+									</div>
+								</div>	
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>酒店</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">香港酒店
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">三亚酒店</a></li>
+											<li><a href="#">北京酒店</a></li>
+											<li><a href="#">杭州酒店</a></li>
+											<li><a href="#">成都酒店</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">澳门酒店</a></li>
+											<li><a href="#">上海酒店</a></li>
+											<li><a href="#">广州酒店</a></li>
+											<li><a href="#">深圳酒店</a></li>
+											<li><a href="#">更多酒店</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>客栈</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left  col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">厦门客栈
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">丽江客栈</a></li>
+											<li><a href="#">凤凰客栈</a></li>
+											<li><a href="#">杭州客栈</a></li>
+											<li><a href="#">更多客栈</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">三亚公寓</a></li>
+											<li><a href="#">舟山农家乐</a></li>
+											<li><a href="#">阳朔客栈</a></li>
+											<li><a href="#">台湾民宿</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>签证</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">泰国签证
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">马来西亚</a></li>
+											<li><a href="#">韩国签证</a></li>
+											<li><a href="#">菲律宾签</a></li>
+											<li><a href="#">美国签证</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">入台证</a></li>
+											<li><a href="#">日本签证</a></li>
+											<li><a href="#">越南签证</a></li>
+											<li><a href="#">新加坡签</a></li>
+											<li><a href="#">澳大利亚</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>景点门票</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">迪士尼
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">杜莎夫人蜡像馆</a></li>
+											<li><a href="#">亚龙湾公园</a></li>
+											<li><a href="#">欢乐世界</a></li>
+											<li><a href="#">厦门鼓浪屿</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">海洋公园</a></li>
+											<li><a href="#">蜈支洲</a></li>
+											<li><a href="#">深圳欢乐谷</a></li>
+											<li><a href="#">世界之窗</a></li>
+											<li><a href="#">婺源</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderrb">
+									<h4>度假线路</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">香港
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">泰国</a></li>
+											<li><a href="#">丽江</a></li>
+											<li><a href="#">韩国</a></li>
+											<li><a href="#">普吉岛</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">马尔代夫</a></li>
+											<li><a href="#">三亚</a></li>
+											<li><a href="#">日本</a></li>
+											<li><a href="#">台湾</a></li>
+											<li><a href="#">新加坡</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--右边导航-->
+			</div>
+		</div>
+		<!--顶部导航条-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+		<!--顶部搜索部分-->
+		<div class="header_cen">
+			<div class="header_centent">
+				<div class="row" style="margin: 0px;">
+					<!--logo图片-->
+					<div class="header_logo col-lg-2 col-md-2 col-sm-2 col-xs-2">
+						<a href="#">
+							<img src="img/fzm/top_d.png"/>
+						</a>
+					</div>
+					<!--搜索框-->
+					<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" style="position: relative;">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 address">
+								<div class="pull-right">
+									<div class="sousuo clearfix pull-left" style="background: #FFF7D4 !important;border: 2px solid #ffc900;width: 120px;border-radius: 4px;">
+										<!--<input type="text" name="" id="place" value="广州"/  class="pull-left">-->
+									    <input type="text" value="广州" id="place" name="" class="pull-left">
+									    <span class="pull-left">出发</span>
+									    <span class="pull-right xiala"></span>
+										<!-- 城市 -->
+										<div id="in_city" style="display: none;" class="text-left"></div>
+										<script type="text/javascript">
+
+											    var cityA = $(".city_a_le1 a"); //城市
+											    var pla = $("#place");  //出发地
+											    var dest = $("#destination");  //目的地
+											    // 默认值
+											    inCity.width = "350";  //城市选择框  宽
+											    inCity.height = "auto";  //城市选择框  高
+											    inCity.id = "#in_city";  //城市选择框  父级ID
+											    inCity.Children = '.city_a_le1';  //城市名box
+											    // 初始化 城市HTML模板
+											    $(inCity.id).prepend(inCity._template.join(''));
+											    inCity.Hot(cityA);
+											    
+											    //城市 导航
+											    var apay = $(".screen a");
+										
+											    var placeThis; //当前选择标签
+											    apay.click(function(obj){  //城市导航
+											        inCity.payment($(this));
+											    })
+										
+											    inCity.place(pla); //出发地
+											    inCity.destination(dest);  //目的地
+											    inCity.cityClick(cityA); //显示赋值城市
+										</script>
+
+									</div>
+									  
+									   <img src="img/tyw/jiantou.png" /class="pull-right"style="padding-top: 10px;">
+
+								</div>
+									
+							</div>
+
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" style="padding-left: 0;">
+								<div class="header_search_btn clearfix">
+									<button class="search_switch_selected">宝贝</button>
+									<button class="">店铺</button>
+								</div>
+								<div class="input-group header_search_inp">
+				                    <input type="text" class="form-control" placeholder="目的地/酒店/景点/签证等" style="margin: 0;">
+				                    <span class="input-group-btn">
+				                        <button class="btn btn-default" type="button">
+				                        	<span class="glyphicon glyphicon-search"></span>
+				                        	搜索
+				                        </button>
+				                    </span>
+				                </div>
+							</div>
+						</div>
+						
+						
+		                <!--隐藏部分-->
+		                <div class="hearder_search_recommend">
+		                	<div>
+		                		<img src="img/fzm/top_e.png"/>
+		                		<span>搜索·发现</span>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">交通：</b>
+		                		<div class="pull-left">
+			                		<a href="#">火车票</a>
+			                		<a href="#">机票</a>
+		                		</div>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">酒店：</b>
+		                		<div class="pull-left">
+		                			<a href="#">酒店</a>
+		                		</div>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">度假：</b>
+		                		<div class="pull-left">
+			                		<a href="#">泰国签证</a>
+			                		<a href="#">上海野生动物园</a>
+			                		<a href="#">香港迪士尼</a>
+			                		<a href="#">兵马俑门票</a>
+			                		<br />
+			                		<a href="#">拙政园</a>
+			                		<a href="#">颐和园</a>
+			                		<a href="#">日本签证</a>
+			                		<a href="#">香港流量包</a>
+		                		</div>
+		                	</div>
+		                </div>
+					</div>
+					<!--电话号码-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<div class="header_phone text_hover">
+							<div class="header_phone_text header_phone_icon text_hover">
+								<span>消费者热线(国内)</span>
+								<span>9510208</span>
+							</div>
+							<div class="header_phone_text text_hover">
+								<span style="padding-left: 93px;">400-1688-688</span>
+							</div>
+							<div class="header_phone_text text_hover">
+								<span>消费者热线(国际)</span>
+								<span>+86-571-56888688</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--row结束-->
+			</div>
+		</div>
+		<!--顶部搜索部分-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+		<!--头部导航条部分-->
+		<div class="header_nav">
+			<div class="header_nava">
+				<ul class="nav nav-pills">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="Nationalticket.html">港澳台/国际机票</a></li>
+					<li><a href="Trainticket.html">火车票</a></li>
+					<li><a href="travel.html" style="background-color: white;">旅游度假</a></li>
+					<li><a href="jingdian.html">景点门票</a></li>
+					<li><a href="User.html">我的旅行</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--头部导航条部分-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+     	
+     	
+     	
+     </div>
+     <div class="content">
+
+      <!--头部结束-->
+      <!--主要内容开始-->
+      <div class="main">
+
+	      <!--中间内容的上部分开始-->
+	      <div class="main-top">
+	      	<!--左边开始-->
+	      	<div class="main-topl" style="cursor: pointer;">
+	      		<!--第一块-->
+	      		<div class="main-topl-1 clearfix">	
+	      			<div class="main-topl-11 clearfix">
+	      				<h4><span>本季热门</span></h4>
+	      				<ul class="clearfix">
+	      					<li><a href="">飞猪专线</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">自由行</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">广西</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">巴厘岛</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">湖南</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">西安</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">塞班岛</a></li>
+	      					<li class="separator">|</li>
+                            <li><a href="">北京</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">浙江</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">欧洲</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">西藏</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">厦门</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">重庆</a></li>
+	      					<li class="separator">|</li>
+	      				</ul>
+	      				
+	      			</div>	
+	      		</div>
+	      		<!--第二块-->
+	      		<div class="main-topl-2">
+	      			<div class="main-topl-22">
+	      				<h4><span>境内游</span></h4>
+	      				<dl class="clearfix">
+	      					<dt>云南:</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">昆明</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">大理</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">丽江</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">香格里拉</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				<dl class="clearfix">
+	      					<dt>四川：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">成都</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">九寨沟</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">稻城亚丁</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				<dl class="clearfix">
+	      					<dt>海南：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">三亚</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">海口</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">亚龙湾</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				<dl class="clearfix">
+	      					<dt>四川：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">冲绳</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">苏梅岛</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">稻城亚丁</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				
+	      				<dl class="clearfix">
+	      					<dt>四川：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">金都</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">马尔代夫</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">稻城亚丁</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				
+	      				
+	      				
+	      				
+	      				<dl class="clearfix">
+	      					<dt>华北：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">塞舌尔</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">越南</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">沙巴</a></li>
+	      							<li><a href="">大溪地</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				<dl class="clearfix">
+	      					<dt>华东：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">张家界</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">凤凰</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">少林寺</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				<dl class="clearfix">
+	      					<dt>华中：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">三峡</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">海口</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">亚龙湾</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				
+	      				<dl class="clearfix">
+	      					<dt>华南：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">北京</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">青岛</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">呼伦贝尔</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				
+	      				<dl class="clearfix">
+	      					<dt>西北：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">杭州</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">乌镇</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">稻城亚丁</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				<dl class="clearfix">
+	      					<dt>西北：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">西安</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">曼谷</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">普吉岛</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+
+	      			</div>
+	      		</div>
+	      		<!--第三块-->
+	      		<div class="main-topl-3">
+	      			<div class="main-topl-33">
+	      				<h4><span >出镜游</span></h4>
+	      				<dl class="clearfix">
+	      					<dt>云南:</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">昆明</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">大理</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">丽江</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">香格里拉</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				<dl class="clearfix">
+	      					<dt>华北：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">成都</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">九寨沟</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">三峡</a></li>
+	      							<li><a href="">少林寺</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				<dl class="clearfix">
+	      					<dt>华东：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">杭州</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">乌镇</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">稻城亚丁</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				<dl class="clearfix">
+	      					<dt>华中：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">巴厘岛</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">洛杉矶</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">纽约</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				
+	      				<dl class="clearfix">
+	      					<dt>华南：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">美国</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">加拿大</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">澳大利亚</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				
+	      				<dl class="clearfix">
+	      					<dt>西北：</dt>
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">新西兰</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">土耳其</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">摩洛哥</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+
+	      			</div>
+	      		</div>
+	      	</div>
+	      	<!--左边结束-->
+	      	<!--右边开始-->
+	      	<div class="main-topr clearfix">
+	      		<!--右边第一块开始-->
+	      		<div class="main-topr1" class="pull-left">
+		      		<div class="main-topr1l clearfix">
+		      			<!--轮播开始-->
+					<div class="lunobo" style="width:700px;cursor: pointer;">
+						<div id="myCarousel" class="carousel slide">
+							    <!-- 轮播（Carousel）项目 -->
+							    <div class="carousel-inner">
+							        <div class="item active">
+							            <img src="img/tyw/lunbo1.jpg" alt="First slide">
+							        </div>
+							        <div class="item">
+							            <img src="img/tyw/lunbo2.jpg" alt="Second slide">
+							        </div>
+							        <div class="item">
+							            <img src="img/tyw/lunbo3.jpg" alt="Third slide">
+							        </div>
+			
+							    </div>
+							     <!-- 轮播（Carousel）导航 -->
+							        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							            <span class="sr-only">Previous</span>
+							        </a>
+							        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							            <span class="sr-only">Next</span>
+							        </a>
+			            	</div>
+						</div>
+			<!--轮播结束-->
+			      <!--<div class=""style="clear: both;"></div>-->
+						
+					
+					<!--保障栏-->
+					<div class="baozhang clearfix">
+						<div class="pull-left">
+							<a href=""><img src="img/tyw/baozhang.png"/></a>
+						</div>
+						<div class="pull-left tan" style="cursor: pointer;">
+							<!--第一个弹窗-->
+							<div style="position: relative;" class="pop pull-left"> 
+								<div class="baozhang1 pull-left">
+									<h2 class=""></h2>
+									<p>出游保障</p>
+								</div>
+								<div class="popover fade bottom in pop-list" role="tooltip" id="" style="left: -10px;top:32px;width: 150px;">
+			                       <div class="arrow arrow2" style="position: absolute; top: -10px;left: 80px;"></div>
+								    <div class="">
+								    	<h5>度假订单生效后</h5>
+								    	<p>度假订单生效后行程变更或取消，100%赔付</p>
+								    </div>
+								   		
+								</div>
+							</div>
+							<!--第二个弹窗-->
+							<div style="position: relative;" class="pop pull-left"> 
+								<div class="baozhang1 pull-left" style="border-right: none;">
+									<h2 class=""></h2>
+									<p>如实描述保障</p>
+								</div>
+								<div class="popover fade bottom in pop-list" role="tooltip" id="" style="left: 10px;top:32px;">
+			                       <div class="arrow arrow2" style="position: absolute; top: -10px;"></div>
+								   <div class="">
+								    	<h5>度假订单生效后</h5>
+								    	<p>描述与实际不相符，赔付损失</p>
+								    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--保障栏结束-->
+		      		</div>
+		      		<!--右边第一块右开始-->
+		      		<div class="main-topr1r"style="cursor: pointer;">
+		      		    <img src="img/tyw/rexiao.jpg"/>
+		      		    <img src="img/tyw/go.jpg"/>
+		      		</div>
+	      		</div>
+	      		<!--右边第一块结束-->
+	      		
+	      		<div class=""style="clear: both;">
+	      			
+	      		</div>
+	      		<!--右边第二块开始-->
+	      		<div class="main-topr2 pull-right" style="margin-top: 20px;">
+	      			<!--上-->
+	      			    <div class="row main-topr2-con" style="margin: 0px;margin-bottom: 10px;">
+	      					<div class="main-topr22 col-lg-3 col-md-3 col-sm-3" >
+	      						<div class="l-img">
+	      							<a href=""><img src="img/tyw/l1.jpg" alt="马尔代夫地方附加费"/></a>
+	      						</div>
+	      						
+	      						<div class="money">
+	      							<span>¥14999</span>
+	      						</div>
+	      						
+	      						<div class="decaration">
+	      							<a href="">马尔代夫超级六星级岛自由行</a>
+	      						</div>
+	      					</div>
+
+	      					<div class="main-topr22 col-lg-3 col-md-3 col-sm-3">
+	      						<div class="l-img">
+	      							<a href=""><img src="img/tyw/l2.jpg" alt="马尔代夫地方附加费"/></a>
+	      						</div>
+	      						
+	      						<div class="money">
+	      							<span>¥15545</span>
+	      						</div>
+	      						
+	      						<div class="decaration">
+	      							<a href="">马尔代夫超级六星级岛自由行</a>
+	      						</div>
+	      					</div>
+	      			
+	      				
+	      				
+	      			
+	      					<div class="main-topr22 col-lg-3 col-md-3 col-sm-3">
+	      						<div class="l-img">
+	      							<a href=""><img src="img/tyw/l3.jpg" alt="马尔代夫地方附加费"/></a>
+	      						</div>
+	      						
+	      						<div class="money">
+	      							<span>¥45862</span>
+	      						</div>
+	      						
+	      						<div class="decaration">
+	      							<a href="">马尔代夫超级六星级岛自由行</a>
+	      						</div>
+	      					</div>
+	      					
+	      					
+	      					<div class="main-topr22 col-lg-3 col-md-3 col-sm-3" style="margin: 0px;">
+	      						<div class="l-img">
+	      							<a href=""><img src="img/tyw/l8.jpg" alt="马尔代夫地方附加费"/></a>
+	      						</div>
+	      						
+	      						<div class="money">
+	      							<span>¥33345</span>
+	      						</div>
+	      						
+	      						<div class="decaration">
+	      							<a href="">马尔代夫超级六星级岛自由行</a>
+	      						</div>
+	      					</div>
+	      			</div>
+	      			
+	      			
+	      			
+	      			<!--下-->
+	      			<div class="row main-topr2-con" style="margin: 0px;">
+	      					<div class="main-topr22 col-lg-3 col-md-3 col-sm-3" >
+	      						<div class="l-img">
+	      							<a href=""><img src="img/tyw/l4.jpg" alt="马尔代夫地方附加费"/></a>
+	      						</div>
+	      						
+	      						<div class="money">
+	      							<span>¥2999</span>
+	      						</div>
+	      						
+	      						<div class="decaration">
+	      							<a href="">马尔代夫超级六星级岛自由行</a>
+	      						</div>
+	      					</div>
+
+	      					<div class="main-topr22 col-lg-3 col-md-3 col-sm-3">
+	      						<div class="l-img">
+	      							<a href=""><img src="img/tyw/l5.jpg" alt="马尔代夫地方附加费"/></a>
+	      						</div>
+	      						
+	      						<div class="money">
+	      							<span>¥33344</span>
+	      						</div>
+	      						
+	      						<div class="decaration">
+	      							<a href="">马尔代夫超级六星级岛自由行</a>
+	      						</div>
+	      					</div>
+
+	      					<div class="main-topr22 col-lg-3 col-md-3 col-sm-3">
+	      						<div class="l-img">
+	      							<a href=""><img src="img/tyw/l6.jpg" alt="马尔代夫地方附加费"/></a>
+	      						</div>
+	      						
+	      						<div class="money">
+	      							<span>¥45241</span>
+	      						</div>
+	      						
+	      						<div class="decaration">
+	      							<a href="">马尔代夫超级六星级岛自由行</a>
+	      						</div>
+	      					</div>
+	      					
+	      					
+	      					<div class="main-topr22 col-lg-3 col-md-3 col-sm-3" style="margin: 0px;">
+	      						<div class="l-img">
+	      							<a href=""><img src="img/tyw/l7.jpg" alt="马尔代夫地方附加费"/></a>
+	      						</div>
+	      						
+	      						<div class="money">
+	      							<span>¥39600</span>
+	      						</div>
+	      						
+	      						<div class="decaration">
+	      							<a href="">马尔代夫超级六星级岛自由行</a>
+	      						</div>
+	      					</div>
+	      			</div>
+	      		</div>
+	      	    <!--右边第二块结束-->
+	      	</div>
+	      	<!--右边结束-->
+	      </div>
+	      <!--中间内容的上部分结束-->
+	      
+	      <div class=""style="clear: both;" style="height: 0 !important;"></div>
+	      	
+	      
+	      <!--背景开始-->
+	      <div class="bacg clearfix">
+	      	<div class="top1 pull-left">
+	      		<img src="img/tyw/top1.png"/>
+	      	</div>
+	      	
+	      	<div class="top2 pull-right">
+	      		<img src="img/tyw/top2.jpg"/>
+	      	</div>
+	      </div>
+	      
+	      <!--背景结束-->
+	      
+	      <!--境内游开始-->
+	      <div class="jingnei">
+	      	<header>
+	      		<h3 style="color: #e90;">境内游</h3>
+	      		<p>花不多钱，走不远路，风景就很好！</p>
+	      	</header>
+	      	<nav>
+	      		<dl>
+	      			   <dt>精选境内目的地:</dt>
+	      				<dd>云南</dd>
+	      				<dd>三亚</dd>
+	      				<dd>广西</dd>
+	      				<dd>北京</dd>
+	      				<dd>杭州</dd>
+	      				<a href="" class="pull-right">更多云南游>></a>	      			
+	      		</dl>
+	      	</nav>
+	      	
+	      	<!--详情开始-->
+	      	<div class="">
+	      	<!--第一块-->
+	    
+	      			<div class="det">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/de1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det8.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/de2.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de3.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de4.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt1 .jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt2.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt3.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	
+	      	<!--第一块结束-->
+	      	
+	      	<!--第二块-->
+	      	<div class="det"style="display: none;" >      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/de1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det8.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/de2.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de3.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de4.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt1 .jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt2.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt3.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      			
+	      	<!--第二块结束-->
+	      	
+	      	<!--第三块-->
+	      	      <div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/de9.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/dt20.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt21.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt22.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt23.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt24.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt25.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	<!--第三块结束-->
+	      	    <!--第四块-->
+	      	    	<div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/de1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det8.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/de2.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de3.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de4.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt1 .jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt2.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt3.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	    <!--第四块结束-->
+	      	    
+	      	    <!--第五块开始-->
+	      	        <div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/de10.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det3.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/de2.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de3.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de4.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/de2.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/de3.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/de4.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	    <!--第五块结束-->
+	      	    
+	      	    <!--第六块开始-->
+	      	        <div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det-1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det3.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/dt26.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt27.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt28.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt29.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt30.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/de4.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	    
+	      	    <!--第六块结束-->
+	      	    
+	      	    
+	      	</div>
+	      	<!--详情结束-->
+	      	<div class="row" style="margin: 0;cursor: pointer;">
+		      	<div class="col-lg-2 col-md-2 col-sm-2" style="padding-left: 0px;">
+		      		<img src="img/tyw/de6.jpg"/>
+		      	</div>
+		      	
+		      	<div class="col-lg-2 col-md-2 col-sm-2">
+		      		<img src="img/tyw/dt4.jpg"/>
+		      	</div>
+		      	
+		      	<div class="col-lg-2 col-md-2 col-sm-2">
+		      		<img src="img/tyw/dt5.jpg"/>
+		      	</div>
+		      	
+		      	<div class="col-lg-2 col-md-2 col-sm-2">
+		      		<img src="img/tyw/dt6.jpg"/>
+		      	</div>
+		      	
+		      	<div class="col-lg-2 col-md-2 col-sm-2">
+		      		<img src="img/tyw/dt7.jpg"/>
+		      	</div>
+		      	
+		      	<div class="col-lg-2 col-md-2 col-sm-2">
+		      		<img src="img/tyw/07.png"/>
+		      	</div>
+	      	
+	      	</div>
+	      </div>
+	      <!--境内游结束-->
+	      
+	      <!--境外游开始-->
+	      	<div class="jingnei">
+	      	<header>
+	      		<h3 style="color: #e90;">境外游</h3>
+	      		<p>花不多钱，走不远路，风景就很好！</p>
+	      	</header>
+	      	<nav>
+	      		<dl>
+	      			   <dt>精选境内目的地:</dt>
+	      				<dd>泰国</dd>
+	      				<dd>日本</dd>
+	      				<dd>马尔代夫</a></dd>
+	      				<dd>巴厘岛</dd>
+	      				<dd>欧洲</dd>
+	      				<dd>香港</dd>
+	      				<dd>台湾</dd>
+	      				<dd>普吉岛</dd>
+	      				<a href="" class="pull-right">更多云南游>></a>	      			
+	      		</dl>
+	      	</nav>
+	      	
+	      	<!--详情开始-->
+	      	<div class="">
+	      	<!--第一块-->
+	      	<div class="det">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/dt32.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/dt33.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/dt34.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt35.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt36.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt37.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt38.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt39.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/dt8.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	<!--第一块结束-->
+	      	
+	      	<!--第二块-->
+	      	<div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/dt32.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/dt33.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/dt34.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt35.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt36.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt37.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt38.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt39.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/dt8.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      			
+	      	<!--第二块结束-->
+	      	
+	      	<!--第三块-->
+	      	      <div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/de9.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/dt20.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt21.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt22.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt23.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt24.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt25.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	<!--第三块结束-->
+	      	    <!--第四块-->
+	      	    	<div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/de1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det8.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/de2.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de3.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de4.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt1 .jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt2.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt3.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	    <!--第四块结束-->
+	      	    
+	      	    <!--第五块开始-->
+	      	        <div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det-1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det3.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/dt26.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt27.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt28.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt29.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt30.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/de4.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	    <!--第五块结束-->
+	      	    
+	      	    <!--第六块开始-->
+	      	        <div class="det"style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/dt32.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/dt33.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/dt34.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt35.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt36.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt37.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt38.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt39.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/dt8.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	    
+	      	    <!--第六块结束-->
+	      	    
+	      	    <!--第七块开始-->
+	      	         <div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/de9.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/dt20.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt21.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt22.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt23.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt24.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt25.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	    <!--第七块结束-->
+	      	    
+	      	    <!--第八快开始-->
+	      	    <div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/de1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det8.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/de2.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de3.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/de4.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt1 .jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt2.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt3.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	    <!--第八快结束-->
+	      	    
+	      	    
+	      	    <!--第九快开始-->
+	      	    <div class="det" style="display: none;">      			      	
+		      	<div class="row" style="margin: 0; margin-bottom: 10px;">
+		      		<!--左边-->
+		      		<div class="del col-lg-4 col-md-4 col-sm-4 clearfix">
+		      		     <div class="" style="margin-bottom: 10px;">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det-1.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div>  
+			      		 
+			      		 <div class="">
+			      		     <div class="de-img pull-left">
+			      		     	<img src="img/tyw/det3.jpg"/>
+			      		     </div>
+			      		     <div class="intro">
+			      		     	<p>¥3900</p>
+			      		        <p>昆明大理丽江泸沽湖篝火晚会</p>
+			      		        <a href="">探秘泸沽湖畔女儿国</a>
+			      		     </div>
+			      		 </div> 
+		      	    </div>
+		      	    
+		      	    <!--中间-->
+		      	    <div class="dem col-lg-6 col-md-6 col-sm-6">
+		      	    	<div class="row">
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4">
+			      	    		      <img src="img/tyw/dt26.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>   
+			      	    	    </div>
+				      	    	
+				      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt27.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+		  
+			      	    	    </div>	
+				      	   	
+				      	    	
+				      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" >
+			      	    		      <img src="img/tyw/dt28.jpg"/>
+			      	    		      <div class="de-title">
+			      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+			      	    		      </div>
+			      	    		      <div class="de-con">
+			      	    		      	<span class="pull-left">¥2400</span>
+			      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+			      	    		      </div>
+			      	    	        </div>
+		      	    	        
+		      	    	        
+			      	    	<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt29.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	    </div>
+		      	    	    
+		      	    	    <div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/dt30.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+	  
+		      	    	    </div>	
+			      	   	
+			      	    	
+			      	    		<div class="dem-con1 col-lg-4 col-md-4 col-md-4" style="margin-top: 10px;">
+		      	    		      <img src="img/tyw/de4.jpg"/>
+		      	    		      <div class="de-title">
+		      	    		      	<a href="">【纯玩购】不以任何方式进行...</a>
+		      	    		      </div>
+		      	    		      <div class="de-con">
+		      	    		      	<span class="pull-left">¥2400</span>
+		      	    		      	<p>【热卖】飞猪专线云南旅游纯玩团 昆明大理丽江 </p>
+		      	    		      </div>
+		      	    	        </div>
+		      	    	    
+		      	    	    
+		      	    	</div>
+		      	    	
+		      	    </div>
+		      	    
+		      	    <!--右边-->
+		      	    <div class="der col-lg-2 col-md-9 col-sm-9">
+		      	    	<img src="img/tyw/de5.jpg"/>
+		      	    </div> 
+		      	</div>
+	      	</div>
+	      	    <!--第九快结束-->
+	      	    
+	      	    
+	      	    
+	      	</div>
+	      	<!--详情结束-->
+	      	<div class="row" style="margin: 0;cursor: pointer;">
+		      	<div class="col-lg-2 col-md-2 col-sm-2" style="padding-left: 0px;">
+		      		<img src="img/tyw/dt40.jpg"/>
+		      	</div>
+		      	
+		      	<div class="col-lg-2 col-md-2 col-sm-2">
+		      		<img src="img/tyw/dt41.jpg"/>
+		      	</div>
+		      	
+		      	<div class="col-lg-2 col-md-2 col-sm-2">
+		      		<img src="img/tyw/dt42.jpg"/>
+		      	</div>
+		      	
+		      	<div class="col-lg-2 col-md-2 col-sm-2">
+		      		<img src="img/tyw/dt43.jpg"/>
+		      	</div>
+		      	
+		      	<div class="col-lg-2 col-md-2 col-sm-2">
+		      		<img src="img/tyw/dt44.jpg"/>
+		      	</div>
+		      	
+		      	<div class="col-lg-2 col-md-2 col-sm-2">
+		      		<img src="img/tyw/dt9.png"/>
+		      	</div>
+	      	
+	      	</div>
+	      </div>
+	      <!--境外游结束-->
+	      
+	      <!--游轮开始-->
+	      <div class="youlun">
+	      	<div class="jingnei">
+		      	<header>
+		      		<h3 style="color: #e90;">游轮</h3>
+		      		<p>带您畅游全球,享受难忘的海上时光</p>
+		      	</header>
+		      	     		
+	      	</div>
+	      	<div class="row" style="margin: 0; margin-top: 10px;">
+	      	<!--左边-->
+		      	<div class="youlun-l col-lg-2 col-lg-2 col-sm-2" style="height: 380px;">
+		      	     <div class="youlun-l-img">
+		      	     	<img src="img/tyw/dt11.jpg"/>
+		      	     </div>
+		      	     
+		      	     <div class="youlun-l-img">
+		      	     	<img src="img/tyw/dt12.jpg"/>
+		      	     </div>
+		      	     
+		      	     <div class="youlun-l-img">
+		      	     	<img src="img/tyw/dt13.jpg"/>
+		      	     </div>
+		      	     
+		      	     <div class="youlun-l-img">
+		      	     	<img src="img/tyw/dt14.jpg"/>
+		      	     </div>
+		      	     
+		      	     
+		        </div>
+		    <!--中间-->  
+		        <div class="youlun-m col-lg-8 col-lg-8 col-sm-8">
+		        	<div class="row" style="margin-bottom: 10px;">
+		        		<div class="youlun-m1 col-lg-6 col-md-6 col-sm-6 clearfix" >
+		        			<div class="row">
+		        				<div class="col-lg-9 col-md-9 col-sm-9" style="padding-right: 0;">
+		        					<div class="youlun-m11">
+				        			 	<img src="img/tyw/dt15.jpg" />
+				        			 </div>
+				        		</div>
+				        		
+				        	    <div class="col-lg-3 col-md-3 col-sm-3" style="padding: 0;padding-left: 2px;">
+				        			 <div class="youlun-m12">
+				        			 	<p><span>¥1499</span></p>
+				        			 	<p>天海邮轮一价全包不约全退</p>
+				        			 	<p>日本航线</p>
+				        			 </div>
+		        				</div>	 
+		        			</div> 
+ 
+		        		</div>
+		        		
+		        		<div class="youlun-m1 col-lg-6 col-md-6 col-sm-6 clearfix">
+		        			<div class="row">
+		        				<div class="col-lg-9 col-md-9 col-sm-9" style="padding-right: 0;">
+		        					<div class="youlun-m11">
+				        			 	<img src="img/tyw/dt17.jpg" />
+				        			 </div>
+				        		</div>
+				        		
+				        	    <div class="col-lg-3 col-md-3 col-sm-3" style="padding: 0;padding-left: 2px;">
+				        			 <div class="youlun-m12">
+				        			 	<p><span>¥1499</span></p>
+				        			 	<p>天海邮轮一价全包不约全退</p>
+				        			 	<p>日本航线</p>
+				        			 </div>
+		        				</div>	 
+		        			</div> 
+ 
+		        		</div>
+		        		</div>
+		        		
+		        		<div class="row">
+		        		<div class="youlun-m1 col-lg-6 col-md-6 col-sm-6 clearfix">
+		        			<div class="row">
+		        				<div class="col-lg-9 col-md-9 col-sm-9" style="padding-right: 0;">
+		        					<div class="youlun-m11">
+				        			 	<img src="img/tyw/dt17.jpg" />
+				        			 </div>
+				        		</div>
+				        		
+				        	    <div class="col-lg-3 col-md-3 col-sm-3" style="padding: 0;padding-left: 2px;">
+				        			 <div class="youlun-m12">
+				        			 	<p><span>¥1499</span></p>
+				        			 	<p>天海邮轮一价全包不约全退</p>
+				        			 	<p>日本航线</p>
+				        			 </div>
+		        				</div>	 
+		        			</div> 
+ 
+		        		</div>
+		        		
+		        		<div class="youlun-m1 col-lg-6 col-md-6 col-sm-6 clearfix">
+		        			<div class="row">
+		        				<div class="col-lg-9 col-md-9 col-sm-9" style="padding-right: 0;">
+		        					<div class="youlun-m11">
+				        			 	<img src="img/tyw/dt18.jpg" />
+				        			 </div>
+				        		</div>
+				        		
+				        	    <div class="col-lg-3 col-md-3 col-sm-3" style="padding: 0;padding-left: 2px;">
+				        			 <div class="youlun-m12">
+				        			 	<p><span>¥1499</span></p>
+				        			 	<p>天海邮轮一价全包不约全退</p>
+				        			 	<p>日本航线</p>
+				        			 </div>
+		        				</div>	 
+		        			</div> 
+ 
+		        		</div>
+		        		
+		        		
+		        	</div>
+		        </div>
+
+		    <!--右边-->
+		        <div class="youlun-r col-lg-2 col-lg-2 col-sm-2">
+		        	<img src="img/tyw/dt16.jpg"/>
+		        </div>
+		    </div>
+	      </div>
+	      
+	      
+	      <!--游轮结束-->
+	      
+	      
+	      
+	      
+	      
+	      <!--旅游周边开始-->
+	        <div class="jingnei">
+		      	<header>
+		      		<h3 style="color: #e90;">旅游周边</h3>
+		      		<p>度假出行，这里一站式搞定</p>
+		      	</header>
+		      	
+		      	<div class="arround">
+		      		<div class="row zhoubian" style="margin: 0;" >
+				      	<div class="zhoubian-all1 col-lg-2 col-md-2 col-sm-2" style="padding-left: 0px; cursor: pointer;">
+				      		<div class="zhoubian-img">
+				      			<img src="img/tyw/de11.jpg"/ style="height: 119px;">
+				      		</div>
+				      		
+				      		<div class="zhoubian-T1">
+				      		    <a>签证</a>
+				      		</div>
+				      		<div class="zhoubian-bla1"></div>	
+				      	</div>
+				      	
+				      	<div class="zhoubian-all2 col-lg-2 col-md-2 col-sm-2" style="padding-left: 0px;cursor: pointer;">
+				      		<div class="zhoubian-img">
+				      			<img src="img/tyw/de12.jpg"/>
+				      		</div>
+				      		
+				      		<div class="zhoubian-T2">
+				      		    <a>港澳通关</a>
+				      		</div>
+				      		<div class="zhoubian-bla2"></div>	
+				      	</div>
+				      	
+				      	<div class="zhoubian-all3 col-lg-2 col-md-2 col-sm-2" style="padding-left: 0px;cursor: pointer;">
+				      		<div class="zhoubian-img">
+				      			<img src="img/tyw/de13.jpg"/>
+				      		</div>
+				      		
+				      		<div class="zhoubian-T3">
+				      		    <a>手机卡&wifi租赁</a>
+				      		</div>
+				      		<div class="zhoubian-bla3"></div>	
+				      	</div>
+				      	
+				      	<div class="zhoubian-all4 col-lg-2 col-md-2 col-sm-2" style="padding-left: 0px;cursor: pointer;">
+				      		<div class="zhoubian-img">
+				      			<img src="img/tyw/de14.jpg"/>
+				      		</div>
+				      		
+				      		<div class="zhoubian-T4">
+				      		    <a>交通卡</a>
+				      		</div>
+				      		<div class="zhoubian-bla4"></div>	
+				      	</div>
+				      	
+				      	<div class="zhoubian-all5 col-lg-2 col-md-2 col-sm-2" style="padding-left: 0px;cursor: pointer;">
+				      		<div class="zhoubian-img">
+				      			<img src="img/tyw/de15.jpg"/>
+				      		</div>
+				      		
+				      		<div class="zhoubian-T5">
+				      		    <a>租车</a>
+				      		</div>
+				      		<div class="zhoubian-bla5"></div>	
+				      	</div>
+				      	
+				      	<div class="zhoubian-all6 col-lg-2 col-md-2 col-sm-2" style="padding-left: 0px;cursor: pointer;">
+				      		<div class="zhoubian-img">
+				      			<img src="img/tyw/de16.jpg"/style="height: 119px;">
+				      		</div>
+				      		
+				      		<div class="zhoubian-T6" >
+				      		    <a>旅游优惠券</a>
+				      		</div>
+				      		<div class="zhoubian-bla6"></div>	
+				      	</div>
+	      	
+	      			</div>
+		      	</div>
+		      	
+	      	</div>
+	      <!--旅游周边结束-->
+	      
+	      
+      </div>
+      <!--主要内容结束-->
+      
+      <!--底部开始-->
+      	<div class="footer" style="background: #f2f3f4 ;">
+      		<!--底部内容开始-->      		
+      		<div class="footer_con" style="background: #f2f3f4 ;">
+      			<!--上部分开始-->
+      			    <div class="footer-item clearfix">
+	      				<div class=" pull-left footer-item1 clearfix">
+	      					<h4>旅行产品</h4>
+			      			<ul class="list-unstyled">
+			      				<li><a href="">国内机票</a></li>
+			      				<li><a href="">国际机票</a></li>
+			      				<li><a href="">酒店预订</a></li>
+			      				<li><a href="">客栈公寓</a></li>
+			      				<li><a href="">旅游度假</a></li>
+			      			</ul>
+	      				</div>	
+	      				
+	      				<div class=" pull-left footer-item1 clearfix">
+	      					<h4>旅行产品</h4>
+			      			<ul class="list-unstyled">
+			      				<li><a href="">开通支付宝</a></li>
+			      				<li><a href="">免费注册</a></li>
+			      				<li><a href="">退票改签</a></li>
+			      				<li><a href="">7*24小时在线帮助</a></li>
+			      			</ul>
+	      				</div>
+	      				
+	      				
+	      				<div class=" pull-left footer-item1 clearfix">
+	      					<h4>旅行产品</h4>
+			      			<ul class="list-unstyled">
+			      				<li><a href="">商家入驻</a></li>
+			      				<li><a href="">商家培训</a></li>
+			      				<li><a href="">帮派互动</a></li>
+			      				<li><a href="">规则中心</a></li> 
+			      				<li><a href="">规则意见征集</a></li>
+			      				<li><a href="">商家在线客服</a></li>
+			      				<li><a href="">第三方合作</a></li>
+			      			      
+			      			</ul>
+	      				</div>
+	      				
+	      				<div class="pull-left footer-item1 clearfix">
+	      					<img src="img/tyw/detl8.png"/>
+	      				</div>
+	      			
+      			    </div>	 
+      			    <!--上部分结束-->
+      			    
+      			   <!--下部分开始--> 
+      			   <div class="footer-ail">
+      			   		<ul class="list-unstyled">
+      			   			<!--<li><a href="">阿里巴巴集团</a></li>-->
+      			   			<!--<li>|</li>-->
+      			   			<li><a href="">廉政举报</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">淘宝网</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">天猫</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">聚划算</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">全球速卖通</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里巴巴国际交易市场</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">1688</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里妈妈</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">飞猪</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里云计算</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">AliOS</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">万网</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">高德</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">UC</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">友盟</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">虾米</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里星球</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">UC头条</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">钉钉</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">飞猪旅行</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里游戏</a></li>
+      			   		</ul>
+      			   	 	     
+      			   </div>
+      			   
+      			   
+      			   <div class="footer-nav">
+      			   	   <ul class="list-unstyled">
+      			   	   	<!--<li><a href="">关于淘宝</a></li>-->
+      			   	   	<li><a href="">合作伙伴</a></li>
+      			   	   	<li><a href="">营销中心</a></li>
+      			   	   	<li><a href="">联系客服</a></li>
+      			   	   	<li><a href="">开放平台</a></li>
+      			   	   	<li><a href="">诚征英才</a></li>
+      			   	   	<li><a href="">联系我们</a></li>
+      			   	   	<li><a href="">网站地图</a></li>
+      			   	   	<li><a href=""> 隐私政策 © Fliggy.com版权所有</a></li>
+      			   	   </ul>
+      			   </div>
+      			   
+      			   <div class="" style="clear: both;"></div>
+      			   <div class="footer-copyright">
+      			   		<span>增值电信业务经营许可证：浙B2-20160773</span>
+      			   </div>
+      			   
+      			   <div class="">
+      			   	 <img src="img/tyw/detl9.gif"/>
+      			   </div>
+      			   <!--下部分结束-->
+      			    
+      			    
+	      	</div>	
+	      	<!--底部结束-->
+       </div>
+	</body>
+</html>

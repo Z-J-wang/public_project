@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    <link rel="stylesheet" type="text/css" href="css/shujia.css"/>
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <script type="text/javascript">mui.plusReady(function() {
+	//获得slider插件对象
+	var gallery = mui('.mui-slider');
+			gallery.slider({
+				interval: 2000 //自动轮播周期，若为0则不自动播放，默认为0；
+			});
+		});
+    </script>
+</head>
+
+<body>
+	<header class="mui-bar mui-bar-nav" style="background: white;">
+		<div class="mui-input-row mui-search">
+		    <input type="search" class="mui-input-clear search" placeholder="搜索作者、书名">
+		</div>
+	</header>
+	<!--书城搜索栏-->
+	 
+			<nav class="mui-bar mui-bar-tab mui-foot-mystyle" style="background: white;">
+			    <a class="mui-tab-item mui-active" id="bookmall" style="color:rgb(24,216,156) ;">
+			        <span class="mui-icon iconfont icon-shucheng-"></span>
+			        <span class="mui-tab-label">书城</span>
+			    </a>
+			    <a class="mui-tab-item" style="color:rgb(24,216,156);">
+			        <span class="mui-icon iconfont icon-shujia" id="bookrack" style="color:rgb(24,216,156) ;"></span>
+			        <span class="mui-tab-label">书架</span>
+			    </a>
+			    <a class="mui-tab-item" id="discover" style="color:rgb(24,216,156) ;">
+			        <span class="mui-icon iconfont icon-iconfontfaxian" id="discover"></span>
+			        <span class="mui-tab-label">发现</span>
+			    </a>
+			    <a class="mui-tab-item" id="my" style="color:rgb(24,216,156) ;">
+			        <span class="mui-icon  mui-icon-contact" id="my"></span>
+			        <span class="mui-tab-label">我的</span>
+			    </a>
+			</nav>
+		
+		
+	<div class="mui-content">
+	<!--轮播图-->
+	<div id="slider" class="mui-slider" >
+	  <div class="mui-slider-group mui-slider-loop">
+	    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+	    <div class="mui-slider-item mui-slider-item-duplicate">
+	      <a href="discover_5.html">
+	      	<img style="height="185px;" src="img/d5.gif"/>
+	      </a>
+	    </div>
+	    <!-- 第一张 -->
+	    <div class="mui-slider-item">
+	      <a href="discover_5.html">
+	       <img style="height="185px;" src="img/d3.gif"/ >
+	      </a>
+	    </div>
+	    <!-- 第二张 -->
+	    <div class="mui-slider-item">
+	      <a href="discover_5.html">
+	       <img style="height="185px;"  src="img/d4.gif"/>
+	      </a>
+	    </div>
+	    <!-- 第三张 -->
+	    <div class="mui-slider-item">
+	      <a href="discover_5.html">
+	      <img style="height="185px;" src="img/d5.gif"/>
+	      </a>
+	    </div>
+	    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+	    <div class="mui-slider-item mui-slider-item-duplicate">
+	      <a href="discover_5.html">
+	        <img style="height="185px;" src="img/d3.gif"/>
+	      </a>
+	    </div>
+	  </div>
+	  <div class="mui-slider-indicator">
+	    <div class="mui-indicator mui-active"></div>
+	    <div class="mui-indicator"></div>
+	    <div class="mui-indicator"></div>
+	    
+	  </div>
+	</div>
+	
+		<!--目录/加图片-->
+	<div class="Category">
+		<div class="mui-content">
+    <div class="mui-row" style="background-color: white;">
+        <div class="mui-col-sm-3 mui-col-xs-3">
+            <li class="mui-table-view-cell">
+            	<a href="rank.html"><img style="width: 44px; height: 40px;" src="img/a1.gif"></a>
+            	<span>排行</span>
+            </li>
+        </div>
+        <div class="mui-col-sm-3 mui-col-xs-3">
+            <li class="mui-table-view-cell">
+            	<a href="classification.html"><img style="width: 44px; height: 40px;" src="img/a3.gif"></a>
+            	<span>分类</span>
+            </li>
+        </div>
+        <div class="mui-col-sm-3 mui-col-xs-3">
+            <li class="mui-table-view-cell">
+            	<a href="select.html"><img style="width: 44px; height: 40px;" src="img/a4.gif"></a>
+            	<span>精选</span>
+            </li>
+        </div>
+        <div class="mui-col-sm-3 mui-col-xs-3">
+            <li class="mui-table-view-cell">
+            	<a href="over.html"><img style="width: 44px; height: 40px;" src="img/a5.gif"></a>
+            	<span>完结</span>
+            </li>
+        </div>
+    </div>
+</div>
+	</div>
+	
+        <!--中间栏--> 
+	<div class="middle">
+    <div class="mui-row" style="background-color: white;">
+        <div class="mui-col-sm-4 mui-col-xs-4" style="border: 1px solid gainsboro;">
+            <li class="mui-table-view-cell" style="list-style: none;">
+                <a href="hot-link.html"><p style="color: green;text-align: center;">最受关注</p><span class="introduce" style="text-align: center;font-size: 12px;">70%的人都在看</span></br><img src="img/middle1.png" width="100px"/></a>
+            </li>
+        </div>
+        <div class="mui-col-sm-4 mui-col-xs-4" style="border: 1px solid gainsboro;">
+            <li class="mui-table-view-cell" style="list-style: none;">
+                <a href="hot-link2.html"><p style="color: skyblue;text-align: center; ">火热新书</p><span class="introduce" style="text-align: center;font-size: 12px;">人气新作很带感</span></br><img src="img/middle2.png" width="100px"/></a>
+            </li>
+        </div>
+        <div class="mui-col-sm-4 mui-col-xs-4" style="border: 1px solid gainsboro;">
+            <li class="mui-table-view-cell" style="list-style: none;">
+                <a href="hot-link3.html"><p style="color: darkorange;margin-left:10px;">大神佳作</p><span class="introduce" style="text-align: center; font-size: 11px;">终于免费赶紧来！</span></br><img src="img/middle3.png" width="100px"/></a>
+            </li>
+        </div>
+    </div>
+</div>
+
+       <!--今日必读-->
+      <div class="introduce1">
+		<ul class="mui-table-view" style="margin-top:200px;">
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		        	<h4>今日必读</h4>
+		        	<a href="introduction.html">
+		          <div style="float: left;width:100px; height: 110px;margin: 0px;">
+		
+		          	<img style="width:100px; height: 115px;" src="img/book10.png">
+		          </div> 
+		            <div class="mui-media-body" style="width: 70%; position: relative;left: 20px;">
+		                              云边有个小卖部
+		                <p class="mui-ellipsis">百万情感公号乔话首部作品，思想聚焦/杨奇函/HUGO/入江之鲸/深夜发媸 强势推荐。<br>
+		                	凌厉的猫系少女，爱怼人，会卖萌，擅撩汉。100万关注，2亿阅读，60篇明亮、偏执又疯狂的故事。再见，不负遇见。 文艺品类每满100减50</p><br>
+		                	<p class="bottom" style="float: left;"> 郁菲</p><button type="button" class="mui-btn mui-btn-warning mui-btn-outlined" style="margin-left: 126px;">加入书架</button>  	
+		            </div>
+		            </a>
+		        </a>
+		    </li>
+		    
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		        	<a href="introduction.html">
+		          <div style="float: left;width:100px; height: 110px;margin: 0px;">
+		          	<img style="width:100px; height: 115px;" src="img/book11.png">
+		          </div> 
+		            <div class="mui-media-body" style="width: 70%; position: relative;left: 20px;">
+		                             长草颜团子：这只梦想是毛茸茸的
+		                <p class="mui-ellipsis">如何获取：下载当当云阅读app—用大当账号登录—书架（从书架页进入云书房下载即可）（专享签名本+激萌漫画册+24款（各12张）<br>
+		                	电子版美梦成真系列手机屏保+电脑月历壁纸）结算时请记得勾选赠品</p><br>
+		                	<p class="bottom" style="float: left;"> 卡米耶·卢松</p><button type="button" class="mui-btn mui-btn-warning mui-btn-outlined" style="margin-left: 78px;">加入书架</button> 	
+		            </div>
+		            </a>
+		        </a>
+		    </li>
+		    
+		   <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		          <div style="float: left;width:100px; height: 110px;margin: 0px;">
+		          	<img style="width:100px; height: 115px;" src="img/book12.png">
+		          </div> 
+		            <div class="mui-media-body" style="width: 70%; position: relative;left: 20px;">
+		                               动物幻想曲（帮助宝宝培养想象力，学会幽默的逆向思维）
+		                <p class="mui-ellipsis">法国亚马逊五星好评童书，给孩子艺术与认知的双重启蒙；蓬皮杜中心多次受邀作家，与孩子分享幽默艺术；让孩子了解丛林、洞穴、<br>
+		                	极地等20多种动物的特点和习性；无处不在的法式幽默，充满想象力，让孩子脑洞大开。 5万童书5折封顶></p><br>
+		                	<p class="bottom" style="float: left;"> 卡米耶·卢松</p><button type="button" class="mui-btn mui-btn-warning mui-btn-outlined" style="margin-left: 78px;">加入书架</button>  	
+		            </div>
+		        </a>
+		    </li>
+		        
+		       <div >
+		       	  <a href="#"><img src="img/d2.gif" width="100%" /></a>
+		       </div>
+		    
+		        	<!--重磅推荐-->
+		      <h4 style="margin-left: 15px;">重磅推荐</h4>
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		          <div style="float: left;width:100px; height: 110px;margin: 0px;">
+		          	<img style="width:100px; height: 115px;" src="img/book5.png">
+		          </div> 
+		            <div class="mui-media-body" style="width: 70%; position: relative;left: 20px;">
+		                              云边有个小卖部
+		                <p class="mui-ellipsis">百万情感公号乔话首部作品，思想聚焦/杨奇函/HUGO/入江之鲸/深夜发媸 强势推荐。<br>
+		                	凌厉的猫系少女，爱怼人，会卖萌，擅撩汉。100万关注，2亿阅读，60篇明亮、偏执又疯狂的故事。再见，不负遇见。 文艺品类每满100减50</p><br>
+		                	<p class="bottom" style="float: left;"> 郁菲</p><button type="button" class="mui-btn mui-btn-warning mui-btn-outlined" style="float: left; margin-left: 126px;">加入书架</button>  	
+		            </div>
+		        </a>
+		    </li>
+		    
+		     <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		          <div style="float: left;width:100px; height: 110px;margin: 0px;">
+		          	<img style="width:100px; height: 115px;" src="img/book6.png">
+		          </div> 
+		            <div class="mui-media-body" style="width: 70%; position: relative;left: 20px;">
+		                              云边有个小卖部
+		                <p class="mui-ellipsis">百万情感公号乔话首部作品，思想聚焦/杨奇函/HUGO/入江之鲸/深夜发媸 强势推荐。<br>
+		                	凌厉的猫系少女，爱怼人，会卖萌，擅撩汉。100万关注，2亿阅读，60篇明亮、偏执又疯狂的故事。再见，不负遇见。 文艺品类每满100减50</p><br>
+		                	<p class="bottom" style="float: left;"> 郁菲</p><button type="button" class="mui-btn mui-btn-warning mui-btn-outlined" style="float: left; margin-left: 126px;">加入书架</button>  	
+		            </div>
+		        </a>
+		    </li>
+		    
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		          <div style="float: left;width:100px; height: 110px;margin: 0px;">
+		          	<img style="width:100px; height: 115px;" src="img/book8.png">
+		          </div> 
+		            <div class="mui-media-body" style="width: 70%; position: relative;left: 20px;">
+		                              云边有个小卖部
+		                <p class="mui-ellipsis">百万情感公号乔话首部作品，思想聚焦/杨奇函/HUGO/入江之鲸/深夜发媸 强势推荐。<br>
+		                	凌厉的猫系少女，爱怼人，会卖萌，擅撩汉。100万关注，2亿阅读，60篇明亮、偏执又疯狂的故事。再见，不负遇见。 文艺品类每满100减50</p><br>
+		                	<p class="bottom" style="float: left;"> 郁菲</p><button type="button" class="mui-btn mui-btn-warning mui-btn-outlined" style="float: left; margin-left: 126px;">加入书架</button>  	
+		            </div>
+		        </a>
+		    </li>
+		    
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		          <div style="float: left;width:100px; height: 110px;margin: 0px;">
+		          	<img style="width:100px; height: 115px;" src="img/book10.png">
+		          </div> 
+		            <div class="mui-media-body" style="width: 70%; position: relative;left: 20px;">
+		                              云边有个小卖部
+		                <p class="mui-ellipsis">百万情感公号乔话首部作品，思想聚焦/杨奇函/HUGO/入江之鲸/深夜发媸 强势推荐。<br>
+		                	凌厉的猫系少女，爱怼人，会卖萌，擅撩汉。100万关注，2亿阅读，60篇明亮、偏执又疯狂的故事。再见，不负遇见。 文艺品类每满100减50</p><br>
+		                	<p class="bottom" style="float: left;"> 郁菲</p><button type="button" class="mui-btn mui-btn-warning mui-btn-outlined" style="float: left; margin-left: 126px;">加入书架</button>  	
+		            </div>
+		        </a>
+		    </li>
+		    </ul> 
+		    
+		   <div class="clod" style="background: white;height: 60px;padding: 8px 6px;margin-bottom:0px;">
+		   	<h4>书荒站</h4>
+		    <h6>这些冷门小说你看过那本？</h6>
+		   </div>
+		      <ul class="mui-table-view" style="width: 186px;float: left;padding-bottom: 50px;">
+		         
+		         <li class="mui-table-view-cell mui-media">
+		              <a href="javascript:;">
+		                  <img class="mui-media-object mui-pull-left" src="img/book12.png">
+		                  <div class="mui-media-body">
+		                      鸡汤
+		                      <p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+		                  </div>
+		              </a>
+		          </li>
+		          <li class="mui-table-view-cell mui-media">
+		              <a href="javascript:;">
+		                  <img class="mui-media-object mui-pull-left" src="img/novel2.jpg">
+		                  <div class="mui-media-body">
+		                      励志
+		                      <p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+		                  </div>
+		              </a>
+		          </li>
+		          <li class="mui-table-view-cell mui-media">
+		              <a href="javascript:;">
+		                  <img class="mui-media-object mui-pull-left" src="img/book11.png">
+		                  <div class="mui-media-body">
+		                      智慧
+		                      <p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+		                  </div>
+		              </a>
+		          </li>
+		          </ul>
+		          
+		          <ul class="mui-table-view" style="width:186px;float: left;padding-bottom: 50px;">
+		              <li class="mui-table-view-cell mui-media">
+		                  <a href="javascript:;">
+		                      <img class="mui-media-object mui-pull-left" src="img/book10.png">
+		                      <div class="mui-media-body">
+		                          幸福
+		                          <p class="mui-ellipsis">能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+		                      </div>
+		                  </a>
+		              </li>
+		              <li class="mui-table-view-cell mui-media">
+		                  <a href="javascript:;">
+		                      <img class="mui-media-object mui-pull-left" src="img/book6.png">
+		                      <div class="mui-media-body">
+		                          木屋
+		                          <p class="mui-ellipsis">想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+		                      </div>
+		                  </a>
+		              </li>
+		              <li class="mui-table-view-cell mui-media">
+		                  <a href="javascript:;">
+		                      <img class="mui-media-object mui-pull-left" src="img/novel4.png">
+		                      <div class="mui-media-body">
+		                          爱情
+		                          <p class="mui-ellipsis">烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+		                      </div>
+		                  </a>
+		              </li>
+		          </ul>
+		           
+	
+</div>
+		
+</div>		
+	
+		<script src="js/mui.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/myjs.js"></script>
+		<script type="text/javascript">
+			mui.init();
+			mui.plusReady(function(){
+      		document.getElementById("bookmall").addEventListener('tap',function(){     			
+      			mui.openWindow({
+      				url:'default.html',
+      				id:'bookmall'
+      			})   	}) 	})			
+			mui.plusReady(function(){
+      		document.getElementById("bookrack").addEventListener('tap',function(){     			
+      			mui.openWindow({
+      				url:'bookrack.html',
+      				id:'bookrack'
+      			})   	}) 	})
+			mui.plusReady(function(){
+      		document.getElementById("discover").addEventListener('tap',function(){     			
+      			mui.openWindow({
+      				url:'discover.html',
+      				id:'discover'
+      			})   	}) 	})
+			mui.plusReady(function(){
+      		document.getElementById("my").addEventListener('tap',function(){     			
+      			mui.openWindow({
+      				url:'my.html',
+      				id:'my'
+      			})   	}) 	})
+		</script>
+		
+</body>
+</html>

@@ -891,7 +891,7 @@ color: gainsboro;
 .container_head_right{
 	float: right;
 	/*display: inline-block;*/	
-	width: :500px;
+	/*width:500px;*/
 }
 .container_head_right div{
 	width: 286px;

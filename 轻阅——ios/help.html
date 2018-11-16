@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/myStyle.css"/>
+	</head>
+
+	<body style="background: white;">
+		<header class="mui-bar mui-bar-nav mui-mybar">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color: rgb(24,216,156);"></a>
+			<h1 class="mui-title">帮助与反馈</h1>
+		</header>
+		<div class="mui-content mycolor">
+			<div class="mui-input-row mui-search">
+			    <input type="search" class="mui-input-clear" placeholder="问题关键词">
+			</div>
+			<div class="mui-row mui-row-help">
+				<p>自助服务</p>
+					        <div class="mui-col-sm-6 mui-col-xs-4 mui-mycol">
+					            <li class="mui-table-view-cell mui-table-view-mycell">
+					                <a class="mui-navigate-myright">
+					                     <span>
+					                    	<img src="images/jiebangshouji.PNG" />
+					                    </span>
+					                    <span>
+					                    	解绑手机
+					                    </span>   
+					                </a>
+					            </li>
+					        </div>
+					        <div class="mui-col-sm-6 mui-col-xs-4 mui-mycol">
+					            <li class="mui-table-view-cell mui-table-view-mycell">
+					                <a class="mui-navigate-myright">
+					                    <span>
+					                    	<img src="images/changephonenum.PNG" />
+					                    </span>
+					                    <span>
+					                    	更换手机号
+					                    </span>
+					                </a>
+					            </li>
+					        </div>
+					        <div class="mui-col-sm-6 mui-col-xs-4 mui-mycol">
+					            <li class="mui-table-view-cell mui-table-view-mycell">
+					                <a class="mui-navigate-myright">
+					                    <span>
+					                    	<img src="images/quxiaozidongfufei.PNG" />
+					                    </span>
+					                    <span>
+					                    	代金券
+					                    </span>
+					                </a>
+					            </li>
+					        </div>
+			</div>
+			<div class="questionStye">
+					<p>常见问题</p>
+					<ul class="mui-table-view">
+					        <li class="mui-table-view-cell">
+					            <a class="mui-navigate-right">
+					                	我开通VIP后为什么还要收费？
+					            </a>
+					        </li>
+					        <li class="mui-table-view-cell">
+					            <a class="mui-navigate-right">
+					                 	我看的书老是不更新怎么帮？
+					            </a>
+					        </li>
+					        <li class="mui-table-view-cell">
+					            <a class="mui-navigate-right">
+					                书架上购买过的书籍打开失败/下载失败/章节获取失败。
+					            </a>
+					        </li>
+					         <li class="mui-table-view-cell">
+					            <a class="mui-navigate-right">
+					               如何投稿？
+					            </a>
+					        </li>
+					         <li class="mui-table-view-cell">
+					            <a class="mui-navigate-right">
+					                签到满30天怎么领去奖励？
+					            </a>
+					        </li>
+					         <li class="mui-table-view-cell">
+					            <a class="mui-navigate-right">
+					                代金券有什么用？
+					            </a>
+					        </li>
+					</ul>
+			</div>
+			<div class="allquestionStye">
+					<p>全部问题</p>
+					<div>
+						<div id="left">
+							<ul>
+								<li><a href="#right_1" id="style_1" onclick="help_style_change_1()">VIP</a></li>
+								<li><a href="#right_2" id="style_2" onclick="help_style_change_2()">读书相关</a></li>
+								<li><a href="#right_3" id="style_3" onclick="help_style_change_3()">圈子</a></li>
+								<li><a href="#right_4" id="style_4" onclick="help_style_change_4()">活动日常</a></li>
+							
+							</ul>
+						</div>
+						<div id="right">
+							<ul class="mui-table-view" id="right_1">
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                我开通vip后为什么还要收费？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 VIP开通后享有哪些特权？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 如何查找VIP书籍？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 如何退订VIP包月？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 什么是VIP体验版？
+							            </a>
+							        </li>
+							  </ul>
+							<ul class="mui-table-view" id="right_2">
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                如何更换翻页方式？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 如何更换背景/字体颜色？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 如何调节亮度？
+							            </a>
+							        </li>
+							         <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 如何查看目录？
+							            </a>
+							        </li>
+							  </ul>
+							  <ul class="mui-table-view" id="right_3">
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                如何分享书籍？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 如何发表书评？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 书籍中的角标如何隐藏？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 什么是圈子，如何加入？
+							            </a>
+							        </li>
+							  </ul>
+							  <ul class="mui-table-view" id="right_4">
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                阅读时长如何计算？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 代金券可以兑换阅饼码？
+							            </a>
+							        </li>
+							        <li class="mui-table-view-cell">
+							            <a class="mui-navigate-right">
+							                 签到/任务代金券未到账怎么办？
+							            </a>
+							        </li>
+							  </ul>
+						</div>
+					</div>
+
+			</div>
+			<div class="help_foot_bar">
+				<div class="mui-row">
+					        <div class="mui-col-sm-6 mui-col-xs-6 mui-mycol" style="height: 0px;">
+					            <li class="mui-table-view-cell mui-table-view-mycell" style="border: none;">
+					                <a class="mui-navigate-myright">
+					                    <span style="color: #00BFFF;">
+					                    	立即反馈
+					                    </span>   
+					                </a>
+					            </li>
+					        </div>
+					        <div class="mui-col-sm-6 mui-col-xs-6 mui-mycol" style="height: 20px;">
+					            <li class="mui-table-view-cell mui-table-view-mycell" style="border: none;">
+					                <a class="mui-navigate-myright">
+					                    <span style="color: #00BFFF;">
+					                    	反馈记录
+					                    </span>
+					                </a>
+					            </li>
+					        </div>
+					 </div>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/app.js"></script>
+		<script type="text/javascript" src="js/myjs.js" ></script>
+	</body>
+
+</html>

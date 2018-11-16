@@ -1,0 +1,263 @@
+
+a{
+	text-decoration: none !important;
+	cursor: pointer;
+}
+.div_show {
+	display: block !important;
+}
+.div_hidden{
+	display: none !important;
+} 
+header{
+	background-color: #f5f5f5;
+	border-bottom: solid 1px #eae8e8;
+}
+header>.login_nav{
+	width: 1200px;
+	margin: 0 auto;
+}
+header ul{
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+header li,
+header span {
+	display: inline-block;
+	margin-left: 10px;
+}
+/*主体内容*/
+.main-container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main-container .logo{
+	margin: 20px 0;
+}
+.main-container .logo img,
+.main-container .logo h4{
+	display: inline-block;
+}
+.main-container .logo h4{
+	margin: 0;
+	vertical-align: bottom;
+}
+.logo_container,
+.reg_container{
+	padding-top:20px ;
+	border-top: solid 1px #dcdcdc;
+}
+.reco_img{
+	float: left;
+	
+}
+.reco_img img{
+	border-radius: 15px;
+	width: 780px;
+	height: 400px;
+}
+.logo_table{
+	float: left;
+	width: 420px;
+	
+}
+.table_container{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.table_container form{
+	height: 280px;
+}
+.table_container label{
+	font-weight: 400;
+}
+.table_container label:first-child{
+	margin-right: 40px;
+}
+.table_container i{
+	margin: 0 5px;
+}
+
+.logintype_active{
+	font-weight: bold !important;
+	font-size: 16px !important;
+}
+.table_container .yzm input{
+	width: 65% !important;
+}
+.table_container .yzm img{
+	display: inline-block;
+	width: 80px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.login_help>label{
+	margin-right: 25px !important;
+}
+.login_help input{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+.login_help>span{
+	margin: 0 5px;
+}
+#login_submit{
+	font-size: 15px;
+	font-weight: 800;
+	color: white !important;
+	letter-spacing: 60px;
+	text-indent: 60px;
+	background-color: #6ab1df;
+}
+
+/*手机号码登录*/
+.ph_yzm input {
+	width: 60% !important;
+	margin-right: 15px;
+}
+
+#login_tip{
+	color: red;
+}
+#login_tip p{
+	font-size: 10px;
+	padding-left: 20px;
+	background: url(../../img/jie/error_v2.png) no-repeat;
+	background-size: 12px;
+}
+.cut_off{
+	width: 100%;
+	height: 10px;
+	border-bottom: solid 1px #dcdcdc;
+	text-align: center;
+	margin-top: 40px;
+}
+.cut_off span{
+	padding: 0 5px;
+	background-color: white;
+}
+.Other_party_payment {
+	margin-top: 30px;
+}
+.Other_party_payment li{
+	margin-right: 4px;
+	cursor: pointer;
+}
+.Other_party_payment li:last-child{
+	margin: 0px !important;
+}
+.Other_party_payment li span{
+	margin-right: 2px;
+}
+.Other_party_payment li img{
+	width: 16px;
+}
+/*注册界面*/
+.reg_container .reg_form{
+	float: left;
+	width: 780px;
+	margin-top: 30px;
+}
+.reg_container .reg_tip{
+	float: left;
+	width: 380px;
+	margin-left: 40px;
+	padding-top: 40px;
+}
+.reg_form>form>div,
+#phone_reg>div{
+	margin-bottom: 20px;
+}
+.reg_form label {
+	width: 150px;
+	padding-right: 20px;
+	text-align: right;
+	font-weight: 200;
+}
+.reg_form .input_container {
+	display: inline-block;
+	width: 330px;
+}
+.input_container input[name="yzm"],
+.input_container input[name="jhm"]{
+	width: 150px;
+	display: inline-block;
+}
+.input_container label {
+	text-align: left;
+	width: 330px;
+}
+.input_container input[name="protocol_status"] {
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+.input_container button[type="submit"]{
+	display: inline-block;
+}
+.input_container button[type="submit"]+span {
+	margin: 0 5px;
+}
+.reg_yzm span,
+.reg_jhm button{
+	margin-left: 10px;
+}
+.reg_yzm span img{
+	display: inline-block;
+	width: 80px;
+}
+.reg_tip li{
+	margin-top: 10px;
+	line-height: 30px;
+}
+.reg_tip span {
+	color: red;
+}
+/*地区选择*/
+.area {
+	position: absolute;
+	top: 33px;
+	left: 153px;
+	display: none;
+	width: 425px;
+	box-sizing: border-box;
+	background-color: white;
+	border: solid 1px gainsboro;
+}
+.area_nav{
+	border-bottom: solid 1px gainsboro;
+}
+.area_nav_active {
+	border-bottom: solid 1px #0084BB;
+}
+.area_nav ul,
+.area_list ul {
+	padding: 0;
+	box-sizing: border-box;
+	margin-left: 10px;
+	margin-bottom: 0;
+	list-style: none;
+}
+.area_nav li {
+	display: inline-block;
+	font-size: 12px;
+	padding: 0 2px;
+	cursor: pointer;
+}
+.area_list {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.area_list li{
+	display: inline-block;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.area_list li:hover {
+	font-weight: bold;
+	color: #0084BB;
+}
+

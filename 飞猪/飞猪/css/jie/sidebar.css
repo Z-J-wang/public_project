@@ -1,0 +1,121 @@
+.sidebar {
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	right: 0;
+	width: 35px;
+	height: 100%;
+	background-color: #000000;
+	opacity: .9;
+}
+	.YHQ {
+		position: relative;
+		margin: 0 5px;
+		height: 120PX;
+		border-bottom: solid 1px gainsboro;
+	}
+	.YHQ img {
+		position: absolute;
+		bottom: 10px;
+		display: block;
+		width: 25px;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+	.GWC {
+		margin: 0 5px;
+		margin-top: 10px;
+		border-bottom: solid 1px gainsboro;
+		cursor: pointer;
+	}
+	.GWC img,
+	.GR img,
+	.YJFK img,
+	.EWM img,
+	.HDDB img {
+		display: block;
+		width: 25px;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+	.GWC span {
+		display: block;
+		width: 18px;
+		margin: 10px  auto;
+		font-size: 14px;
+		color: white;
+	}
+	.GR {
+		margin-top: 10px;
+	}
+	.fo_silderbar {
+		position: absolute;
+		bottom: 0;
+		width: 35px;
+	}
+		.YJFK {
+			position: relative;
+			width: 25px;
+			margin: 0 auto;
+			padding-top: 10px;
+			border-top: solid 1px gainsboro;
+			background-color: black;
+		} 
+		.EWM {
+			position: relative;
+			margin-top: 20px;
+			background-color: black;
+		}
+			.TCK_ewm {
+				position: absolute;
+				z-index: -1;
+				display: none;
+				bottom: -5px;
+				left: -120px;
+				padding: 8px;
+				background-color: white;
+			}
+			.TCK_ewm img {
+				display: block;
+				width: 100px;
+				margin: 0 auto;
+			}
+		.HDDB {
+			position: relative;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			cursor: pointer;
+			background-color: black;
+		}
+	/*弹出框*/
+	.TCK {
+		position: absolute;
+		z-index: -1;
+		top: 12px;
+		left: 20px;
+		/*display: none;*/
+		width: 70px;
+		height: 25px;
+		line-height: 25px;
+		background-color: black;
+		opacity: .9;
+		color: white;
+		font-weight: 800;
+		font-size: 12px;
+		text-align: center;
+		border-radius: 2px;
+	}
+	.TCK:before {
+		content: '';
+		width: 0;
+		height: 0;
+		border: 4px solid transparent;
+		border-left-color: black;
+		position: absolute;
+		right: -8px;
+		top: 50%;
+		margin-top: -5px;
+	}
+	.HDDB .TCK {
+		top: 2px;
+	}

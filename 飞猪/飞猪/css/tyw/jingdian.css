@@ -1,0 +1,275 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.main-top{
+	position: relative;
+}
+.list{
+	position: absolute;
+	width: 700px;
+	/*height: 400px;*/
+	background: white;
+    top: 169px;
+    left: 461px;
+    padding: 20px 20px;
+    z-index: 1;
+}
+.list li {
+	cursor: pointer;
+}
+.list-con1{
+	width: 300px;
+	/*height: 300px;*/
+	/*background: fuchsia;*/
+	float: left;
+     border-right: 1px solid lightgray;
+     padding-right: 25px;
+}
+.list-con2{
+	width: 300px;
+	/*height: 300px;*/
+	/*background: firebrick;*/
+	float: left;
+	margin-left: 15px;
+}
+.list-con1 ul,.list-con2 ul{
+	padding-left: 0;
+}
+.list-con1 ul li,.list-con2 ul li{
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+.list-con11{
+	padding-bottom: 10px;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 20px;
+}
+.list-con11 h4{
+	font-size: 15px;
+}
+.classify ul{
+	height: 40px;
+	line-height: 40px;
+	/*text-align: center;*/
+	padding-left: 50px;
+}
+.classify ul li{
+	float: left;
+	/*margin-right: 20px;*/
+	font-size: 14px;
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+.classify{
+	position: absolute;
+	opacity: 0.8;
+	background: black;
+	height: 40px;	
+	color: gray;
+	bottom: 0px;
+	width: 698px;
+}
+.banner_page_center{
+	position: relative;
+}
+.guonei-conl{
+	/*height: 50px;*/
+	/*background: forestgreen;*/
+	padding-right: 30px;
+	
+}
+.guonei-conr{
+	/*height: 50px;*/
+	/*background: gold;*/
+}
+.guonei-conl h5{
+	font-weight: bold;
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
+	padding: 0;
+}
+.guonei-conl i{
+	padding: 2px 5px;
+	/*background: gold;*/
+	
+}
+.color{
+	background: gold;
+}
+.color1{
+	color: red;
+}
+.guonei-conl span:nth-child(2){
+	color: black;
+	/*margin-right: 40px;*/
+}
+.guonei-conl span:nth-child(3){
+	color: black;
+	float: right;
+}
+
+.guonei-conl a{
+	display: block;
+	margin-bottom: 20px;
+}
+.guonei-conr img{
+	cursor: pointer;
+}
+.guonei-conr nav{
+	margin-bottom: 20px;
+}
+.guonei-conr nav ul li{
+	float: left;
+	margin-left: 25px;
+	padding: 2px 5px 2px 5px;
+}
+.guonei-conr nav ul li:hover{
+	background: gold;
+}
+.guonei-conr nav ul li:first-child{
+	background: gold;
+}
+.guonei-con{
+	margin-top: 20px;
+}
+.guonei-conr11{
+	position: relative;
+	margin-bottom: 10px;
+}
+.guonei-conr11 img{	
+	width: 190px;
+	height: 152px;
+}
+.guonei-conr11 p{
+	position: absolute;
+	width: 190px;
+	background:#fff;
+	opacity: 0.9;
+	height: 30px;
+	bottom: -10px;
+	border: 1px solid #222222;
+}
+.guonei-conr1 p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.guonei-conr1 p a{
+	height: 30px;
+	line-height: 30px;
+	color: black;
+}
+.guonei-conr1 p a:hover{
+	text-decoration: underline !important;
+}
+.guonei-conr1 p span{
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	color: #ff5741;
+}
+.guonei-conr11{
+	float: left;
+	margin-right: 12px;
+}
+.listStyle li {
+	cursor: pointer;
+}
+
+.hezuo-con ul li{
+	float: left;
+	border-right:1px solid lightgray ;
+	border-bottom: 1px solid lightgray;
+}
+.hezuo-con ul li a{
+	margin-left: 13.8px;
+	margin-right: 14px;
+}
+.hezuo-con ul{
+	border-top: 1px solid lightgray;
+	border-right:1px solid lightgray;
+	border-left: 1px solid lightgray;
+	margin-top: 20px;
+}
+.hezuo-con{
+	height: 165px;
+	border-bottom:3px orange solid;
+}
+.jingnei h3{
+	color: #e90;
+}
+/*底部开始*/
+.footer{
+	width: 100% !important;
+	margin-top: 40px;
+}
+.footer_con{
+	width: 1200px !important;
+	margin: 0 auto !important;
+}
+.footer-item{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid lavender;
+	
+}
+.footer-item1 {
+	border-right: 1px solid lavender;
+	width: 250px;
+	padding-left: 25px;
+	float: left;
+}
+.footer-item1 h4{
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+.footer-item1 ul li{
+	float: left;
+	margin-right: 15px;
+}
+
+.footer-item1 ul li a{
+	font-size: 12px;
+	color: #3d3d3d;
+} 
+.footer-item1 ul li a:hover{
+	text-decoration: underline !important;
+}
+.footer-ail {
+	height: 50px;
+	border-bottom: 1px solid lavender;
+}
+.footer-ail ul li{
+	float: left;
+	margin-right: 5px;
+	
+}
+.footer-ail ul li a{
+	color: #6c6c6c;
+}
+.footer-ail ul li a:hover{
+	text-decoration: underline !important;
+}
+.footer-nav{
+	height: 26px;
+}
+.footer-nav ul li{
+	float: left;
+	margin-right: 5px;
+	
+}
+.footer-nav ul li a{
+	color: #6c6c6c;;
+}
+.footer-nav ul li a:hover{
+	text-decoration: underline !important;
+}
+.footer-copyright{
+	color: #999;
+	height: 26px;
+}
+
+/*底部结束*/

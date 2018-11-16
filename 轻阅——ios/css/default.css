@@ -1,0 +1,119 @@
+
+.Category{
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+	50%-align: center;
+	color: #797979;
+}
+.Category .mui-row,.Category li{
+	display: block;
+	list-style: none;
+	text-align: center;
+}
+.middle{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	float: left;
+	height: auto;
+	border-bottom: 1px solid #ACACB4;
+}
+.recommend{
+	
+	font-size: 12px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.recommend ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.recommend ul li{
+	
+	50%-align: center;
+	float: left;
+	padding: 0px;
+	margin: 10px 10px 10px 20px;
+	
+	
+}
+.recommend img{
+	width: 100px;
+	float: left;
+}
+.middle-left p{
+	margin: 0px;
+	padding: 0px;
+	color: red;
+}
+.middle-mid p{
+	margin: 0px;
+	padding: 0px;
+	color: limegreen;
+}
+.middle-right p{
+	margin: 0px;
+	padding: 0px;
+	color: deepskyblue;
+}
+.recommend span{
+	color: #797979;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.introduce{
+	color: grey;
+}
+.introduce1 ul{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+/*.mui-title a:link,.mui-title a:visited{
+	color: gray;
+}*/
+
+.mui-title a{
+	color: gray;
+}
+
+.mui-title a:hover{
+	color: orangered;
+}
+
+.first{
+	margin-left: 0px;
+	padding: 0px;
+}
+/*.second{
+	padding: 0px;
+	margin-top: 50px;
+	border-top:1px solid #CCCCCC;
+}
+.first ul,li,.second ul,li{
+	list-style: none;
+	float: left;
+	font-size: 15px;
+	padding-right: 5px;
+	margin-right: 8px;
+	padding-left: 10px;
+}
+
+.first ul li a:link,.second ul li a:link,.first ul li a:visited,.second ul li a:visited{
+	color: black;
+}
+.first ul li a:hover,.second ul li a:hover{
+	color: cadetblue;
+}
+
+.first ul,.second ul{
+	margin:20px 0px 3px 0px;
+	padding: 0px;
+	
+}*/

@@ -1,0 +1,817 @@
+.clear{ clear:both; font-size:0px; height:0px; line-height:0px;}
+/*my_detail---------------------------------------------------------------------------*/
+.container{
+	width: 1200px;
+	margin: 0px auto;
+}
+section{
+	float: left;
+	width: 900px;
+	margin-bottom: 30px;
+}
+section p{
+	color:orangered;
+	font-size: large;
+	margin-bottom:4px ;
+}
+section .detail{
+	width: 900px;
+	border: solid 1px gray;
+}
+section .detail .detail_img{
+	float: left;
+	margin: 20px 22px 10px 10px;
+	margin-left: 10px;
+	padding: 1px 10px 0px 1px;
+	border: solid 1px gray;
+}
+.detail_intro {
+	margin-top:24px ;
+	border-bottom: solid 3px orangered;
+}
+.detail_intro p{
+	font-size: small;
+	color: cornflowerblue;
+	line-height: 14px;
+}
+.detail_intro .b{
+	font-size: small;
+}
+.detail_intro span{
+	margin-right:4px ;
+}
+.detail_intro font{
+	color: orangered;
+	font-weight: bold;
+}
+.detail_intro a{
+	text-decoration: none;
+	color: orangered;
+}
+.detail_intro a:hover{
+	text-decoration: underline;
+}
+.detail_intro .detail_fx .fl{
+	position: relative;
+	display: inline-block;
+	top: 38px;
+}
+.detail_intro .detail_fx .fr{
+	text-align: right;
+	margin: 20px 0px;
+}
+.detail_intro .detail_fx .fr a{
+	padding: 4px 6px;
+	border-radius: 6px;
+	border: solid 1px;
+	color: white;
+}
+.detail_intro .detail_fx .fr a:first-child{
+	background: rgb(80,115,137);
+	/*margin:0px 10px;*/
+}
+.detail_intro .detail_fx .fr a:nth-child(2){
+	background: rgb(255,105,0);
+	margin:0px 20px 0px 10px ;
+}
+.detail_intro .tip{
+	font-size: small;
+	padding-left: 10px;
+	line-height: 40px;
+	background: rgb(255,246,240);
+}
+.detail_text{
+	border-bottom: solid 3px orangered;
+}
+.detail_text span,.headline{
+	line-height: 40px;
+	display: block;
+	border-bottom: solid 1px gainsboro;
+	color: orangered;
+	font-size: large;
+	padding-left: 20px;
+}
+.detail_text p{
+	font-size: small;
+	color: #000010;
+	width: 860px;
+	margin: 0px auto;
+	line-height: 25px;
+	margin-top: 6px;
+	text-indent: 30px;
+}
+.detail_text p:nth-child(2){
+	margin-top:20px ;
+}
+.detail_text p:last-child{
+	margin-bottom:20px ;
+}
+.detail_catalog{
+	border-bottom: solid 3px orangered;
+}
+.detail_catalog p{
+	font-size: small;
+	color: #000010;
+	width: 860px;
+	margin: 0px auto;
+	line-height: 25px;
+	margin-top: 6px;
+	color: gray;
+}
+.detail_catalog p{
+	text-indent: 30px;
+}
+.detail_catalog p:nth-child(2){
+	margin-top:20px ;
+}
+.detail_catalog p:last-child{
+	margin-bottom:20px ;
+}
+.detail_catalog .bt{
+	text-indent: initial;
+	font-size: smaller;
+	color: #000010;
+}
+.detail_catalog p span{
+	display: block;
+	text-indent: 60px;
+}
+/*.detail_about{
+	border-bottom: solid 3px orangered;
+}*/
+.detail_about .margin_left_20{
+	width: 370px;
+	float: left;
+	list-style: none;
+}
+.detail_about .margin_left_70{
+	width: 370px;
+	list-style: none;
+	float: right;
+	margin-right: 60px;
+}
+.detail_about li{
+	line-height: 30px;
+	font-size: smaller;	
+	border-bottom: solid 1px gainsboro;
+	background: url(../img/zdgj_38.jpg) no-repeat 2px 14px;
+	padding-left: 18px;
+}
+.detail_about .click,.click{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.detail_about .click a,.click{
+	color: orangered;
+}
+.detail_about a:hover{
+	text-decoration: underline;
+}
+.detail_about li a{
+	text-decoration: none;
+	color: gray;
+}
+/*aside---------------------------------------------------------------*/
+aside{
+	float: right;
+	width: 290px;
+}
+aside .aside_modle{
+	border-top: solid 3px steelblue;
+	margin-top: 10px;
+}
+aside .aside_modle h3{
+	margin: 0px;
+	font-size: large;
+	line-height: 30px;
+	color: steelblue;
+	border-bottom:solid 1px steelblue;
+}
+aside .aside_modle ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+aside .aside_modle p{
+	font-size: smaller;
+	line-height: 24px;
+}
+aside .aside_modle ul li:nth-child(1){
+	background: url(../img/zdgj_lb_03.jpg) no-repeat 10px 15px;
+	line-height: 40px;
+	padding: 10px 0px 10px 80px; 
+	border-bottom: dotted 1px gainsboro;
+}
+aside .aside_modle ul li:nth-child(2){
+	background: url(../img/zdgj_lb_06.jpg) no-repeat 10px 15px;
+	line-height: 40px;
+	padding: 10px 0px 10px 80px; 
+	border-bottom: dotted 1px gainsboro;
+}
+aside .aside_modle ul li:nth-child(3){
+	background: url(../img/zdgj_lb_13.jpg) no-repeat 10px 15px;
+	line-height: 40px;
+	padding: 10px 0px 10px 80px; 
+	border-bottom: dotted 1px gainsboro;
+}
+aside .aside_modle ul li:nth-child(4){
+	background: url(../img/zdgj_lb_15.jpg) no-repeat 10px 15px;
+	line-height: 40px;
+	padding: 10px 0px 10px 80px; 
+}
+aside .aside_modle .hong{
+	font-size: smaller;
+	font-weight: bold;
+	color: orangered;
+}
+.aside_tip{
+	margin-bottom: 30px;
+}
+aside .aside_list{
+	border-top: solid 3px steelblue;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+aside .aside_list p:first-child{
+	float: left;
+	margin: 0px;
+	font-size: large;
+	color: steelblue;
+	display: inline-block;
+}
+aside .aside_list p:last-child{
+	text-align: right;
+	color: steelblue;
+	margin-top:0px ;
+	line-height: 30px;
+	font-size: smaller;
+	border-bottom:solid 1px steelblue;
+}
+aside .aside_list p:last-child a{
+	text-decoration: none;
+	color: steelblue;
+}
+aside .aside_list p:last-child a:hover{
+	text-decoration: underline;
+}
+aside .aside_list ul{
+	list-style: none;
+	padding-left:0px ;
+}
+aside .aside_list ul li{
+	background: url(../img/zdgj_38.jpg) no-repeat 2px 20px;
+	padding-left: 10px;
+	font-size: smaller;
+	line-height: 40px;
+	height: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: dotted 1px gainsboro;
+}
+aside .aside_list ul li a{
+	text-decoration: none;
+	color: dimgrey;
+}
+aside .aside_list ul li a:hover{
+	text-decoration: underline;
+}
+.aside_list ul .click a{
+	color: orangered;
+}
+aside .rdxw p:first-child{
+	width: 280px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 10px;
+}
+aside .rdxw p:first-child a{
+	text-decoration: none;
+	color: steelblue;
+}
+aside .rdxw p:nth-child(2){
+	border: none;
+}
+aside .rdxw p:nth-child(2) span:first-child{
+	float: left;
+}
+aside .rdxw p:nth-child(2) span:last-child{
+	font-size: small;
+	display: block;
+	width: 170px;
+	float: left;
+	margin-left: 10px;
+	line-height: 20px;
+}
+aside .rdxw p:nth-child(2) span:last-child a{
+	color: orangered;
+	text-decoration: none;
+}
+aside .rdxw p:nth-child(2) span:last-child a:hover{
+	text-decoration: underline;
+}
+
+
+
+/*my_guojia-----------------------------------------------------------------*/
+
+
+
+.main_container{
+	width: 1200px;
+	margin: 0px auto;
+}
+.a{
+	text-decoration: none;
+}
+.a:hover{
+	text-decoration: underline;
+}
+.hong{
+	font-size: smaller;
+	font-weight: bold;
+	color: orangered;
+}
+.hong span a{
+	color: orangered !important;
+}
+.hong_2{
+	color: orangered;
+}
+.hong_2 span a{
+	color: orangered !important;
+}
+.hong_3{
+	color: orangered;
+	font-weight: bold;
+}
+.hong_3 span a{
+	color: orangered !important;
+}
+.bt_blod{
+	font-weight: bold;
+}
+
+.lis ul li{
+	background: url(../img/zdgj_38.jpg) no-repeat 0px 14px;
+	padding-left: 10px;
+	font-size: smaller;
+	line-height: 30px;
+	height: 30px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-bottom: dotted 1px gainsboro;
+}
+.lis ul li a{
+	text-decoration: none;
+	color: dimgrey;
+}
+.lis ul li a:hover{
+	text-decoration: underline;
+}
+.lis ul .click a{
+	color: orangered;
+}
+
+
+
+
+
+/*--------------------------------热点栏----------------------------------------------------------*/
+.hot_report{
+	width: 1200px;
+	border: solid 1px gainsboro;
+	height: 400px;
+	margin-top: 12px;
+}
+.hot_report_head{
+	width: 1200px;
+	line-height: 40px;
+	border-bottom: solid 2px orangered;
+	background: gainsboro;
+}
+.hot_report_head a{
+	padding: 7px 7px 11px 7px;
+	border: solid 3px orangered;
+	border-bottom: none;
+	background: white;
+	color: orangered;
+}
+.bookrack{
+	margin-top: 25px;
+}
+.hot_report .book{
+	float: left;
+	width: 380px;
+	margin-left: 10px;
+}
+.book div{
+	float: left;
+	margin-bottom: 10px;
+}
+.book_info{
+	float: left;
+	margin-left: 20px;
+	width: 200px;
+}
+.book_info a{
+	color: steelblue;
+}
+.b{
+	color: steelblue;
+}
+.b font{
+	color: orangered;
+	font-size: larger;
+}
+.btn a{
+	text-decoration: none;
+	margin-right: 10px;
+	padding:6px 10px;
+	line-height: 30px;
+	color: white;
+}
+.btn a:first-child{
+	background: rgb(80,115,137);
+}
+.btn a:last-child{
+	background: rgb(255,105,0);
+}
+.gj_box{
+	/*display: inline-block;*/
+	float: left;
+	width: 381px;
+	margin: 20px 20px 20px 0px;
+	position: relative;
+	border: solid 1px gainsboro;
+	border-top: solid 3px orangered;
+}
+.gj_box_bt{
+	margin: 0px;
+	color: steelblue;
+	font-size: larger;
+	line-height: 10px;
+	padding-left: 20px ;
+	border-bottom:solid 1px steelblue;
+}
+.fc_org{
+	color: orangered;
+}
+._left{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	font-size:small ;
+	color: cadetblue;
+}
+.gj_box_text,.gj_box_text1{
+	margin-top: 20px;
+}
+.gj_box_img{
+	text-align: center;
+}
+.gj_box1{
+	/*display: inline-block;*/
+	float: left;
+	width: 381px;
+	margin: 20px 20px 40px 0px;
+	position: relative;
+	border: solid 1px gainsboro;
+	border-top: solid 3px steelblue;
+}
+.gj_box_bt1{
+	margin: 0px;
+	color: steelblue;
+	font-size: larger;
+	line-height: 10px;
+	padding-left: 20px ;
+	border-bottom:solid 1px steelblue;
+}
+.gj_box_right{
+	margin:20px 0px;
+	width: 382px;
+}
+.gj_box_text1 ul{
+	padding: 20px;
+}
+.gj_box_text_lin{
+	margin-left: 20px;
+	line-height: 10px;
+}
+.gj_box_text_bt a{
+	color: steelblue;
+	font-size: large;
+}
+.img{
+	float: left;
+} 
+.text{
+	float: left;
+	width: 220px;
+	font-size: smaller;
+	line-height: 20px;
+	margin:18px 0px 0px 20px;
+}
+.text a{
+	font-weight: inherit;
+}
+._tit{
+	display: inline-block;
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+._tit_right{
+	float: right;
+}
+/*------------------------------------------------------about--------------------------------------------------------*/
+/*--------------------------------------------------------about_us------------------------------------------------------*/
+
+ 
+/*------------------------------------------------------------------常见问题*/
+.AQ_right_head{
+	height: 40px;
+	background:  rgb(250,250,250);
+}
+.AQ_right_head ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.AQ_right_head ul li{
+	float: left;
+	text-align: center;
+	width: 180px;
+	padding: 8px 0px;
+	border: solid 1px gainsboro;
+	border-left:none ;
+	cursor: pointer;
+	/*border-bottom:none*/ 
+}
+.hot{
+	color: orangered;
+	font-weight: bold;
+	border-bottom: none;
+	padding-bottom:9.5px ;
+	background: white;
+}
+.zdgj_about_r_box{
+	border-bottom: solid 2px  rgb(250,250,250);
+	margin: 10px 45px;
+}
+.zdgj_about_r_box p:first-child{
+	margin-top: 30px;
+}
+.zdgj_about_r_box p:not(:first-child){
+	font-size: smaller;
+	text-indent: 25px;
+	line-height: 20px;
+}
+.zdgj_about_r_box p:last-child{
+	margin-bottom: 25px;
+}
+.tap_show{
+	display: inherit;
+}
+.tap_hidden{
+	display: none;
+}
+/*-------------------------------------------------------------------广告服务*/
+.ad_main{
+	margin: 16px 30px;
+}
+.ad_titl{
+	font-size: smaller;
+	line-height: 30px;
+}
+.ad_main table {
+	text-align: center;
+	font-size: small;
+	margin-top: 40px;
+}
+._tb_head{
+	background: rgb(255,239,218);
+}
+.ad_main table td{
+	border: solid 1px rgb(255,142,0);
+	padding: 10px 0px;
+}
+.ad_main table font{
+	color: orangered;
+}
+.bcsm{
+	text-align: left;
+	padding-left:10px !important ;
+}
+.zdgj_gywm_b{
+	color: orangered;
+	margin-top: 40px;
+}
+/*-------------------------------------------------------------------------------招贤纳士*/
+.AJ_right_text{
+	margin: 10px 20px;
+}
+.zdgj_about_job_bt{
+	border-bottom: dotted 1px orangered;
+	line-height: 30px;
+	color: orangered;
+}
+.zdgj_about_job_text p{
+	font-size: smaller;
+}
+.zdgj_about_job_text span{
+	margin-right:50px ;
+	
+}
+.zdgj_about_job_text a{
+	color: white;
+	background: orangered;
+	padding: 2px 12px;
+	border-radius: 5px;
+}
+.fb{
+	font-size: smaller;
+	font-weight: bold;
+}
+.zdgj_about_rz{
+	margin: 40px 30px;
+}
+/*--------------------------------------------------------------------------------------------资质与荣耀*/
+.AH_right_head{
+	height: 33px;
+	background:  rgb(250,250,250);
+}
+.AH_right_head ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.AH_right_head ul li{
+	float: left;
+	text-align: center;
+	font-size: smaller;
+	width: 150px;
+	padding: 8px 0px;
+	border: solid 1px gainsboro;
+	border-left:none ;
+	cursor: pointer;
+	/*border-bottom:none*/ 
+}
+.hot2{
+	color: orangered;
+	font-weight: bold;
+	border-bottom: none !important;
+	padding-bottom:9.8px !important;
+	background: white;
+}
+/*--------------------------------------------------------------------------------------------业务范围*/
+.zdgj_about_r_box1{
+	border-bottom: solid 2px  rgb(250,250,250);
+	margin: 10px 45px;
+}
+.zdgj_about_r_box1 p:first-child{
+	margin-top: 30px;
+	background: url(../img/zdgj_ywfw_03.jpg) no-repeat 0px 3px ;
+	padding-left: 30px;
+}
+.zdgj_about_r_box1 p:not(:first-child){
+	font-size: smaller;
+	text-indent: 25px;
+	line-height: 20px;
+}
+.zdgj_about_r_box1 p:last-child{
+	margin-bottom: 22px;
+}
+/*---------------------------------------------------------------------------我们的优势*/
+.zdgj_ys{
+	margin: 10px 30px;
+}
+.bt_2{
+	color: orangered;
+	font-weight: bold;
+	font-size: x-large;
+}
+.t_n{
+	line-height: 30px;
+	font-size: smaller;
+}
+/*----------------------------------------------------------组织架构*/
+.zdgj_about_rz_f{
+	margin: 40px 10px;
+	font-size: smaller;
+	text-align: center;
+}
+.zdgj_about_rz1{
+	text-align: center;
+}
+/*-------------------------------------------------------------------------会员中心*/
+
+.hong_4{
+	color: orangered !important;
+	margin:0px ;
+}
+.member_right_jfsm{
+	margin: 30px 40px;
+}
+.member_right_jfsm p{
+	margin:10px 0px;
+	line-height: 30px;
+}
+.MB_r_H{
+	height: 600px;
+	margin:0px 10px;
+	border: solid 1px gainsboro;
+}
+.member_right_jfsm font{
+	color: orangered;
+}
+.member_right_jfsm a{
+	color: orangered;
+}
+.top50{
+	margin-top: 50px !important;
+}
+.member_r_czzx{
+	margin:20px 20px ;
+}
+.member_r_czzx select{
+	width: 100px;
+	height: 30px;
+	border: solid 1px gainsboro;
+	color: orangered;
+}
+.member_r_czzx_bt{
+	display: inline-block;
+	margin-bottom: 0px;
+}
+.member_r_czzx_bt p{
+	float: left;
+	margin-left:20px;
+	width: 80px;
+	text-align: center;
+	margin-bottom: -5px;
+	border: solid 1px gainsboro;
+	border-bottom: none;
+	padding:10px 20px;
+	border-radius:6px ;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.member_r_czzx_text{
+	border: solid 3px rgb(156,173,211);
+	margin-left: 20px;
+	margin-top: -2px;
+	color: darkgray;
+}
+.member_r_czzx_text strong{
+	color: black;
+}
+.member_czzx_kjzf{
+	width: 800px;
+	margin: 30px 35px 20px;
+	display: inline-block;
+}
+.member_czzx_kjzf img{
+	position: relative;
+	top: 6px;
+}
+.member_r_czzx_text ul{
+	list-style: none;
+}
+.member_r_czzx_text ul li{
+	float: left;	
+	/*padding: 10px 20px;*/
+	margin: 10px 20px;
+	border: solid 1px gainsboro;
+}
+.member_r_czzx_text ul .qt{
+	border: none;
+	padding-top: 10px;
+}
+.col{
+	color: #4682B4;
+}
+.col_2{
+	color: white;
+}
+.member_czzx_kjzf_button{
+	margin: 30px 40px;
+	padding: 8px 30px;
+	background: rgb(255,140,0);
+	display: inline-block;
+	border: solid 1px rgb(255,140,0);
+}
+.til_btn{
+	border: solid 3px rgb(156,173,211) !important;
+	background: white;
+	padding-bottom:9px !important;
+	border-bottom:none !important;
+}
+.bor_col{
+	border: solid 1px rgb(255,140,0) !important;
+}

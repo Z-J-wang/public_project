@@ -1,0 +1,2423 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>国际机票</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+		<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/DJY/pig.js" ></script>
+		<script type="text/javascript" src="js/DJY/index.js" ></script>
+		<script type="text/javascript" src="js/DJY/cityselect.js" ></script>
+		<script type="text/javascript" src="js/DJY/cityselect2.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/DJY/Nationalticket.css"/>
+		<link rel="stylesheet" type="text/css" href="css/DJY/cityselect.css"/>
+		<link rel="stylesheet" type="text/css" href="css/DJY/cityselect2.css"/>
+		<style type="text/css">
+			.demo{width:220px;}
+			.demo input{padding: 12px 18px;}
+			.demo2{width:220px;margin-left: 70px;}
+		</style>
+	
+	
+	</head>
+	<body>
+		<!--导航栏-->
+		<!--顶部导航条-->
+		<div class="top_nava">
+			<div class="clearfix top_nav">
+				<!--左边导航-->
+				<div class="pull-left top_nav_left">
+					<ul class="clearfix">
+						<li class="home pull-left">
+							<div style="padding-left: 0px;">
+								<a href="#" target="_top">
+									<span>飞猪</span>
+								</a>
+							</div>
+						</li>
+						<li class="pull-left logrist">
+							<div>
+								<span>Hi，最近想去哪里玩？</span>
+								<a href="#">请登录</a>
+								<a href="#">免费注册</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--左边导航-->
+				<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+				<!--右边导航-->
+				<div class="pull-right top_nav_right">
+					<ul class="clearfix">
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">手机客户端</a>
+								<img src="img/DJY/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">
+									<img src="img/DJY/top_a.png"/>
+								</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">我的淘宝</a>
+								<img src="img/DJY/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">已买到的宝贝</a>
+								<a href="#">我的足迹</a>
+								<a href="#">飞猪旅行达人</a>
+							</div>
+						</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">购物车</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">收藏夹</a>
+								<img src="img/DJY/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">收藏的宝贝</a>
+								<a href="#">收藏的店铺</a>
+							</div>
+						</li>
+						<li class="top_nav_right_b">|</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">服务中心</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">商家中心</a>
+								<img src="img/DJY/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove" style="padding-right: 13px !important;">
+								<a href="#">招商入驻</a>
+								<a href="#">商家规则</a>
+								<a href="#">培训中心</a>
+								<a href="#">商家品控</a>
+								<a href="#">活动中心</a>
+								<a href="#">商家服务</a>
+								<a href="#">里程发票</a>
+							</div>
+						</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">淘宝</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#" class="wang_icon">网站导航</a>
+								<img src="img/DJY/t_arrow.gif" class="xwcms" />
+							</div>
+							<!--隐藏部分-->
+							<div class="top_nav_right_a_hoveb clearfix row">
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>机票</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">国内机票
+													<img src="img/DJY/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">机票预约</a></li>
+											<li><a href="#">票价历史</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">国际机票</a></li>
+											<li><a href="#">自助值机</a></li>
+										</ul>
+									</div>
+								</div>	
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>酒店</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">香港酒店
+													<img src="img/DJY/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">三亚酒店</a></li>
+											<li><a href="#">北京酒店</a></li>
+											<li><a href="#">杭州酒店</a></li>
+											<li><a href="#">成都酒店</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">澳门酒店</a></li>
+											<li><a href="#">上海酒店</a></li>
+											<li><a href="#">广州酒店</a></li>
+											<li><a href="#">深圳酒店</a></li>
+											<li><a href="#">更多酒店</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>客栈</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left  col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">厦门客栈
+													<img src="img/DJY/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">丽江客栈</a></li>
+											<li><a href="#">凤凰客栈</a></li>
+											<li><a href="#">杭州客栈</a></li>
+											<li><a href="#">更多客栈</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">三亚公寓</a></li>
+											<li><a href="#">舟山农家乐</a></li>
+											<li><a href="#">阳朔客栈</a></li>
+											<li><a href="#">台湾民宿</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>签证</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">泰国签证
+													<img src="img/DJY/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">马来西亚</a></li>
+											<li><a href="#">韩国签证</a></li>
+											<li><a href="#">菲律宾签</a></li>
+											<li><a href="#">美国签证</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">入台证</a></li>
+											<li><a href="#">日本签证</a></li>
+											<li><a href="#">越南签证</a></li>
+											<li><a href="#">新加坡签</a></li>
+											<li><a href="#">澳大利亚</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>景点门票</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">迪士尼
+													<img src="img/DJY/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">杜莎夫人蜡像馆</a></li>
+											<li><a href="#">亚龙湾公园</a></li>
+											<li><a href="#">欢乐世界</a></li>
+											<li><a href="#">厦门鼓浪屿</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">海洋公园</a></li>
+											<li><a href="#">蜈支洲</a></li>
+											<li><a href="#">深圳欢乐谷</a></li>
+											<li><a href="#">世界之窗</a></li>
+											<li><a href="#">婺源</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderrb">
+									<h4>度假线路</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">香港
+													<img src="img/DJY/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">泰国</a></li>
+											<li><a href="#">丽江</a></li>
+											<li><a href="#">韩国</a></li>
+											<li><a href="#">普吉岛</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">马尔代夫</a></li>
+											<li><a href="#">三亚</a></li>
+											<li><a href="#">日本</a></li>
+											<li><a href="#">台湾</a></li>
+											<li><a href="#">新加坡</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--右边导航-->
+			</div>
+		</div>
+		<!--顶部导航条-->
+
+		<!--顶部搜索部分-->
+		<div class="header_cen">
+			<div class="header_centent">
+				<div class="row" style="margin: 0px;">
+					<!--logo图片-->
+					<div class="header_logo col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<a href="#">
+							<img src="img/DJY/top_d.png"/>
+						</a>
+					</div>
+					<!--搜索框-->
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="position: relative;">
+						<div class="header_search_btn clearfix">
+							<button class="search_switch_selected">宝贝</button>
+							<button class="">店铺</button>
+						</div>
+						<div class="input-group header_search_inp">
+		                    <input type="text" class="form-control" placeholder="目的地/酒店/景点/签证等">
+		                    <span class="input-group-btn">
+		                        <button class="btn btn-default" type="button">
+		                        	<span class="glyphicon glyphicon-search"></span>
+		                        	搜索
+		                        </button>
+		                    </span>
+		                </div>
+		                <!--隐藏部分-->
+		                <div class="hearder_search_recommend">
+		                	<div>
+		                		<img src="img/DJY/top_e.png"/>
+		                		<span>搜索·发现</span>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">交通：</b>
+		                		<div class="pull-left">
+			                		<a href="#">火车票</a>
+			                		<a href="#">机票</a>
+		                		</div>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">酒店：</b>
+		                		<div class="pull-left">
+		                			<a href="#">酒店</a>
+		                		</div>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">度假：</b>
+		                		<div class="pull-left">
+			                		<a href="#">泰国签证</a>
+			                		<a href="#">上海野生动物园</a>
+			                		<a href="#">香港迪士尼</a>
+			                		<a href="#">兵马俑门票</a>
+			                		<br />
+			                		<a href="#">拙政园</a>
+			                		<a href="#">颐和园</a>
+			                		<a href="#">日本签证</a>
+			                		<a href="#">香港流量包</a>
+		                		</div>
+		                	</div>
+		                </div>
+					</div>
+					<!--电话号码-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<div class="header_phone text_hover">
+							<div class="header_phone_text header_phone_icon text_hover">
+								<span>消费者热线(国内)</span>
+								<span>9510208</span>
+							</div>
+							<div class="header_phone_text text_hover">
+								<span style="padding-left: 93px;">400-1688-688</span>
+							</div>
+							<div class="header_phone_text text_hover">
+								<span>消费者热线(国际)</span>
+								<span>+86-571-56888688</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--row结束-->
+			</div>
+		</div>
+		<!--顶部搜索部分-->
+
+		<!--头部导航条部分-->
+		<div class="header_nav">
+			<div class="header_nava">
+				<ul class="nav nav-pills">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="Nationalticket.html" style="background-color: white;">港澳台/国际机票</a></li>
+					<li><a href="Trainticket.html">火车票</a></li>
+					<li><a href="travel.html">旅游度假</a></li>
+					<li><a href="jingdian.html">景点门票</a></li>
+					<li><a href="User.html">我的旅行</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--主体内容-->
+		<div class="clearfix content">
+			<!--第一个大块-->
+			<div class="clearfix big1">
+				<!--左边-->
+				<div class="clearfix big1left">
+					<div class="clearfix big1leftnav">
+						<ul class="clearfix">
+							<li><span class="sp1">&nbsp;国际城市/港澳台&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+							<li>
+								<span class="sp2">
+									&nbsp;&nbsp;特价机票
+									<img src="img/DJY/greenN.gif"/>
+									
+								</span>
+								&nbsp;|
+							</li>
+							<li><span class="sp3">&nbsp;国内城市&nbsp;</span></li>
+						</ul>
+					</div>
+					
+					<div class="clearfix bigleftpage1">
+						<div class="clearfix checked1">
+							<span class="select1">
+								<img src="img/DJY/select1_2.jpg"/>
+								<span>单程</span>
+							</span>
+							<span class="select2">
+								<img src="img/DJY/select1_3.jpg"/>
+								<span>往返</span>
+							</span>
+						</div>
+						<div class="clearfix inputs">
+							<div class="clearfix input1">
+								<span>出发城市：</span>
+													
+								<!--城市切换-->
+								<div class="demo" style="margin-top: -23px;padding-left: 70px;">
+									<!-- 在输入框加入id -->
+									<input type="text" class="cityinput" style="height: 10px;width:160px;" id="citySelect" placeholder="请输入目的地">
+								</div>
+								
+								<!--<script type="text/javascript" src="js/cityselect.js"></script>-->
+								<script type="text/javascript">
+									var test=new Vcity.CitySelector({input:'citySelect'});
+								</script>	
+													
+							</div>
+							
+							<div class="clearfix input2">
+								<span>到达城市：</span>
+													
+								<!--城市切换-->
+								<div class="demo" style="margin-top: -23px;padding-left: 70px;">
+									<!-- 在输入框加入id -->
+									<input type="text" class="cityinput" style="height: 10px;width:160px;" id="citySelect2" placeholder="请输入目的地">
+								</div>
+								
+								<!--<script type="text/javascript" src="js/cityselect.js"></script>-->
+								<script type="text/javascript">
+									var test=new Vcity.CitySelector({input:'citySelect2'});
+								</script>					
+							</div>
+							<div class="clearfix change1">
+								<img src="img/DJY/change1_1.jpg" class="chg1"/>
+							</div>
+							
+						
+							<div class="clearfix input3">
+								<span>出发日期：</span>
+								<input type="date" name="" id="" value="" />
+							</div>
+							
+							<div class="clearfix input4">
+								<span disabled="disabled">返程日期：</span>
+								<input type="date" name="" id="" value="" disabled="disabled"/>
+							</div>
+						</div>
+						<button type="submit" class="btn btn1">搜索</button>
+					</div>
+					
+					<div class="clearfix bigleftpage2" style="display: none;">
+						<div class="clearfix checked1">
+							<span class="select1">
+								<img src="img/DJY/select1_3.jpg"/>
+								<span>单程</span>
+							</span>
+							<span class="select2">
+								<img src="img/DJY/select1_2.jpg" style="margin-top: 6px;"/>
+								<span style="">往返</span>
+							</span>
+						</div>
+						<div class="clearfix inputs">
+							<div class="clearfix input1">
+								<span>出发城市：</span>
+													
+								<!--城市切换-->
+								<div class="demo" style="margin-top: -23px;padding-left: 70px;">
+									<!-- 在输入框加入id -->
+									<input type="text" class="cityinput" style="height: 10px;width:160px;" id="citySelect3" placeholder="请输入目的地">
+								</div>
+								
+								<!--<script type="text/javascript" src="js/cityselect.js"></script>-->
+								<script type="text/javascript">
+									var test=new Vcity.CitySelector({input:'citySelect3'});
+								</script>	
+													
+							</div>
+							
+							<div class="clearfix input2">
+								<span>到达城市：</span>
+													
+								<!--城市切换-->
+								<div class="demo" style="margin-top: -23px;padding-left: 70px;">
+									<!-- 在输入框加入id -->
+									<input type="text" class="cityinput" style="height: 10px;width:160px;" id="citySelect4" placeholder="请输入目的地">
+								</div>
+								
+								<!--<script type="text/javascript" src="js/cityselect.js"></script>-->
+								<script type="text/javascript">
+									var test=new Vcity.CitySelector({input:'citySelect4'});
+								</script>					
+							</div>
+							<div class="clearfix change1">
+								<img src="img/DJY/change1_1.jpg" class="chg1"/>
+							</div>
+							
+						
+							<div class="clearfix input3">
+								<span>出发日期：</span>
+								<input type="date" name="" id="" value="" />
+							</div>
+							
+							<div class="clearfix input4">
+								<span>返程日期：</span>
+								<input type="date" name="" id="" value=""/>
+							</div>
+						</div>
+						<button type="submit" class="btn btn1">搜索</button>
+					</div>
+				
+					<div class="clearfix bigleftpage3" style="display: none;">
+						<div class="clearfix checked1">
+							<span class="select3">
+								<img src="img/DJY/select1_2.jpg"/>
+								<span>国际港澳台</span>
+							</span>
+							<span class="select4">
+								<img src="img/DJY/select1_3.jpg"/>
+								<span>国内</span>
+							</span>
+						</div>
+						<div class="clearfix inputs">
+							<div class="clearfix input1">
+								<span>出发城市：</span>
+													
+								<!--城市切换-->
+								<div class="demo" style="margin-top: -23px;padding-left: 70px;">
+									<!-- 在输入框加入id -->
+									<input type="text" class="cityinput" style="height: 10px;width:160px;" id="citySelect5" placeholder="请输入目的地">
+								</div>
+								
+								<!--<script type="text/javascript" src="js/cityselect.js"></script>-->
+								<script type="text/javascript">
+									var test=new Vcity.CitySelector({input:'citySelect5'});
+								</script>	
+													
+							</div>
+							
+							<div class="clearfix input2">
+								<span>到达城市：</span>
+													
+								<!--城市切换-->
+								<div class="demo" style="margin-top: -23px;padding-left: 70px;">
+									<!-- 在输入框加入id -->
+									<input type="text" class="cityinput" style="height: 10px;width:160px;" id="citySelect6" placeholder="请输入目的地">
+								</div>
+								
+								<!--<script type="text/javascript" src="js/cityselect.js"></script>-->
+								<script type="text/javascript">
+									var test=new Vcity.CitySelector({input:'citySelect6'});
+								</script>					
+							</div>
+							<div class="clearfix change1">
+								<img src="img/DJY/change1_1.jpg" class="chg1"/>
+							</div>
+							
+						
+							<div class="clearfix input3">
+								<span>出发日期：</span>
+								<input type="date" name="" id="" value="" style="width: 115px;font-size: 12px;"/>
+							</div>
+							<div class="clearfix ss1">
+								<select>
+								  <option value="前后15天">前后15天</option>
+								  <option value="前后30天">前后30天</option>
+								  <option value="前后45天">前后45天</option>
+								  <option value="前后60天">前后60天</option>
+								</select>
+							</div>
+							
+							
+						</div>
+						<button type="submit" class="btn btn1">搜索</button>
+					</div>
+				
+					<div class="clearfix bigleftpage4" style="display: none;">
+						<div class="clearfix checked1">
+							<span class="select3">
+								<img src="img/DJY/select1_3.jpg"/>
+								<span>国际港澳台</span>
+							</span>
+							<span class="select4">
+								<img src="img/DJY/select1_2.jpg" style="margin-top: 6px;"/>
+								<span style="">国内</span>
+							</span>
+						</div>
+						<div class="clearfix inputs">
+							<div class="clearfix input1">
+								<span>出发城市：</span>
+													
+								<!--城市切换-->
+								<div class="demo" style="margin-top: -23px;padding-left: 70px;">
+									<!-- 在输入框加入id -->
+									<input type="text" class="cityinput" style="height: 10px;width:160px;" id="citySelect7" placeholder="请输入目的地">
+								</div>
+								
+								<!--<script type="text/javascript" src="js/cityselect.js"></script>-->
+								<script type="text/javascript">
+									var test=new Vcity.CitySelector({input:'citySelect7'});
+								</script>	
+													
+							</div>
+							
+							<div class="clearfix input2">
+								<span>到达城市：</span>
+													
+								<!--城市切换-->
+								<div class="demo" style="margin-top: -23px;padding-left: 70px;">
+									<!-- 在输入框加入id -->
+									<input type="text" class="cityinput" style="height: 10px;width:160px;" id="citySelect8" placeholder="请输入目的地">
+								</div>
+								
+								<!--<script type="text/javascript" src="js/cityselect.js"></script>-->
+								<script type="text/javascript">
+									var test=new Vcity.CitySelector({input:'citySelect8'});
+								</script>					
+							</div>
+							<div class="clearfix change1">
+								<img src="img/DJY/change1_1.jpg" class="chg1"/>
+							</div>
+							
+						
+							<div class="clearfix input3">
+								<span>出发日期：</span>
+								<input type="date" name="" id="" value="" style="width: 115px;font-size: 12px;"/>
+							</div>
+							<div class="clearfix ss1">
+								<select>
+								  <option value="前后7天">前后7天</option>
+								  <option value="当天">当天</option>
+								  <option value="前后3天">前后3天</option>
+								  <option value="前后15天">前后15天</option>
+								  <option value="前后30天">前后30天</option>
+								  <option value="前后45天">前后45天</option>
+								</select>
+							</div>
+							
+							
+						</div>
+						<button type="submit" class="btn btn1">搜索</button>
+						
+					</div>
+				</div>
+				<!--<p style="clear: both;"></p>-->
+			
+				<div class="clearfix big1middletop" style="width:300px;height:200px;">
+					<div class="clearfix bigg1right banner_page_center fl" id="banner_center">
+					    <!--<span class="btn-l"></span>
+					    <span class="btn-r"></span>-->
+					    <ul class="page_img" style="height:267.3px ;">
+					        <li><a href=""><img src="img/DJY/chgimg1.jpg"/></a></li>
+					        <li><a href=""><img src="img/DJY/chgimg2.jpg"></a></li>
+					        <li><a href=""><img src="img/DJY/chgimg3.jpg"/></a></li>
+					        <li><a href=""><img src="img/DJY/chgimg4.jpg"/></a></li>
+					        <!--<li><a href=""><img src="img/ban123.jpg" style="width: 700px;height: 400px;"/></a></li>-->
+					    </ul>
+					    <ul class="clearfix page_con">
+					        <li class="li1"></li>
+					        <li class="li2"></li>
+					        <li class="li3"></li>
+					        <li class="li4"></li>
+					        <!--<li>3</li>-->
+					    </ul>
+					</div>  
+					
+				</div>	
+					
+					<!--<div class="clearfix big1middletop">
+						<img src="img/DJY/chgimg1.jpg" class="imgchg"/>
+						
+						<ul class="clearfix page_con">
+				        <li class="li1"></li>
+				        <li class="li2"></li>
+				        <li class="li3"></li>
+				        <li class="li4"></li>
+				    </ul>
+					</div>-->
+					<div class="clearfix big1middlebottom" style="width: 650px;height: 70px;margin-top: 240px;margin-left: 330px;">
+						<span><img src="img/DJY/bao.png"/></span>
+						<span class="clearfix sp4">
+							<img src="img/DJY/gou1.png"/>
+							<span>航协认证</span>
+						</span>
+						<div class="clearfix white1 extendsp4">
+							<div class="ab"></div>
+							<p><b>航协认证</b></p>
+							<p>机票代理商航空运输协</p>
+							<p>会资格认证</p>
+						</div>
+						
+						
+						<span class="clearfix sp5">
+							<img src="img/DJY/gou1.png"/>
+							<span>实价出票</span>
+						</span>
+						<div class="clearfix white2 extendsp5">
+							<div class="ab"></div>
+							<p><b>实价出票</b></p>
+							<p>支付成功后票、加</p>
+							<p>价、无法登机，全额赔</p>
+							<p>付</p>
+						</div>
+					</div>
+				
+			
+				<div class="clearfix big1right">
+					<ul>
+						<li>
+							<img src="img/DJY/right1img1.jpg"/>
+							<div class="txt1">
+								<span>青岛往返伦敦特惠</span><br />
+								<span class="pp1">往返含税4210元起</span>
+							</div>
+							
+						</li>
+						<li>
+							<img src="img/DJY/right1img2.jpg"/>
+							<div class="txt1">
+								<span>深圳往返达尔文特惠</span><br />
+								<span class="pp1">往返含税1638元起</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--第二个大块-->
+			<div class="clearfix big2">
+				<ul>
+					<li class="lii1" style="margin-left: 0px;">
+						<div class="in1">
+							<img class="imgg1" src="img/DJY/li1.jpg"/>
+							<span class="a1">出票状态</span>
+						</div>
+					</li>
+					<li class="lii2">
+						<div class="in1">
+							<img class="imgg2" src="img/DJY/li3.jpg" style="margin-top: -8px;"/>
+							<span class="a2">退票改签</span>
+						</div>
+					</li>
+					<li class="lii3">
+						<div class="in1">
+							<img class="imgg3" src="img/DJY/li7.jpg" style="margin-top: -4px;"/>
+							<span class="a3">特价机票</span>
+						</div>
+					</li>
+					<li class="lii4">
+						<div class="in1">
+							<img class="imgg4" src="img/DJY/li5.jpg" style="margin-top: -4px;"/>
+							<span class="a4">自助值机</span>
+						</div>
+					</li>
+					<li class="lii5">
+						<div class="in1">
+							<img class="imgg5" src="img/DJY/li9.jpg" style="margin-top: -4px;"/>
+							<span class="a5">航班动态</span>
+						</div>
+					</li>
+					<li class="lii6">
+						<div class="in1">
+							<span class="a6">更多新航线></span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<!--第三个大块-->
+			<div class="clearfix big3">
+				<div class="clearfix big3title">
+					<span>往返 国际·港澳台特价航线</span>
+					<span class="clearfix se1">
+						<select class="clearfix">
+							<option value="广州出发">广州出发</option>
+							<option value="上海出发">上海出发</option>
+							<option value="北京出发">北京出发</option>
+							<option value="杭州出发">杭州出发</option>
+							<option value="深圳出发">深圳出发</option>
+							<option value="广州出发">广州出发</option>
+							<option value="香港出发">香港出发</option>
+							<option value="成都出发">成都出发</option>
+						</select>
+					</span>
+					<span class="clearfix se2">
+						<select class="clearfix">
+							<option value="全部月份">全部月份</option>
+							<option value="10月 11月">10月 11月</option>
+							<option value="12月 01月">12月 01月</option>
+							<option value="02月 03月">02月 03月</option>
+						</select>
+					</span>
+					<ul class="clearfix uu1">
+						<li class="clearfix">
+							<span style="font-size: 14px;">热门</span>
+							<span>|</span>
+						</li>
+						<li>
+							<a>港澳台/日本</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>亚洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>欧洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>美洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>澳洲/非洲</a>
+							<!--<span>|</span>-->
+						</li>
+					</ul>
+					<span class="clearfix more1"><a>更多></a></span>
+				</div>
+				<div class="clearfix big3content">
+					<div class="clearfix big3contenttop">
+						<div class="clearfix big3contenttopleft tb1">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋伦敦</td>
+										<td>12-03⇋12-11</td>
+										<td class="tdd1">￥3620</td>
+									</tr>
+									<tr>
+										<td>广州⇋普吉岛</td>
+										<td>10-23⇋10-26</td>
+										<td class="tdd1">￥646</td>
+									</tr>
+									<tr>
+										<td>广州⇋曼谷</td>
+										<td>10-16⇋10-19</td>
+										<td class="tdd1">￥705</td>
+									</tr>
+									<tr>
+										<td>广州⇋悉尼</td>
+										<td>11-16⇋10-19</td>
+										<td class="tdd1">￥2333</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋伦敦</td>
+										<td>03-15⇋03-26</td>
+										<td class="tdd1">￥3623</td>
+									</tr>
+									<tr>
+										<td>广州⇋巴黎</td>
+										<td>03-15⇋03-26</td>
+										<td class="tdd1">￥3525</td>
+									</tr>
+									<tr>
+										<td>广州⇋悉尼</td>
+										<td>03-13⇋03-25</td>
+										<td class="tdd1">￥2283</td>
+									</tr>
+									<tr>
+										<td>广州⇋洛杉矶</td>
+										<td>03-13⇋03-30</td>
+										<td class="tdd1">￥2752</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px; border-right: none;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋巴黎</td>
+										<td>11-21⇋11-28</td>
+										<td class="tdd1">￥3521</td>
+									</tr>
+									<tr>
+										<td>广州⇋洛杉矶</td>
+										<td>11-07⇋11-14</td>
+										<td class="tdd1">￥2553</td>
+									</tr>
+									<tr>
+										<td>广州⇋曼谷</td>
+										<td>01-06⇋01-09</td>
+										<td class="tdd1">￥752</td>
+									</tr>
+									<tr>
+										<td>广州⇋新加坡</td>
+										<td>03-29⇋04-23</td>
+										<td class="tdd1">￥952</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				
+					<div class="clearfix big3contenttop">
+						<div class="clearfix big3contenttopleft tb1">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋奥克兰</td>
+										<td>11-02⇋11-10</td>
+										<td class="tdd1">￥2451</td>
+									</tr>
+									<tr>
+										<td>广州⇋奥克兰</td>
+										<td>03-13⇋03-21</td>
+										<td class="tdd1">￥2584</td>
+									</tr>
+									<tr>
+										<td>广州⇋澳门</td>
+										<td>11-03⇋11-09</td>
+										<td class="tdd1">￥1811</td>
+									</tr>
+									<tr>
+										<td>广州⇋大阪</td>
+										<td>10-26⇋10-31</td>
+										<td class="tdd1">￥2110</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋新加坡</td>
+										<td>10-24⇋10-31</td>
+										<td class="tdd1">￥940</td>
+									</tr>
+									<tr>
+										<td>广州⇋台北</td>
+										<td>03-01⇋03-05</td>
+										<td class="tdd1">￥1612</td>
+									</tr>
+									<tr>
+										<td>广州⇋普吉岛</td>
+										<td>01-04⇋01-15</td>
+										<td class="tdd1">￥1277</td>
+									</tr>
+									<tr>
+										<td>广州⇋东京</td>
+										<td>11-27⇋12-03</td>
+										<td class="tdd1">￥2147</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px; border-right: none;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋台北</td>
+										<td style="padding-left: 31px;">12-05⇋12-16</td>
+										<td class="tdd1">￥1457</td>
+									</tr>
+									<tr>
+										<td>广州⇋纽约</td>
+										<td style="padding-left: 31px;">10-30⇋11-10</td>
+										<td class="tdd1">￥3038</td>
+									</tr>
+									<tr>
+										<td>广州⇋纽约</td>
+										<td style="padding-left: 31px;">02-06⇋02-18</td>
+										<td class="tdd1">￥3252</td>
+									</tr>
+									<tr>
+										<td>广州⇋香港</td>
+										<td style="padding-left: 31px;">11-20⇋11-26</td>
+										<td class="tdd1">￥1891</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--第四个大块-->
+			<div class="clearfix big3">
+				<div class="clearfix big3title">
+					<span>往返 国际公务头等舱</span>
+					<span class="clearfix se1">
+						<select class="clearfix">
+							<option value="广州出发">广州出发</option>
+							<option value="上海出发">上海出发</option>
+							<option value="北京出发">北京出发</option>
+							<option value="杭州出发">杭州出发</option>
+							<option value="深圳出发">深圳出发</option>
+							<option value="广州出发">广州出发</option>
+							<option value="香港出发">香港出发</option>
+							<option value="成都出发">成都出发</option>
+						</select>
+					</span>
+					<span class="clearfix se2">
+						<select class="clearfix">
+							<option value="全部月份">全部月份</option>
+							<option value="10月 11月">10月 11月</option>
+							<option value="12月 01月">12月 01月</option>
+							<option value="02月 03月">02月 03月</option>
+						</select>
+					</span>
+					<ul class="clearfix uu1">
+						<li class="clearfix">
+							<span style="font-size: 14px;">热门</span>
+							<span>|</span>
+						</li>
+						<li>
+							<a>港澳台/日本</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>亚洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>欧洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>美洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>澳洲/非洲</a>
+							<!--<span>|</span>-->
+						</li>
+					</ul>
+					<span class="clearfix more1"><a>更多></a></span>
+				</div>
+				<div class="clearfix big3content">
+					<div class="clearfix big3contenttop">
+						<div class="clearfix big3contenttopleft tb1">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋新加坡</td>
+										<td>10-19⇋10-27</td>
+										<td class="tdd1">￥2239</td>
+									</tr>
+									<tr>
+										<td>广州⇋台北</td>
+										<td>12-07⇋12-14</td>
+										<td class="tdd1">￥3262</td>
+									</tr>
+									<tr>
+										<td>广州⇋悉尼</td>
+										<td>11-13⇋11-19</td>
+										<td class="tdd1">￥6552</td>
+									</tr>
+									<tr>
+										<td>广州⇋名古屋</td>
+										<td>11-27⇋12-05</td>
+										<td class="tdd1">￥5076</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋曼谷</td>
+										<td>11-30⇋12-12</td>
+										<td class="tdd1">￥3093</td>
+									</tr>
+									<tr>
+										<td>广州⇋香港</td>
+										<td>11-12⇋11-21</td>
+										<td class="tdd1">￥3771</td>
+									</tr>
+									<tr>
+										<td>广州⇋东京</td>
+										<td>11-20⇋11-30</td>
+										<td class="tdd1">￥5066</td>
+									</tr>
+									<tr>
+										<td>广州⇋东京</td>
+										<td>02-04⇋02-09</td>
+										<td class="tdd1">￥6039</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px; border-right: none;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋曼谷</td>
+										<td>02-20⇋03-01</td>
+										<td class="tdd1">￥3159</td>
+									</tr>
+									<tr>
+										<td>广州⇋普吉岛</td>
+										<td>11-17⇋11-28</td>
+										<td class="tdd1">￥3818</td>
+									</tr>
+									<tr>
+										<td>广州⇋大阪</td>
+										<td>11-30⇋12-05</td>
+										<td class="tdd1">￥5095</td>
+									</tr>
+									<tr>
+										<td>广州⇋巴黎</td>
+										<td>12-05⇋12-13</td>
+										<td class="tdd1">￥9659</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				
+					<div class="clearfix big3contenttop">
+						<div class="clearfix big3contenttopleft tb1" >
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋洛杉矶</td>
+										<td style="padding-left: 12px;">12-22⇋12-31</td>
+										<td class="tdd1">￥10719</td>
+									</tr>
+									<tr>
+										<td>广州⇋纽约</td>
+										<td style="padding-left: 12px;">11-08⇋11-11</td>
+										<td class="tdd1">￥13784</td>
+									</tr>
+									<tr>
+										<td>广州⇋奥克兰</td>
+										<td style="padding-left: 12px;">11-08⇋11-11</td>
+										<td class="tdd1">￥10831</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋巴黎</td>
+										<td style="padding-left: 12px;">01-24⇋02-01</td>
+										<td class="tdd1">￥11980</td>
+									</tr>
+									<tr>
+										<td>广州⇋悉尼</td>
+										<td style="padding-left: 12px;">02-04⇋02-09</td>
+										<td class="tdd1">￥10782</td>
+									</tr>
+									<tr>
+										<td>广州⇋伦敦</td>
+										<td style="padding-left: 12px;">11-13⇋11-23</td>
+										<td class="tdd1">￥12366</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px; border-right: none;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇋伦敦</td>
+										<td style="padding-left: 12px;">03-04⇋03-11</td>
+										<td class="tdd1">￥13064</td>
+									</tr>
+									<tr>
+										<td>广州⇋奥克兰</td>
+										<td style="padding-left: 12px;">03-13⇋03-27</td>
+										<td class="tdd1">￥11844</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--第五个大块-->
+			<div class="clearfix big3">
+				<div class="clearfix big3title">
+					<span>单程 国际·港澳台特价航线</span>
+					<span class="clearfix se1">
+						<select class="clearfix">
+							<option value="广州出发">广州出发</option>
+							<option value="上海出发">上海出发</option>
+							<option value="北京出发">北京出发</option>
+							<option value="杭州出发">杭州出发</option>
+							<option value="深圳出发">深圳出发</option>
+							<option value="广州出发">广州出发</option>
+							<option value="香港出发">香港出发</option>
+							<option value="成都出发">成都出发</option>
+						</select>
+					</span>
+					<span class="clearfix se2">
+						<select class="clearfix">
+							<option value="全部月份">全部月份</option>
+							<option value="10月 11月">10月 11月</option>
+							<option value="12月 01月">12月 01月</option>
+							<option value="02月 03月">02月 03月</option>
+						</select>
+					</span>
+					<ul class="clearfix uu1">
+						<li class="clearfix">
+							<span style="font-size: 14px;">热门</span>
+							<span>|</span>
+						</li>
+						<li>
+							<a>港澳台/日本</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>亚洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>欧洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>美洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>澳洲/非洲</a>
+							<!--<span>|</span>-->
+						</li>
+					</ul>
+					<span class="clearfix more1"><a>更多></a></span>
+				</div>
+				<div class="clearfix big3content">
+					<div class="clearfix big3contenttop">
+						<div class="clearfix big3contenttopleft tb1">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇀新加坡</td>
+										<td>10-16</td>
+										<td class="tdd1">￥252</td>
+									</tr>
+									<tr>
+										<td>广州⇀普吉岛</td>
+										<td>01-08</td>
+										<td class="tdd1">￥445</td>
+									</tr>
+									<tr>
+										<td>广州⇀新加坡</td>
+										<td>01-05</td>
+										<td class="tdd1">￥501</td>
+									</tr>
+									<tr>
+										<td>广州⇀东京</td>
+										<td>11-30</td>
+										<td class="tdd1">￥886</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇀普吉岛</td>
+										<td>10-23</td>
+										<td class="tdd1">￥293</td>
+									</tr>
+									<tr>
+										<td>广州⇀台北</td>
+										<td>12-17</td>
+										<td class="tdd1">￥597</td>
+									</tr>
+									<tr>
+										<td>广州⇀台北</td>
+										<td>03-06</td>
+										<td class="tdd1">￥655</td>
+									</tr>
+									<tr>
+										<td>广州⇀洛杉矶</td>
+										<td>12-04</td>
+										<td class="tdd1">￥1776</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px; border-right: none;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇀曼谷</td>
+										<td>01-06</td>
+										<td class="tdd1">￥342</td>
+									</tr>
+									<tr>
+										<td>广州⇀新加坡</td>
+										<td>11-15</td>
+										<td class="tdd1">￥437</td>
+									</tr>
+									<tr>
+										<td>广州⇀澳门</td>
+										<td>12-01</td>
+										<td class="tdd1">￥644</td>
+									</tr>
+									<tr>
+										<td>广州⇀悉尼</td>
+										<td>12-13</td>
+										<td class="tdd1">￥1066</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				
+					<div class="clearfix big3contenttop">
+						<div class="clearfix big3contenttopleft tb1">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇀大阪</td>
+										<td style="padding-left: 33px;">11-18</td>
+										<td class="tdd1">￥804</td>
+									</tr>
+									<tr>
+										<td>广州⇀名古屋</td>
+										<td style="padding-left: 33px;">11-17</td>
+										<td class="tdd1">￥992</td>
+									</tr>
+									<tr>
+										<td>广州⇀悉尼</td>
+										<td style="padding-left: 33px;">02-24</td>
+										<td class="tdd1">￥1066</td>
+									</tr>
+									<tr>
+										<td>广州⇀奥克兰</td>
+										<td style="padding-left: 33px;">11-18</td>
+										<td class="tdd1">￥1867</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇀香港</td>
+										<td style="padding-left: 47px;">11-08</td>
+										<td class="tdd1">￥833</td>
+									</tr>
+									<tr>
+										<td>广州⇀澳门</td>
+										<td style="padding-left: 47px;">01-24</td>
+										<td class="tdd1">￥925</td>
+									</tr>
+									<tr>
+										<td>广州⇀伦敦</td>
+										<td style="padding-left: 47px;">01-26</td>
+										<td class="tdd1">￥2223</td>
+									</tr>
+									<tr>
+										<td>广州⇀香港</td>
+										<td style="padding-left: 47px;">01-09</td>
+										<td class="tdd1">￥1106</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px; border-right: none;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇀大阪</td>
+										<td style="padding-left: 15px;">02-24</td>
+										<td class="tdd1">￥946</td>
+									</tr>
+									<tr>
+										<td>广州⇀名古屋</td>
+										<td style="padding-left: 15px;">02-08</td>
+										<td class="tdd1">￥1377</td>
+									</tr>
+									<tr>
+										<td>广州⇀东京</td>
+										<td style="padding-left: 15px;">01-14</td>
+										<td class="tdd1">￥1098</td>
+									</tr>
+									<tr>
+										<td>广州⇀奥克兰</td>
+										<td style="padding-left: 15px;">01-01</td>
+										<td class="tdd1">￥2049</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+			<!--第六个大块-->
+			<div class="clearfix big3">
+				<div class="clearfix big3title">
+					<span>单程 国际公务头等特价</span>
+					<span class="clearfix se1">
+						<select class="clearfix">
+							<option value="广州出发">广州出发</option>
+							<option value="上海出发">上海出发</option>
+							<option value="北京出发">北京出发</option>
+							<option value="杭州出发">杭州出发</option>
+							<option value="深圳出发">深圳出发</option>
+							<option value="广州出发">广州出发</option>
+							<option value="香港出发">香港出发</option>
+							<option value="成都出发">成都出发</option>
+						</select>
+					</span>
+					<span class="clearfix se2">
+						<select class="clearfix">
+							<option value="全部月份">全部月份</option>
+							<option value="10月 11月">10月 11月</option>
+							<option value="12月 01月">12月 01月</option>
+							<option value="02月 03月">02月 03月</option>
+						</select>
+					</span>
+					<ul class="clearfix uu1">
+						<li class="clearfix">
+							<span style="font-size: 14px;">热门</span>
+							<span>|</span>
+						</li>
+						<li>
+							<a>港澳台/日本</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>亚洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>欧洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>美洲</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a>澳洲/非洲</a>
+							<!--<span>|</span>-->
+						</li>
+					</ul>
+					<span class="clearfix more1"><a>更多></a></span>
+				</div>
+				<div class="clearfix big3content">
+					<div class="clearfix big3contenttop">
+						<div class="clearfix big3contenttopleft tb1">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇀新加坡</td>
+										<td>10-18</td>
+										<td class="tdd1">￥1080</td>
+									</tr>
+									<tr>
+										<td>广州⇀曼谷</td>
+										<td>01-15</td>
+										<td class="tdd1">￥2059</td>
+									</tr>
+									<tr>
+										<td>广州⇀澳门</td>
+										<td>10-20</td>
+										<td class="tdd1">￥3303</td>
+									</tr>
+									<tr>
+										<td>广州⇀名古屋</td>
+										<td>10-20</td>
+										<td class="tdd1">￥4267</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇀台北</td>
+										<td>12-09</td>
+										<td class="tdd1">￥1795</td>
+									</tr>
+									<tr>
+										<td>广州⇀香港</td>
+										<td>11-15</td>
+										<td class="tdd1">￥1946</td>
+									</tr>
+									<tr>
+										<td>广州⇀东京</td>
+										<td>11-27</td>
+										<td class="tdd1">￥3503</td>
+									</tr>
+									<tr>
+										<td>广州⇀大阪</td>
+										<td>11-30</td>
+										<td class="tdd1">￥4374</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px; border-right: none;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td>广州⇀曼谷</td>
+										<td>10-25</td>
+										<td class="tdd1">￥2035</td>
+									</tr>
+									<tr>
+										<td>广州⇀普吉岛</td>
+										<td>10-17</td>
+										<td class="tdd1">￥2714</td>
+									</tr>
+									<tr>
+										<td>广州⇀悉尼</td>
+										<td>10-30</td>
+										<td class="tdd1">￥3767</td>
+									</tr>
+									<tr>
+										<td>广州⇀纽约</td>
+										<td>11-21</td>
+										<td class="tdd1">￥7392</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				
+					<div class="clearfix big3contenttop">
+						<div class="clearfix big3contenttopleft tb1">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td style="width: 154px;">广州⇀阿布扎比</td>
+										<td style="padding-left: 15px;">11-05</td>
+										<td class="tdd1">￥6248</td>
+									</tr>
+									<tr>
+										<td style="width: 154px;">广州⇀卡萨布兰卡</td>
+										<td style="padding-left: 15px;">12-10</td>
+										<td class="tdd1">￥9311</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td style="width: 154px;">广州⇀伦敦</td>
+										<td style="padding-left: 2px;">11-04</td>
+										<td class="tdd1">￥7367</td>
+									</tr>
+									<tr>
+										<td style="width: 154px;">广州⇀巴黎</td>
+										<td style="padding-left: 2px;">11-04</td>
+										<td class="tdd1">￥8788</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					
+						<div class="clearfix big3contenttopleft tb1" style="margin-left: 10px; border-right: none;">
+							<table class="table table-hover">
+								<!--<thead>
+									<tr>
+										<th>名称</th>
+										<th>城市</th>
+										<th>邮编</th>
+									</tr>
+								</thead>-->
+								<tbody>
+									<tr>
+										<td style="width: 134px;">广州⇀奥克兰</td>
+										<td style="padding-left: 38px;">12-09</td>
+										<td class="tdd1">￥8388</td>
+									</tr>
+									<tr>
+										<td style="width: 134px;">广州⇀洛杉矶</td>
+										<td style="padding-left: 38px;">11-24</td>
+										<td class="tdd1">￥10803</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+			<!--第七个大块-->
+			<span class="sp6">机票价格变化频繁，以上展示价格可能非最新价格。</span>
+		
+		
+			<!--第八个大块-->
+			<div class="clearfix big8">
+				<div class="clearfix big8title">
+					<span>明星商家</span>
+					<span>售后无忧</span>
+				</div>
+				<div class="clearfix big8lun">
+					<div class="clearfix big8lunarrow_left" onclick="left(this);">
+						<span class="glyphicon glyphicon-triangle-left"></span>
+					</div>
+					<div class="clearfix big8imgs">
+						<div class="clearfix ccc" style="float:left;border-right:1px solid #ddd;height:78px;width:1134px;" id="inner">
+							<ul class="clearfix">
+								<!--<tr style="width:113px;overflow: hidden;">-->
+									<li class="lli1"><img src="img/DJY/pai111.jpg" style="width: 80px;margin-left:11px;margin-top: -8px;"/></li>
+									<li class="lli2"><img src="img/DJY/pai2.png" style="width: 56px;margin-left: 28px;margin-top: 10px;"/></li>
+									<li class="lli3"><img src="img/DJY/pai3.jpg" style="width: 80px;margin-left: 20px;margin-top: 5px;"/></li>
+									<li class="lli4"><img src="img/DJY/pai4.jpg" style="width: 70px;margin-left: 20px;margin-top: 5px;"/></li>
+									<li class="lli5"><img src="img/DJY/pai5.png" style="width: 60px;margin-left: 20px;margin-top: 7px;"/></li>
+									<li class="lli6"><img src="img/DJY/pai6.jpg" style="width: 60px;margin-left: 24px;margin-top: 10px;"/></li>
+									<li class="lli7"><img src="img/DJY/pai7.png" style="width: 60px;margin-left: 24px;margin-top: 10px;"/></li>
+									<li class="lli8"><img src="img/DJY/pai8.jpg" style="width: 66px;margin-left: 21px;margin-top: 8px;"/></li>
+									<li class="lli9"><img src="img/DJY/pai9.jpg" style="width: 66px;margin-left: 24px;margin-top: 8px;"/></li>
+									<li class="lli10"><img src="img/DJY/pai10.jpg" style="width: 66px;margin-left: 26px;margin-top: 8px;"/></li>									
+									<li class="lli11"><img src="img/DJY/pai11.jpg" style="width: 66px;margin-left: 23px;margin-top: 8px;"/></li>
+									<li class="lli12"><img src="img/DJY/pai12.jpg" style="width: 68px;margin-left: 25px;margin-top: 8px;"/></li>
+									<li class="lli13"><img src="img/DJY/pai13.jpg" style="width: 65px;margin-left: 25px;margin-top: 12px;"/></li>
+									<li class="lli14"><img src="img/DJY/pai14.jpg" style="width: 65px;margin-left: 25px;margin-top: 12px;"/></li>
+									<li class="lli15"><img src="img/DJY/pai15.jpg" style="width: 65px;margin-left: 20px;margin-top: 12px;"/></li>
+									<li class="lli16"><img src="img/DJY/pai16.jpg" style="width: 65px;margin-left: 22px;margin-top: 12px;"/></li>
+									<li class="lli17"><img src="img/DJY/pai17.jpg" style="width: 65px;margin-left: 25px;margin-top: 10px;"/></li>
+									<li class="lli18"><img src="img/DJY/pai18.jpg" style="width: 65px;margin-left: 25px;margin-top: 7px;"/></li>
+									<li class="lli19"><img src="img/DJY/pai19.jpg" style="width: 57px;margin-left: 25px;margin-top: 10px;"/></li>
+									<li class="lli20"><img src="img/DJY/pai20.jpg" style="width: 60px;margin-left: 35px;margin-top: 7px;"/></li>
+									<li class="lli21"><img src="img/DJY/pai21.jpg" style="width: 65px;margin-left: 25px;margin-top: 9px;"/></li>
+									<li class="lli22"><img src="img/DJY/pai22.jpg" style="width: 61px;margin-left: 25px;margin-top: 10px;"/></li>
+									<li class="lli23"><img src="img/DJY/pai23.jpg" style="width: 48px;margin-left: 32px;margin-top: 14px;"/></li>
+									<li class="lli24"><img src="img/DJY/pai24.png" style="width: 56px;margin-left: 26px;margin-top: 12px;"/></li>
+									<li class="lli25"><img src="img/DJY/pai25.jpg" style="width: 56px;margin-left: 25px;margin-top: 12px;"/></li>
+									<li class="lli26"><img src="img/DJY/pai26.jpg" style="width: 48px;margin-left: 31px;margin-top: 17px;"/></li>
+									<li class="lli27"><img src="img/DJY/pai27.jpg" style="width: 60px;margin-left: 25px;margin-top: 7px;"/></li>
+								<!--</tr>-->
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix big8lunarrow_right" onclick="right(this)">
+						<span class="glyphicon glyphicon-triangle-right"></span>
+					</div>
+				
+					<script type="text/javascript">
+					 	var e=0;
+					    var d=document.getElementById("inner");
+					    
+						var left=function(obj) {
+						    //alert(d.scrollLeft);
+						    e=d.scrollLeft-113;
+						    run2()
+						}
+					
+					var right=function(obj) {
+						//    d.scrollLeft+=156;
+						    e=d.scrollLeft+113
+						    run()
+//						    alert(2);
+					}
+					 
+					var run = function(){
+					    if(d.scrollLeft>=e){d.scrollLeft=e;return;}
+					    d.scrollLeft+=1;
+					    setTimeout(run,10);
+					}
+					var run2 = function(){
+					    if(d.scrollLeft<=e){d.scrollLeft=e;return;}
+					    d.scrollLeft-=1;
+					    setTimeout(run2,10);
+					}
+					 
+					</script>
+				</div>
+				<div class="clearfix announce1">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/da1.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>阿提哈德旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							阿提哈德航空是阿联酋国家航空公司，总部位于阿联酋首都阿布扎比。阿提哈德航空于2003年7月依照皇家（Amiri）法令成立。2003年11月开始运营，并已经发展成为商业航空历史上发展最快的航空公司之一。我们竭力体现阿拉伯的待客之道 - 文明、周到、热情和大方，同时提高阿布扎比成长为中西方联结的服务中心的声誉。我们的目标是成为真正的21世纪全球性航空公司，不断挑战并改变现有的航空服务传统。
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				<div class="clearfix announce2" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big2.png"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>汉莎航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							德国汉莎航空集团是一家居于世界领先地位的航空运输公司。 它由 400 多家子公司和附属公司组成，其业务面极为广泛，包括旅客业务、物流、修理和检修、餐饮、休闲旅行和 IT 服务。德国汉莎航空同时也是世界上最大的航空公司联盟“星空联”的创始航空公司之一
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="clearfix announce3" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big3.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>瑞士国际航空公司 </span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							瑞士航空公司(Swiss International Air Lines) 星空联盟成员之一。名称“瑞士航空公司(Swissair)”，瑞士国际航空公司（Swiss International Air Lines）隶属德国汉莎航空集团。
+						</div>
+					</div>
+				</div>
+				
+			
+				<div class="clearfix announce4" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big4.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>奥地利航空公司 </span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							奥地利航空公司成立于1957年,2000年加入了星空联盟，2008年11月奥地利航空公司和德国汉莎航空公司宣布，成为汉莎集团新成员。
+						</div>
+					</div>
+				</div>
+			
+			
+				<div class="clearfix announce5" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big5.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>新加坡航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							新加坡航空公司一直致力于发展现代化的机队、世界级客舱产品及由备受赞誉的新航空姐所提供的高品质机上服务。新加坡航空与旗下的全服务区域航空-胜安航空自中国大陆10个城市，以新加坡樟宜机场为枢纽，航线网络覆盖全球37个国家和地区超百个目的地。新航拥有超过100架现代化客机，且是全球首家运营空客A380的航空公司。
+						</div>
+					</div>
+				</div>
+			
+			
+				<div class="clearfix announce6" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big6.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>国泰航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							国泰航空及国泰港龙航空以港为家，携手提供全球逾190个航点的客运及货运服务，飞行网络覆盖亚洲、北美洲、澳洲、欧洲及非洲。国泰亦是「寰宇一家」环球航空联盟的创办成员。贯彻“发自内心的服务理念”，国泰及国泰港龙充满活力的团队，将不断提供最佳的产品和服务，务求令旅客称心满意。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce7" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big7.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>芬兰航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							芬兰航空公司运营飞往欧洲、亚洲以及北美洲的航班，提供以赫尔辛基机场为中转地的便捷服务。芬兰航空连接亚洲17个目的地及3个北美城市，在欧洲的目的地数量则超过了70个。芬兰航空是欧洲首家运营更环保的新一代空中客车A350XWB客机的航空公司，已连续6年荣获“北欧最佳航空公司奖。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce8" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big8.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>法航旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							法国航空公司是一家充满法式精神的国际航空公司，它以卓越服务和悉心关怀，把飞行时刻变成真正的愉悦之旅，每天将旅客带到法国、欧洲乃至世界各地。2004年，法航和荷兰皇家航空公司以欧洲为强大的基地，合并成为一家特大型国际航空运输集团。
+						</div>
+					</div>
+				</div>
+				
+				<div class="clearfix announce9" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big9.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>荷兰皇家航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							荷兰皇家航空公司创立于1919年，是目前世界上仍以原有名称运营的历史最悠久的航空公司，公司枢纽为阿姆斯特丹史基浦机场。荷航作为航空业的领导者之一，以孜孜不倦的热情和不断创新的精神，一直致力于为客户提供可信赖的运营和以客户为导向的产品。
+						</div>
+					</div>
+				</div>
+			
+			
+				<div class="clearfix announce10" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big10.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>中国东方航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							中国东方航空股份有限公司（China Eastern Airlines）是一家总部位于中国上海的国有控股航空公司，在原中国东方航空集团公司的基础上，兼并中国西北航空公司，联合中国云南航空公司重组而成。是中国民航第一家在香港、纽约和上海三地上市的航空公司。
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="clearfix announce11" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big11.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>中国南方航空</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							中国南方航空是国内运输飞机最多、航线网络最发达、年客运量最大的航空公司。目前，南航经营客货运输机600多架，机队规模居亚洲第一，世界第五，是全球第一家同时运营空客A380和波音787的航空公司。
+						</div>
+					</div>
+				</div>
+				
+				<div class="clearfix announce12" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big12.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>中国国际航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							中国国际航空公司是中国唯一载国旗飞行的民用航空公司以及世界最大的航空联盟----星空联盟成员。
+							具有国内航空公司第一的品牌价值，在航空客运、货运及相关服务诸方面，均处于国内领先地位。
+							国航致力于为旅客提供放心、顺心、舒心、动心的“四心”服务。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce13" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big13.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>全日空航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							全日空航空公司（ANA）共拥有83条国际航线和116条日本国内航线，截至2016年，已连续四年被Skytrax评为五星级航空公司。全日空航空公司的中国航线，覆盖中国10 个城市的11个机场，每天有20 个航线25个航班往返中日之间。今后也将致力于更好的服务中国乘客，为消费者带来更便捷的服务和更优质的体验。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce14" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big14.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>新西兰航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							新西兰航空是新西兰的国家航空公司，被AirlineRatings.com评为“2015年最佳航空公司”，提供包括奥克兰、基督城、皇后镇、惠灵顿等超过20个新西兰国内目的地的航班，让您轻松玩遍新西兰！波音787-9梦想客机盛大起航，完美的机上服务、舒适的空中沙发，飞往新西兰的全新体验！
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce15" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big15.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>长荣航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							长荣航空股份有限公司 （EVA AIR） 不断提升服务质量，飞航25年来，优异完善的服务规划，已与国际级航空领导品牌并驾齐驱。2016年6月获颁SKYTRAX RESEARCH顾问公司评选为五星级航空公司，为全球第8家，更是台湾第1家获此航空界最高荣誉的航空公司。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce16" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big16.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>埃塞俄比亚航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							埃塞俄比亚航空公司是非洲发展最快、最盈利和最大的航空公司。2014年国际航空运输协会（IATA）排名显示埃塞航空是非洲最高收益与最盈利的航空公司。埃塞航空的货运及客运网络在非洲大陆占有主导地位，拥有最年轻，最现代的机队。航线遍布五大洲，超过91个国际目的地。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce17" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big17.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>海南航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							海南航空股份有限公司，不断发展壮大，现已成为中国四大航空公司之一，中国内地首家“SKYTRAX”五星级航空公司。海航致力于为您提供安全、便捷、温馨、超越的服务。 秉承“诚信、业绩、创新”的企业管理理念以及“以客为尊”的服务理念，我们一直都在不断地关注您的需求，持续改善业务流程，使您在每一次旅行中享受安全、舒适和便利
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce18" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big18.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>香港航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							香港航空于2006年成立，至今已发展成为一家国际知名的航空公司。
+							凭着无微不至的高质量服务，荣获备受业界尊崇的SKYTRAX四星级评级。
+							香港航空一直致力提高服务质量，并配备世界其中一支最年轻的机队，让旅客体验更愉快的旅程。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce19" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big19.gif"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>亚洲航空泰国旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							亚洲航空公司（AirAsia），简称亚航，成立于2001年；是马来西亚第二家国际航空公司，也是亚洲地区首家低成本航空。截止到目前，一共192条国内及国际航线，覆盖20多个国家。亚航一直致力于将低成本飞行带到新的高度，使“现在人人都能飞”的信念成为现实，并连续7年获得“世界最佳低成本航空”称号
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce20" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big20.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>香港快运航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							香港快运航空是唯一一家建基于香港的低成本航空公司。凭借稳定的安全性、相宜的票价和业内领先的航班准点率，香港快运航空致力为每一位旅客提供舒适便捷的航班服务，扩大廉游亚洲的版图。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce21" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big21.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>春秋航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							春秋航空(Spring Airlines)股份有限公司是首个中国民营资本独资经营的低成本航空公司专线，也是首家由旅行社起家的廉价航空公司。春秋航空是中国首批民营航空公司之硕果仅存者，是国内首家低成本航空公司,2011 年净利润逾4.7 亿元，成为当前国内最成功的低成本航空公司，总部在上海，在上海虹桥机场、上海浦东机场、石家庄正定机场、沈阳桃仙机场设有基地。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce22" style="display: none;" >
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big22.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>首都航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							北京首都航空有限公司，于2010年由海航集团和北京首旅集团共同出资成立，2016 年上榜世界品牌实验室发布的中国500强品牌，成为最年轻的、品牌资产过百亿的航空公司。首都航空根据“国际化的休闲旅游航空”战略定位，积极连通全球旅游城市，提供航空+旅游的一站式服务，用真情陪伴旅客，从美丽城市到精彩世界。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce23" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big23.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>阿联酋航空旗舰店</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							阿联酋航空Emirates总部位于迪拜，自从1985年成立以来，已经成为世界上发展最快的航空公司之一，其卓越的客户服务受到业内的广泛赞誉。在全球最具声望的专业航空认证机构Skytrax的2016年度评选中，阿联酋航空荣膺2016年度“全球最佳航空公司”大奖。Skytrax全球最佳航空公司大奖评选15年来，阿联酋航空已经是第四次摘得该奖桂冠。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce24" style="display: none;" >
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big24.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>中华航空</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							中华航空创始于1959 年12 月16 日，截止2017年05月31日，共通航29个国家/地区，147个航点
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce25" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big25.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>泰国国际航空</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							泰国国际航空大众有限公司创立于1960年, 是泰国值得骄傲的国家航空公司，也是星空联盟最早的五个成员航空公司之一。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce26" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big26.png"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>马来西亚航空</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							马来西亚航空为一家提供全面服务的航空公司，以贴心温暖服务及特惠票价闻名。无论是国内外航班或是东南亚航班，马来西亚航空的表现都深获大众一致好评。 在与寰宇一家的合作下，马来西亚航空如今提供的优越航班涵盖超过150个国家及1,000个航点。
+						</div>
+					</div>
+				</div>
+			
+				<div class="clearfix announce27" style="display: none;">
+					<div class="clearfix announceleft">
+						<img src="img/DJY/big27.jpg"/>
+					</div>
+					<div class="clearfix announceright">
+						<div class="clearfix announcerighttitle">
+							<span>土耳其航空</span>
+							<a>进入官方旗舰店》</a>
+						</div>
+						<div class="announcerighttxt">
+							土耳其航空公司，为土耳其国营航空公司，是星空联盟正式成员之一。我们于1933年5月在土耳其首都安卡拉成立，至今已有85年历史。我们将总部与航空枢纽设于欧亚非三洲中心的伊斯坦布尔，定期飞往全球121个国家的303个目的地（306个机场）。随着时间变迁，土耳其航空飞跃发展，如今已成为世界领先的航空公司之一！
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+		    <!--aaaaaaaaaa-->
+		</div>
+	
+	
+	
+	
+	
+	<!--底部开始-->
+      	<div class="footer" style="background: #f2f3f4 ;border-top: 1px solid orange;">
+      		<!--底部内容开始-->      		
+      		<div class="footer_con"style="background: #f2f3f4 ;">
+      			<!--上部分开始-->
+      			    <div class="footer-item clearfix">
+	      				<div class=" pull-left footer-item1 clearfix">
+	      					<h4>旅行产品</h4>
+			      			<ul class="list-unstyled">
+			      				<li><a href="">国内机票</a></li>
+			      				<li><a href="">国际机票</a></li>
+			      				<li><a href="">酒店预订</a></li>
+			      				<li><a href="">客栈公寓</a></li>
+			      				<li><a href="">旅游度假</a></li>
+			      			</ul>
+	      				</div>	
+	      				
+	      				<div class=" pull-left footer-item1 clearfix">
+	      					<h4>旅行产品</h4>
+			      			<ul class="list-unstyled">
+			      				<li><a href="">开通支付宝</a></li>
+			      				<li><a href="">免费注册</a></li>
+			      				<li><a href="">退票改签</a></li>
+			      				<li><a href="">7*24小时在线帮助</a></li>
+			      			</ul>
+	      				</div>
+	      				
+	      				
+	      				<div class=" pull-left footer-item1 clearfix">
+	      					<h4>旅行产品</h4>
+			      			<ul class="list-unstyled">
+			      				<li><a href="">商家入驻</a></li>
+			      				<li><a href="">商家培训</a></li>
+			      				<li><a href="">帮派互动</a></li>
+			      				<li><a href="">规则中心</a></li> 
+			      				<li><a href="">规则意见征集</a></li>
+			      				<li><a href="">商家在线客服</a></li>
+			      				<li><a href="">第三方合作</a></li>
+			      			      
+			      			</ul>
+	      				</div>
+	      				
+	      				<div class="pull-left footer-item1 clearfix">
+	      					<img src="img/DJY/detl8.png"/>
+	      				</div>
+	      			
+      			    </div>	 
+      			    <!--上部分结束-->
+      			    
+      			   <!--下部分开始--> 
+      			   <div class="footer-ail">
+      			   		<ul class="list-unstyled">
+      			   			<li><a href="">阿里巴巴集团</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">廉政举报</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">淘宝网</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">天猫</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">聚划算</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">全球速卖通</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里巴巴国际交易市场</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">1688</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里妈妈</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">飞猪</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里云计算</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">AliOS</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">万网</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">高德</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">UC</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">友盟</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">虾米</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里星球</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">UC头条</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">钉钉</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">飞猪旅行</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里游戏</a></li>
+      			   		</ul>
+      			   	 	     
+      			   </div>
+      			   
+      			   
+      			   <div class="footer-nav">
+      			   	   <ul class="list-unstyled">
+      			   	   	<li><a href="">关于淘宝</a></li>
+      			   	   	<li><a href="">合作伙伴</a></li>
+      			   	   	<li><a href="">营销中心</a></li>
+      			   	   	<li><a href="">联系客服</a></li>
+      			   	   	<li><a href="">开放平台</a></li>
+      			   	   	<li><a href="">诚征英才</a></li>
+      			   	   	<li><a href="">联系我们</a></li>
+      			   	   	<li><a href="">网站地图</a></li>
+      			   	   	<li><a href=""> 隐私政策 © Fliggy.com版权所有</a></li>
+      			   	   </ul>
+      			   </div>
+      			   
+      			   <div class="" style="clear: both;"></div>
+      			   <div class="footer-copyright">
+      			   		<span>增值电信业务经营许可证：浙B2-20160773</span>
+      			   </div>
+      			   
+      			   <div class="">
+      			   	 <img src="img/DJY/detl9.gif"/>
+      			   </div>
+      			   <!--下部分结束-->
+      			    
+      			    
+	      	</div>	
+	      	<!--底部结束-->	
+	
+	
+	</body>
+</html>

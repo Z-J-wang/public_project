@@ -1,0 +1,332 @@
+logo---------------------------------------------------------------/*底部样式*/
+#mui-foot-mystyle{
+	background: white;
+}
+.mui-foot-mystyle a{
+	
+}
+/*.mui-foot-mystyle a:link{
+	color: rgb(24,216,156);
+}*/
+-----------------------------------------------------------------/*我的界面样式*/---------------------
+/*用户界面样式*/
+.myColor{
+	background: white;
+}
+.user_ban{
+	height: 140px;
+	padding:15px;
+	background: white;
+}
+.user_ban img{
+	width: 50px;
+}
+.user_ban .user_name{
+	float: right;
+	position: relative;
+	top: 6px;
+	left:-90px;
+}
+.user_ban .user_name p span:first-child{
+	padding-right:6px ;
+	border-right:solid 1px gray ;
+}
+.mui-mycol{
+	height: 60px;
+	padding-top: 10px;
+}
+.mui-table-view-mycell{
+	margin: 0px;
+	list-style: none;
+	
+}
+.mui-navigate-myright{
+	list-style: none;
+	height: 50px;
+	text-align: center;
+	/*border-right:solid 1px gray ;*/
+}
+.mui-row div:first-child li,.mui-row div:nth-child(2) li{
+	border-right:solid 1px gray ;
+}
+
+.mui-navigate-myright span:first-child{
+	display: block;
+	
+}
+.mui-navigate-myright span:last-child{
+	display: block;
+	font-size:small ;
+	color: gray;
+}
+.user_info{
+	position: relative;
+	top: 5px;
+}
+.user_welfare{
+	position: relative;
+	top:10px;
+}
+.user_book_club{
+	position: relative;
+	top:15px;
+}
+.user_set{
+	position: relative;
+	top:20px;
+	margin-bottom:20px ;
+}
+.user_info .mui-table-view-mycell,.user_set .mui-table-view-mycell,.user_welfare .mui-table-view-mycell,.user_book_club .mui-table-view-mycell{
+	height: 50px;
+	padding-top: 15px;
+}
+.user_info .mui-table-view-mycell a img,.user_set .mui-table-view-mycell a img,.user_welfare .mui-table-view-mycell a img,.user_book_club .mui-table-view-mycell a img{
+	float: left;
+	width: 8%;
+	position: relative;
+	top:-6px
+}
+
+.user_info .mui-table-view-mycell a span,.user_set .mui-table-view-mycell a span,.user_welfare .mui-table-view-mycell a span,.user_book_club .mui-table-view-mycell a span{
+	top: -10px;
+	color: #242424;
+	padding-left: 10px;
+}
+/*设置界面样式*/
+.mui-myul{
+	margin-top: 8px;
+}
+.mui-myul li{
+	height: 50px;
+	padding-top: 15px;
+}
+/*登陆界面*/
+.mycolor{
+	background: white;
+}
+.mui-mybar{
+	border: none;
+	background: white;
+	-webkit-box-shadow:none;
+}
+.mui-myinput1,.mui-myinput2,.mui-myinput3{
+	text-align: center;
+	padding: 0px;
+}
+.mui-input-mygroup:before,.mui-input-mygroup:after{
+	width: 0;
+}
+.mui-input-mygroup ul{
+	margin: 0px auto;
+	width: 70%;
+}
+.mui-input-mygroup:after{
+	width: 0;
+}
+.mui-myinput2:after,.mui-myinput2:before,.mui-myinput3:after,.mui-myinput3:before,.mui-myinput1:after{
+	width: 0%;
+}
+.mui-myinput1 input{
+	width: 70%;
+	border-top:solid 1px gainsboro;
+	border-bottom:solid 1px gainsboro;
+}
+.mui-myinput2 input{
+	width: 45%;
+	border-bottom:solid 1px gainsboro;
+}
+.mui-myinput2 a{
+	float: right;
+	position: relative;
+	top: 30%;
+	right: 15%;
+	color: rgb(24,216,156);
+}
+.mui-myinput3 input{
+	width: 70%;
+	border-bottom:solid 1px gainsboro;
+}
+.mui-myinput3 a{
+	float: right;
+	position: relative;
+	top: 30%;
+	right: 15%;
+	color: rgb(24,216,156);
+}
+.logo{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	padding-top:12% ;
+	background: white;
+}
+.mui-mylogin{
+	margin-left:15% ;
+	width: 70%;
+}
+.mui-mylogin button{
+	border-radius: 25px;
+	border-color: rgb(24,216,156);
+	background-color: rgb(24,216,156);
+}
+.mui-mylogin a{
+	color: rgb(24,216,156);
+}
+.My-account_header{
+	background-color: rgb(24,216,156);
+	width: 100%;
+	height:150px;
+	padding-left:5%;
+	padding-top: 8%;
+}
+/*账户界面样式*/
+.My-account_header>div{
+	width: 95%;
+	height: 150px;
+	background: white;
+	border-radius:10px ;
+	box-shadow: 1px 1px 1px rgb(24,216,156);
+}.My-account_header li{
+	border-right: none !important;
+}
+.My-account_header>div div:first-child,.My-account_header>div div:last-child{
+	font-size: larger;
+	text-align: center;
+}
+.My-account_header>div div:last-child button{
+	position: relative;
+	left: 20%;
+	top: 10px;
+	width: 60%;
+	line-height: 5px;
+	border-radius: 50px;
+	background: rgb(24,216,156);
+}
+.My-account_header>div div:last-child p{
+	padding-top: 10px;
+}
+.My-account_header>div div:last-child p a{
+	color: gray;
+}
+.My_account_mybar{
+	position: relative;
+	top: 35px;
+	background: white;
+}
+.My_account_mybar ul:before{
+	width: 0;
+}
+.mui-nav-myimg img{
+	position: relative;
+	top: 5px;
+}
+/*帮助与反馈界面*/
+.mycolor div{
+	padding: 0px 5px;
+}
+/*帮助与反馈*/
+.mui-row-help{
+	margin-top:3% ;
+}
+.mui-row-help p{
+	color: #000000;
+	font-weight: bold;
+}
+.mui-row-help li{
+	border: none !important;
+	margin: 0px;
+}
+.mui-row-help li a{
+	height: 80px;
+	text-align: center;
+}
+.mui-row-help li a img{
+	width: 45px;
+}
+.questionStye{
+	margin-top:40px ;
+	margin-bottom: -41px;
+	border-top: solid 6px rgb(238,238,238);
+}
+.questionStye p:first-child{
+	margin-top: 20px;
+	color: black;
+	font-weight: bold;
+}
+.questionStye li a{
+	background: url(../images/蓝点.PNG) no-repeat 5px 18px ;
+	background-size: 6px;
+}
+.allquestionStye{
+	float: left;
+	position: relative;
+	top: 60px;
+	height: 300px;
+	width: 100%;
+	border-top: solid 6px rgb(238,238,238);
+	z-index: 1;
+}
+.allquestionStye p{
+	padding-top:10px ;
+	color: #000000;
+	font-weight: bold;
+}
+.allquestionStye>div{
+	padding: 10px 0px 0px 0px;
+	width: 100%;
+}
+.allquestionStye #left{
+	float: left;
+	padding: 0px;
+	width: 20%;
+}
+.allquestionStye ul{
+	/*width: 20%;*/
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}.allquestionStye #left ul{
+	text-align: center;
+}
+
+.allquestionStye #left li{
+	padding: 0px;
+	margin: 0px;
+	line-height: 40px;
+	font-size: small;
+}
+.allquestionStye #right ul:before{
+	width: 0;
+	
+}
+.allquestionStye #right ul{
+	background: rgb(243,247,251);
+	font-size: small;
+}
+.allquestionStye #right ul li{
+	background: url(../images/蓝点.PNG) no-repeat 5px 18px ;
+	background-size: 6px;
+}
+.allquestionStye #right ul:not(:first-child){
+	display: none;
+}
+.allquestionStye #left ul li a:link{
+	font-weight: bold;
+	color: darkgrey;
+}
+.allquestionStye #left ul li a:visited{
+	color: gray;
+}
+.allquestionStye #left a:visited{
+	color: red;
+}
+.allquestionStye #right{
+	float: right;
+	padding: 0px;
+	width: 80%;
+}
+.help_foot_bar{
+	position: relative;
+	top:40px
+}
+-----------------------------------------------------------/*发现界面样式*/

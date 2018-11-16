@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>景点</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tyw/travel.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tyw/jingdian.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fzm/index.css"/>
+		<script type="text/javascript" src="js/tyw/jquery-3.3.1.js" ></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/tyw/travel.js" ></script>
+		<script type="text/javascript" src="js/tyw/jingdian.js" ></script>
+		<script src="js/fzm/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body style="background: white !important;">
+		<!--头部开始-->
+     <div class="" style="background-color: #f2f2f2 !important;">
+     	<!--顶部导航条-->
+		<div class="top_nava">
+			<div class="clearfix top_nav">
+				<!--左边导航-->
+				<div class="pull-left top_nav_left">
+					<ul class="clearfix">
+						<li class="home pull-left">
+							<div style="padding-left: 0px;">
+								<a href="#" target="_top">
+									<span>飞猪</span>
+								</a>
+							</div>
+						</li>
+						<li class="pull-left logrist">
+							<div>
+								<span>Hi，最近想去哪里玩？</span>
+								<a href="#">请登录</a>
+								<a href="#">免费注册</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--左边导航-->
+				<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+				<!--右边导航-->
+				<div class="pull-right top_nav_right">
+					<ul class="clearfix">
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">手机客户端</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">
+									<img src="img/fzm/top_a.png"/>
+								</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">我的淘宝</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">已买到的宝贝</a>
+								<a href="#">我的足迹</a>
+								<a href="#">飞猪旅行达人</a>
+							</div>
+						</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">购物车</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">收藏夹</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">收藏的宝贝</a>
+								<a href="#">收藏的店铺</a>
+							</div>
+						</li>
+						<li class="top_nav_right_b">|</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">服务中心</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">商家中心</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove" style="padding-right: 13px !important;">
+								<a href="#">招商入驻</a>
+								<a href="#">商家规则</a>
+								<a href="#">培训中心</a>
+								<a href="#">商家品控</a>
+								<a href="#">活动中心</a>
+								<a href="#">商家服务</a>
+								<a href="#">里程发票</a>
+							</div>
+						</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">淘宝</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#" class="wang_icon">网站导航</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<!--隐藏部分-->
+							<div class="top_nav_right_a_hoveb clearfix row">
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>机票</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">国内机票
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">机票预约</a></li>
+											<li><a href="#">票价历史</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">国际机票</a></li>
+											<li><a href="#">自助值机</a></li>
+										</ul>
+									</div>
+								</div>	
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>酒店</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">香港酒店
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">三亚酒店</a></li>
+											<li><a href="#">北京酒店</a></li>
+											<li><a href="#">杭州酒店</a></li>
+											<li><a href="#">成都酒店</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">澳门酒店</a></li>
+											<li><a href="#">上海酒店</a></li>
+											<li><a href="#">广州酒店</a></li>
+											<li><a href="#">深圳酒店</a></li>
+											<li><a href="#">更多酒店</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>客栈</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left  col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">厦门客栈
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">丽江客栈</a></li>
+											<li><a href="#">凤凰客栈</a></li>
+											<li><a href="#">杭州客栈</a></li>
+											<li><a href="#">更多客栈</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">三亚公寓</a></li>
+											<li><a href="#">舟山农家乐</a></li>
+											<li><a href="#">阳朔客栈</a></li>
+											<li><a href="#">台湾民宿</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>签证</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">泰国签证
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">马来西亚</a></li>
+											<li><a href="#">韩国签证</a></li>
+											<li><a href="#">菲律宾签</a></li>
+											<li><a href="#">美国签证</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">入台证</a></li>
+											<li><a href="#">日本签证</a></li>
+											<li><a href="#">越南签证</a></li>
+											<li><a href="#">新加坡签</a></li>
+											<li><a href="#">澳大利亚</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>景点门票</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">迪士尼
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">杜莎夫人蜡像馆</a></li>
+											<li><a href="#">亚龙湾公园</a></li>
+											<li><a href="#">欢乐世界</a></li>
+											<li><a href="#">厦门鼓浪屿</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">海洋公园</a></li>
+											<li><a href="#">蜈支洲</a></li>
+											<li><a href="#">深圳欢乐谷</a></li>
+											<li><a href="#">世界之窗</a></li>
+											<li><a href="#">婺源</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderrb">
+									<h4>度假线路</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">香港
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">泰国</a></li>
+											<li><a href="#">丽江</a></li>
+											<li><a href="#">韩国</a></li>
+											<li><a href="#">普吉岛</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">马尔代夫</a></li>
+											<li><a href="#">三亚</a></li>
+											<li><a href="#">日本</a></li>
+											<li><a href="#">台湾</a></li>
+											<li><a href="#">新加坡</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--右边导航-->
+			</div>
+		</div>
+		<!--顶部导航条-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+		<!--顶部搜索部分-->
+		<div class="header_cen">
+			<div class="header_centent">
+				<div class="row" style="margin: 0px;">
+					<!--logo图片-->
+					<div class="header_logo col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<a href="#">
+							<img src="img/fzm/top_d.png"/>
+						</a>
+					</div>
+					<!--搜索框-->
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="position: relative;">
+						<div class="header_search_btn clearfix">
+							<button class="search_switch_selected">宝贝</button>
+							<button class="">店铺</button>
+						</div>
+						<div class="input-group header_search_inp">
+		                    <input type="text" class="form-control" placeholder="目的地/酒店/景点/签证等">
+		                    <span class="input-group-btn">
+		                        <button class="btn btn-default" type="button">
+		                        	<span class="glyphicon glyphicon-search"></span>
+		                        	搜索
+		                        </button>
+		                    </span>
+		                </div>
+		                <!--隐藏部分-->
+		                <div class="hearder_search_recommend">
+		                	<div>
+		                		<img src="img/fzm/top_e.png"/>
+		                		<span>搜索·发现</span>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">交通：</b>
+		                		<div class="pull-left">
+			                		<a href="#">火车票</a>
+			                		<a href="#">机票</a>
+		                		</div>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">酒店：</b>
+		                		<div class="pull-left">
+		                			<a href="#">酒店</a>
+		                		</div>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">度假：</b>
+		                		<div class="pull-left">
+			                		<a href="#">泰国签证</a>
+			                		<a href="#">上海野生动物园</a>
+			                		<a href="#">香港迪士尼</a>
+			                		<a href="#">兵马俑门票</a>
+			                		<br />
+			                		<a href="#">拙政园</a>
+			                		<a href="#">颐和园</a>
+			                		<a href="#">日本签证</a>
+			                		<a href="#">香港流量包</a>
+		                		</div>
+		                	</div>
+		                </div>
+					</div>
+					<!--电话号码-->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<div class="header_phone text_hover">
+							<div class="header_phone_text header_phone_icon text_hover">
+								<span>消费者热线(国内)</span>
+								<span>9510208</span>
+							</div>
+							<div class="header_phone_text text_hover">
+								<span style="padding-left: 93px;">400-1688-688</span>
+							</div>
+							<div class="header_phone_text text_hover">
+								<span>消费者热线(国际)</span>
+								<span>+86-571-56888688</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--row结束-->
+			</div>
+		</div>
+		<!--顶部搜索部分-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+		<!--头部导航条部分-->
+		<div class="header_nav">
+			<div class="header_nava">
+				<ul class="nav nav-pills">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="Nationalticket.html">港澳台/国际机票</a></li>
+					<li><a href="Trainticket.html">火车票</a></li>
+					<li><a href="travel.html">旅游度假</a></li>
+					<li><a href="jingdian.html" style="background-color: white;">景点门票</a></li>
+					<li><a href="User.html">我的旅行</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--头部导航条部分-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+		<!--一条超级华丽的分界线-->
+     	
+     	
+     	
+     </div>
+     
+    <div class="content">
+    	
+     
+      <!--头部结束-->
+      <!--主要内容开始-->
+      <div class="main">
+      	
+     
+      	<!--中间内容的上部分开始-->
+	      <div class="main-top">
+	      	<!--左边开始-->
+	      	<div class="main-topl" style="height: 320px; cursor: pointer;">
+	      		<!--第一块-->
+	      		<div class="main-topl-1 clearfix">	
+	      			<div class="main-topl-11 clearfix pull-left">
+	      				<h4><span>热门目的地</span><span style="color: #D3D3D3;float: right;margin-right: 5px;">></span></h4>
+	      				<ul class="clearfix">
+	      					<li><a href="">香港</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">北京</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">上海</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">广州</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">深圳</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">杭州</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">桂林</a></li>
+	      					<li class="separator">|</li>
+                            <li><a href="">北厦</a></li>
+	      					<li class="separator">|</li>
+	      					<li><a href="">南京</a></li>
+	      					<li class="separator">|</li>
+	      				    <li><a href="">西安</a></li>
+	      				</ul>
+	      			           	
+	      			</div>
+
+	      		</div>
+	      		
+	      		
+	      		
+	      		
+	      		<!--第二块-->
+	      		<div class="main-topl-2">
+	      			<div class="main-topl-22">
+	      				<h4><span>旅游主题</span></h4>
+	      				<dl class="clearfix">
+	      					<!--<dt>云南:</dt>-->
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">主题乐园</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">自然风景</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">表演秀票</a></li>
+
+	      						</ul>
+	      					</dd>
+	      				</dl>
+     
+      				<dl class="clearfix">
+	      					<!--<dt>云南:</dt>-->
+	      					<dd>
+	      						<ul>
+
+	      							<li><a href="">环球影城</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">迪士尼</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">乐高乐园</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+
+	      			</div>
+	      		</div>
+	      		<!--第三块-->
+	      		<div class="main-topl-3">
+	      			<div class="main-topl-33">
+	      				<h4><span>热门景点</span></h4>
+	      				<dl class="clearfix">
+	      					<!--<dt>云南:</dt>-->
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">昆明</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">大理</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">丽江</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">香格里拉</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+	      				
+	      				<dl class="clearfix">
+	      					<!--<dt>华北：</dt>-->
+	      					<dd>
+	      						<ul>
+	      							<li><a href="">成都</a></li>
+	      							<li class="separator">|</li>
+	      							<li ><a href="">九寨沟</a></li>
+	      							<li class="separator">|</li>
+	      							<li><a href="">三峡</a></li>
+	      							<li><a href="">少林寺</a></li>
+	      						</ul>
+	      					</dd>
+	      				</dl>
+
+	      			</div>
+	      		</div>
+	      		
+	      	</div>
+	      	
+	      	
+	      	
+	      	
+	      	<!--左边结束-->
+	      	<!--右边开始-->
+	      	<div class="main-topr clearfix">
+	      		<!--右边第一块开始-->
+	      		<div class="main-topr1">
+		      		<div class="main-topr1l clearfix">
+		      			<!--轮播开始-->
+					<div class="" style="width:700px;cursor: pointer;">
+						<div id="myCarousel" class="carousel slide">
+							    <!-- 轮播（Carousel）项目 -->
+							    <div class="carousel-inner">
+							        <div class="item active">
+							            <img src="img/tyw/lunbo1.jpg" alt="First slide">
+							        </div>
+							        <div class="item">
+							            <img src="img/tyw/lunbo2.jpg" alt="Second slide">
+							        </div>
+							        <div class="item">
+							            <img src="img/tyw/lunbo3.jpg" alt="Third slide">
+							        </div>
+			
+							    </div>
+							     <!-- 轮播（Carousel）导航 -->
+							        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							            <span class="sr-only">Previous</span>
+							        </a>
+							        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							            <span class="sr-only">Next</span>
+							        </a>
+			            	</div>
+						</div>
+			<!--轮播结束-->
+					<!--<div class=""style="clear: both;">
+						
+					</div>-->
+					<!--保障栏-->
+					<div class="baozhang clearfix">
+						<div class="pull-left">
+							<a href=""><img src="img/tyw/baozhang.png"/></a>
+						</div>
+						<div class="pull-left tan" style="cursor: pointer;">
+							<!--第一个弹窗-->
+							<div style="position: relative;" class="pop pull-left"> 
+								<div class="baozhang1 pull-left">
+									<h2 class=""></h2>
+									<p>出游保障</p>
+								</div>
+								<div class="popover fade bottom in pop-list" role="tooltip" id="" style="left: 10px;top:31px !important;">
+			                       <div class="arrow arrow2" style="position: absolute; top: -10px;"></div>
+								    <div class="">
+								    	<h5>度假订单生效后</h5>
+								    	<p>度假订单生效后行程变更或取消，100%赔付</p>
+								    </div>
+								</div>
+								
+							</div>
+							<!--第二个弹窗-->
+							<div style="position: relative;cursor: pointer;" class="pop pull-left"> 
+								<div class="baozhang1 pull-left" >
+									<h2 class=""></h2>
+									<p>如实描述保障</p>
+								</div>
+								<div class="popover fade bottom in pop-list" role="tooltip" id="" style="left: 10px;top:30px;">
+			                       <div class="arrow arrow2" style="position: absolute; top: -10px;"></div>
+								   <div class="">
+								    	<h5>度假订单生效后</h5>
+								    	<p>描述与实际不相符，赔付损失</p>
+								    </div>
+								</div>
+								
+							</div>
+							
+							<div style="position: relative; border-right: none !important;cursor: pointer;" class="pop pull-left"> 
+								<div class="baozhang1 pull-left">
+									<h2 class=""></h2>
+									<p>出游保障</p>
+								</div>
+								<div class="popover fade bottom in pop-list" role="tooltip" id="" style="left: 10px;top:33px;">
+			                       <div class="arrow arrow2" style="position: absolute; top: -10px;"></div>
+								   <p>度假订单生效后</p>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<!--保障栏结束-->
+		      		</div>
+		      		<!--右边第一块右开始-->
+		      		<div class="main-topr1r" style="cursor: pointer;">
+		      		    <img src="img/tyw/detl4.jpg"/>
+		      		    <img src="img/tyw/detl5.jpg"/>
+		      		</div>
+	      		</div>
+	      		<!--右边第一块结束-->
+
+	      	</div>
+	      	<!--右边结束-->
+	      	
+	      	    	
+	      </div>
+	      <!--中间内容的上部分结束-->
+	     
+	        <div class=""style="clear: both;">
+	        	
+	        </div>
+	     	<!--出现块开始-->
+	      		 	<div class="list" style="display: none;">
+	      		 		<div class="list-con">
+	      		 			<!--左边-->
+	      		 			<div class="list-con1">
+	      		 				<!--第一块开始-->
+	      		 				<div class="list-con11 clearfix">
+		      		 				<h4>A B C D</h4>
+		      		 				<ul >
+		      		 					<li>阿坝</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>澳门</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>鞍山</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>北海</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>本溪</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>保定</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>白山</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>常州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>成都</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>池州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>重庆</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>承德</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>长春</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>长沙</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>郴州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>东莞</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>大连</li>
+		      		 				</ul>
+	      		 			    </div>
+	      		 			    <!--第一块结束-->
+	      		 			    
+	      		 			    <!--第二块开始-->
+	      		 			    	<div class="list-con11 clearfix">
+		      		 				<h4>K L N M O</h4>
+		      		 				<ul >
+		      		 					
+    
+		      		 					<li>昆明</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>开封</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>丽水</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>连云</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>港宁</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>保定</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>德龙</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>岩乐</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>山临</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>沂廊</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>洛阳</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>丽江</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>茂名</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>宁波</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>南京</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>南通</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>南昌</li>
+		      		 				</ul>
+	      		 			    </div>
+	      		 			    <!--第二块结束-->
+	      		 			    
+	      		 			    <!--第三块开始-->
+	      		 			    	<div class="list-con11 clearfix">
+		      		 				<h4>U V W X Y Z</h4>
+		      		 				<ul >
+		      		 					
+                   <!--镇江 漳州 郑州 张家界-->
+		      		 					<li>温州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>无锡</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>芜湖</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>徐州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>厦门</li>
+		      		 					<!--<li class="separator">|</li>-->
+		      		 					<li>咸宁</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>新乡</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>舟山</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>湘西</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>扬州</li>
+		      		 					<!--<li class="separator">|</li>-->
+		      		 					<li>宜昌</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>运城</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>阳泉</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>珠海</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>宜春</li>
+		      		 					<!--<li class="separator">|</li>-->
+		      		 					<li>中山</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>西双版纳</li>
+		      		 				</ul>
+	      		 			    </div>
+	      		 			    <!--第三块结束-->
+	      		 			</div>
+	      		 			
+	      		 			<div class="list-con2">
+	      		 				<!--第一块开始-->
+	      		 					<div class="list-con11 clearfix">
+		      		 				<h4>D G G R G H</h4>
+		      		 				<ul >
+		      		 					<li>阿坝</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>澳门</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>鞍山</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>北海</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>本溪</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>保定</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>白山</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>常州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>成都</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>池州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>重庆</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>承德</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>长春</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>长沙</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>郴州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>东莞</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>大连</li>
+		      		 				</ul>
+	      		 			    </div>
+	      		 				<!--第一块结束-->
+	      		 				
+	      		 				<!--第二块开始-->
+	      		 				<div class="list-con11 clearfix">
+		      		 				<h4>K H G I L H</h4>
+		      		 				<ul >
+		      		 					<li>佛山</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>福州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>抚顺</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>广州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>桂林</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>甘孜</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>白山</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>常州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>成都</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>池州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>重庆</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>承德</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>长春</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>长沙</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>郴州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>九江</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>景德镇</li>
+		      		 				</ul>
+	      		 			    </div>
+	      		 				<!--第二块结束-->
+	      		 				
+	      		 				<!--第三块开始-->
+	      		 					<div class="list-con11 clearfix">
+		      		 				<h4>D L J B C S</h4>
+		      		 				<ul >
+		      		 					<li>平顶山</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>清远</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>青岛</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>千岛湖</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>本溪</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>保定</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>白山</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>常州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>成都</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>池州</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>三明</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>金华</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>嘉兴</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>澳大利亚</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>英国</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>秦安</li>
+		      		 					<li class="separator">|</li>
+		      		 					<li>大连</li>
+		      		 				</ul>
+	      		 			    </div>
+	      		 				<!--第三块结束-->
+
+	      		 			</div>
+	      		 		</div>
+	      		 	</div>
+      
+            <!--出现快结束-->
+            
+            <!--国内门票开始-->
+            <div class="clearfix">
+            <div class="jingnei">
+		      	<header>
+		      		<h3 style="color: #e90;">国内门票</h3>
+		      		<p>感受中国各地的精彩</p>
+		      	</header>
+
+	      	</div>
+	      	
+	      	<!--国内门票内容开始-->
+	      	  <div class="guonei-con ">
+	      	  	<div class="row clearfix" style="margin: 0;">
+	      	  		<!--左边开始-->
+		      	  		<div class="col-lg-2 col-md-2 col-sm-2 guonei-conl clearfix" style="padding-left: 0; overflow: hidden;height: 387px;">
+		      	  			<h5>热卖排行榜</h5>
+		      	  			<a href="">
+		      	  				<i class="color">1</i>
+		      	  			    <span>上海迪士尼度假区</span>
+		      	  			    <span style="color: red;">¥361</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i class="color">2</i>
+		      	  			    <span>香港迪士尼乐园</span>
+		      	  			    <span style="color: red;">¥480</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i class="color">3</i>
+		      	  			    <span>广州长隆野生动物世界</span>
+		      	  			    <span style="color: red;">¥278</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>4</i>
+		      	  			    <span>珠海长隆海洋王国</span>
+		      	  			    <span>¥323</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>5</i>
+		      	  			    <span>故宫博物院</span>
+		      	  			    <span>¥78</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>6</i>
+		      	  			    <span>广州长隆国际大马戏</span>
+		      	  			    <span>¥309</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>7</i>
+		      	  			    <span>香港海洋公园</span>
+		      	  			    <span>¥342</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>8</i>
+		      	  			    <span>广州长隆欢乐世界</span>
+		      	  			    <span>¥401</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>9</i>
+		      	  			    <span>乌镇</span>
+		      	  			    <span>¥228</span>
+		      	  			</a>
+		      	  		</div>
+	      	  		<!--左边结束-->
+	      	  		
+	      	  		
+	      	  			
+	      	  		
+	      	  		
+	      	  		<!--右边开始-->
+		      	  		<div class="col-lg-10 col-md-10 col-sm-10 guonei-conr clearfix" style="padding-right: 0;padding-left: 0;">
+		      	  			<nav class="clearfix">
+			      	  		    <span class="pull-left">精选国内门票：</span>
+			      	  			<ul class="list-unstyled listStyle">
+			      	  				<li>浙江</li>
+			      	  				<li>江苏</li>
+			      	  				<li>广东</li>
+			      	  				<li>海南</li>
+			      	  				<li>上海</li>
+			      	  				<li>北京</li>
+			      	  			</ul>
+			      	  			<div class=""style="clear: both;"></div>
+		      	  			</nav>
+		      	  			<div class="clearfix">
+			      	  			<!--第一块开始-->
+			      	  			<div class="guonei-conr1">
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt45.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+				      	  			
+				      	  			<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt46.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">灵隐飞来峰</a>
+					      	  				<span>¥45</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt47.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">宋城千古情</a>
+					      	  				<span>¥290</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt48.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">杭州野生动物世界</a>
+					      	  				<span>¥555</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt49.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">横店影视城</a>
+					      	  				<span>¥435</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt50.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt51.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt52.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt53.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt54.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  			</div>
+				      	  		<!--第一块结束-->	
+				      	  		<!--第二块开始-->
+				      	  			<div class="guonei-conr1" style="display: none;">
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt55.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+				      	  			
+				      	  			<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt56.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">灵隐飞来峰</a>
+					      	  				<span>¥45</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt57.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">宋城千古情</a>
+					      	  				<span>¥290</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt58.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">杭州野生动物世界</a>
+					      	  				<span>¥555</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt59.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">横店影视城</a>
+					      	  				<span>¥435</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt60.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt61.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt62.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt63.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt64.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  			</div>
+				      	  		<!--第二块结束-->
+				      	  		
+								<!--第三块开始-->
+									<div class="guonei-conr1" style="display: none;">
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt65.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+				      	  			
+				      	  			<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt66.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">灵隐飞来峰</a>
+					      	  				<span>¥45</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt67.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">宋城千古情</a>
+					      	  				<span>¥290</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt88.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">杭州野生动物世界</a>
+					      	  				<span>¥555</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt69.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">横店影视城</a>
+					      	  				<span>¥435</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt70.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt71.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt72.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt73.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt74.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  			</div>
+								<!--第三块结束-->
+				      	  		
+				      	  		<!--第四块开始-->
+				      	  			<div class="guonei-conr1" style="display: none;">
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt55.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+				      	  			
+				      	  			<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt56.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">灵隐飞来峰</a>
+					      	  				<span>¥45</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt57.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">宋城千古情</a>
+					      	  				<span>¥290</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt58.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">杭州野生动物世界</a>
+					      	  				<span>¥555</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt59.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">横店影视城</a>
+					      	  				<span>¥435</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt60.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt61.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt62.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt63.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt64.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  			</div>
+				      	  		<!--第四块结束-->
+				      	  		
+				      	  		<!--第五快开始-->
+				      	  			<div class="guonei-conr1" style="display: none;">
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt45.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+				      	  			
+				      	  			<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt46.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">灵隐飞来峰</a>
+					      	  				<span>¥45</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt47.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">宋城千古情</a>
+					      	  				<span>¥290</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt48.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">杭州野生动物世界</a>
+					      	  				<span>¥555</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt49.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">横店影视城</a>
+					      	  				<span>¥435</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt50.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt51.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt52.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt53.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt54.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  			</div>
+				      	  		
+				      	  		<!--第五块结束-->
+				      	  		
+				      	  		<!--第六块开始-->
+				      	  			<div class="guonei-conr1" style="display: none;">
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt65.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+				      	  			
+				      	  			<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt66.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">灵隐飞来峰</a>
+					      	  				<span>¥45</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt67.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">宋城千古情</a>
+					      	  				<span>¥290</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt88.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">杭州野生动物世界</a>
+					      	  				<span>¥555</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt69.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">横店影视城</a>
+					      	  				<span>¥435</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt70.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt71.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt72.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt73.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt74.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥149</span>
+				      	  				</p>
+			      	  				</div>
+			      	  			</div>
+				      	  		<!--第六块结束-->
+			      	  		</div>
+			      	  			
+		      	  		</div>
+	      	  		<!--右边结束-->
+	      	  		
+	      	  	</div>
+	      	  </div>
+	      	<!--国内门票内容结束结束-->
+             </div>
+            <!--国内门票结束-->
+        
+            <!--境外门票开始-->
+            	<div class="clearfix">
+            <div class="jingnei">
+		      	<header>
+		      		<h3 style="color: #e90;">国际门票</h3>
+		      		<p>带你玩遍全世界</p>
+		      	</header>
+
+	      	</div>
+	      	
+	      	<!--境外门票内容开始-->
+	      	  <div class="guonei-con ">
+	      	  	<div class="row clearfix" style="margin: 0;">
+	      	  		<!--左边开始-->
+		      	  		<div class="col-lg-2 col-md-2 col-sm-2 guonei-conl clearfix" style="padding-left: 0;height: 387px;overflow: hidden;">
+		      	  			<h5>热卖排行榜</h5>
+		      	  			<a href="">
+		      	  				<i class="color">1</i>
+		      	  			    <span>日本环球影城</span>
+		      	  			    <span style="color: red;">¥789</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i class="color">2</i>
+		      	  			    <span>新加坡环球影城</span>
+		      	  			    <span style="color: red;">¥687</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i class="color">3</i>
+		      	  			    <span>西蒙人妖秀</span>
+		      	  			    <span style="color: red;">¥55</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>4</i>
+		      	  			    <span>东京迪士尼乐园</span>
+		      	  			    <span>¥786</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>5</i>
+		      	  			    <span>S.E.A.海洋馆</span>
+		      	  			    <span>¥321</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>6</i>
+		      	  			    <span>滨海湾花园</span>
+		      	  			    <span>¥453</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>7</i>
+		      	  			    <span>蒂芬妮人妖秀</span>
+		      	  			    <span>¥765</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>8</i>
+		      	  			    <span>新加坡动物园</span>
+		      	  			    <span>¥354</span>
+		      	  			</a>
+		      	  			<a href="">
+		      	  				<i>9</i>
+		      	  			    <span>清迈夜间动物园</span>
+		      	  			    <span>¥145</span>
+		      	  			</a>
+		      	  		</div>
+	      	  		<!--左边结束-->
+	      	  		
+	      	  		
+	      	  			
+	      	  		
+	      	  		
+	      	  		<!--右边开始-->
+		      	  		<div class="col-lg-10 col-md-10 col-sm-10 guonei-conr clearfix" style="padding-right: 0;padding-left: 0;">
+		      	  			<nav class="clearfix">
+			      	  		    <span class="pull-left">精选国内门票：</span>
+			      	  			<ul class="list-unstyled listStyle">
+			      	  				<li>美国</li>
+			      	  				<li>英国</li>
+			      	  				
+			      	  			</ul>
+			      	  			<div class=""style="clear: both;"></div>
+		      	  			</nav>
+		      	  			<div class="clearfix">
+			      	  			<!--第一块开始-->
+			      	  			<div class="guonei-conr1">
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt75.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥56</span>
+				      	  				</p>
+			      	  				</div>
+				      	  			
+				      	  			<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt76.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">灵隐飞来峰</a>
+					      	  				<span>¥566</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt77.png"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">宋城千古情</a>
+					      	  				<span>¥687</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt78.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">杭州野生动物世界</a>
+					      	  				<span>¥363</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt79.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">横店影视城</a>
+					      	  				<span>¥765</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt80.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥265</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt81.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥354</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt82.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥687</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt83.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥454</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt84.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥365</span>
+				      	  				</p>
+			      	  				</div>
+			      	  			</div>
+				      	  		<!--第一块结束-->	
+				      	  		<!--第二块开始-->
+				      	  			<div class="guonei-conr1" style="display: none;">
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt85.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥566</span>
+				      	  				</p>
+			      	  				</div>
+				      	  			
+				      	  			<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt86.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">灵隐飞来峰</a>
+					      	  				<span>¥873</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt87.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">宋城千古情</a>
+					      	  				<span>¥785</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt88.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">杭州野生动物世界</a>
+					      	  				<span>¥867</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt89.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">横店影视城</a>
+					      	  				<span>¥338</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt90.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥75</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt91.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥543</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt92.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥187</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11">
+			      	  					<img src="img/tyw/dt93.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥656</span>
+				      	  				</p>
+			      	  				</div>
+			      	  				
+			      	  				<div class="guonei-conr11" style="margin-right: 0;">
+			      	  					<img src="img/tyw/dt94.jpg"/>	      	  					
+			      	  					<p>
+					      	  				<a href="">乌镇</a>
+					      	  				<span>¥86</span>
+				      	  				</p>
+			      	  				</div>
+			      	  			</div>
+				      	  		<!--第二块结束-->
+
+			      	  		</div>
+			      	  			
+		      	  		</div>
+	      	  		<!--右边结束-->
+	      	  		
+	      	  	</div>
+	      	  </div>
+	      	<!--境外门票内容结束结束-->
+
+         </div>
+            <!--境外门票结束-->
+            
+            <!--码上游合作景区开始-->
+            	 <div class="hezuo">
+            	 	<div class="jingnei">
+				      	<header>
+				      		<h3 style="color: #e90;">码上游合作景区</h3>
+				      		<p>扫码购票有优惠，闪电入园不排队</p>
+				      	</header>
+
+	      			</div>
+	      			
+	      			<div class="hezuo-con ">
+	      				<ul class="list-unstyled clearfix">
+	      					<li><a href=""><img src="img/tyw/dt97.png"/></a></li>
+	      				    <li><a href=""><img src="img/tyw/dt98.png"/></a></li>
+	      					<li><a href=""><img src="img/tyw/dt99.jpg"/></a></li>
+	      					<li><a href=""><img src="img/tyw/dt100.png"/></a></li>
+	      					<li><a href=""><img src="img/tyw/dt101.png"/></a></li>
+	      					<li><a href=""><img src="img/tyw/dt102.png"/></a></li>
+	      					<li style="border-right:none ;"><a href=""><img src="img/tyw/dt103.jpg" width="145.4px;"height="80px"/></a></li>
+	      					<li><a href=""><img src="img/tyw/dt104.png"/></a></li>
+	      					<li><a href=""><img src="img/tyw/dt105.png"/></a></li>
+	      					<li><a href=""><img src="img/tyw/dt106.png"/></a></li>
+	      					<li><a href=""><img src="img/tyw/dt107.png"/></a></li>
+	      					<li><a href=""><img src="img/tyw/dt108.png"/ width="142px" height="80px"></a></li>
+	      					<li><a href=""><img src="img/tyw/dt109.jpg" width="142px" height="80px"/></a></li>
+	      					<li style="padding-right: 2px;border-right:none ;"><a href=""><img src="img/tyw/dt110.png"/></a></li>
+	      				</ul>
+	      			</div>
+	      			
+	      			
+	      			
+	      			
+            	 </div>
+             <!--码上游合作景区结束-->
+      </div>  
+      <!--主要内容结束-->
+
+    </div>
+     <!--底部开始-->
+      	<div class="footer" style="background: #f2f3f4 ;">
+      		<!--底部内容开始-->      		
+      		<div class="footer_con"style="background: #f2f3f4 ;">
+      			<!--上部分开始-->
+      			    <div class="footer-item clearfix">
+	      				<div class=" pull-left footer-item1 clearfix">
+	      					<h4>旅行产品</h4>
+			      			<ul class="list-unstyled">
+			      				<li><a href="">国内机票</a></li>
+			      				<li><a href="">国际机票</a></li>
+			      				<li><a href="">酒店预订</a></li>
+			      				<li><a href="">客栈公寓</a></li>
+			      				<li><a href="">旅游度假</a></li>
+			      			</ul>
+	      				</div>	
+	      				
+	      				<div class=" pull-left footer-item1 clearfix">
+	      					<h4>旅行产品</h4>
+			      			<ul class="list-unstyled">
+			      				<li><a href="">开通支付宝</a></li>
+			      				<li><a href="">免费注册</a></li>
+			      				<li><a href="">退票改签</a></li>
+			      				<li><a href="">7*24小时在线帮助</a></li>
+			      			</ul>
+	      				</div>
+	      				
+	      				
+	      				<div class=" pull-left footer-item1 clearfix">
+	      					<h4>旅行产品</h4>
+			      			<ul class="list-unstyled">
+			      				<li><a href="">商家入驻</a></li>
+			      				<li><a href="">商家培训</a></li>
+			      				<li><a href="">帮派互动</a></li>
+			      				<li><a href="">规则中心</a></li> 
+			      				<li><a href="">规则意见征集</a></li>
+			      				<li><a href="">商家在线客服</a></li>
+			      				<li><a href="">第三方合作</a></li>
+			      			      
+			      			</ul>
+	      				</div>
+	      				
+	      				<div class="pull-left footer-item1 clearfix">
+	      					<img src="img/tyw/detl8.png"/>
+	      				</div>
+	      			
+      			    </div>	 
+      			    <!--上部分结束-->
+      			    
+      			   <!--下部分开始--> 
+      			   <div class="footer-ail">
+      			   		<ul class="list-unstyled">
+      			   			<!--<li><a href="">阿里巴巴集团</a></li>-->
+      			   			<!--<li>|</li>-->
+      			   			<li><a href="">廉政举报</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">淘宝网</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">天猫</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">聚划算</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">全球速卖通</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里巴巴国际交易市场</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">1688</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里妈妈</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">飞猪</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里云计算</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">AliOS</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">万网</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">高德</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">UC</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">友盟</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">虾米</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里星球</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">UC头条</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">钉钉</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">飞猪旅行</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里游戏</a></li>
+      			   		</ul>
+      			   	 	     
+      			   </div>
+      			   
+      			   
+      			   <div class="footer-nav">
+      			   	   <ul class="list-unstyled">
+      			   	   	<!--<li><a href="">关于淘宝</a></li>-->
+      			   	   	<li><a href="">合作伙伴</a></li>
+      			   	   	<li><a href="">营销中心</a></li>
+      			   	   	<li><a href="">联系客服</a></li>
+      			   	   	<li><a href="">开放平台</a></li>
+      			   	   	<li><a href="">诚征英才</a></li>
+      			   	   	<li><a href="">联系我们</a></li>
+      			   	   	<li><a href="">网站地图</a></li>
+      			   	   	<li><a href=""> 隐私政策 © Fliggy.com版权所有</a></li>
+      			   	   </ul>
+      			   </div>
+      			   
+      			   <div class="" style="clear: both;"></div>
+      			   <div class="footer-copyright">
+      			   		<span>增值电信业务经营许可证：浙B2-20160773</span>
+      			   </div>
+      			   
+      			   <div class="">
+      			   	 <img src="img/tyw/detl9.gif"/>
+      			   </div>
+      			   <!--下部分结束-->
+      			    
+      			    
+	      	</div>	
+	      	<!--底部结束-->	
+      	</div>
+      	 
+      
+      
+	</body>
+</html>

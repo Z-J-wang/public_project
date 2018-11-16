@@ -1,0 +1,269 @@
+/*通用样式*/
+.div_hidden {
+	display: none;
+}
+
+.bluetop{
+	width: 100%;
+	/*background: rgb(91,205,195);*/
+	background: rgb(229,213,63);
+}
+.topimg{
+	float: left;
+}
+.toptxt{
+	float: left;
+	padding-top: 18px;
+	margin-left: 30px;
+	padding-bottom: 18px;
+}
+/*.toptxt p{
+	float: left;
+}*/
+.toptxt span:first-child {
+	font-size: 25px;
+	padding-left: 10px;
+	
+}
+.toptxt span:nth-child(2){
+	font-size: 16px;
+	margin-top: 40px;
+	/*margin-left: -50px;*/
+}
+.topright{
+	float: left;
+	padding-left: 1030px;
+	margin-top: -40px;
+}
+.topright ul li{
+	float: left;
+}
+.topright ul li:nth-child(2){
+	padding-left: 15px;
+}
+.topright ul li:nth-child(3){
+	padding-left: 30px;
+}
+.admincontent{
+	margin-top: 30px;
+}
+.admincontentleft{
+	float: left;
+	background: rgb(45,62,78);
+	color: white;
+	width: 200px;
+	height: 500px;
+}
+.adimincontentright {
+	float: left;
+	width: 1200px;
+}
+.admincontentleft ul{
+	padding-top: 70px;
+}
+.admincontentleft ul li{
+	height: 40px;
+	padding-left: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.admincontentleft ul li:hover{
+	background: gray;
+}
+.ppage1{
+	float: left;
+	background: white;
+	margin-left: 20px;
+	width: 1000px;
+}
+.ppage1title{
+	padding-left: 60px;
+	padding-top: 20px;
+}
+.ppage1titleleft{
+	float:left;
+	
+}
+.ppage1titleleft span{
+	float:left;
+	color: rgb(229,213,63);
+}
+.ppage1titleleft span:nth-child(2){
+	margin-left: 15px;
+}
+.ppage1titleright{
+	float:left;
+}
+.ppage1titleright button{
+	background: rgb(229,213,63);
+	color: white;
+	border: none;
+	margin-left: 700px;
+}
+.ppage1titleright button:hover{
+	background: goldenrod;
+	color: white;
+}
+.op1,.op2{
+	display: inline-block;
+	margin-left: 5px;
+	
+}
+.op1 span{
+	float: left;
+	cursor: pointer;
+}
+.op2{
+	padding-left: 20px;
+}
+.op2 span{
+	float: left;
+	cursor: pointer;
+}
+.ppage1table{
+	margin-top: 15px;
+	margin-left: 60px;
+}
+.ppage1table table{
+	width: 880px;
+}
+.ppage1table table th, .table td { 
+	text-align: center;
+	vertical-align: middle!important;
+}
+.t1{
+	text-align: center;
+	vertical-align: middle!important;
+}
+.ppage1select{
+	float: left;
+}
+.ppage1select{
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 2px;
+}
+.pageg{
+	float: left;
+	margin-top: -19px;
+	margin-left: 550px;
+}
+.chkk{
+	float: left;
+	margin-top: 10px;
+}
+.chkk input{
+	float: left;
+	
+}
+.chkk span{
+	float: left;
+}
+.ppage1select button{
+	float: left;
+	margin-left: 30px;
+}
+.pagination li a{
+	color: gray;
+}
+.ppage2{
+	float:left;
+	margin-left: 20px;
+}
+.ppage2left{
+	float: left;
+	width: 350px;
+	
+}
+.ppage2right{
+	float: left;
+	width: 640px;
+	background: white;
+	margin-left: 10px;
+}
+.ppage2lefttop{
+	background: white;
+}
+.ppage2lefttoptitle{
+	color: rgb(229,213,63);
+	margin-left: 30px;
+	margin-top: 15px;
+}
+.ppage2leftbottom{
+	background: white;
+}
+.ppage2leftinputgroup{
+	margin-left: 30px;
+	color: gray;
+	
+}
+.ppage2leftinputgroup input{
+	width: 220px;
+}
+.buttongroups{
+	margin-left: 120px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.buttongroups button{
+	float: left;
+	background: rgb(229,213,63);
+	color: white;
+	border: none;
+	
+}
+.ppage2left button:nth-child(2){
+	margin-left: 30px;
+}
+.buttongroups button:hover{
+	background: goldenrod;
+	color: white;
+}
+.ppage2leftbottom{
+	background: white;
+	margin-top: 10px;
+}
+.infoselect span{
+	float: left;
+}
+.infoselect input{
+	float: left;
+}
+.alerrt{
+	background: rgb(229,213,63);
+	width: 610px;
+	margin-left: 15px;
+	margin-top: 35px;
+}
+.alerrt p b{
+	color: white;
+	margin-left: 15px;
+	
+}
+.alerrt p{
+	padding-top: 8px;
+}
+.userinfoleft{
+	float: left;
+}
+.userinforight{
+	float: left;
+}
+.userinfoleft{
+	border-radius: 50%;
+	border: 1px solid gainsboro;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.userinfoleft img{
+	width: 70px;
+	border-radius: 50%;
+}
+.kkk{
+	margin-left: 20px;
+}
+
+
+.modalStyle>div{
+	padding-bottom: 30px !important;
+}

@@ -1,0 +1,319 @@
+.aaa1{
+	background-color: #f8f8f8;
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+}
+
+.aaa2{
+	width: 1200px;
+	height: 30px;
+	margin: 0;
+	margin: 0 auto;
+	font-size: 13px;
+	color: black;
+	padding-top: 5px;
+}
+
+.aaa2 a:link{
+	color:black;
+	text-decoration:none;
+}
+
+.aaa2 a:visited{
+	color:black;
+	text-decoration:none;
+}
+.aaa2 a:hover{
+	color:black;
+	text-decoration:underline;
+}
+
+
+
+.aaa3{
+	border: 1px solid gainsboro;
+	width: 890px;
+	height:auto;
+	margin-top: 40px;
+
+	
+}
+
+.aaa4{
+	color: orangered;
+	width: 80px;
+	border-bottom: 2px solid orangered;
+	position: absolute;
+	top: 15px;
+	
+	
+}
+.aaa4 span{
+	font-size: 19px;
+}
+
+.aaa5{
+	border-top: 2px solid gainsboro;
+	width: 890px;
+	height: 115px;
+}
+
+
+.aaa6{
+	width: 760px;
+	font-size: 12px;
+	margin-top: 21px;
+	float: left;
+	margin-left: 15px;
+	line-height: 24px;
+}
+.aaa6 a:link{
+	color:gray;
+	text-decoration:none;
+}
+
+.aaa6 a:visited{
+	color:gray;
+	text-decoration:none;
+}
+.aaa6 a:hover{
+	
+	text-decoration:underline;
+}
+
+.aaa7{
+	margin-top: 30px;
+	margin-left: 10px;
+	float: left;
+}
+
+.aaa10{
+	
+	width: 895px;
+	height: 115px;
+}
+
+
+
+.aaa8{
+	width: 880px;
+	font-size: 12px;
+	margin-top: 21px;
+	
+	margin-left: 10px;
+	line-height: 24px;
+}
+.aaa8 a:link{
+	color:gray;
+	text-decoration:none;
+}
+
+.aaa8 a:visited{
+	color:gray;
+	text-decoration:none;
+}
+.aaa8 a:hover{
+	
+	text-decoration:underline;
+}
+.aaa9{
+	border-top: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+	height: 115px;
+}
+
+.aaa11{
+	height: 40px;
+	
+}
+
+.aaa11 a{
+	border: 1px solid gainsboro;
+	padding: 2px 2px 2px 2px;
+	font-size: 13px;
+	float: right;
+	margin-left: 5px;
+	margin-right: 2px;
+	margin-top: 8px;
+}
+
+.aaa11 a:link{
+	color: black;
+	text-decoration:none;
+}
+
+.aaa11 a:visited{
+	color: black;
+	text-decoration:none;
+}
+.aaa11 a:hover{
+	
+	text-decoration:underline;
+}
+
+
+
+.bbb1{
+	border-top: 2px solid gray;
+	border-bottom: 1px solid gray;
+	width: 290px;
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+.bbb1 span{
+	font-size: 18px;
+	color: gray;
+}
+.bbb1 a{
+	float: right;
+	font-size: 13px;
+	padding-top: 2px;
+}
+.bbb1 a:link{
+	color: gray;
+	text-decoration:none;
+}
+
+.bbb1 a:visited{
+	color: gray;
+	text-decoration:none;
+}
+.bbb1 a:hover{
+	
+	text-decoration:underline;
+}
+
+
+
+.bbb2{
+	color: gray;
+	font-size: 16px;
+	padding-top: 20px;
+}
+.bbb2 a:link{
+	color: gray;
+	text-decoration:none;
+}
+
+.bbb2 a:visited{
+	color: gray;
+	text-decoration:none;
+}
+.bbb2 a:hover{
+	
+	text-decoration:underline;
+}
+
+.bbb3{
+	font-size: 13px;
+	margin-top: 10px;
+	margin-left: 2px;
+	
+}
+.bbb4{
+	float: left;
+}
+.bbb5{
+	float: left;
+	width: 175px;
+	color: gray;
+	margin-top: 5px;
+	margin-left: 10px;
+
+	
+}
+.bbb3 a:link{
+	color: orangered;
+	text-decoration:none;
+}
+
+.bbb3 a:visited{
+	color: orangered;
+	text-decoration:none;
+}
+.bbb3 a:hover{
+	
+	text-decoration:underline;
+}
+
+
+.m17{
+	font-size: 14px;
+	margin-top: 90px;
+	width: 290px;
+	padding-left: 0px;
+}
+.m17 li{
+	border-top: 1px dotted #cbcbcb;
+	height: 28px;
+	padding-top: 10px;
+	margin: 0;
+	list-style:none;
+	padding-left: 10px;
+	background: url(../img/zdgj_38.jpg) no-repeat 0px 15px;
+	font-size: 13px;
+	
+}
+
+.m17 li span{
+	padding-left: 10px;
+}
+
+.m14{
+	
+
+}
+
+.m14:link{
+	color:gray;
+	text-decoration:none;
+}
+
+.m14:visited{
+	color:gray;
+	text-decoration:none;
+}
+.m14:hover{
+	color:gray;
+	text-decoration:underline;
+}
+
+.m15:link{
+	color:orangered;
+	text-decoration:none;
+}
+
+.m15:visited{
+	color:orangered;
+	text-decoration:none;
+}
+.m15:hover{
+	color:orangered;
+	text-decoration:underline;
+}
+
+
+.bbb7{
+	float: right;
+	color: gainsboro; 
+	margin-right: 10px;
+}
+
+.bbb6{
+	float: left; 
+	margin-left: 15px;
+	margin-top: 10px;
+
+}
+
+
+
+.bbb8{
+	width: 190px;
+white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display:block; 
+	float:left;
+}

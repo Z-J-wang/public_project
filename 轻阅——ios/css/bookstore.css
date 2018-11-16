@@ -1,0 +1,322 @@
+
+.Category{
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+	text-align: center;
+	color: #797979;
+}
+.Category mui-row,.Category li{
+	display: block;
+	list-style: none;
+}
+.middle{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	
+	height: auto;
+	/*border-bottom: 1px solid #ACACB4;*/
+}
+.recommend{
+	
+	font-size: 12px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.recommend ul{
+	
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.recommend ul li{
+	list-style: none;
+	text-align: center;
+	float: left;
+	padding: 0px;
+	margin: 10px 10px 10px 10px;
+	
+	
+}
+.recommend img{
+	width: 100px;
+	float: left;
+}
+.middle-left p{
+	margin: 0px;
+	padding: 0px;
+	color: red;
+}
+.middle-mid p{
+	margin: 0px;
+	padding: 0px;
+	color: limegreen;
+}
+.middle-right p{
+	margin: 0px;
+	padding: 0px;
+	color: deepskyblue;
+}
+.recommend span{
+	color: #797979;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*---------------rank----------------------- */
+
+.rank-title1{
+	padding: 30px 0px 10px 15px;
+	font-weight: bold;
+	color: black;
+}
+
+.rank-title2{
+	padding: 0px 0px 5px 15px;
+	color: #797979;	
+}
+
+.rank-picture p{
+	text-align: center;
+	color: black;
+}
+.chosen-more{
+	/*border-top: 1px solid #CCCCCC;*/
+	background-color: white;
+}
+.chosen-more p{
+	color: black;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.Separator{margin: 0px;}
+
+/*---------classification-----------------*/
+.classification{
+	background-color: white;
+	height: 700px;
+	
+}
+.male{
+	padding:20px 0px 10px 45px;
+	font-size: 15px;
+	
+}
+
+.man ul{padding-left: 33px}
+.woman ul{padding-left: 33px}
+.male-pic{
+	float: left;
+	margin:12px 0px 0px 20px;
+}
+.classification-list{
+	padding-left: 30px;
+}
+
+.classification-link {
+	display: block;
+	float: left;
+	list-style: none;
+	background-color: #F2F2F2;
+	text-align: center;
+	padding: 15px 30px 15px 30px;
+	border-radius: 5px;
+	margin: 5px 5px 5px 5px;
+	font-size: 15px;
+}
+.classification-link a:link,.classification-link a:visited{
+	color: black;
+}
+.man{
+	width: 100%;
+	height: 380px;
+}
+.female{
+	padding:20px 0px 10px 45px;
+	font-size: 15px;
+}
+.female-pic{
+	float: left;
+	margin:12px 0px 0px 20px;
+}
+
+/*---------------classify-label---------------*/
+/*.first{
+	margin: 0px;
+	padding: 0px;
+}
+.second{
+	padding: 0px;
+	margin-top: 48px;
+	border-top:1px solid #CCCCCC;
+}
+.first ul,li,.second ul,li{
+	list-style: none;
+	float: left;
+	font-size: 15px;
+	padding-right: 5px;
+}
+
+.first ul li a:link,.second ul li a:link,.first ul li a:visited,.second ul li a:visited{
+	color: black;
+}
+.first ul li a:hover,.second ul li a:hover{
+	color: cadetblue;
+}
+
+
+
+*/
+.clssify-label1{
+	padding: 0px;
+	
+}
+
+.clssify-label1 ul{
+	list-style: none;
+	font-size: 15px;
+	padding-left: 18px ;
+}
+.clssify-label1 ul li{
+	list-style: none;
+	float: left;
+	font-size: 17px;
+	padding-right: 10px;
+}
+.clssify-label1 ul li:first-child a:link,.clssify-label2 ul li:first-child a:link{
+	color: red;
+}
+.clssify-label2 ul{
+	font-size: 15px;
+	margin: 0px;
+	padding-left: 18px ;
+}
+.clssify-label2 ul li{
+	
+	list-style: none;
+	float: left;
+	font-size: 17px;
+	padding: 8px 11px 0px 0px;
+}
+.clssify-label2{
+	padding: 0px;
+	margin-top: 10px;
+	border-top:1px solid #CCCCCC;
+}
+.clssify-label1 ul li a:link,.clssify-label2 ul li a:link,.clssify-label1 ul li a:visited,.clssify-label2 ul li a:visited{
+	color: black;
+}
+.clssify-label1 ul li a:hover,.clssify-label2 ul li a:hover{
+	color: cadetblue;
+}
+/*----------------------introduction-------------------------*/
+.introduction-top{
+	margin: 0px 10px 0px 0px;
+	padding: 10px 20px 0px 20px;
+}
+.book-cover{
+	float: left;
+	width: 100px;
+}
+.novel-message{
+	
+	
+	
+	padding:20px 0px 20px 100px;
+}
+.novel-message p{
+	font-size: 20px;
+	color: black;
+	padding: 0px 0px 5px 20px;
+}
+.writer{
+	padding: 10px 0px 0px 20px;
+	color: #ACACB4;
+	font-size: 15px;
+}
+.novel-message a{
+	margin: 10px 0px 10px 20px;
+	border: 1px solid orange;
+	border-radius: 15px;
+	padding: 2px 4px 2px 4px;
+	color: orange;
+	font-size: 12px;
+}
+.star{
+	margin-top: 5px;
+	width: 100px;
+	padding: 1px 0px 0px 20px;
+	/*float: left;*/
+}
+.score{
+	margin-bottom: 0px;
+	color: #ACACB4;
+	font-size: 13px;
+}
+
+.Prologue{
+	margin: 20px 20px 0px 20px;
+	background-color: white;
+	padding: 15px 15px 15px 15px;
+}
+.introduction-catalogue{
+	margin: 0px 20px;
+	background-color: white;
+	border-top: 1px solid #F7F7F7;
+	padding: 15px 15px 15px 15px;
+}
+.comment{
+	margin: 15px 20px 0px 20px;
+	padding: 20px 10px;
+	background-color: white;
+}
+.comment-more{
+	float: right;
+	color: dodgerblue;
+	font-size: 13px;
+}
+.cemmenter{
+	color: #8F8F94;
+	font-size: 17px;
+	
+}
+.comment-date{
+	float: right;
+	color: #8F8F94;
+	font-size: 13px;
+}
+.comment-content{
+	font-size: 15px;
+	color: #555555;
+}
+.Trial-reading{
+	margin: 30px 20px 0px 20px;
+	
+}
+.Trial-reading p{
+	font-size: 16px;
+	color: #797979;
+	
+}
+.continue{
+	color: #007AFF;
+	font-size: 13px;
+	text-align: center;
+	
+}
+.Copyright{
+	padding: 20px 20px 1px 20px;
+	background-color: white;
+	
+}
+
+.share{
+	list-style: none;
+	float: right;
+	margin: 12px;
+	color: #333333;
+	font-size: 15px;
+}

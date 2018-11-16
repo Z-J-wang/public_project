@@ -1,0 +1,2487 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>马尔代夫详情页</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/SuCss/detail.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fzm/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jie/sidebar.css"/>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="bootstrap/js/jquery.min.js" ></script>
+		<script src="http://www.jq22.com/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/SuJs/jquery.date_input.pack.js" ></script>
+		<script type="text/javascript" src="js/SuJs/detail.js" ></script>
+		<script type="text/javascript" src="js/fzm/index.js" ></script>
+		<script type="text/javascript" src="js/jie/sidebar.js" ></script>
+		<script type="text/javascript" src="js/tyw/cityTemplate.js" ></script>
+	</head>
+	<body data-spy="scroll" data-target=".nav_hide">
+		<!--头部-->
+		<!--顶部导航条-->
+		<div class="top_nava">
+			<div class="clearfix top_nav">
+				<!--左边导航-->
+				<div class="pull-left top_nav_left">
+					<ul class="clearfix">
+						<li class="home pull-left">
+							<div style="padding-left: 0px;">
+								<a href="#" target="_top">
+									<span>飞猪</span>
+								</a>
+							</div>
+						</li>
+						<li class="pull-left logrist">
+							<div>
+								<span>Hi，最近想去哪里玩？</span>
+								<a href="login.html">请登录</a>
+								<a href="reg.html">免费注册</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--左边导航-->
+				<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+				<!--右边导航-->
+				<div class="pull-right top_nav_right">
+					<ul class="clearfix">
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">手机客户端</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">
+									<img src="img/fzm/top_a.png"/>
+								</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">我的淘宝</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">已买到的宝贝</a>
+								<a href="#">我的足迹</a>
+								<a href="#">飞猪旅行达人</a>
+							</div>
+						</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">购物车</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">收藏夹</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove">
+								<a href="#">收藏的宝贝</a>
+								<a href="#">收藏的店铺</a>
+							</div>
+						</li>
+						<li class="top_nav_right_b">|</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">服务中心</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#">商家中心</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<div class="top_nav_right_a_hove" style="padding-right: 13px !important;">
+								<a href="#">招商入驻</a>
+								<a href="#">商家规则</a>
+								<a href="#">培训中心</a>
+								<a href="#">商家品控</a>
+								<a href="#">活动中心</a>
+								<a href="#">商家服务</a>
+								<a href="#">里程发票</a>
+							</div>
+						</li>
+						<li class="pull-left">
+							<div class="top_nav_right_a">
+								<a href="#">淘宝</a>
+							</div>
+						</li>
+						<li class="pull-left top_nav_right_hover">
+							<div class="top_nav_right_a">
+								<a href="#" class="wang_icon">网站导航</a>
+								<img src="img/fzm/t_arrow.gif" class="xwcms" />
+							</div>
+							<!--隐藏部分-->
+							<div class="top_nav_right_a_hoveb clearfix row">
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>机票</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">国内机票
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">机票预约</a></li>
+											<li><a href="#">票价历史</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">国际机票</a></li>
+											<li><a href="#">自助值机</a></li>
+										</ul>
+									</div>
+								</div>	
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>酒店</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">香港酒店
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">三亚酒店</a></li>
+											<li><a href="#">北京酒店</a></li>
+											<li><a href="#">杭州酒店</a></li>
+											<li><a href="#">成都酒店</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">澳门酒店</a></li>
+											<li><a href="#">上海酒店</a></li>
+											<li><a href="#">广州酒店</a></li>
+											<li><a href="#">深圳酒店</a></li>
+											<li><a href="#">更多酒店</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>客栈</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left  col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">厦门客栈
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">丽江客栈</a></li>
+											<li><a href="#">凤凰客栈</a></li>
+											<li><a href="#">杭州客栈</a></li>
+											<li><a href="#">更多客栈</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">三亚公寓</a></li>
+											<li><a href="#">舟山农家乐</a></li>
+											<li><a href="#">阳朔客栈</a></li>
+											<li><a href="#">台湾民宿</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>签证</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">泰国签证
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">马来西亚</a></li>
+											<li><a href="#">韩国签证</a></li>
+											<li><a href="#">菲律宾签</a></li>
+											<li><a href="#">美国签证</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">入台证</a></li>
+											<li><a href="#">日本签证</a></li>
+											<li><a href="#">越南签证</a></li>
+											<li><a href="#">新加坡签</a></li>
+											<li><a href="#">澳大利亚</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderr">
+									<h4>景点门票</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">迪士尼
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">杜莎夫人蜡像馆</a></li>
+											<li><a href="#">亚龙湾公园</a></li>
+											<li><a href="#">欢乐世界</a></li>
+											<li><a href="#">厦门鼓浪屿</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">海洋公园</a></li>
+											<li><a href="#">蜈支洲</a></li>
+											<li><a href="#">深圳欢乐谷</a></li>
+											<li><a href="#">世界之窗</a></li>
+											<li><a href="#">婺源</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+								<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top_nav_right_a_hoveb_borderrb">
+									<h4>度假线路</h4>
+									<div class="clearfix row" style="margin: 0px;">
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li class="top_nav_right_a_hoveb_H">
+												<a href="#">香港
+													<img src="img/fzm/top_b.gif"/>
+												</a>
+											</li>
+											<li><a href="#">泰国</a></li>
+											<li><a href="#">丽江</a></li>
+											<li><a href="#">韩国</a></li>
+											<li><a href="#">普吉岛</a></li>
+										</ul>
+										<ul class="pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+											<li><a href="#">马尔代夫</a></li>
+											<li><a href="#">三亚</a></li>
+											<li><a href="#">日本</a></li>
+											<li><a href="#">台湾</a></li>
+											<li><a href="#">新加坡</a></li>
+										</ul>
+									</div>
+								</div>
+								<!--2-->
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!--右边导航-->
+			</div>
+		</div>
+		<!--顶部搜索部分-->
+		<div class="header_cen">
+			<div class="header_centent">
+				<div class="row" style="margin: 0px;">
+					<!--logo图片-->
+					<div class="header_logo col-lg-5 col-md-5 col-sm-5 col-xs-5">
+						
+						<div class="pull-left" style="border: none;margin-top: 25px;">
+							<a href="index.html"><img src="img/SuImg/logo1.png"/></a>
+						</div>
+						<div class="pull-left logo_hover">
+							<a href="#"><b>春秋旅游旗舰店</b></a><br />
+							<span>品牌直销</span>
+							<a><img src="img/SuImg/detail_link.gif"/></a>
+						</div>
+						<div class="pull-left logo_hover">
+							<ul class="pull-left text-center">
+								<li>
+									<span>描述</span><br />
+									<font>4.8<span class="glyphicon glyphicon-arrow-down"></span></font>
+								</li>
+							</ul>
+							<ul class="pull-left text-center">
+								<li>
+									<span>服 务</span><br />
+									<font>4.8<span class="glyphicon glyphicon-arrow-down"></span></font>
+								</li>
+							</ul>
+							<ul class="pull-left text-center">
+								<li>
+									<span>物 流</span><br />
+									<font>4.8<span class="glyphicon glyphicon-arrow-down"></span></font>
+								</li>
+							</ul>
+							
+						</div>
+						<span class="caret"></span>
+						<div class="clearfix">
+							
+						</div>
+						<div class="header_logo_hide clearfix">
+							<div class="logo_hide_1 clearfix">
+								<ul class="pull-left">
+									<li><p>店铺动态评分</p></li>
+									<li>描述相符:<a href="#">4.8</a></li>
+									<li>服务态度:<a href="#">4.8</a></li>
+									<li>发货速度:<a href="#">4.8</a></li>
+								</ul>
+								<ul class="pull-left">
+									<li><p>与同行业相比</p></li>
+									<li><a>4.81547<span class="glyphicon glyphicon-arrow-down"></span></a></li>
+									<li><a>4.81683<span class="glyphicon glyphicon-arrow-down"></span></a></li>
+									<li><a>4.81683<span class="glyphicon glyphicon-arrow-down"></span></a></li>
+								</ul>
+							</div>
+							<div class="logo_hide_2">
+								<p>店铺服务</p>
+								<span>掌&nbsp;&nbsp;&nbsp;&nbsp; 柜：春秋旅游旗舰店</span><br />
+								<span>客&nbsp;&nbsp;&nbsp;&nbsp; 服： <a href=""><img src="img/SuImg/linkme.gif"/></a></span><br />
+								<span>公 司 名：上海春秋国际旅行社（集团）有限公司</span><br />
+								<span>所 在 地：上海</span><br />
+								<span>工商执照： <img src="img/SuImg/zhizhao1.png"/><img src="img/SuImg/zhizhao2.png" width="20px"/></span>
+							</div>
+							<div class="logo_hide_3 text-center">
+								<a href="">进入店铺</a>
+								<a href="">收藏本店</a>
+							</div>
+						</div>
+					</div>
+					<!--搜索框-->
+					<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" style="position: relative;">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 address" style="padding: 0px;">
+								<div class="pull-right">
+									<div class="sousuo clearfix pull-left" style="background: #FFF7D4 !important;border: 2px solid #ffc900;width: 120px;border-radius: 4px;">
+										<!--<input type="text" name="" id="place" value="广州"/  class="pull-left">-->
+									    <input type="text" value="广州" id="place" name="" class="pull-left">
+									    <span class="pull-left">出发</span>
+									    <span class="pull-right xiala"></span>
+										<!-- 城市 -->
+										<div id="in_city" style="display: none;"></div>
+										<script type="text/javascript">
+
+											    var cityA = $(".city_a_le1 a"); //城市
+											    var pla = $("#place");  //出发地
+											    var dest = $("#destination");  //目的地
+											    // 默认值
+											    inCity.width = "345";  //城市选择框  宽
+											    inCity.height = "auto";  //城市选择框  高
+											    inCity.id = "#in_city";  //城市选择框  父级ID
+											    inCity.Children = '.city_a_le1';  //城市名box
+											    // 初始化 城市HTML模板
+											    $(inCity.id).prepend(inCity._template.join(''));
+											    inCity.Hot(cityA);
+											    
+											    //城市 导航
+											    var apay = $(".screen a");
+										
+											    var placeThis; //当前选择标签
+											    apay.click(function(obj){  //城市导航
+											        inCity.payment($(this));
+											    })
+										
+											    inCity.place(pla); //出发地
+											    inCity.destination(dest);  //目的地
+											    inCity.cityClick(cityA); //显示赋值城市
+										</script>
+
+									</div>
+									  
+									   <img src="img/tyw/jiantou.png" /class="pull-right"style="padding: 35px 0px 0px 0px;">
+
+								</div>
+									
+							</div>
+
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" style="padding-left: 0;">
+								<div class="header_search_btn clearfix">
+									<button class="search_switch_selected">宝贝</button>
+									<button class="">店铺</button>
+								</div>
+								<div class="input-group header_search_inp">
+				                    <input type="text" class="form-control" placeholder="目的地/酒店/景点/签证等" style="margin: 0;outline: none;">
+				                    <span class="input-group-btn">
+				                        <button class="btn btn-default" type="button">
+				                        	<span class="glyphicon glyphicon-search"></span>
+				                        	搜索
+				                        </button>
+				                    </span>
+				                </div>
+							</div>
+						</div>
+						
+						
+		                <!--隐藏部分-->
+		                <div class="hearder_search_recommend">
+		                	<div>
+		                		<img src="img/fzm/top_e.png"/>
+		                		<span>搜索·发现</span>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">交通：</b>
+		                		<div class="pull-left">
+			                		<a href="#">火车票</a>
+			                		<a href="#">机票</a>
+		                		</div>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">酒店：</b>
+		                		<div class="pull-left">
+		                			<a href="#">酒店</a>
+		                		</div>
+		                	</div>
+		                	<div class="clearfix">
+		                		<b class="pull-left">度假：</b>
+		                		<div class="pull-left">
+			                		<a href="#">泰国签证</a>
+			                		<a href="#">上海野生动物园</a>
+			                		<a href="#">香港迪士尼</a>
+			                		<a href="#">兵马俑门票</a>
+			                		<br />
+			                		<a href="#">拙政园</a>
+			                		<a href="#">颐和园</a>
+			                		<a href="#">日本签证</a>
+			                		<a href="#">香港流量包</a>
+		                		</div>
+		                	</div>
+		                </div>
+					</div>
+					<!--电话号码-->
+					<!--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<div class="header_phone text_hover">
+							<div class="header_phone_text header_phone_icon text_hover">
+								<span>消费者热线(国内)</span>
+								<span>9510208</span>
+							</div>
+							<div class="header_phone_text text_hover">
+								<span style="padding-left: 93px;">400-1688-688</span>
+							</div>
+							<div class="header_phone_text text_hover">
+								<span>消费者热线(国际)</span>
+								<span>+86-571-56888688</span>
+							</div>
+						</div>
+					</div>-->
+				</div>
+				<!--row结束-->
+			</div>
+		</div>
+		<!--正文-->
+		<div class="detail_content">
+			<!--搜索栏-->
+			<div class="shop_search col-lg-11 col-md-11 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1">
+				<!--店铺logo-->
+				<div class="shop_searchL col-lg-3 col-md-3 col-sm-3 col-xs-3">
+					<img src="img/SuImg/chunqiu.png"/>
+				</div>
+				<div class="shop_searchM f16 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+					<img src="img/SuImg/detail_search.jpg"/>
+					<input type="text" name="" id="" value="日本自由行" />
+					<button type="submit"></button>
+					<ul class="list-unstyled f14">
+						<li class="pull-left"><b>热门推荐：</b></li>
+						<li class="pull-left"><b><a href="#">泰国</a></b></li>
+						<li class="pull-left"><b><a href="#">沙巴</a></b></li>
+						<li class="pull-left"><b><a href="#">日本</a></b></li>
+						<li class="pull-left"><b><a href="#">厦门</a></b></li>
+					</ul>
+				</div>
+				<div class="shop_searchR col-lg-3 col-md-3 col-sm-3 col-xs-3">
+					<img src="img/SuImg/youhuiquan.png"/>
+					<img src="img/SuImg/club.jpg"/>
+				</div>
+			</div>
+			<div class="container-fluid shop_nav col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<ul class="list-unstyled pull-left col-lg-10 col-md-10 col-sm-10 col-xs-10 col-lg-offset-1 col-md-offset-1">
+					<li class="pull-left"><span>本店所有</span></li>
+					<li class="pull-left"><a href="index.html">首页</a></li>
+					<li class="pull-left"><a href="#">日本</a></li>
+					<li class="pull-left"><a href="#">泰国</a></li>
+					<li class="pull-left"><a href="#">国内</a></li>
+					<li class="pull-left"><a href="#">东南亚</a></li>
+					<li class="pull-left"><a href="#">港澳台</a></li>
+					<li class="pull-left"><a href="#">欧美澳新</a></li>
+					<li class="pull-left"><a href="#">邮轮</a></li>
+					<li class="pull-left"><a href="#">海岛</a></li>
+					<li class="pull-left"><a href="#">周边游</a></li>
+					<li class="pull-left"><a href="#">会员俱乐部</a></li>
+					<li class="pull-left"><a href="#">品牌故事</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+			<!--详情开始-->
+			<div class="detail_1st clearfix">
+				<div class="detail_1stL clearfix pull-left">
+			        <div class="item">
+			            <a class="big-photo">
+			                <img src="img/SuImg/zt6.jpg" alt="big"/>
+			            </a>
+			            <a class="des-small">
+			                <img src="img/SuImg/zt6.jpg" alt="small"/>
+			            </a>
+			            <a class="des-small">
+			                <img src="img/SuImg/zt7.jpg" alt="small"/>
+			            </a>
+			            <a class="des-small">
+			                <img src="img/SuImg/zt8.jpg" alt="small"/>
+			            </a>
+			            <a class="des-small">
+			                <img src="img/SuImg/zt9.jpg" alt="small"/>
+			            </a>
+			            <a class="des-small">
+			                <img src="img/SuImg/zt10.jpg" alt="small"/>
+			            </a>
+			        </div>
+			        <div class="clearfix">
+			        	
+			        </div>
+			        <div class="">
+			        	<div class="account-box">
+					        <h2 class="account-title">
+					            <span class="left c3"></span>
+					            <a href="###" class="f-btn-fhby right">返回本月</a>
+					            <div class="clearfix right">
+					                <div class="f-btn-jian left">&lt;</div><div class="left f-riqi"><span class="f-year">2017</span>年<span class="f-month">1</span>月</div><div class="f-btn-jia left">&gt;</div><!-- 一定不能换行-->
+					            </div>
+					        </h2>
+					        <div class="f-rili-table">
+					            <div class="f-rili-head celarfix">
+					                <div class="f-rili-th">周日</div>
+					                <div class="f-rili-th">周一</div>
+					                <div class="f-rili-th">周二</div>
+					                <div class="f-rili-th">周三</div>
+					                <div class="f-rili-th">周四</div>
+					                <div class="f-rili-th">周五</div>
+					                <div class="f-rili-th">周六</div>
+					                <div class="clear"></div>
+					            </div>
+					            <div class="f-tbody clearfix">
+					
+					            </div>
+					        </div>
+					    </div>
+			        </div>
+			    </div>
+			    <div class="detail_1stR f18 pull-left">
+			    	<span>【无边泳池】马尔代夫超六星级岛自由行全国出发蜜月亲子旅游甩尾</span>
+			    	<span class="yellow_White">自由行</span>
+			    	<span class="yellow_White">二次确认</span>
+			    	<ul class="list-unstyled f14">
+			    		<li>日本枫叶季预售来袭，大阪/东京/札幌/名古屋/香川/九州，机票可选！</li>
+			    		<li>西瓜卡套餐，卡内含1500日币，一卡在手，乘车购物直接刷卡，无需找零！</li>
+			    		<li>北海道雪季预售，札幌含税机票，一起泼雪，一起撒野，才是冬日打开的方式！</li>
+			    		<li>回程行李额可升级：+200元升级至25公斤！+400元升级至45kg！</li>
+			    		<div class="detail_arrow"></div>
+			    	</ul>
+			    	<p><a href="#" class="f12 pull-right">举报</a></p>
+			    	<img src="img/SuImg/detail_pig.png" width="748px"/>
+			    	<div class="detail_price">
+			    		<span class="f12">价格</span>
+			    		<font><small>¥ </small><big>999.00 </big>-<big> 5899.00</big></font>
+			    		<ul class="list-unstyled">
+			    			<li>652</li>
+			    			<li class="f12">月销量</li>
+			    		</ul>
+			    		<ul class="list-unstyled">
+			    			<li>203</li>
+			    			<li class="f12">累计评价</li>
+			    		</ul>
+			    		<ul class="list-unstyled">
+			    			<li>4.8<font class="f12">/5.0</font></li>
+			    			<li class="f12" style="border: none;">评分</li>
+			    		</ul>
+			    	</div>
+			    	<div class="f12">
+			    		<span class="detail_span">飞猪里程</span>
+			    		<img src="img/SuImg/detail_mile.png" width="45px"/>
+			    		<span>最多可送2949飞猪里程</span>
+			    	</div>
+			    	<p>
+			    		<span class="detail_span">出 &nbsp;发 &nbsp;地</span>
+			    		<span class="detail_span_2nd">上海</span>
+			    		<span class="detail_span">出 &nbsp;发 &nbsp;地</span>
+			    		<span class="detail_span_2nd">日本&nbsp;大阪&nbsp;东京&nbsp;茨城&nbsp;高松&nbsp;札幌&nbsp;名古屋&nbsp;佐贺</span>
+			    	</p>
+			    	<p>
+			    		<span class="detail_span">行程天数</span>
+			    		<span class="detail_span_2nd">7天&nbsp;&nbsp;1晚</span>
+			    		<span class="detail_span">商品包含</span>
+			    		<span class="detail_span_2nd">机票&nbsp;&nbsp;酒店</span>
+			    	</p>
+		    		<span class="detail_span pull-left">服务承诺</span>
+		    		<span class="detail_span_2nd promise">该商品在支付成功后需等待卖家确认，平均确认时长1小时43分钟，通过率97%</span>
+		    		<hr />
+		    		<div class="choose">
+		    			<p>
+		    				<span class="detail_span">出发地</span>
+		    				<span class="type"><span>上海</span><i></i></span>
+		    			</p>
+		    			<p>
+		    				<span class="detail_span">套餐类型</span>
+		    				<span class="type"><span>札幌5日机票+西瓜卡</span><i></i></span>
+		    				<span class="type"><span>大阪7日午去午回+近铁</span><i></i></span>
+		    				<span class="type"><span>大阪5日午去午回+西瓜</span><i></i></span><br />
+		    				<span class="detail_span"> </span>
+		    				<span class="type"><span>东京5日机票+西瓜卡</span><i></i></span>
+		    				<span class="type"><span>香川5日机票+西瓜卡</span><i></i></span>
+		    				<span class="type"><span>名古屋6日机票+西瓜卡</span><i></i></span>
+		    			</p>
+		    			<p>
+		    				<span class="detail_span">出游人群</span>
+		    				<span class="type"><span>成人</span><i> </i></span>
+		    				<span class="type"><span>单人房差</span><i> </i></span>
+		    			</p>
+		    			<div>
+		    				<span class="detail_span">出游日期</span>		    				
+							<input type="text" class="date_picker date_select" value="请选择">
+		    			</div>
+		    			<!--日历-->
+		    			<script type="text/javascript">
+							$(function(){
+								$('.date_picker').date_input();
+							})
+						</script>
+		    			<p class="count f12 pull-left">
+		    				<span class="detail_span pull-left">数量</span>
+		    				<input type="text" name="" id="" value="1" class="pull-left"/>
+		    				<button class="btn_up"></button>
+		    				<br />
+		    				<button class="btn_down"></button>
+		    				
+		    			</p>
+		    			<span class="pull-left f12">库存4615件</span>
+		    			<div class="clearfix"></div>
+		    			<p class="f16">
+		    				<span class="detail_span"> </span>
+		    				<button class="buy">立即购买</button>
+		    				<button class="add">加入购物车</button>
+		    			</p>
+		    			<p class="collect">
+		    				<span class="detail_span"> </span>
+		    				<a href="#" class="f12">收藏 (11741)</a>
+		    			</p>
+		    			<p class="tips">
+		    				<span class="detail_span">提醒</span>
+		    				<span class="f12">需二次确认,商家将在9个工作小时内(工作日9:00--18:00)核实是否有位</span>
+		    			</p>
+		    		</div>
+			    </div>
+			</div>
+			<div class="detail_2nd clearfix">
+				<div class="detail_2ndL pull-left">
+					<div class="detail_2L_1st clearfix">
+						<p>
+							<a href="#">春秋旅游旗舰店 <img src="img/SuImg/detail_link.gif"/></a>
+						</p>
+						<ul class="pull-left text-center">
+							<li>
+								<span>描述</span><br />
+								<font>4.8<span class="glyphicon glyphicon-arrow-down"></span></font>
+							</li>
+						</ul>
+						<ul class="pull-left text-center">
+							<li>
+								<span>服 务</span><br />
+								<font>4.8<span class="glyphicon glyphicon-arrow-down"></span></font>
+							</li>
+						</ul>
+						<ul class="pull-left text-center">
+							<li>
+								<span>物 流</span><br />
+								<font>4.8<span class="glyphicon glyphicon-arrow-down"></span></font>
+							</li>
+						</ul>
+						<button class="shop_in f12">进入店铺</button>
+						<button class="f12">收藏店铺</button><br />
+						<div>
+							<span>该商家来自</span>
+							<a href="#"><img src="img/SuImg/detail_feizhu.png" width="45px"/></a>
+						</div>					
+					</div>
+					<div class="clearfix">
+						
+					</div>
+					<div class="detail_2L_2nd">
+						<p>
+							<b>本店搜索</b>
+						</p>
+						<div class="">
+							<p>
+								<span class="text-right">关键字</span><input type="text" name="" id="" value="日本自由行" />
+							</p>
+							<p>
+								<span class="text-right">价格</span><input type="text" name="" id="" value="" />-</span><input type="text" name="" id="" value="" />
+							</p>
+							<p>
+								<span class="text-right"></span>
+								<a href="#"><img src="img/SuImg/btn-search.png"/></a>
+							</p>
+							<a href="#">清迈</a>
+							<a href="#">长白山</a>
+							<a href="#">普吉岛</a>
+						</div>
+					</div>
+					<div class="detail_2L_3rd">
+						<p><b>客服中心</b></p>
+						<div class="">
+							<b>工作时间</b><br />
+							<span>周一至周五：9:00-22:00</span><br />
+							<span>周六至周日：9:00-22:00</span>
+						</div>
+						<div class="">
+							<b>在线咨询</b>
+							<div class="clearfix">
+								<span>咨询组</span>
+								<span class="pull-right">
+									<a><img src="img/SuImg/linkme.gif"/></a>
+								</span>
+							</div>
+							<div class="clearfix">
+								<span>跟单组</span>
+								<span class="pull-right">
+									<a><img src="img/SuImg/leave.gif"/></a>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="detail_2L_4th">
+						<img src="img/SuImg/collect.png"/>
+					</div>
+					<div class="detail_2L_5th">
+						<p><b>推荐排行榜</b></p>
+						<div>
+							<a class="f14">爆款推荐</a>
+							<a class="f14">经典热卖</a>
+						</div>
+						<div class="rank">
+							<div class="rank_same">
+								<img src="img/SuImg/L1.jpg"/>
+							</div>
+							<a href="#">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游</a>
+							<p>
+								<b class="f16">¥1299.00</b>
+								<span class="pull-right">已售:<b>4253</b>件</span>
+							</p>
+						</div>
+						<div class="rank">
+							<div class="rank_same">
+								<img src="img/SuImg/L2.jpg"/>
+							</div>
+							<a href="#">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游</a>
+							<p>
+								<b class="f16">¥1299.00</b>
+								<span class="pull-right">已售:<b>4253</b>件</span>
+							</p>
+						</div>
+						<div class="rank">
+							<div class="rank_same">
+								<img src="img/SuImg/L3.jpg"/>
+							</div>
+							<a href="#">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游</a>
+							<p>
+								<b class="f16">¥1299.00</b>
+								<span class="pull-right">已售:<b>4253</b>件</span>
+							</p>
+						</div>
+						<div class="rank">
+							<div class="rank_same">
+								<img src="img/SuImg/L4.jpg"/>
+							</div>
+							<a href="#">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游</a>
+							<p>
+								<b class="f16">¥1299.00</b>
+								<span class="pull-right">已售:<b>4253</b>件</span>
+							</p>
+						</div>
+					</div>
+					<div class="detail_2L_6th">
+						<p><b>宝贝分类</b></p>
+						<div class="classify">
+							<p class="classify_minus">
+								<i> </i>
+								<a href=""><b>查看所有宝贝</b></a>
+							</p>
+							<p class="classify_red">
+								<a href="#">按综合</a>
+								<a href="#">按销量</a>
+								<a href="#">按新品</a>
+								<a href="#">按价格</a>
+							</p>
+							<p class="classify_empty">
+								<i></i>
+								<a href="#"><b> 蜜月游</b></a>
+							</p>
+							<p class="classify_empty">
+								<i></i>
+								<a href="#"><b> 亲子游</b></a>
+							</p>
+							<p class="classify_empty">
+								<i></i>
+								<a href="#"><b>爸妈之旅</b></a>
+							</p>
+							<p class="classify_minus">
+								<i> </i>
+								<a href=""><b>日本</b></a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">大阪</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">名古屋</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">香川</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">北海道</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">东京</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">九州</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">京都</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">冲绳</a>
+							</p>
+							<p class="classify_minus">
+								<i> </i>
+								<a href=""><b>日本</b></a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">大阪</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">名古屋</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">香川</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">北海道</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">曼谷.芭堤雅</a>
+							</p>
+							<p class="classify_minus">
+								<i> </i>
+								<a href=""><b>日本</b></a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">大阪</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">名古屋</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">香川</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">北海道</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">曼谷.芭堤雅</a>
+							</p>
+							<p class="classify_minus">
+								<i> </i>
+								<a href=""><b>日本</b></a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">大阪</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">名古屋</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">香川</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">北海道</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">曼谷.芭堤雅</a>
+							</p>
+							<p class="classify_empty">
+								<i> </i>
+								<a href=""><b>国内</b></a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">大阪</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">名古屋</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">香川</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">北海道</a>
+							</p>
+							<p class="classify_red classify_city">
+								<a href="#">曼谷.芭堤雅</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="seller_reco pull-left clearfix">
+					<p>卖家推荐</p>
+					<div class="clearfix pull-left">
+						<img src="img/SuImg/detail_hot3.jpg" class="pull-left"/>
+						<a href="#">春秋旅游上海-北海道5日自由行札幌往返含税机票酒店日本枫叶季</a>
+						<p>
+							<font class="f18">￥999</font>
+							<span class="pull-right">已售1599笔</span>
+						</p>
+						<span class="free">自由行</span>
+					</div>
+					<div class="clearfix pull-left">
+						<img src="img/SuImg/detail_hot4.jpg" class="pull-left"/>
+						<a href="#">春秋旅游上海-北海道5日自由行札幌往返含税机票酒店日本枫叶季</a>
+						<p>
+							<font class="f18">￥1199</font>
+							<span class="pull-right">已售1599笔</span>
+						</p>
+						<span class="free">自由行</span>
+					</div>
+					<div class="clearfix pull-left" style="margin-right: 0px;">
+						<img src="img/SuImg/detail_hot5.jpg" class="pull-left"/>
+						<a href="#">春秋旅游上海-北海道5日自由行札幌往返含税机票酒店日本枫叶季</a>
+						<p>
+							<font class="f18">￥1299</font>
+							<span class="pull-right">已售1599笔</span>
+						</p>
+						<span class="free">自由行</span>
+					</div>
+					
+				</div>
+				<div class="detail_2ndM pull-left" data-spy="scroll" data-target="" data-offset="50">
+					<div class="detail_2ndM_top clearfix">
+						<div class="clearfix">
+							
+							
+							<nav class="navbar" style="border: none;">
+								<div class="clearfix">
+									<div class="navbar-collapse detail_nav" id="myNavbar">
+										<!--<div class="shop_L_hide">
+											<a href="#" class="pull-left">春秋旅游旗舰店 <img src="img/SuImg/detail_link.gif"/></a>
+											<span class="glyphicon glyphicon-chevron-down" style="line-height: 20px;padding-left: 20px;"></span>
+										</div>-->
+										<ul class="nav navbar-nav">
+											<li><a href="#section1" class="select_tab_chg">商品详情</a></li>
+											<li><a href="#section2">套餐说明</a></li>
+											<li><a href="#section3">退改规则</a></li>
+											<li><a href="#section4">累计评价<font>206</font></a></li>
+											<li class="pull-right nav_eception nav_eception2">
+												<a href="#">手机购买</a>
+												<img src="img/SuImg/QR_scan.png" class="qr_scan2"/>
+											</li>
+										</ul>
+										
+									</div>
+
+								</div>
+							</nav>
+							<div class="">
+								<img src="img/SuImg/detail_intro.png"/>
+							</div>
+						</div>
+						
+						<div class="" id="section1">
+							<h4><b>商品详情</b></h4>
+							<img src="img/SuImg/Disney.jpg"/>
+							<table border="0" cellspacing="" cellpadding="" class="xq_tb1">
+								<tr>
+									<td>
+										<a><img src="img/SuImg/spot1.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot2.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游亲子马来西亚沙巴自由行6日4晚机票五星酒店海岛蜜月</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot3.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot4.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a><img src="img/SuImg/spot5.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot6.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游亲子马来西亚沙巴自由行6日4晚机票五星酒店海岛蜜月</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot7.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot8.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+								</tr>
+							</table>
+							<img src="img/SuImg/Disney.jpg"/>
+							
+							<img src="img/SuImg/xq2.jpg"/>
+							<table border="1" bordercolor="#a28645" cellspacing="0" align="center" cellpadding="0" class="xq_tb2 f18">
+								<tr class="tb_same">
+									<td rowspan="2" width="137px">套餐名</td>
+									<td rowspan="2" width="80px">往返含<br />税机票</td>
+									<td colspan="2" width="375px">航班信息</td>
+									<td rowspan="2" width="200px">其他</th>
+								</tr>
+								<tr>
+									<td>去程</td>
+									<td>回程</td>
+								</tr>
+								<tr class="tb_same">
+									<td width="137px">大阪5日早去晚回+近铁</td>
+									<td width="80px">5日</td>
+									<td>上海浦东-大阪关西08:05-11:20</td>
+									<td>大阪关西-上海浦东17:00-19:10</td>
+									<td width="200px">近铁关西周游2日券一张 </th>
+								</tr>
+								<tr class="tb_same">
+									<td width="137px">大阪5日早去晚回+近铁</td>
+									<td width="80px">5日</td>
+									<td>上海浦东-大阪关西08:05-11:20</td>
+									<td>大阪关西-上海浦东17:00-19:10</td>
+									<td width="200px">近铁关西周游2日券一张 </th>
+								</tr>
+								<tr class="tb_same">
+									<td width="137px">大阪5日早去晚回+近铁</td>
+									<td width="80px">5日</td>
+									<td>上海浦东-大阪关西08:05-11:20</td>
+									<td>大阪关西-上海浦东17:00-19:10</td>
+									<td width="200px">日本西瓜卡一张；含1500日币</th>
+								</tr>
+								<tr class="tb_same">
+									<td width="137px">名古屋7日机票+西瓜卡</td>
+									<td width="80px">5日</td>
+									<td>上海浦东-大阪关西08:05-11:20</td>
+									<td>大阪关西-上海浦东17:00-19:10</td>
+									<td width="200px">近铁关西周游2日券一张 </th>
+								</tr>
+								<tr class="tb_same">
+									<td width="137px">大阪5日早去晚回+近铁</td>
+									<td width="80px">5日</td>
+									<td>上海浦东-大阪关西08:05-11:20</td>
+									<td>名古屋-上海浦东15:35-17:45</td>
+									<td width="200px">日本西瓜卡一张；含1500日币 </th>
+								</tr>
+								<tr class="tb_same">
+									<td width="137px">大阪5日早去晚回+近铁</td>
+									<td width="80px">5日</td>
+									<td>上海浦东-大阪关西08:05-11:20</td>
+									<td>大阪关西-上海浦东17:00-19:10</td>
+									<td width="200px">近铁关西周游2日券一张 </th>
+								</tr>
+								<tr class="tb_same">
+									<td width="137px">大阪5日早去晚回+近铁</td>
+									<td width="80px">5日</td>
+									<td>上海浦东-大阪关西08:05-11:20</td>
+									<td>大阪关西-上海浦东17:00-19:10</td>
+									<td width="200px">学做乌冬面单项 </th>
+								</tr>
+							</table>
+							<div class="f14">
+								<ul class="list-unstyled">
+									<li>以上航班信息仅供参考，对应的航班时间均为当地时间，具体以实际出票为准。</li>
+									<li>10.28之前，高松特殊航班说明：</li>
+									<li>9C8889（每周一）上海-高松执行航班时刻：14:35（中国时间）-17:40（日本时间）</li>
+									<li>9C8890（每周一）高松-上海执行航班时刻：18:40（日本时间）-20:10（中国时间）</li>
+									<li>10.28之前，高松特殊航班说明：</li>
+									<li>9C8889（每周一）上海-高松执行航班时刻：14:35（中国时间）-17:40（日本时间）</li>
+									<li>9C8890（每周一）高松-上海执行航班时刻：18:40（日本时间）-20:10（中国时间）</li>
+								</ul>
+							</div>
+							
+							
+							<img src="img/SuImg/maer4.jpg"/>
+							<img src="img/SuImg/maer12.jpg"/>
+							<img src="img/SuImg/maer5.jpg"/>
+							<img src="img/SuImg/maer6.jpg"/>
+							<img src="img/SuImg/maer7.jpg"/>
+							<img src="img/SuImg/maer8.jpg"/>
+							<img src="img/SuImg/maer9.jpg"/>
+							<img src="img/SuImg/maer10.jpg"/>
+							<img src="img/SuImg/maer11.jpg"/>
+						</div>
+						<div class="" id="section2">
+							<h4><b>套餐说明</b></h4>
+							<div class="illustration clearfix">
+								<div class="illustration_top">
+									<a href="">上海出发</a>
+									<div class="ill_select">
+										<span class="ill_select_1" style="background-color: #ffc900;border-color: #ffc900;">札幌5日机票+西瓜卡<span class="ill_select_arrow"></span> </span>
+										<span class="ill_select_2">札幌5日机票+西瓜卡<span class="ill_select_arrow comment_hide"></span> </span>
+										<span class="ill_select_3">札幌5日机票+西瓜卡<span class="ill_select_arrow comment_hide"></span> </span>
+										<span class="ill_select_4">札幌5日机票+西瓜卡<span class="ill_select_arrow comment_hide"></span> </span>
+										<span class="ill_select_5">札幌5日机票+西瓜卡<span class="ill_select_arrow comment_hide"></span> </span>
+										<span class="ill_select_6">札幌5日机票+西瓜卡<span class="ill_select_arrow comment_hide"></span> </span>
+										
+									</div>
+								</div>
+								<div class="illustration_bottom">
+									<div class="ill_bott1">
+										<div class="">
+											<img src="img/SuImg/trans.png" class="pull-left"/>
+											<div class="schedule pull-left clearfix">
+												<p><b>参考航班</b></p>
+												<div class="clearfix">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第1天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>9C8999 320</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东国际机场T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>大阪关西国际机场T2</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<p><b>参考航班</b></p>
+												<div class="">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第7天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>9C8999 320</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>大阪关西国际机场T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东国际机场T2</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<div class="clearfix"></div>
+												<div>
+													交通说明<br />
+													以上航班信息仅供参考，对应的航班时间均为当地时间，存在航班调整的可能（包括航班号、航班时刻的变化等），具体以实际出票为准。
+												</div>
+											</div>
+											<div class="clearfix">
+												
+											</div>
+											<img src="img/SuImg/other_pay.png" class="pull-left"/>
+											
+											<div class="pay_other pull-left">
+												您的免费行李额（包括托运行李和非托运行李）为15公斤（婴儿无免费行李额）。超重部分需支付逾重行李费,每公斤按国家公布的经济舱全票价的1.5%计算。2）春秋航空公司规定每位旅客带入客舱的非托运行李（包括自理行李和随身携带物品）仅限一件，重量不应超过5公斤，尺寸不应超过20厘米×30厘米×40厘米。超重或超限的，均应办理托运；如您未能配合的，春秋航空公司将有权拒绝运输。3）托运行李尺寸是40厘米*60厘米*100厘米。 <br />
+												如需购买返程行李额最晚上海出发前5个工作日联系旺旺在线客服购买（每人限加一份）。
+											</div>
+										</div>
+										<div class="ill_common f14">
+											<h4><b>费用包含</b></h4>
+											<span>交通：上海-大阪7日往返含税机票 </span><br />
+											<span>近铁2日周游券一张。本券为实体券，客人可以选择地铁券至少提前一周备注邮寄地址（韵达包邮）其他需自负邮费 过时视为自动放弃或者昭化路699号2楼日本部凭订单号及姓名自取 </span><br />
+											<span>自由乘坐近铁电车和奈良交通巴士的规定区间 </span><br />
+											<span>附带车票的使用指南、利用区间指南图，从大阪、京都前往奈良旅行非常方便。 </span><br />
+											<span>大人：12岁以上、儿童：6岁-12岁以下 </span><br />
+											<span>6岁以下免费</span><br />
+											<span>售票日期：2018年10月31日止 （11月及之后出发的订单，寄送的近铁周游券使用期限为2019年10月31日） </span><br />
+											<span>有效期间：2day 自乘车起始日起连续2天 </span><br />
+											<span>近铁电车和奈良交通巴士的规定区间可自由上下车</span><br />
+											<span>2day：近铁电车规定区间：大阪府、奈良县和京都府下全区 </span><br />
+											<span>奈良交通巴士规定区间：奈良公园、西之京、法隆寺、明日香、室生和山之边之道区间</span><br />
+											<span>特别提醒：请您确保预留的快递地址有人进行快递的收件。在快递人员送货时，请务必当场打开包装查验票券等小商品的内容和数量是否于订单一致。如有问题请及时与快递员提出。核对无误后，进行签收。签收后，我司不再接受快递的票券等小商品数量和内容与订单不符的问题处理。</span><br />
+											
+											<h4><b>费用不含</b></h4>
+											<span>1、日本个人旅游签证，如需办理日本个人旅游签证，需预订全程机票和酒店。 </span><br />
+											<span>2、酒店住宿费用  </span><br />
+											<span>3、个人旅游意外险（建议购买） </span><br />
+											<span>4、以上费用包含中未注明的各项费用  </span><br />
+											<span>【特殊价格】  </span><br />
+											<span>1)2-12周岁儿童价格：单机票套餐儿童价格同成人。 </span><br />
+											<span>2)2周岁以下婴儿价格：1000元/人；婴儿价仅含往返机票抱票，无其他待遇。 </span><br />
+											<span>3）本产品报价适用持有大陆居民身份证的游客。如您持有其他国家或地区的护照，请在预订过程中注明。 </span><br />
+											<span>4）年龄计算以护照出生日日期为准！ </span><br />
+											
+											<h4><b>预定须知</b></h4>
+											<span>1、预定须知：  </span><br />
+											<span>①即时确认：拍下后请在12小时内付款，超时我们将会关闭订单，敬请谅解。   </span><br />
+											<span>②二次确认：二次确认的产品，订单在您付款且商家确认后才生效，有可能出现拍下付款后没有该价格库存的情况，请您谅解。</span><br />
+											<span>③签署合同：您全款后，我们会在48小时之内与您签在线旅游合同，请您及时回传，以免耽误您的行程。 </span><br />
+											<span>④出境产品的出行通知单一般出行前2-3个工作日发送至用户预留邮箱，如有加急需求请提前联系客服；国内产品详见合同。 </span><br />
+											<span>⑤划线价格：仅为参考价，该价格指产品或服务的门市价、服务提供商的指导价、零售价或该产品或服务曾经展示过的销售价等，并非原价；未划线价格：指产品或服务的实时标价，为划线价基础上计算出的优惠金额。具体成交价格根据产品或服务参加活动，或会员使用优惠券等发生变化，最终以订单结算页价格为准。  </span><br />
+											
+										</div>
+									</div>
+									<div class="ill_bott2 comment_hide">
+										<div class="">
+											<img src="img/SuImg/trans.png" class="pull-left"/>
+											<div class="schedule pull-left clearfix">
+												<p><b>参考航班</b></p>
+												<div class="clearfix">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第1天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>888888</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东国际机场T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>大阪关西国际机场T2</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<p><b>参考航班</b></p>
+												<div class="">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第7天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>9C8999 320</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>大阪关西国际机场T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东国际机场T2</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<div class="clearfix"></div>
+												<div>
+													交通说明<br />
+													以上航班信息仅供参考，对应的航班时间均为当地时间，存在航班调整的可能（包括航班号、航班时刻的变化等），具体以实际出票为准。
+												</div>
+											</div>
+											<div class="clearfix">
+												
+											</div>
+											<img src="img/SuImg/other_pay.png" class="pull-left"/>
+											
+											<div class="pay_other pull-left">
+												您的免费行李额（包括托运行李和非托运行李）为15公斤（婴儿无免费行李额）。超重部分需支付逾重行李费,每公斤按国家公布的经济舱全票价的1.5%计算。2）春秋航空公司规定每位旅客带入客舱的非托运行李（包括自理行李和随身携带物品）仅限一件，重量不应超过5公斤，尺寸不应超过20厘米×30厘米×40厘米。超重或超限的，均应办理托运；如您未能配合的，春秋航空公司将有权拒绝运输。3）托运行李尺寸是40厘米*60厘米*100厘米。 <br />
+												如需购买返程行李额最晚上海出发前5个工作日联系旺旺在线客服购买（每人限加一份）。
+											</div>
+										</div>
+										<div class="ill_common f14">
+											<h4><b>费用包含</b></h4>
+											<span>交通：上海-大阪7日往返含税机票 </span><br />
+											<span>近铁2日周游券一张。本券为实体券，客人可以选择地铁券至少提前一周备注邮寄地址（韵达包邮）其他需自负邮费 过时视为自动放弃或者昭化路699号2楼日本部凭订单号及姓名自取 </span><br />
+											<span>自由乘坐近铁电车和奈良交通巴士的规定区间 </span><br />
+											<span>附带车票的使用指南、利用区间指南图，从大阪、京都前往奈良旅行非常方便。 </span><br />
+											<span>大人：12岁以上、儿童：6岁-12岁以下 </span><br />
+											<span>6岁以下免费</span><br />
+											<span>售票日期：2018年10月31日止 （11月及之后出发的订单，寄送的近铁周游券使用期限为2019年10月31日） </span><br />
+											<span>有效期间：2day 自乘车起始日起连续2天 </span><br />
+											<span>近铁电车和奈良交通巴士的规定区间可自由上下车</span><br />
+											<span>2day：近铁电车规定区间：大阪府、奈良县和京都府下全区 </span><br />
+											<span>奈良交通巴士规定区间：奈良公园、西之京、法隆寺、明日香、室生和山之边之道区间</span><br />
+											<span>特别提醒：请您确保预留的快递地址有人进行快递的收件。在快递人员送货时，请务必当场打开包装查验票券等小商品的内容和数量是否于订单一致。如有问题请及时与快递员提出。核对无误后，进行签收。签收后，我司不再接受快递的票券等小商品数量和内容与订单不符的问题处理。</span><br />
+											
+											<h4><b>费用不含</b></h4>
+											<span>1、日本个人旅游签证，如需办理日本个人旅游签证，需预订全程机票和酒店。 </span><br />
+											<span>2、酒店住宿费用  </span><br />
+											<span>3、个人旅游意外险（建议购买） </span><br />
+											<span>4、以上费用包含中未注明的各项费用  </span><br />
+											<span>【特殊价格】  </span><br />
+											<span>1)2-12周岁儿童价格：单机票套餐儿童价格同成人。 </span><br />
+											<span>2)2周岁以下婴儿价格：1000元/人；婴儿价仅含往返机票抱票，无其他待遇。 </span><br />
+											<span>3）本产品报价适用持有大陆居民身份证的游客。如您持有其他国家或地区的护照，请在预订过程中注明。 </span><br />
+											<span>4）年龄计算以护照出生日日期为准！ </span><br />
+											
+											<h4><b>预定须知</b></h4>
+											<span>1、预定须知：  </span><br />
+											<span>①即时确认：拍下后请在12小时内付款，超时我们将会关闭订单，敬请谅解。   </span><br />
+											<span>②二次确认：二次确认的产品，订单在您付款且商家确认后才生效，有可能出现拍下付款后没有该价格库存的情况，请您谅解。</span><br />
+											<span>③签署合同：您全款后，我们会在48小时之内与您签在线旅游合同，请您及时回传，以免耽误您的行程。 </span><br />
+											<span>④出境产品的出行通知单一般出行前2-3个工作日发送至用户预留邮箱，如有加急需求请提前联系客服；国内产品详见合同。 </span><br />
+											<span>⑤划线价格：仅为参考价，该价格指产品或服务的门市价、服务提供商的指导价、零售价或该产品或服务曾经展示过的销售价等，并非原价；未划线价格：指产品或服务的实时标价，为划线价基础上计算出的优惠金额。具体成交价格根据产品或服务参加活动，或会员使用优惠券等发生变化，最终以订单结算页价格为准。  </span><br />
+											
+										</div>
+									</div>
+									<div class="ill_bott3 comment_hide">
+										<div class="">
+											<img src="img/SuImg/trans.png" class="pull-left"/>
+											<div class="schedule pull-left clearfix">
+												<p><b>参考航班</b></p>
+												<div class="clearfix">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第1天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>9C8999 320</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东国际机场T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>大阪关西国际机场T2</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<p><b>参考航班</b></p>
+												<div class="">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第7天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>9C8999 320</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>大阪关西国际机场T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东国际机场T2</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<div class="clearfix"></div>
+												<div>
+													交通说明<br />
+													以上航班信息仅供参考，对应的航班时间均为当地时间，存在航班调整的可能（包括航班号、航班时刻的变化等），具体以实际出票为准。
+												</div>
+											</div>
+											<div class="clearfix">
+												
+											</div>
+											<img src="img/SuImg/other_pay.png" class="pull-left"/>
+											
+											<div class="pay_other pull-left">
+												您的免费行李额（包括托运行李和非托运行李）为15公斤（婴儿无免费行李额）。超重部分需支付逾重行李费,每公斤按国家公布的经济舱全票价的1.5%计算。2）春秋航空公司规定每位旅客带入客舱的非托运行李（包括自理行李和随身携带物品）仅限一件，重量不应超过5公斤，尺寸不应超过20厘米×30厘米×40厘米。超重或超限的，均应办理托运；如您未能配合的，春秋航空公司将有权拒绝运输。3）托运行李尺寸是40厘米*60厘米*100厘米。 <br />
+												如需购买返程行李额最晚上海出发前5个工作日联系旺旺在线客服购买（每人限加一份）。
+											</div>
+										</div>
+										<div class="ill_common f14">
+											<h4><b>费用包含</b></h4>
+											<span>交通：上海-大阪7日往返含税机票 </span><br />
+											<span>近铁2日周游券一张。本券为实体券，客人可以选择地铁券至少提前一周备注邮寄地址（韵达包邮）其他需自负邮费 过时视为自动放弃或者昭化路699号2楼日本部凭订单号及姓名自取 </span><br />
+											<span>自由乘坐近铁电车和奈良交通巴士的规定区间 </span><br />
+											<span>附带车票的使用指南、利用区间指南图，从大阪、京都前往奈良旅行非常方便。 </span><br />
+											<span>大人：12岁以上、儿童：6岁-12岁以下 </span><br />
+											<span>6岁以下免费</span><br />
+											<span>售票日期：2018年10月31日止 （11月及之后出发的订单，寄送的近铁周游券使用期限为2019年10月31日） </span><br />
+											<span>有效期间：2day 自乘车起始日起连续2天 </span><br />
+											<span>近铁电车和奈良交通巴士的规定区间可自由上下车</span><br />
+											<span>2day：近铁电车规定区间：大阪府、奈良县和京都府下全区 </span><br />
+											<span>奈良交通巴士规定区间：奈良公园、西之京、法隆寺、明日香、室生和山之边之道区间</span><br />
+											<span>特别提醒：请您确保预留的快递地址有人进行快递的收件。在快递人员送货时，请务必当场打开包装查验票券等小商品的内容和数量是否于订单一致。如有问题请及时与快递员提出。核对无误后，进行签收。签收后，我司不再接受快递的票券等小商品数量和内容与订单不符的问题处理。</span><br />
+											
+											<h4><b>费用不含</b></h4>
+											<span>1、日本个人旅游签证，如需办理日本个人旅游签证，需预订全程机票和酒店。 </span><br />
+											<span>2、酒店住宿费用  </span><br />
+											<span>3、个人旅游意外险（建议购买） </span><br />
+											<span>4、以上费用包含中未注明的各项费用  </span><br />
+											<span>【特殊价格】  </span><br />
+											<span>1)2-12周岁儿童价格：单机票套餐儿童价格同成人。 </span><br />
+											<span>2)2周岁以下婴儿价格：1000元/人；婴儿价仅含往返机票抱票，无其他待遇。 </span><br />
+											<span>3）本产品报价适用持有大陆居民身份证的游客。如您持有其他国家或地区的护照，请在预订过程中注明。 </span><br />
+											<span>4）年龄计算以护照出生日日期为准！ </span><br />
+											
+											<h4><b>预定须知</b></h4>
+											<span>1、预定须知：  </span><br />
+											<span>①即时确认：拍下后请在12小时内付款，超时我们将会关闭订单，敬请谅解。   </span><br />
+											<span>②二次确认：二次确认的产品，订单在您付款且商家确认后才生效，有可能出现拍下付款后没有该价格库存的情况，请您谅解。</span><br />
+											<span>③签署合同：您全款后，我们会在48小时之内与您签在线旅游合同，请您及时回传，以免耽误您的行程。 </span><br />
+											<span>④出境产品的出行通知单一般出行前2-3个工作日发送至用户预留邮箱，如有加急需求请提前联系客服；国内产品详见合同。 </span><br />
+											<span>⑤划线价格：仅为参考价，该价格指产品或服务的门市价、服务提供商的指导价、零售价或该产品或服务曾经展示过的销售价等，并非原价；未划线价格：指产品或服务的实时标价，为划线价基础上计算出的优惠金额。具体成交价格根据产品或服务参加活动，或会员使用优惠券等发生变化，最终以订单结算页价格为准。  </span><br />
+											
+										</div>
+									</div>
+									<div class="ill_bott4 comment_hide">
+										<div class="">
+											<img src="img/SuImg/trans.png" class="pull-left"/>
+											<div class="schedule pull-left clearfix">
+												<p><b>参考航班</b></p>
+												<div class="clearfix">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第1天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>9C8999 320</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东国际机场T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>大阪关西国际机场T2</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<p><b>参考航班</b></p>
+												<div class="">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第7天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>9C8999 320</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>大阪关西国际机场T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东国际机场T2</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<div class="clearfix"></div>
+												<div>
+													交通说明<br />
+													以上航班信息仅供参考，对应的航班时间均为当地时间，存在航班调整的可能（包括航班号、航班时刻的变化等），具体以实际出票为准。
+												</div>
+											</div>
+											<div class="clearfix">
+												
+											</div>
+											<img src="img/SuImg/other_pay.png" class="pull-left"/>
+											
+											<div class="pay_other pull-left">
+												您的免费行李额（包括托运行李和非托运行李）为15公斤（婴儿无免费行李额）。超重部分需支付逾重行李费,每公斤按国家公布的经济舱全票价的1.5%计算。2）春秋航空公司规定每位旅客带入客舱的非托运行李（包括自理行李和随身携带物品）仅限一件，重量不应超过5公斤，尺寸不应超过20厘米×30厘米×40厘米。超重或超限的，均应办理托运；如您未能配合的，春秋航空公司将有权拒绝运输。3）托运行李尺寸是40厘米*60厘米*100厘米。 <br />
+												如需购买返程行李额最晚上海出发前5个工作日联系旺旺在线客服购买（每人限加一份）。
+											</div>
+										</div>
+										<div class="ill_common f14">
+											<h4><b>费用包含</b></h4>
+											<span>交通：上海-大阪7日往返含税机票 </span><br />
+											<span>近铁2日周游券一张。本券为实体券，客人可以选择地铁券至少提前一周备注邮寄地址（韵达包邮）其他需自负邮费 过时视为自动放弃或者昭化路699号2楼日本部凭订单号及姓名自取 </span><br />
+											<span>自由乘坐近铁电车和奈良交通巴士的规定区间 </span><br />
+											<span>附带车票的使用指南、利用区间指南图，从大阪、京都前往奈良旅行非常方便。 </span><br />
+											<span>大人：12岁以上、儿童：6岁-12岁以下 </span><br />
+											<span>6岁以下免费</span><br />
+											<span>售票日期：2018年10月31日止 （11月及之后出发的订单，寄送的近铁周游券使用期限为2019年10月31日） </span><br />
+											<span>有效期间：2day 自乘车起始日起连续2天 </span><br />
+											<span>近铁电车和奈良交通巴士的规定区间可自由上下车</span><br />
+											<span>2day：近铁电车规定区间：大阪府、奈良县和京都府下全区 </span><br />
+											<span>奈良交通巴士规定区间：奈良公园、西之京、法隆寺、明日香、室生和山之边之道区间</span><br />
+											<span>特别提醒：请您确保预留的快递地址有人进行快递的收件。在快递人员送货时，请务必当场打开包装查验票券等小商品的内容和数量是否于订单一致。如有问题请及时与快递员提出。核对无误后，进行签收。签收后，我司不再接受快递的票券等小商品数量和内容与订单不符的问题处理。</span><br />
+											
+											<h4><b>费用不含</b></h4>
+											<span>1、日本个人旅游签证，如需办理日本个人旅游签证，需预订全程机票和酒店。 </span><br />
+											<span>2、酒店住宿费用  </span><br />
+											<span>3、个人旅游意外险（建议购买） </span><br />
+											<span>4、以上费用包含中未注明的各项费用  </span><br />
+											<span>【特殊价格】  </span><br />
+											<span>1)2-12周岁儿童价格：单机票套餐儿童价格同成人。 </span><br />
+											<span>2)2周岁以下婴儿价格：1000元/人；婴儿价仅含往返机票抱票，无其他待遇。 </span><br />
+											<span>3）本产品报价适用持有大陆居民身份证的游客。如您持有其他国家或地区的护照，请在预订过程中注明。 </span><br />
+											<span>4）年龄计算以护照出生日日期为准！ </span><br />
+											
+											<h4><b>预定须知</b></h4>
+											<span>1、预定须知：  </span><br />
+											<span>①即时确认：拍下后请在12小时内付款，超时我们将会关闭订单，敬请谅解。   </span><br />
+											<span>②二次确认：二次确认的产品，订单在您付款且商家确认后才生效，有可能出现拍下付款后没有该价格库存的情况，请您谅解。</span><br />
+											<span>③签署合同：您全款后，我们会在48小时之内与您签在线旅游合同，请您及时回传，以免耽误您的行程。 </span><br />
+											<span>④出境产品的出行通知单一般出行前2-3个工作日发送至用户预留邮箱，如有加急需求请提前联系客服；国内产品详见合同。 </span><br />
+											<span>⑤划线价格：仅为参考价，该价格指产品或服务的门市价、服务提供商的指导价、零售价或该产品或服务曾经展示过的销售价等，并非原价；未划线价格：指产品或服务的实时标价，为划线价基础上计算出的优惠金额。具体成交价格根据产品或服务参加活动，或会员使用优惠券等发生变化，最终以订单结算页价格为准。  </span><br />
+											
+										</div>
+									</div>
+									<div class="ill_bott5 comment_hide">
+										<div class="">
+											<img src="img/SuImg/trans.png" class="pull-left"/>
+											<div class="schedule pull-left clearfix">
+												<p><b>参考航班</b></p>
+												<div class="clearfix">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第1天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>9C8999 320</font>
+														</li>
+														<li class="pull-left">
+															<b>55555555555</b><br />
+															<font>上海浦东T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>高松</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<p><b>参考航班</b></p>
+												<div class="">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第7天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>9C8999 320</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>高松</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<div class="clearfix"></div>
+												<div>
+													交通说明<br />
+													以上航班信息仅供参考，对应的航班时间均为当地时间，存在航班调整的可能（包括航班号、航班时刻的变化等），具体以实际出票为准。
+												</div>
+											</div>
+											<div class="clearfix">
+												
+											</div>
+											<img src="img/SuImg/other_pay.png" class="pull-left"/>
+											
+											<div class="pay_other pull-left">
+												您的免费行李额（包括托运行李和非托运行李）为15公斤（婴儿无免费行李额）。超重部分需支付逾重行李费,每公斤按国家公布的经济舱全票价的1.5%计算。2）春秋航空公司规定每位旅客带入客舱的非托运行李（包括自理行李和随身携带物品）仅限一件，重量不应超过5公斤，尺寸不应超过20厘米×30厘米×40厘米。超重或超限的，均应办理托运；如您未能配合的，春秋航空公司将有权拒绝运输。3）托运行李尺寸是40厘米*60厘米*100厘米。 <br />
+												如需购买返程行李额最晚上海出发前5个工作日联系旺旺在线客服购买（每人限加一份）。
+											</div>
+										</div>
+										<div class="ill_common f14">
+											<h4><b>费用包含</b></h4>
+											<span>交通：上海-大阪7日往返含税机票 </span><br />
+											<span>近铁2日周游券一张。本券为实体券，客人可以选择地铁券至少提前一周备注邮寄地址（韵达包邮）其他需自负邮费 过时视为自动放弃或者昭化路699号2楼日本部凭订单号及姓名自取 </span><br />
+											<span>自由乘坐近铁电车和奈良交通巴士的规定区间 </span><br />
+											<span>附带车票的使用指南、利用区间指南图，从大阪、京都前往奈良旅行非常方便。 </span><br />
+											<span>大人：12岁以上、儿童：6岁-12岁以下 </span><br />
+											<span>6岁以下免费</span><br />
+											<span>售票日期：2018年10月31日止 （11月及之后出发的订单，寄送的近铁周游券使用期限为2019年10月31日） </span><br />
+											<span>有效期间：2day 自乘车起始日起连续2天 </span><br />
+											<span>近铁电车和奈良交通巴士的规定区间可自由上下车</span><br />
+											<span>2day：近铁电车规定区间：大阪府、奈良县和京都府下全区 </span><br />
+											<span>奈良交通巴士规定区间：奈良公园、西之京、法隆寺、明日香、室生和山之边之道区间</span><br />
+											<span>特别提醒：请您确保预留的快递地址有人进行快递的收件。在快递人员送货时，请务必当场打开包装查验票券等小商品的内容和数量是否于订单一致。如有问题请及时与快递员提出。核对无误后，进行签收。签收后，我司不再接受快递的票券等小商品数量和内容与订单不符的问题处理。</span><br />
+											
+											<h4><b>费用不含</b></h4>
+											<span>1、日本个人旅游签证，如需办理日本个人旅游签证，需预订全程机票和酒店。 </span><br />
+											<span>2、酒店住宿费用  </span><br />
+											<span>3、个人旅游意外险（建议购买） </span><br />
+											<span>4、以上费用包含中未注明的各项费用  </span><br />
+											<span>【特殊价格】  </span><br />
+											<span>1)2-12周岁儿童价格：单机票套餐儿童价格同成人。 </span><br />
+											<span>2)2周岁以下婴儿价格：1000元/人；婴儿价仅含往返机票抱票，无其他待遇。 </span><br />
+											<span>3）本产品报价适用持有大陆居民身份证的游客。如您持有其他国家或地区的护照，请在预订过程中注明。 </span><br />
+											<span>4）年龄计算以护照出生日日期为准！ </span><br />
+											
+											<h4><b>预定须知</b></h4>
+											<span>1、预定须知：  </span><br />
+											<span>①即时确认：拍下后请在12小时内付款，超时我们将会关闭订单，敬请谅解。   </span><br />
+											<span>②二次确认：二次确认的产品，订单在您付款且商家确认后才生效，有可能出现拍下付款后没有该价格库存的情况，请您谅解。</span><br />
+											<span>③签署合同：您全款后，我们会在48小时之内与您签在线旅游合同，请您及时回传，以免耽误您的行程。 </span><br />
+											<span>④出境产品的出行通知单一般出行前2-3个工作日发送至用户预留邮箱，如有加急需求请提前联系客服；国内产品详见合同。 </span><br />
+											<span>⑤划线价格：仅为参考价，该价格指产品或服务的门市价、服务提供商的指导价、零售价或该产品或服务曾经展示过的销售价等，并非原价；未划线价格：指产品或服务的实时标价，为划线价基础上计算出的优惠金额。具体成交价格根据产品或服务参加活动，或会员使用优惠券等发生变化，最终以订单结算页价格为准。  </span><br />
+											
+										</div>
+									</div>
+									<div class="ill_bott6 comment_hide">
+										<div class="">
+											<img src="img/SuImg/trans.png" class="pull-left"/>
+											<div class="schedule pull-left clearfix">
+												<p><b>参考航班</b></p>
+												<div class="clearfix">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第1天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>fffff</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东国际机场T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>大阪关西国际机场T2</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<p><b>参考航班</b></p>
+												<div class="">
+													<ul>
+														<li class="pull-left"><img src="img/SuImg/detail_go.png" width="17px"/> 第7天</li>
+														<li class="pull-left">
+															<span>春秋航空</span><br />
+															<font>9C8999 320</font>
+														</li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>大阪关西国际机场T2</font>
+														</li>
+														<li class="pull-left"><i><img src="img/SuImg/arrow_r.png"/></i></li>
+														<li class="pull-left">
+															<b>12:40</b><br />
+															<font>上海浦东国际机场T2</font>
+														</li>
+														<li class="pull-left">直飞</li>
+													</ul>
+												</div>
+												<div class="clearfix"></div>
+												<div>
+													交通说明<br />
+													以上航班信息仅供参考，对应的航班时间均为当地时间，存在航班调整的可能（包括航班号、航班时刻的变化等），具体以实际出票为准。
+												</div>
+											</div>
+											<div class="clearfix">
+												
+											</div>
+											<img src="img/SuImg/other_pay.png" class="pull-left"/>
+											
+											<div class="pay_other pull-left">
+												您的免费行李额（包括托运行李和非托运行李）为15公斤（婴儿无免费行李额）。超重部分需支付逾重行李费,每公斤按国家公布的经济舱全票价的1.5%计算。2）春秋航空公司规定每位旅客带入客舱的非托运行李（包括自理行李和随身携带物品）仅限一件，重量不应超过5公斤，尺寸不应超过20厘米×30厘米×40厘米。超重或超限的，均应办理托运；如您未能配合的，春秋航空公司将有权拒绝运输。3）托运行李尺寸是40厘米*60厘米*100厘米。 <br />
+												如需购买返程行李额最晚上海出发前5个工作日联系旺旺在线客服购买（每人限加一份）。
+											</div>
+										</div>
+										<div class="ill_common f14">
+											<h4><b>费用包含</b></h4>
+											<span>交通：上海-大阪7日往返含税机票 </span><br />
+											<span>近铁2日周游券一张。本券为实体券，客人可以选择地铁券至少提前一周备注邮寄地址（韵达包邮）其他需自负邮费 过时视为自动放弃或者昭化路699号2楼日本部凭订单号及姓名自取 </span><br />
+											<span>自由乘坐近铁电车和奈良交通巴士的规定区间 </span><br />
+											<span>附带车票的使用指南、利用区间指南图，从大阪、京都前往奈良旅行非常方便。 </span><br />
+											<span>大人：12岁以上、儿童：6岁-12岁以下 </span><br />
+											<span>6岁以下免费</span><br />
+											<span>售票日期：2018年10月31日止 （11月及之后出发的订单，寄送的近铁周游券使用期限为2019年10月31日） </span><br />
+											<span>有效期间：2day 自乘车起始日起连续2天 </span><br />
+											<span>近铁电车和奈良交通巴士的规定区间可自由上下车</span><br />
+											<span>2day：近铁电车规定区间：大阪府、奈良县和京都府下全区 </span><br />
+											<span>奈良交通巴士规定区间：奈良公园、西之京、法隆寺、明日香、室生和山之边之道区间</span><br />
+											<span>特别提醒：请您确保预留的快递地址有人进行快递的收件。在快递人员送货时，请务必当场打开包装查验票券等小商品的内容和数量是否于订单一致。如有问题请及时与快递员提出。核对无误后，进行签收。签收后，我司不再接受快递的票券等小商品数量和内容与订单不符的问题处理。</span><br />
+											
+											<h4><b>费用不含</b></h4>
+											<span>1、日本个人旅游签证，如需办理日本个人旅游签证，需预订全程机票和酒店。 </span><br />
+											<span>2、酒店住宿费用  </span><br />
+											<span>3、个人旅游意外险（建议购买） </span><br />
+											<span>4、以上费用包含中未注明的各项费用  </span><br />
+											<span>【特殊价格】  </span><br />
+											<span>1)2-12周岁儿童价格：单机票套餐儿童价格同成人。 </span><br />
+											<span>2)2周岁以下婴儿价格：1000元/人；婴儿价仅含往返机票抱票，无其他待遇。 </span><br />
+											<span>3）本产品报价适用持有大陆居民身份证的游客。如您持有其他国家或地区的护照，请在预订过程中注明。 </span><br />
+											<span>4）年龄计算以护照出生日日期为准！ </span><br />
+											
+											<h4><b>预定须知</b></h4>
+											<span>1、预定须知：  </span><br />
+											<span>①即时确认：拍下后请在12小时内付款，超时我们将会关闭订单，敬请谅解。   </span><br />
+											<span>②二次确认：二次确认的产品，订单在您付款且商家确认后才生效，有可能出现拍下付款后没有该价格库存的情况，请您谅解。</span><br />
+											<span>③签署合同：您全款后，我们会在48小时之内与您签在线旅游合同，请您及时回传，以免耽误您的行程。 </span><br />
+											<span>④出境产品的出行通知单一般出行前2-3个工作日发送至用户预留邮箱，如有加急需求请提前联系客服；国内产品详见合同。 </span><br />
+											<span>⑤划线价格：仅为参考价，该价格指产品或服务的门市价、服务提供商的指导价、零售价或该产品或服务曾经展示过的销售价等，并非原价；未划线价格：指产品或服务的实时标价，为划线价基础上计算出的优惠金额。具体成交价格根据产品或服务参加活动，或会员使用优惠券等发生变化，最终以订单结算页价格为准。  </span><br />
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="" id="section3">
+							<h4><b>退改原则</b></h4>
+							<div class="f14">
+								<span>【买家违约】订单生效后，因买家原因取消订单的，费用扣除标准如下：</span>
+								<table border="1" cellspacing="" cellpadding="">
+									<tr>
+										<td width="95px">行程开始前</td>
+										<td width="165px">违约金（占订单总费用）</td>
+									</tr>
+									<tr>
+										<td>30日以上</td>
+										<td>50%</td>
+									</tr>
+									<tr>
+										<td>16—29日</td>
+										<td>50%</td>
+									</tr>
+									<tr>
+										<td>30日以上</td>
+										<td>50%</td>
+									</tr>
+									<tr>
+										<td>16—29日</td>
+										<td>100%</td>
+									</tr>
+								</table>
+								<span>【商家违约】订单生效后，因商家原因取消订单的，除全额退款外，商家还应向买家支付下表对应金额的违约金：</span>
+								<table border="1" cellspacing="" cellpadding="">
+									<tr>
+										<td width="95px">行程开始前</td>
+										<td width="165px">违约金（占订单总费用）</td>
+									</tr>
+									<tr>
+										<td>30日以上</td>
+										<td>50%</td>
+									</tr>
+									<tr>
+										<td>16—29日</td>
+										<td>50%</td>
+									</tr>
+									<tr>
+										<td>30日以上</td>
+										<td>50%</td>
+									</tr>
+									<tr>
+										<td>16—29日</td>
+										<td>100%</td>
+									</tr>
+								</table>
+								<p>针对飞猪专线或出境超市的商品，如商家按上述规定向买家支付的违约金金额低于订单金额的，商家应向买家支付与订单金额同等金额的违约金。</p>
+								<p>注：订单生效的规定以《飞猪规则》的相关规定为准。</p>
+							</div>
+							<h4 class="safe"><b>保险说明</b></h4>
+							<p class="f14">该商品不赠送保险，飞猪建议您自行购买出行保险，为您的旅行增加一份保障，家人添一份安心。</p>
+							<div class="f14">
+								<span>产品确认：</span>
+								<p>亲，请您仔细查看宝贝详情，并在拍下宝贝后及时付款，由于资源紧张，对于超过12个小时未付款的订单，我们会关闭订单哦，给您带来不便，请您谅解哦！</p>
+							</div>
+							<div class="recommend">
+								<b>宝贝推荐</b>
+								<a href="#" class="pull-right">更多</a>
+							</div>
+							<table border="0" cellspacing="" cellpadding="" class="xq_tb1">
+								<tr>
+									<td>
+										<a><img src="img/SuImg/spot1.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot2.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游亲子马来西亚沙巴自由行6日4晚机票五星酒店海岛蜜月</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot3.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot4.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a><img src="img/SuImg/spot5.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot6.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游亲子马来西亚沙巴自由行6日4晚机票五星酒店海岛蜜月</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot7.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/spot8.jpg"/></a>
+										<p><a href="#" class="text-left">春秋旅游错峰游上海-清迈自由行5-6天机票全程酒店泰国旅游水</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+								</tr>
+							</table>
+							<div class="text-center"><img src="img/SuImg/detail_pro.png"/></div>
+							<div class="ensure clearfix">
+								<div class="f18 pull-left" style="border-right: 1px solid #e6ebf2;">
+									<p><b>出游保障</b></p>
+									<span class="f12 ensure_font">订单生效后，如因商家原因取消订单，商家应为您退款，并按照商品退改规则进行赔付</span>
+								</div>
+								<div class="f18 pull-left">
+									<p><b>更改则赔付</b></p>
+									<span class="f12 ensure_font">订单生效后，未经您书面同意，因商家原因更改订单的，商家应按照《飞猪服务保障标准》进行赔付</span>
+								</div>
+								
+								<p class="pull-left">
+									<span class="f12 ensure_font">注：如卖家违反以上内容，可在 我的淘宝-已买到的宝贝 中找到相应订单提交投诉或联系飞猪客服 9510208 反馈。</span>
+									<a href="#" class="pull-right">服务详情</a>
+								</p>
+							</div>
+							
+						</div>
+						<div class="safe_tips f14">
+							<h4><b>安全提醒</b></h4>
+							<p>1. 高原地区旅游、户外旅游以及部分室内游乐项目（包括但不限于游泳、潜水、冲浪、漂流、滑雪、溜冰、跳伞、骑马、攀岩、登山等活动），均存在一定风险。参与前请详询商家您的自身状况是否能够出行以及相关注意事项，并充分参考专业机构的相关公告和建议，量力而行确保安全。</p>
+							<p>2. 参与存在一定风险的户外旅游项目，需要严格按照相关项目要求，做足安全防护准备。同时请积极关注天气变化，如遇恶劣天气，请严格遵守服务方所做的行程调整，切勿冒险。</p>
+							<p>3. 为了更全面地保障您的人身安全，平台强烈建议您出游时投保个人险种。出行过程中，请注意人身和财产安全。租车出游请遵守当地交通规则，谨慎驾驶。</p>
+							<p>4. 请详细阅读商家于商品详情页面上发布的内容，特别是预订须知、退改规则、安全告知等与您的出行密切相关的条款。若有任何疑问，请及时联系商家确认。</p>
+						</div>
+						<div class="safe_tips f12">
+							<h4><b>价格说明</b></h4>
+							<ul>
+								<li>
+									<b>划线价格</b>
+									<p>指商品的门市价、零售价、服务提供商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。</p>
+								</li>
+								<li>
+									<b>未划线价格</b>
+									<p>指商品在飞猪上的实时售价，不因表述的差异改变性质。具体成交价格根据商品参加活动，或会员使用优惠券、积分、里程等发生变化，最终以订单结算页价格为准。</p>
+								</li>
+								<li>
+									<p>商家详情页（含主图）以图片或文字形式标注的一口价、促销价、优惠价等价格可能是在使用优惠券、满减或特定优惠活动和时段等情形下的价格，具体请以结算页面的标价、优惠条件或活动规则为准。</p>
+								</li>
+								<li>
+									<p>此说明仅当出现价格比较时有效，具体请参见《淘宝价格发布规范》。若商家单独对划线价格进行说明的，以商家的表述为准。</p>
+								</li>
+							</ul>
+						</div>
+						<div class="" id="section4">
+							<h4 style="margin-bottom: 0px;"><b>累计评价</b></h4>
+							<div class="">
+								<div class="score clearfix">
+									<div class="score_L pull-left">
+										<font>4.8</font><span class="f18">分</span><br />
+										<span class="f12" style="color: #3d3d3d;">&nbsp;&nbsp;&nbsp;综合评分</span>
+									</div>
+									<div class="score_R pull-left">
+										<ul class="pull-left">
+											<li>航班时间</li>
+											<li>酒店住宿</li>
+										</ul>
+										<ul class="pull-left">
+											<li>
+												<div class="progress score_jd">
+												<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 96%;">											</div>
+												</div>
+											</li>
+											<li>
+												<div class="progress score_jd" style="margin-bottom: 0px;">
+												<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 96%;">											</div>
+												</div>
+											</li>
+										</ul>
+										<ul class="pull-left">
+											<li>4.8</li>
+											<li>4.8</li>
+										</ul>
+										<ul class="pull-left">
+											<li>航班舒适度</li>
+											<li>行程安排</li>
+										</ul>
+										<ul class="pull-left">
+											<li>
+												<div class="progress score_jd">
+												<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 96%;">											</div>
+												</div>
+											</li>
+											<li>
+												<div class="progress score_jd" style="margin-bottom: 0px;">
+												<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 96%;">											</div>
+												</div>
+											</li>
+										</ul>
+										<ul class="pull-left">
+											<li>4.8</li>
+											<li>4.8</li>
+										</ul>
+										
+									</div>
+								</div>
+								<!--评论-->
+								<div class="comment">
+									<div class="comment_top clearfix">
+										<ul class="text-center comment_top_select">
+											<li class="pull-left">
+												<a class="comm_time click_orange comment_select_chg">按时间  
+													<!--<i class="click_orange"><img src="img/SuImg/detail_arrowdown2.png"/></i> 
+													<i style="" class="click_grey comment_hide"><img src="img/SuImg/detail_arrowdown1.png"/></i>-->
+												</a>
+												
+											</li>
+											<li class="pull-left">
+												<a class="comm_hot click_grey"> 按推荐 
+													<!--<i class="click_grey comment_hide"><img src="img/SuImg/detail_arrowdown2.png"/></i> 
+													<i class="click_orange"><img src="img/SuImg/detail_arrowdown1.png"/></i></a></li>-->
+											<li class="pull-right comm_radio">
+												<a class="comm_whole comm_radio_orange"><i class=""></i>全部</a>
+												<a class="comm_more comm_radio_gray"><i></i>追评</a>
+												<a class="comm_img comm_radio_gray"><i></i>有图</a>
+											</li>
+										</ul>
+									</div>
+									
+									<div class="comment_all">
+										
+										
+										<div class="comment_content1" id="comm_1">
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>1111111春秋真的只是价格便宜 所以要求不能太高 不能拿它去和别的航司对比 所以这一切都是可以的 这个价位下的良心</p>
+													<span>2018-10-14</span>
+													
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>时间点都不错。就是日本那边1点半才开始不慌不忙的办行李托运。让人觉得有点坑。进去还要买东西都是慌忙。害怕时间不够。我们11点到的机场，一群上海阿姨就在排队了。排到一点半我是1点去拍的队终于知道她们为什么那么早就排队了，佩服。</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment2.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment2big.jpg" width="400px"/></p>
+													
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>1111111春秋真的只是价格便宜 所以要求不能太高 不能拿它去和别的航司对比 所以这一切都是可以的 这个价位下的良心</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment1.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment1big.jpg" width="400px"/></p>
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>价格便宜</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment2.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment2big.jpg" width="400px"/></p>
+													
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+										</div>
+										<div class="comment_content2 comment_hide" id="comm_2">
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>2222222</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment1.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment1big.jpg" width="400px"/></p>
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>3333333</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment1.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment1big.jpg" width="400px"/></p>
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>1111111春秋真的只是价格便宜 所以要求不能太高 不能拿它去和别的航司对比 所以这一切都是可以的 这个价位下的良心</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment1.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment1big.jpg" width="400px"/></p>
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>价格便宜</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment2.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment2big.jpg" width="400px"/></p>
+													
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+										</div>
+										<div class="comment_content3 comment_hide" id="comm_3">
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>2222222</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment1.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment1big.jpg" width="400px"/></p>
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>3333333</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment1.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment1big.jpg" width="400px"/></p>
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>1111111春秋真的只是价格便宜 所以要求不能太高 不能拿它去和别的航司对比 所以这一切都是可以的 这个价位下的良心</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment1.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment1big.jpg" width="400px"/></p>
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>价格便宜</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment2.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment2big.jpg" width="400px"/></p>
+													
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+										</div>
+										<div class="comment_content4 comment_hide" id="comm_4">
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>4444444春秋真的只是价格便宜 所以要求不能太高 不能拿它去和别的航司对比 所以这一切都是可以的 这个价位下的良心</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment1.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment1big.jpg" width="400px"/></p>
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>hhhhhhhhhhhh</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment1.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment1big.jpg" width="400px"/></p>
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+										</div>
+										<div class="comment_content5 comment_hide" id="comm_5">
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>hhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+													<span>2018-10-14</span>
+													
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>时间点都不错。就是日本那边1点半才开始不慌不忙的办行李托运。让人觉得有点坑。进去还要买东西都是慌忙。害怕时间不够。我们11点到的机场，一群上海阿姨就在排队了。排到一点半我是1点去拍的队终于知道她们为什么那么早就排队了，佩服。</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment2.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment2big.jpg" width="400px"/></p>
+													
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>1111111春秋真的只是价格便宜 所以要求不能太高 不能拿它去和别的航司对比 所以这一切都是可以的 这个价位下的良心</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment1.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment1big.jpg" width="400px"/></p>
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+											<div class="comment_bottom clearfix">
+												<div class="comment_bottomL pull-left">
+													<p>价格便宜</p>
+													<span>2018-10-14</span>
+													<p class="comment_img_small"><img src="img/SuImg/comment2.jpg" width="40px" height="40px"/></p>
+													<p class="comment_img_big"><img src="img/SuImg/comment2big.jpg" width="400px"/></p>
+													
+													<p class="seller_back">卖家：尊敬的客户您好！感谢您对我们的产品并作出点评，希望今后能为您和其他客人提供更好的服务,希望您继续关注春秋旅游旗舰店，谢谢。春秋旅游祝您快乐每一程！</p>
+												</div>
+												<div class="comment_bottomM pull-left">
+													套餐类型:大阪7日机票+首晚酒店<br />出游人群:成人
+												</div>
+												<div class="comment_bottomR pull-left text-center">
+													<span>z***y</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--分页-->
+									<div class="comm_pag text-center">
+										<ul class="pagination text-center">
+										    <li><a href="#">&laquo;</a></li>
+										    <li><a href="#">1</a></li>
+										    <li><a href="#">2</a></li>
+										    <li><a href="#">3</a></li>
+										    <li><a href="#">4</a></li>
+										    <li><a href="#">5</a></li>
+										    <li><a href="">&raquo;</a></li>
+										</ul>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="scan_more" style="margin-bottom: 20px;">
+							<h6>看了此商品的会员通常还看了</h6>
+							<table border="0" cellspacing="" cellpadding="" class="xq_tb3">
+								<tr>
+									<td>
+										<a><img src="img/SuImg/xq_tb1.jpg"/></a>
+										<p><a href="#" class="text-left">飞猪特卖上海-柬埔寨吴哥窟5-6日自由</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/xq_tb2.jpg"/></a>
+										<p><a href="#" class="text-left">飞猪特卖上海-柬埔寨吴哥窟5-6日自由</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/xq_tb3.jpg"/></a>
+										<p><a href="#" class="text-left">飞猪特卖上海-柬埔寨吴哥窟5-6日自由</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/xq_tb5.jpg"/></a>
+										<p><a href="#" class="text-left">飞猪特卖上海-柬埔寨吴哥窟5-6日自由</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+								</tr>
+							</table>
+							<h6>买了此商品的会员通常还买了</h6>
+							<table border="0" cellspacing="" cellpadding="" class="xq_tb3">
+								<tr>
+									<td>
+										<a><img src="img/SuImg/xq_tb3.jpg"/></a>
+										<p><a href="#" class="text-left">飞猪特卖上海-柬埔寨吴哥窟5-6日自由</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/xq_tb4.jpg"/></a>
+										<p><a href="#" class="text-left">飞猪特卖上海-柬埔寨吴哥窟5-6日自由</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/xq_tb5.jpg"/></a>
+										<p><a href="#" class="text-left">飞猪特卖上海-柬埔寨吴哥窟5-6日自由</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/xq_tb2.jpg"/></a>
+										<p><a href="#" class="text-left">飞猪特卖上海-柬埔寨吴哥窟5-6日自由</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+									<td>
+										<a><img src="img/SuImg/xq_tb5.jpg"/></a>
+										<p><a href="#" class="text-left">飞猪特卖上海-柬埔寨吴哥窟5-6日自由</a></p>
+										<span>¥ <b> 1299.00</b></span>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					
+				</div>
+				<div class="detail_2ndR pull-left clearfix">
+					<div>
+						<p class="text-center f14"><b>快速直达</b></p>
+						<div class="clearfix">
+							<ul class="f14">
+								<li class="ver_common vert_chg_back"><a href="#section1" class="vert_chg">商品详情</a></li>
+								<li class="ver_common"><a href="#section2">套餐说明</a></li>
+								<li class="ver_common"><a href="#section3">退改规则</a></li>
+								<li class="ver_common"><a href="#section4">累计评价</a></li>
+							</ul>
+						</div>
+						<ul class="f14">
+							<li class="ver_common vert_1 vert_chg_back"><a href="#section1" class="vert_chg">商品详情</a></li>
+							<li class="ver_common vert_2"><a href="#section2">套餐说明</a></li>
+							<li class="ver_common vert_3"><a href="#section3">退改规则</a></li>
+							<li class="ver_common vert_4"><a href="#section4">累计评价</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="nav_hide">
+			<div class="">
+				<ul class="nav navbar-nav nav_hide_pos">
+					<li class="shop_nav_hide">
+						<a href="#" class="pull-left">春秋旅游旗舰店 <img src="img/SuImg/detail_link.gif"/></a>
+						<span class="glyphicon glyphicon-chevron-down" style="line-height: 35px;padding-left: 10px;"></span>
+					</li>
+					<li class="nav_hide_common"><a href="#section1" class="select_tab_chg hori_1">商品详情</a></li>
+					<li class="nav_hide_common"><a href="#section2" class="hori_2">套餐说明</a></li>
+					<li class="nav_hide_common"><a href="#section3" class="hori_3">退改规则</a></li>
+					<li class="nav_hide_common"><a href="#section4" class="hori_4">累计评价<font>206</font></a></li>
+					<li class="pull-right nav_eception nav_eception1 nav_hide_common">
+						<a href="#">手机购买</a>
+						<img src="img/SuImg/QR_scan.png" class="qr_scan"/>
+					</li>
+				</ul>
+				
+			</div>
+			
+			<p class="buy_now text-center f14"><a href="#"><b>立即购买</b></a></p>
+				
+			
+		</nav>
+		
+		<!--底部开始-->
+      	<div class="footer" style="background: #f2f3f4 ;z-index: 2;position: relative;">
+      		<!--底部内容开始-->      		
+      		<div class="footer_con"style="background: #f2f3f4 ;">
+      			
+      			    
+      			   <!--下部分开始--> 
+      			   <div class="footer-ail">
+      			   		<ul class="list-unstyled">
+      			   			<li><a href="">阿里巴巴集团</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">廉政举报</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">淘宝网</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">天猫</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">聚划算</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">全球速卖通</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里巴巴国际交易市场</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">1688</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里妈妈</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">飞猪</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里云计算</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">AliOS</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">万网</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">高德</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">UC</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">友盟</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">虾米</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里星球</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">UC头条</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">钉钉</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">飞猪旅行</a></li>
+      			   			<li>|</li>
+      			   			<li><a href="">阿里游戏</a></li>
+      			   		</ul>
+      			   	 	     
+      			   </div>
+      			   
+      			   
+      			   <div class="footer-nav">
+      			   	   <ul class="list-unstyled">
+      			   	   	<li><a href="">关于淘宝</a></li>
+      			   	   	<li><a href="">合作伙伴</a></li>
+      			   	   	<li><a href="">营销中心</a></li>
+      			   	   	<li><a href="">联系客服</a></li>
+      			   	   	<li><a href="">开放平台</a></li>
+      			   	   	<li><a href="">诚征英才</a></li>
+      			   	   	<li><a href="">联系我们</a></li>
+      			   	   	<li><a href="">网站地图</a></li>
+      			   	   	<li><a href=""> 隐私政策 © Fliggy.com版权所有</a></li>
+      			   	   </ul>
+      			   </div>
+      			   
+      			   <div class="" style="clear: both;"></div>
+      			   <div class="footer-copyright">
+      			   		<span>增值电信业务经营许可证：浙B2-20160773</span>
+      			   </div>
+      			   
+      			   <div class="">
+      			   	 <img src="img/tyw/detl9.gif"/>
+      			   </div>
+      			   <!--下部分结束-->
+      			    
+      			    
+	      	</div>	
+	      	<!--底部结束-->	
+      	</div>
+		<!--侧边栏-->
+		<div class="sidebar">
+			<!--优惠券-->
+			<div class="YHQ">
+				<img src="img/jie/YHQ.png" alt="优惠券"/>
+			</div>
+			<!--购物车-->
+			<div class="GWC">
+				<img src="img/jie/GWC.png" />
+				<span>
+					购物车
+				</span>
+			</div>
+			<!--个人-->
+			<div class="GR">
+				<img src="img/jie/GR.png" />
+			</div>
+			<!--底部侧边栏-->
+			<div class="fo_silderbar">
+				<!--意见反馈-->
+				<div class="YJFK">
+					<img src="img/jie/YJFK.png" />
+					<div class="TCK">
+						意见反馈
+					</div>
+				</div>
+				<!--二维码-->
+				<div class="EWM">
+					<img src="img/jie/EWM.png" />
+					<div class="TCK_ewm">
+						<img src="img/jie/TB1b_HdGVXXXXb6XVXXTyVt9VXX-128-128.png" />
+					</div>
+				</div>
+				<!--回到顶部-->
+				<div class="HDDB">
+					<img src="img/jie/HDDB.png" />
+					<div class="TCK">
+						回到顶部
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+    $(function() {
+        /** 更换小图片 */
+        $(".item>a").hover(function(){
+            changeImg($(this))
+        }); 
+    });
+    function changeImg(obj){
+        if(obj.find("img").attr("alt")=="small"){
+            var temp_big_src = obj.siblings('a').find('img[alt=big]').attr('src');
+            var temp_big_url = obj.siblings('a[class=big-photo]').attr('href');
+            var temp_small_src = obj.find('img').attr('src');
+            var temp_small_url = obj.attr('href');
+            obj.siblings('a').find('img[alt=big]').attr('src',temp_small_src);
+        }
+    }
+</script>

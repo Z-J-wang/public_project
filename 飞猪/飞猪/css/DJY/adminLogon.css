@@ -1,0 +1,88 @@
+body{
+	margin: 0px;
+	padding: 0px;	
+	/*background: rgb(234,237,237);*/
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.biig{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	
+}
+.biigtop{
+	width: 100%;
+	background: rgb(213,132,52);
+	height: 50%;
+}
+.biigbottom{
+	width: 100%;
+	background: rgb(229,213,63);
+	height: 50%;
+}
+.adiminlogon{
+	width: 330px;
+	position: absolute;
+	top:35%;
+	left: 55%;
+	
+}
+.adiminlogontop{
+	width: 100%;
+	height: 50px;
+	background: rgb(248,195,0);
+	border-radius:10px 0px 10px 0px;
+	
+}
+.adiminlogontop span{
+	float: left;
+}
+.adiminlogontop span:first-child{
+	margin-left: 30px;
+	padding-top: 5px;
+}
+.adiminlogontop span:first-child b{
+	color: black;
+	font-size: 28px;
+	letter-spacing: 3px;
+}
+.adiminlogontop span:nth-child(2){
+	margin-left: 20px;
+	padding-top: 13px;
+}
+.adiminlogontop span:nth-child(2) b{
+	color: white;
+	font-size: 16px;
+	letter-spacing: 3px;
+}
+.adiminlogonbottom{
+	width: 330px;
+	background: rgb(132,194,97);
+	border-radius:0px 0px 0px 10px;
+	margin-top: 10px;
+}
+.inputgroup2{
+	width: 270px;
+	background: rgb(132,194,97);
+}
+.ddd{
+	margin-left: 0px;
+}
+.inputgroup2 img{
+	width: 50px;
+	position:absolute;
+	left: 250px;
+	top:90px;
+	z-index: 30;
+}
+.checklist{
+	margin-top: 110px;
+	margin-left: 23px;
+	margin-bottom: 20px;
+}
+.checklist span{
+	color: white;
+}
