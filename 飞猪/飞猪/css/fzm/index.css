@@ -1,7 +1,5 @@
 *{
 	box-sizing: border-box !important;/*告诉浏览器内边距和边框包含在宽度里面*/ 
-	margin: 0;
-	padding: 0;
 }
 body{
     margin: 0 !important;

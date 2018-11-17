@@ -374,7 +374,7 @@ $(document).ready(function(){
 	    
 	    
 	    // 默认值
-	    inCity.width = "350";  //城市选择框  宽
+	    inCity.width = "370";  //城市选择框  宽
 	    inCity.height = "auto";  //城市选择框  高
 	    inCity.id = "#in_city";  //城市选择框  父级ID
 	    inCity.Children = '.city_a_le1';  //城市名box
